@@ -1,11 +1,17 @@
 {
-  "typescript": "PASS",
-  "nextBuild": "PASS",
-  "routeUrls": 183,
-  "httpRender": "183/183 PASS",
-  "unknown404": "3/3 PASS",
-  "whitespaceDiffCheck": "PASS",
-  "browser": "BLOCKED: truncated Chromium download",
-  "visual": "UNTESTED",
-  "openGate": "Next.js Internal: NoFallbackError warning on unknown dynamic URLs"
+  "scope": "Theme and Branding Studios",
+  "typecheck": "PASS",
+  "productionBuild": "PASS",
+  "routeRegistry": {
+    "concreteModules": 79,
+    "supportedURLs": 184
+  },
+  "studioHTTP": "3/3 PASS",
+  "configurationTests": "PASS",
+  "landingScopedTypecheck": "PASS using route-app tooling",
+  "landingFullBuild": "BLOCKED: @opennextjs/cloudflare unavailable",
+  "browserInteractions": "UNTESTED: Chromium installation failed",
+  "mobileVisualQA": "UNTESTED",
+  "serverPersistence": "NOT IMPLEMENTED",
+  "deployment": "NOT PERFORMED"
 }

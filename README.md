@@ -10,3 +10,7 @@ Master repository for ALLB source consolidation.
 These are preserved source snapshots, not a unified certified enterprise release. Run each app using its own documented commands. The handoff root package references files not supplied in the archive; it is not a complete MAATAA UI distribution.
 
 No deployment, DNS changes, live authentication, payment, or astronomy telemetry is configured by this import.
+
+## Theme and Branding Studios
+
+MAATAA UI now includes `/studio/themes` and `/studio/branding` with global, brand and route-scoped configuration, local draft/apply, JSON import/export, and an ALLB landing adapter. Settings are browser-local; durable server publication is not connected. See [usage and validation](docs/design-studios.md).

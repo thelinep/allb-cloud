@@ -1,0 +1,146 @@
+[
+  {
+    "path": "/allb/allb",
+    "title": "ALLB ecosystem"
+  },
+  {
+    "path": "/allb/siddham",
+    "title": "Siddham Semiconductor"
+  },
+  {
+    "path": "/allb/kharoshti",
+    "title": "Kharoshti Edge"
+  },
+  {
+    "path": "/allb/brahmi",
+    "title": "Brahmi Communications"
+  },
+  {
+    "path": "/allb/maataa-ui",
+    "title": "MAATAA UI"
+  },
+  {
+    "path": "/allb/maataa",
+    "title": "MAATAA Platform"
+  },
+  {
+    "path": "/allb/maataa-auth",
+    "title": "MAATAA Auth"
+  },
+  {
+    "path": "/allb/maataa-os",
+    "title": "MAATAA OS"
+  },
+  {
+    "path": "/allb/core-aham",
+    "title": "Core and AHAM"
+  },
+  {
+    "path": "/allb/maataa-desktop",
+    "title": "MAATAA Desktop"
+  },
+  {
+    "path": "/allb/developer-tools",
+    "title": "Developer Tools"
+  },
+  {
+    "path": "/allb/data-services",
+    "title": "Data Services"
+  },
+  {
+    "path": "/allb/operations",
+    "title": "Operations"
+  },
+  {
+    "path": "/allb/maataa-db-studio",
+    "title": "MAATAA DB Studio"
+  },
+  {
+    "path": "/allb/governance",
+    "title": "Governance"
+  },
+  {
+    "path": "/allb/commerce",
+    "title": "Commerce"
+  },
+  {
+    "path": "/allb/tlps",
+    "title": "TLPS"
+  },
+  {
+    "path": "/allb/nevo",
+    "title": "NEVO"
+  },
+  {
+    "path": "/allb/hardware",
+    "title": "Hardware Overview"
+  },
+  {
+    "path": "/allb/shree",
+    "title": "SHREE"
+  },
+  {
+    "path": "/allb/applications",
+    "title": "Applications Overview"
+  },
+  {
+    "path": "/allb/samwat",
+    "title": "SAMWAT"
+  },
+  {
+    "path": "/allb/observatory",
+    "title": "SAMWAT Observatory"
+  },
+  {
+    "path": "/allb/hemant-clock",
+    "title": "Hemant Clock"
+  },
+  {
+    "path": "/allb/games",
+    "title": "Games"
+  },
+  {
+    "path": "/allb/panchanga",
+    "title": "Panchanga"
+  },
+  {
+    "path": "/allb/apps",
+    "title": "Apps"
+  },
+  {
+    "path": "/allb/sankranti",
+    "title": "Sankranti"
+  },
+  {
+    "path": "/allb/product-directory",
+    "title": "Product Directory"
+  },
+  {
+    "path": "/allb/simulation-timeline",
+    "title": "Simulation Timeline"
+  },
+  {
+    "path": "/allb/production",
+    "title": "Production Overview"
+  },
+  {
+    "path": "/allb/developer-ecosystem",
+    "title": "Developer Ecosystem"
+  },
+  {
+    "path": "/allb/nevo-workflow",
+    "title": "NEVO Workflow Demo"
+  },
+  {
+    "path": "/allb/roadmap",
+    "title": "Roadmap"
+  },
+  {
+    "path": "/allb/tlps-workflow",
+    "title": "TLPS Workflow Demo"
+  },
+  {
+    "path": "/allb/samwat-research",
+    "title": "SAMWAT Research"
+  }
+]

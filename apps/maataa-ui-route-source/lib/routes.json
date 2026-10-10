@@ -544,5 +544,12 @@
     "title": "Auth Recovery",
     "mode": "auth",
     "description": "Auth Recovery contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/studio/branding",
+    "group": "Studio",
+    "title": "Branding Studio",
+    "mode": "tokens",
+    "description": "Scoped brand identity and landing configuration."
   }
 ]

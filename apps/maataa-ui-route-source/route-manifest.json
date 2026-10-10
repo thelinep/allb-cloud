@@ -183,7 +183,8 @@
     "/studio/themes/demo-theme",
     "/studio/scenes/demo-scene",
     "/studio/scenes/demo-scene/review",
-    "/invitations/demo-invite"
+    "/invitations/demo-invite",
+    "/studio/branding"
   ],
-  "routeCount": 183
+  "routeCount": 184
 }

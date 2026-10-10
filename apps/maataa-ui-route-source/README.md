@@ -20,14 +20,14 @@ components/scene-editor.tsx: shared scene document, object inspector, transforms
 components/spatial-editor.tsx: local metric points, layer controls, query and Euclidean segment measurement.
 components/auth-reference.tsx: sign-in, workspace, permission, session and audit UI reconstructed from supplied pixels.
 lib/: route metadata, catalogue, data contracts and guide boundaries.
-route-manifest.json: all 183 supported fixture/catalogue URLs.
+route-manifest.json: all 184 supported fixture/catalogue URLs.
 FULL-SOURCE.md: complete human-readable source listing, excluding dependency lockfile (included separately).
 
 ## Validation
 TypeScript: PASS.
 Production Next.js build: PASS (185 generated paths includes framework paths).
-Route registry: PASS (78 static route modules; 183 public demo/catalogue URLs).
-HTTP rendering: PASS (183/183 status 200 and headings present).
+Route registry: PASS (79 static route modules; 184 public demo/catalogue URLs).
+HTTP rendering: PASS (184/184 status 200 and headings present).
 Unknown routes: three status-404 checks passed. Next.js emitted Internal: NoFallbackError warnings for unknown dynamic URLs; framework warning remains an open investigation gate.
 Browser interaction and mobile/desktop visual qualification: BLOCKED/UNTESTED. Chromium download was empty/truncated. HTTP success is not browser interaction evidence.
 Source whitespace diff check: recorded in VALIDATION.json.
@@ -41,3 +41,7 @@ Unknown fixture IDs are rejected; dynamic routes accept only declared demo IDs u
 
 ## Next release gates
 Replace demo controls with actual MAATAA UI exports. Add specialized spatial/WebGL adapters. Implement and verify tenant-scoped APIs and durable records. Integrate vetted identity provider/MFA. Run browser interaction, accessibility, visual, concurrency and recovery checks.
+
+## Design studios
+
+See ../../docs/design-studios.md for Theme Studio, Branding Studio, scoped configuration, landing adapters and current validation limits. Earlier FULL-SOURCE.md and http-check-results.json preserve the initial imported snapshot.

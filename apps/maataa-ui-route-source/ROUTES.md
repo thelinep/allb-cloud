@@ -183,3 +183,6 @@
 - `/studio/scenes/demo-scene`
 - `/studio/scenes/demo-scene/review`
 - `/invitations/demo-invite`
+
+- `/studio/branding` — Branding Studio (global / brand / route).
+- `/studio/themes` — Theme Studio configuration editor.
