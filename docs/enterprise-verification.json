@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-10",
+  "baselineCommit": "674dcc89389e65e1ff881e7e0cc12059aff6fa37",
+  "browser": {
+    "engine": "Chromium",
+    "version": "153.0.8010.0",
+    "mode": "headless",
+    "desktopViewport": "1440x1000",
+    "mobile": "Playwright Pixel 7 emulation; not a physical device"
+  },
+  "browserStats": {
+    "startTime": "2026-10-10T04:44:17.582Z",
+    "duration": 166670.976,
+    "expected": 530,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "routeCount": 259,
+  "axeTags": [
+    "wcag2a",
+    "wcag2aa",
+    "wcag21a",
+    "wcag21aa"
+  ],
+  "databaseChecks": 22,
+  "databaseRuntime": "PGlite 0.5.8, disposable in-process PostgreSQL",
+  "authCore": "salted password verification; hashed sessions; disabled/unverified accounts; expiry; revocation; credential rotation/race; no implied MFA",
+  "http": {
+    "routes": 259,
+    "unknown404": 5,
+    "landingWorkspacePairs": 36,
+    "assets": 174,
+    "sourceHashesMatch": true
+  },
+  "unverified": [
+    "Firefox/WebKit/Safari",
+    "Physical devices",
+    "Manual keyboard and assistive-technology matrix",
+    "Full visual baselines across all routes",
+    "Forced runtime error/reset boundary behavior",
+    "Live auth/cookies/CSRF/throttling/MFA/recovery",
+    "Network PostgreSQL concurrency/RLS",
+    "Server-backed publishing and NEVO business operations",
+    "Staging/production deployment and recovery"
+  ]
+}

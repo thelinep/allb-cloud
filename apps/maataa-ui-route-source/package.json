@@ -9,7 +9,10 @@
     "typecheck": "tsc --noEmit",
     "validate:routes": "node scripts/validate-routes.mjs",
     "test:integration": "node scripts/unified-check.mjs",
-    "test:design-dom": "node scripts/design-dom-check.cjs"
+    "test:design-dom": "node scripts/design-dom-check.cjs",
+    "test:browser": "playwright test",
+    "test:db": "node tests/enterprise-db.test.mjs",
+    "test:auth-core": "node tests/auth-core.test.mjs"
   },
   "dependencies": {
     "next": "16.3.4",
@@ -17,9 +20,12 @@
     "react-dom": "19.2.6"
   },
   "devDependencies": {
+    "@electric-sql/pglite": "0.5.8",
+    "@playwright/test": "1.62.1",
     "@types/node": "22.19.19",
     "@types/react": "19.2.14",
     "@types/react-dom": "19.2.3",
+    "axe-core": "4.10.3",
     "jsdom": "26.1.0",
     "typescript": "5.9.3"
   },

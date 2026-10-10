@@ -1,0 +1,22 @@
+{
+  "environment": "staging",
+  "templateOnly": true,
+  "database": {
+    "driver": "postgresql",
+    "connectionEnvironment": "ALLB_DATABASE_URL",
+    "syntheticFixturesAllowed": true
+  },
+  "identity": {
+    "service": "MAATAA Auth",
+    "enabled": false,
+    "originEnvironment": "ALLB_AUTH_ORIGIN",
+    "encryptionKeyEnvironment": "ALLB_AUTH_KEY",
+    "signup": "invitation-only",
+    "privilegedMfaRequired": true
+  },
+  "assets": {
+    "endpointEnvironment": "ALLB_OBJECT_STORAGE_ENDPOINT",
+    "bucketEnvironment": "ALLB_OBJECT_STORAGE_BUCKET"
+  },
+  "secrets": "Supply through the environment secret store; never place values in this template."
+}

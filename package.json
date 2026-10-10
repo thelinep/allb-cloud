@@ -10,7 +10,10 @@
     "test:config": "node --experimental-strip-types packages/design-config/tests/config.test.mjs",
     "test:routes": "npm --prefix apps/maataa-ui-route-source run validate:routes",
     "test:integration": "npm --prefix apps/maataa-ui-route-source run test:integration",
-    "test:design-dom": "npm --prefix apps/maataa-ui-route-source run test:design-dom"
+    "test:design-dom": "npm --prefix apps/maataa-ui-route-source run test:design-dom",
+    "test:browser": "npm --prefix apps/maataa-ui-route-source run test:browser --",
+    "test:db": "npm --prefix apps/maataa-ui-route-source run test:db",
+    "test:auth-core": "npm --prefix apps/maataa-ui-route-source run test:auth-core"
   },
   "type": "module"
 }
