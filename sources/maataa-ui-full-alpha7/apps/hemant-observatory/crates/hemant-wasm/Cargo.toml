@@ -1,0 +1,12 @@
+[package]
+name = "hemant-wasm"
+version = "0.1.0"
+edition = "2021"
+publish = false
+description = "Small C ABI for running the Hemant Rust core in Cloudflare Workers WebAssembly"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+hemant-core = { path = "../hemant-core" }

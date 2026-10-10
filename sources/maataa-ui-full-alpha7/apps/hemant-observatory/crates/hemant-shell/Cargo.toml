@@ -1,0 +1,9 @@
+[package]
+name = "hemant-shell"
+version = "0.1.0"
+edition = "2021"
+description = "Small command-line shell for the Hemant Observatory time core"
+license = "MIT"
+
+[dependencies]
+hemant-core = { path = "../hemant-core" }

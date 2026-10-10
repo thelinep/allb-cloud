@@ -1,0 +1,43 @@
+ M apps/maataa-desktop-tauri/README.md
+ M apps/maataa-desktop-tauri/src-tauri/Cargo.lock
+ M apps/maataa-desktop-tauri/src-tauri/Cargo.toml
+ M apps/maataa-desktop-tauri/src-tauri/src/main.rs
+ M apps/maataa-desktop-tauri/web/app.js
+ M apps/maataa-desktop-tauri/web/index.html
+ M apps/maataa-desktop-tauri/web/style.css
+ M apps/tlp-film/src/main.tsx
+ M apps/tlps/src/main.tsx
+ M apps/tlps/tsconfig.json
+ M apps/tlps/vite.config.mjs
+ M docs/product/TAURI-DESKTOP-ROADMAP.md
+ M examples/redux-demo/App.tsx
+ M examples/redux-demo/BrahminiWorkbench.tsx
+ M examples/redux-demo/brahmini-runtime.mjs
+ M examples/redux-demo/brahmini.css
+ M examples/support-center/electron/desktop-shell.css
+ M examples/support-center/electron/desktop-shell.html
+ M examples/support-center/electron/desktop-shell.mjs
+ M package.json
+ M scripts/build-tauri-desktop-products.mjs
+ M tests/desktop-tauri-trial.spec.ts
+ M tests/e2e/brahmini-workbench.spec.ts
+ M tests/e2e/desktop-shell.spec.ts
+?? apps/maataa-desktop-tauri/web/spacecraft-app.js
+?? apps/maataa-desktop-tauri/web/spacecraft-model.mjs
+?? apps/shared/contracts/
+?? apps/shared/maataa-workspace.ts
+?? apps/tlps/src/IdeaToScript.tsx
+?? apps/tlps/src/idea-to-script.css
+?? docs/product/MAATAA-ROADMAP.md
+?? docs/product/PHASE-ZERO-AUTHORITY-BASELINE.md
+?? docs/product/PHASES-1-5-INTEGRATION-STATUS.md
+?? docs/product/evidence/
+?? examples/redux-demo/pointerContext.ts
+?? playwright.tlps-idea-to-script.config.ts
+?? scripts/collect-runtime-evidence.sh
+?? scripts/run-allb-live-handshake.sh
+?? scripts/run-tlps-idea-to-script-checks.sh
+?? tests/contracts/
+?? tests/e2e/tlps-idea-to-script.spec.ts
+?? tests/spacecraft-model.test.mjs
+?? tsconfig.contracts.json

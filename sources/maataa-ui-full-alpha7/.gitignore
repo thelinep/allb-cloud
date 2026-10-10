@@ -1,0 +1,100 @@
+
+# MAATAA UI generated outputs
+demo-dist/
+support-center-dist/
+support-center-electron-dist/
+maataa-desktop-dist/
+dist/
+playwright-report/
+test-results/
+coverage/
+.impeccable/review/
+
+# Local hotfix backups
+*.pre-alpha*-backup
+
+# Dependencies / local environment
+node_modules/
+.pnpm-store/
+.DS_Store
+.env
+.env.local
+.env.brahmini.local
+.env.brahmini.local.*
+
+# Generated package/certification artifacts
+.certification/package/*.tgz
+
+# Local migration / hotfix backups
+*.backup
+*.pre-alpha*-backup
+
+# Test/build outputs
+demo-dist/
+dist/
+playwright-report/
+test-results/
+coverage/
+
+# Local environment
+node_modules/
+.DS_Store
+.env
+.env.local
+*.alpha*-backup
+
+# Local alpha bundle-analysis artifacts
+alpha8.*-bundle-*.log
+alpha8.*-dynamic-static-collisions.txt
+alpha8.*-preview-collisions.txt
+alpha8.*-collision-modules.txt
+alpha8.*-largest-js-chunks.txt
+alpha8.*-preview-loader-map.txt
+alpha8.*-preview-source-part*.txt
+alpha8.*-app-static-imports.txt
+alpha8.*-public-barrel.txt
+alpha8.*-components-barrel.txt
+alpha8.*-dynamic-modules-*.txt
+alpha8.*-dynamic-groups-*.txt
+alpha8.*-collision-groups.txt
+alpha8.*-loader-split-*.log
+alpha8.*-loader-split-*-largest.txt
+alpha8.*-loader-split-largest.txt
+
+# Local generated-preview bundle analysis
+alpha8.*-generated-loader*.log
+alpha8.*-final-demo-build.log
+alpha8.*-generated-loader*-largest.txt
+
+# Local composition architecture audits
+alpha8.*-composition-audit.txt
+alpha8.*-registry-grammar-audit.txt
+
+# Local alpha8.7 composition build evidence
+alpha8.*-composition-kernel-build.log
+
+# Local alpha8.7 compatibility audits
+alpha8.*-compatibility-audit.txt
+alpha8.*-group-contract-audit.txt
+alpha8.*-compatibility-build.log
+
+# Clean consumer qualification outputs
+.certification/consumer-next/
+.certification/consumer-vite/src/GeneratedScene.tsx
+.certification/package-consumer.json
+.certification/consumer-vite/
+.certification/security/
+.certification/storybook/
+.certification/performance/
+# Historical tracked Storybook snapshot remains archived; new builds use .certification.
+storybook-static/
+.certification/release-evidence/
+.certification/consumer-react18/
+
+# Rust compiler output
+**/target/
+
+# Hemant Observatory framework output and local dependency symlink
+**/.next/
+**/node_modules
+**/*.tsbuildinfo

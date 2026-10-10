@@ -1,0 +1,218 @@
+# Hemant Observatory checks 20261009T044051Z
+Darwin Vesahes-MacBook-Pro.local 27.0.0 Darwin Kernel Version 27.0.0: Tue Aug 11 21:06:24 PDT 2026; root:xnu-13432.1.9~1/RELEASE_ARM64_T6030 arm64
+cargo 1.91.0 (ea2d97820 2025-10-10)
+rustc 1.91.0 (f8297e351 2025-10-28)
+v22.22.3
+
+### rustfmt --check
+$ cargo fmt --all --check
+exit=0
+
+### cargo test
+$ cargo test --workspace --offline
+   Compiling hemant-core v0.1.0 (/Users/vesahe/Downloads/maataa-ui-full-alpha7/apps/hemant-observatory/crates/hemant-core)
+   Compiling hemant-shell v0.1.0 (/Users/vesahe/Downloads/maataa-ui-full-alpha7/apps/hemant-observatory/crates/hemant-shell)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.98s
+     Running unittests src/lib.rs (target/debug/deps/hemant_core-5e9e151841d0035f)
+
+running 23 tests
+test astronomy::tests::the_default_provider_never_fabricates_a_position ... ok
+test registry::tests::clock_epoch_and_units_keep_distinct_evidence ... ok
+test astronomy::tests::body_codes_match_naif_integer_ids ... ok
+test json::tests::integers_beyond_javascript_safe_range_become_strings ... ok
+test json::tests::escapes_quotes_backslashes_and_control_characters ... ok
+test registry::tests::pending_methods_are_marked_pending_and_produce_nothing ... ok
+test registry::tests::every_method_has_complete_provenance_fields_and_unique_id ... ok
+test time::tests::host_clock_snapshot_is_unverified_with_unknown_uncertainty ... ok
+test time::tests::host_monotonic_clock_never_goes_backwards ... ok
+test time::tests::injected_wall_clock_is_labelled_by_its_source_and_never_verified ... ok
+test result::tests::maximum_supported_value_produces_a_result_with_string_nanos ... ok
+test result::tests::fixture_result_is_versioned_and_names_methods_for_every_section ... ok
+test time::tests::leap_second_instants_are_not_representable ... ok
+test time::tests::monotonic_intervals_order_readings_and_reject_reversal ... ok
+test time::tests::negative_and_subsecond_timestamps_format_exactly ... ok
+test time::tests::range_boundaries_are_inclusive_and_outside_values_are_rejected ... ok
+test units::tests::a_pre_epoch_instant_has_signed_day_and_normal_subday_units ... ok
+test units::tests::epoch_is_the_selected_kashi_reference ... ok
+test units::tests::one_day_breaks_down_to_thirty_muhurta ... ok
+test registry::tests::registry_json_names_its_schema_and_every_method ... ok
+test units::tests::one_muhurta_is_forty_eight_minutes_under_the_named_convention ... ok
+test units::tests::subsecond_input_is_floored_to_whole_nimesha_with_residual ... ok
+test units::tests::whole_supported_range_converts_and_extremes_report_overflow ... ok
+
+test result: ok. 23 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/main.rs (target/debug/deps/hemant_shell-32eb834848e752c6)
+
+running 5 tests
+test tests::help_is_available_without_reading_the_clock ... ok
+test tests::invalid_arguments_fail_closed ... ok
+test tests::text_output_names_methods_and_limits ... ok
+test tests::supplied_epoch_json_is_unverified_caller_input ... ok
+test tests::methods_json_is_the_registry ... ok
+
+test result: ok. 5 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests hemant_core
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+exit=0
+
+### clippy -D warnings
+$ cargo clippy --workspace --all-targets --offline -- -D warnings
+    Checking hemant-core v0.1.0 (/Users/vesahe/Downloads/maataa-ui-full-alpha7/apps/hemant-observatory/crates/hemant-core)
+    Checking hemant-shell v0.1.0 (/Users/vesahe/Downloads/maataa-ui-full-alpha7/apps/hemant-observatory/crates/hemant-shell)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.32s
+exit=0
+
+### cargo build (debug, used by API/e2e)
+$ cargo build --workspace --offline
+   Compiling hemant-shell v0.1.0 (/Users/vesahe/Downloads/maataa-ui-full-alpha7/apps/hemant-observatory/crates/hemant-shell)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.19s
+exit=0
+
+### cargo build --release
+$ cargo build --release --workspace --offline
+   Compiling hemant-core v0.1.0 (/Users/vesahe/Downloads/maataa-ui-full-alpha7/apps/hemant-observatory/crates/hemant-core)
+   Compiling hemant-shell v0.1.0 (/Users/vesahe/Downloads/maataa-ui-full-alpha7/apps/hemant-observatory/crates/hemant-shell)
+    Finished `release` profile [optimized] target(s) in 0.33s
+exit=0
+
+### fixture drift: method registry
+$ bash -c diff <(target/debug/hemant-shell --methods-json) fixtures/method-registry.json
+exit=0
+
+### fixture drift: epoch time result
+$ bash -c diff <(target/debug/hemant-shell --unix-nanos 285148740000000000 --json) fixtures/time-result.epoch.json
+exit=0
+
+### contract + shell tests (node)
+$ bash -c node --experimental-strip-types --no-warnings --test tests/*.test.ts
+TAP version 13
+# Subtest: registry fixture satisfies the provenance contract; pending methods stay pending
+ok 1 - registry fixture satisfies the provenance contract; pending methods stay pending
+  ---
+  duration_ms: 1.349917
+  type: 'test'
+  ...
+# Subtest: registry rejects over-claims, missing fields and duplicates
+ok 2 - registry rejects over-claims, missing fields and duplicates
+  ---
+  duration_ms: 1.115875
+  type: 'test'
+  ...
+# Subtest: time-result fixture is valid and every section names an active registry method
+ok 3 - time-result fixture is valid and every section names an active registry method
+  ---
+  duration_ms: 0.381875
+  type: 'test'
+  ...
+# Subtest: time-result rejects verification claims, bad ranges and unknown methods
+ok 4 - time-result rejects verification claims, bad ranges and unknown methods
+  ---
+  duration_ms: 1.213708
+  type: 'test'
+  ...
+# Subtest: caller input validation accepts only bounded signed integers
+ok 5 - caller input validation accepts only bounded signed integers
+  ---
+  duration_ms: 0.124875
+  type: 'test'
+  ...
+# Subtest: snapshot age uses the client monotonic clock and never goes negative
+ok 6 - snapshot age uses the client monotonic clock and never goes negative
+  ---
+  duration_ms: 0.049
+  type: 'test'
+  ...
+# Subtest: missing binary is 503, a failing binary is 422, garbage output is 502
+ok 7 - missing binary is 503, a failing binary is 422, garbage output is 502
+  ---
+  duration_ms: 9.869292
+  type: 'test'
+  ...
+# Subtest: real hemant-shell output matches the contract and the committed fixtures
+ok 8 - real hemant-shell output matches the contract and the committed fixtures
+  ---
+  duration_ms: 11.048291
+  type: 'test'
+  ...
+1..8
+# tests 8
+# suites 0
+# pass 8
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 438.405375
+exit=0
+
+### tsc --noEmit
+$ node node_modules/typescript/bin/tsc --noEmit -p tsconfig.json
+exit=0
+
+### next build
+$ node node_modules/next/dist/bin/next build
+▲ Next.js 16.3.8 (Turbopack)
+✓ Running next.config.ts took 68ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 635ms
+  Running TypeScript ...
+  Finished TypeScript in 1227ms ...
+  Collecting page data using 8 workers ...
+  Generating static pages using 8 workers (0/18) ...
+  Generating static pages using 8 workers (4/18) 
+  Generating static pages using 8 workers (8/18) 
+Error occurred prerendering page "/planetary". Read more: https://nextjs.org/docs/messages/prerender-error
+TypeError: y.bodies.map is not a function
+    at planetary (components/modules/planetary.tsx:8:58)
+   6 |     <div className="m-grid">
+   7 |       <Panel eyebrow="FIRST INCREMENT SCOPE" title="Bodies, frame and corrections">
+>  8 |         <Facts label="Supported body codes" rows={bodies.map((b) => [b.name, `NAIF ID ${b.code}`])} />
+     |                                                          ^
+   9 |         <Facts label="Frame and corrections" rows={[["Frame", "ICRF-aligned (as used by JPL DE440)"], ["Correction", "Geometric only; astrometric and apparent are later method versions"], ["Time argument", "TDB seconds past J2000;...
+  10 |       </Panel>
+  11 |       <Panel eyebrow="QUERY" title="Request a state vector"> {
+  digest: '2238946612'
+}
+Export encountered an error on /[section]/page: /planetary, exiting the build.
+⨯ Next.js build worker exited with code: 1 and signal: null
+exit=1
+
+### playwright (desktop + mobile)
+$ node ../../node_modules/@playwright/test/cli.js test --config playwright.config.ts
+[WebServer] ⨯ Failed to start server
+[WebServer] Error: listen EADDRINUSE: address already in use 127.0.0.1:4210
+[WebServer]     at <unknown> (Error: listen EADDRINUSE: address already in use 127.0.0.1:4210) {
+[WebServer]   code: 'EADDRINUSE',
+[WebServer]   errno: -48,
+[WebServer]   syscall: 'listen',
+[WebServer]   address: '127.0.0.1',
+[WebServer]   port: 4210
+[WebServer] }
+Error: Process from config.webServer was not able to start. Exit code: 1
+
+exit=1
+
+### record repo status outside this app
+$ bash -c git -C ../.. --no-optional-locks status --porcelain -- apps/hemant-observatory >/dev/null && git -C ../.. --no-optional-locks status --porcelain | grep -v "apps/hemant-observatory" > "$0" ; true /Users/vesahe/Downloads/maataa-ui-full-alpha7/apps/hemant-observatory/evidence/outside-status-20261009T044051Z.txt
+exit=0
+
+## Summary
+- PASS | rustfmt --check
+- PASS | cargo test
+- PASS | clippy -D warnings
+- PASS | cargo build (debug, used by API/e2e)
+- PASS | cargo build --release
+- PASS | fixture drift: method registry
+- PASS | fixture drift: epoch time result
+- PASS | contract + shell tests (node)
+- PASS | tsc --noEmit
+- FAIL(1) | next build
+- FAIL(1) | playwright (desktop + mobile)
+- PASS | record repo status outside this app

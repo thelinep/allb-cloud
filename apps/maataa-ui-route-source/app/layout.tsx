@@ -1,0 +1,6 @@
+import type {Metadata} from 'next';
+import Link from 'next/link';
+import routes from '../lib/routes.json';
+import './globals.css';
+export const metadata:Metadata={title:{default:'MAATAA UI · Local scaffold',template:'%s · MAATAA UI'},description:'Documentation and reversible local playgrounds. No enterprise backend connected.'};
+export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="en"><body><a className="skip" href="#content">Skip to content</a><header><Link href="/">MAATAA <b>UI</b></Link><span>Local scaffold · backend disconnected</span><nav aria-label="Main"><Link href="/components">Components</Link><Link href="/studio">Studio</Link><Link href="/readiness">Readiness</Link></nav></header><div className="shell"><aside><nav aria-label="Documentation">{[...new Set(routes.map(r=>r.group))].map(group=><details key={group} open={['Start','Components','Spatial','3D','Studio'].includes(group)}><summary>{group}</summary>{routes.filter(r=>r.group===group).map(r=><Link key={r.path} href={r.path}>{r.title}</Link>)}</details>)}</nav></aside><div id="content">{children}</div></div><footer>Reconstructed demonstration source. No original-source, backend or release-certification claim.</footer></body></html>}

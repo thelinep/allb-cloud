@@ -1,0 +1,34 @@
+{
+  "name": "@maataa/hemant-observatory",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "cargo build --workspace --offline && next dev --hostname 127.0.0.1 --port 4210",
+    "build": "bash scripts/check-workers-wasm.sh && cargo build --release --workspace --offline && next build",
+    "start": "next start --hostname 0.0.0.0",
+    "typecheck": "tsc --noEmit",
+    "workers:wasm:check": "bash scripts/check-workers-wasm.sh",
+    "test:science-fixture": "node tests/jpl-fixture-smoke.mjs",
+    "test:science-live": "bash scripts/build-wasm.sh && node tests/jpl-rust-live-smoke.mjs",
+    "test:workers-preview": "node tests/workers-preview-smoke.mjs",
+    "test:workers-jpl-live": "node tests/horizons-live-smoke.mjs",
+    "preview": "HEMANT_WORKERS_BUILD=1 opennextjs-cloudflare build && opennextjs-cloudflare preview",
+    "deploy": "HEMANT_WORKERS_BUILD=1 opennextjs-cloudflare build && opennextjs-cloudflare deploy",
+    "upload": "HEMANT_WORKERS_BUILD=1 opennextjs-cloudflare build && opennextjs-cloudflare upload",
+    "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts"
+  },
+  "dependencies": {
+    "@opennextjs/cloudflare": "1.20.9",
+    "next": "16.3.8",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.8.0",
+    "wrangler": "^4.149.0"
+  }
+}

@@ -1,0 +1,496 @@
+# Hemant Observatory checks 20261009T044207Z
+Darwin Vesahes-MacBook-Pro.local 27.0.0 Darwin Kernel Version 27.0.0: Tue Aug 11 21:06:24 PDT 2026; root:xnu-13432.1.9~1/RELEASE_ARM64_T6030 arm64
+cargo 1.91.0 (ea2d97820 2025-10-10)
+rustc 1.91.0 (f8297e351 2025-10-28)
+v22.22.3
+
+### rustfmt --check
+$ cargo fmt --all --check
+exit=0
+
+### cargo test
+$ cargo test --workspace --offline
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.01s
+     Running unittests src/lib.rs (target/debug/deps/hemant_core-5e9e151841d0035f)
+
+running 23 tests
+test astronomy::tests::body_codes_match_naif_integer_ids ... ok
+test astronomy::tests::the_default_provider_never_fabricates_a_position ... ok
+test registry::tests::clock_epoch_and_units_keep_distinct_evidence ... ok
+test registry::tests::pending_methods_are_marked_pending_and_produce_nothing ... ok
+test json::tests::escapes_quotes_backslashes_and_control_characters ... ok
+test json::tests::integers_beyond_javascript_safe_range_become_strings ... ok
+test registry::tests::every_method_has_complete_provenance_fields_and_unique_id ... ok
+test time::tests::host_clock_snapshot_is_unverified_with_unknown_uncertainty ... ok
+test time::tests::injected_wall_clock_is_labelled_by_its_source_and_never_verified ... ok
+test result::tests::maximum_supported_value_produces_a_result_with_string_nanos ... ok
+test time::tests::host_monotonic_clock_never_goes_backwards ... ok
+test result::tests::fixture_result_is_versioned_and_names_methods_for_every_section ... ok
+test time::tests::leap_second_instants_are_not_representable ... ok
+test time::tests::monotonic_intervals_order_readings_and_reject_reversal ... ok
+test time::tests::negative_and_subsecond_timestamps_format_exactly ... ok
+test time::tests::range_boundaries_are_inclusive_and_outside_values_are_rejected ... ok
+test registry::tests::registry_json_names_its_schema_and_every_method ... ok
+test units::tests::a_pre_epoch_instant_has_signed_day_and_normal_subday_units ... ok
+test units::tests::epoch_is_the_selected_kashi_reference ... ok
+test units::tests::one_day_breaks_down_to_thirty_muhurta ... ok
+test units::tests::one_muhurta_is_forty_eight_minutes_under_the_named_convention ... ok
+test units::tests::subsecond_input_is_floored_to_whole_nimesha_with_residual ... ok
+test units::tests::whole_supported_range_converts_and_extremes_report_overflow ... ok
+
+test result: ok. 23 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/main.rs (target/debug/deps/hemant_shell-32eb834848e752c6)
+
+running 5 tests
+test tests::help_is_available_without_reading_the_clock ... ok
+test tests::invalid_arguments_fail_closed ... ok
+test tests::text_output_names_methods_and_limits ... ok
+test tests::supplied_epoch_json_is_unverified_caller_input ... ok
+test tests::methods_json_is_the_registry ... ok
+
+test result: ok. 5 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests hemant_core
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+exit=0
+
+### clippy -D warnings
+$ cargo clippy --workspace --all-targets --offline -- -D warnings
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.04s
+exit=0
+
+### cargo build (debug, used by API/e2e)
+$ cargo build --workspace --offline
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.03s
+exit=0
+
+### cargo build --release
+$ cargo build --release --workspace --offline
+    Finished `release` profile [optimized] target(s) in 0.00s
+exit=0
+
+### fixture drift: method registry
+$ bash -c diff <(target/debug/hemant-shell --methods-json) fixtures/method-registry.json
+exit=0
+
+### fixture drift: epoch time result
+$ bash -c diff <(target/debug/hemant-shell --unix-nanos 285148740000000000 --json) fixtures/time-result.epoch.json
+exit=0
+
+### contract + shell tests (node)
+$ bash -c node --experimental-strip-types --no-warnings --test tests/*.test.ts
+TAP version 13
+# Subtest: registry fixture satisfies the provenance contract; pending methods stay pending
+ok 1 - registry fixture satisfies the provenance contract; pending methods stay pending
+  ---
+  duration_ms: 0.999084
+  type: 'test'
+  ...
+# Subtest: registry rejects over-claims, missing fields and duplicates
+ok 2 - registry rejects over-claims, missing fields and duplicates
+  ---
+  duration_ms: 0.186042
+  type: 'test'
+  ...
+# Subtest: time-result fixture is valid and every section names an active registry method
+ok 3 - time-result fixture is valid and every section names an active registry method
+  ---
+  duration_ms: 0.453709
+  type: 'test'
+  ...
+# Subtest: time-result rejects verification claims, bad ranges and unknown methods
+ok 4 - time-result rejects verification claims, bad ranges and unknown methods
+  ---
+  duration_ms: 1.037042
+  type: 'test'
+  ...
+# Subtest: caller input validation accepts only bounded signed integers
+ok 5 - caller input validation accepts only bounded signed integers
+  ---
+  duration_ms: 0.117542
+  type: 'test'
+  ...
+# Subtest: snapshot age uses the client monotonic clock and never goes negative
+ok 6 - snapshot age uses the client monotonic clock and never goes negative
+  ---
+  duration_ms: 0.450333
+  type: 'test'
+  ...
+# Subtest: missing binary is 503, a failing binary is 422, garbage output is 502
+ok 7 - missing binary is 503, a failing binary is 422, garbage output is 502
+  ---
+  duration_ms: 4.074
+  type: 'test'
+  ...
+# Subtest: real hemant-shell output matches the contract and the committed fixtures
+ok 8 - real hemant-shell output matches the contract and the committed fixtures
+  ---
+  duration_ms: 8.993708
+  type: 'test'
+  ...
+1..8
+# tests 8
+# suites 0
+# pass 8
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 136.890375
+exit=0
+
+### tsc --noEmit
+$ node node_modules/typescript/bin/tsc --noEmit -p tsconfig.json
+exit=0
+
+### next build
+$ node node_modules/next/dist/bin/next build
+▲ Next.js 16.3.8 (Turbopack)
+✓ Running next.config.ts took 15ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 208ms
+  Running TypeScript ...
+  Finished TypeScript in 909ms ...
+  Collecting page data using 8 workers ...
+  Generating static pages using 8 workers (0/18) ...
+  Generating static pages using 8 workers (4/18) 
+  Generating static pages using 8 workers (8/18) 
+  Generating static pages using 8 workers (13/18) 
+✓ Generating static pages using 8 workers (18/18) in 295ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├   /[section]
+│ ├ ● /clock
+│ ├ ● /observatory
+│ ├ ● /panchanga
+│ └ ● [+12 more paths]
+├ ƒ /api/convert
+├ ƒ /api/methods
+└ ƒ /api/time
+
+
+○  (Static)   prerendered as static content
+●  (SSG)      prerendered as static HTML (uses generateStaticParams)
+ƒ  (Dynamic)  server-rendered on demand
+
+exit=0
+
+### playwright (desktop + mobile)
+$ node ../../node_modules/@playwright/test/cli.js test --config playwright.config.ts
+
+Running 46 tests using 1 worker
+
+  ✓   1 [desktop] › tests/e2e/observatory.spec.ts:5:3 › API contract › /api/methods and /api/time agree; /api/convert validates input (68ms)
+  ✓   2 [desktop] › tests/e2e/observatory.spec.ts:24:1 › overview shows the Rust snapshot with source and verification (485ms)
+  ✓   3 [desktop] › tests/e2e/observatory.spec.ts:31:3 › module clock renders with status and navigation (259ms)
+  ✘   4 [desktop] › tests/e2e/observatory.spec.ts:31:3 › module observatory renders with status and navigation (246ms)
+  ✓   5 [desktop] › tests/e2e/observatory.spec.ts:31:3 › module panchanga renders with status and navigation (257ms)
+  ✓   6 [desktop] › tests/e2e/observatory.spec.ts:31:3 › module sankranti renders with status and navigation (235ms)
+  ✓   7 [desktop] › tests/e2e/observatory.spec.ts:31:3 › module cosmology renders with status and navigation (228ms)
+  ✓   8 [desktop] › tests/e2e/observatory.spec.ts:31:3 › module developer renders with status and navigation (209ms)
+  ✓   9 [desktop] › tests/e2e/observatory.spec.ts:31:3 › module learn renders with status and navigation (194ms)
+  ✓  10 [desktop] › tests/e2e/observatory.spec.ts:31:3 › module timeline renders with status and navigation (202ms)
+  ✓  11 [desktop] › tests/e2e/observatory.spec.ts:31:3 › module services renders with status and navigation (179ms)
+  ✓  12 [desktop] › tests/e2e/observatory.spec.ts:31:3 › module research renders with status and navigation (235ms)
+  ✓  13 [desktop] › tests/e2e/observatory.spec.ts:31:3 › module mobile renders with status and navigation (224ms)
+  ✓  14 [desktop] › tests/e2e/observatory.spec.ts:31:3 › module widgets renders with status and navigation (209ms)
+  ✓  15 [desktop] › tests/e2e/observatory.spec.ts:31:3 › module modes renders with status and navigation (223ms)
+  ✓  16 [desktop] › tests/e2e/observatory.spec.ts:31:3 › module planetary renders with status and navigation (196ms)
+  ✓  17 [desktop] › tests/e2e/observatory.spec.ts:31:3 › module ratios renders with status and navigation (209ms)
+  ✘  18 [desktop] › tests/e2e/observatory.spec.ts:44:1 › clock converter: valid epoch converts through Rust; invalid input is refused before any request (384ms)
+  ✘  19 [desktop] › tests/e2e/observatory.spec.ts:58:1 › research page renders exactly the registry served by Rust (5.3s)
+  ✓  20 [desktop] › tests/e2e/observatory.spec.ts:66:1 › unavailable Rust shell is shown as unavailable, never replaced by a value (229ms)
+  ✓  21 [desktop] › tests/e2e/observatory.spec.ts:72:1 › malformed shell output is rejected by the client contract (198ms)
+  ✓  22 [desktop] › tests/e2e/observatory.spec.ts:78:1 › pending modules never show computed values (311ms)
+  ✓  23 [desktop] › tests/e2e/observatory.spec.ts:88:1 › keyboard: skip link reaches module content (234ms)
+  ✓  24 [mobile] › tests/e2e/observatory.spec.ts:5:3 › API contract › /api/methods and /api/time agree; /api/convert validates input (53ms)
+  ✓  25 [mobile] › tests/e2e/observatory.spec.ts:24:1 › overview shows the Rust snapshot with source and verification (187ms)
+  ✓  26 [mobile] › tests/e2e/observatory.spec.ts:31:3 › module clock renders with status and navigation (150ms)
+  ✘  27 [mobile] › tests/e2e/observatory.spec.ts:31:3 › module observatory renders with status and navigation (169ms)
+  ✓  28 [mobile] › tests/e2e/observatory.spec.ts:31:3 › module panchanga renders with status and navigation (177ms)
+  ✓  29 [mobile] › tests/e2e/observatory.spec.ts:31:3 › module sankranti renders with status and navigation (160ms)
+  ✓  30 [mobile] › tests/e2e/observatory.spec.ts:31:3 › module cosmology renders with status and navigation (152ms)
+  ✓  31 [mobile] › tests/e2e/observatory.spec.ts:31:3 › module developer renders with status and navigation (144ms)
+  ✓  32 [mobile] › tests/e2e/observatory.spec.ts:31:3 › module learn renders with status and navigation (130ms)
+  ✓  33 [mobile] › tests/e2e/observatory.spec.ts:31:3 › module timeline renders with status and navigation (131ms)
+  ✓  34 [mobile] › tests/e2e/observatory.spec.ts:31:3 › module services renders with status and navigation (128ms)
+  ✓  35 [mobile] › tests/e2e/observatory.spec.ts:31:3 › module research renders with status and navigation (145ms)
+  ✓  36 [mobile] › tests/e2e/observatory.spec.ts:31:3 › module mobile renders with status and navigation (147ms)
+  ✓  37 [mobile] › tests/e2e/observatory.spec.ts:31:3 › module widgets renders with status and navigation (143ms)
+  ✓  38 [mobile] › tests/e2e/observatory.spec.ts:31:3 › module modes renders with status and navigation (130ms)
+  ✓  39 [mobile] › tests/e2e/observatory.spec.ts:31:3 › module planetary renders with status and navigation (130ms)
+  ✓  40 [mobile] › tests/e2e/observatory.spec.ts:31:3 › module ratios renders with status and navigation (149ms)
+  ✘  41 [mobile] › tests/e2e/observatory.spec.ts:44:1 › clock converter: valid epoch converts through Rust; invalid input is refused before any request (259ms)
+  ✘  42 [mobile] › tests/e2e/observatory.spec.ts:58:1 › research page renders exactly the registry served by Rust (5.3s)
+  ✓  43 [mobile] › tests/e2e/observatory.spec.ts:66:1 › unavailable Rust shell is shown as unavailable, never replaced by a value (171ms)
+  ✓  44 [mobile] › tests/e2e/observatory.spec.ts:72:1 › malformed shell output is rejected by the client contract (129ms)
+  ✓  45 [mobile] › tests/e2e/observatory.spec.ts:78:1 › pending modules never show computed values (237ms)
+  ✓  46 [mobile] › tests/e2e/observatory.spec.ts:88:1 › keyboard: skip link reaches module content (144ms)
+
+
+  1) [desktop] › tests/e2e/observatory.spec.ts:31:3 › module observatory renders with status and navigation 
+
+    Error: expect(locator).toHaveAttribute(expected) failed
+
+    Locator: getByRole('navigation', { name: 'Modules' }).getByRole('link', { name: 'Observatory' })
+    Expected: "page"
+    Error: strict mode violation: getByRole('navigation', { name: 'Modules' }).getByRole('link', { name: 'Observatory' }) resolved to 2 elements:
+        1) <a aria-current="page" href="/observatory">Observatory</a> aka getByRole('link', { name: 'Observatory', exact: true })
+        2) <a href="/modes">Observatory modes</a> aka getByRole('link', { name: 'Observatory modes' })
+
+    Call log:
+      - Expect "toHaveAttribute" getByRole('navigation', { name: 'Modules' }).getByRole('link', { name: 'Observatory' }) with timeout 5000ms
+      - waiting for getByRole('navigation', { name: 'Modules' }).getByRole('link', { name: 'Observatory' })
+
+
+      34 |     await page.goto(`/${section.slug}`);
+      35 |     await expect(page.getByRole("heading", { level: 1 })).toContainText(section.title);
+    > 36 |     await expect(page.getByRole("navigation", { name: "Modules" }).getByRole("link", { name: section.title })).toHaveAttribute("aria-current", "page");
+         |                                                                                                                ^
+      37 |     await expect(page.getByLabel("Capability status")).toContainText(section.pending === "—" ? "Works now" : "Pending");
+      38 |     const overflow = await page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth);
+      39 |     expect(overflow).toBeLessThanOrEqual(1);
+        at /Users/vesahe/Downloads/maataa-ui-full-alpha7/apps/hemant-observatory/tests/e2e/observatory.spec.ts:36:112
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../test-results/hemant-observatory/observatory-module-observa-3749a--with-status-and-navigation-desktop/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../../test-results/hemant-observatory/observatory-module-observa-3749a--with-status-and-navigation-desktop/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/hemant-observatory/observatory-module-observa-3749a--with-status-and-navigation-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/hemant-observatory/observatory-module-observa-3749a--with-status-and-navigation-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [desktop] › tests/e2e/observatory.spec.ts:44:1 › clock converter: valid epoch converts through Rust; invalid input is refused before any request 
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: getByRole('alert')
+    Expected substring: "signed integer"
+    Error: strict mode violation: getByRole('alert') resolved to 2 elements:
+        1) <p role="alert" class="m-error" id="convert-error">unix_nanos must be a signed integer (digits only)</p> aka getByText('unix_nanos must be a signed')
+        2) <div role="alert" aria-live="assertive" id="__next-route-announcer__"></div> aka locator('[id="__next-route-announcer__"]')
+
+    Call log:
+      - Expect "toContainText" getByRole('alert') with timeout 5000ms
+      - waiting for getByRole('alert')
+
+
+      52 |   await page.getByLabel("Unix nanoseconds").fill("12; rm -rf /");
+      53 |   await page.getByRole("button", { name: "Convert with Rust" }).click();
+    > 54 |   await expect(page.getByRole("alert")).toContainText("signed integer");
+         |                                         ^
+      55 |   expect(converts).toBe(0);
+      56 | });
+      57 |
+        at /Users/vesahe/Downloads/maataa-ui-full-alpha7/apps/hemant-observatory/tests/e2e/observatory.spec.ts:54:41
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../test-results/hemant-observatory/observatory-clock-converte-ef431--refused-before-any-request-desktop/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../../test-results/hemant-observatory/observatory-clock-converte-ef431--refused-before-any-request-desktop/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/hemant-observatory/observatory-clock-converte-ef431--refused-before-any-request-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/hemant-observatory/observatory-clock-converte-ef431--refused-before-any-request-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [desktop] › tests/e2e/observatory.spec.ts:58:1 › research page renders exactly the registry served by Rust 
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  getByLabel(/^Method /)
+    Expected: 2
+    Received: 3
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveCount" getByLabel(/^Method /) with timeout 5000ms
+      - waiting for getByLabel(/^Method /)
+        14 × locator resolved to 3 elements
+           - unexpected value "3"
+
+
+      61 |   for (const m of methods.methods) await expect(page.getByLabel(`Method ${m.id}`)).toBeVisible();
+      62 |   await page.getByRole("button", { name: "pending" }).click();
+    > 63 |   await expect(page.getByLabel(/^Method /)).toHaveCount(2);
+         |                                             ^
+      64 | });
+      65 |
+      66 | test("unavailable Rust shell is shown as unavailable, never replaced by a value", async ({ page }) => {
+        at /Users/vesahe/Downloads/maataa-ui-full-alpha7/apps/hemant-observatory/tests/e2e/observatory.spec.ts:63:45
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../test-results/hemant-observatory/observatory-research-page--e8cd5-the-registry-served-by-Rust-desktop/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../../test-results/hemant-observatory/observatory-research-page--e8cd5-the-registry-served-by-Rust-desktop/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/hemant-observatory/observatory-research-page--e8cd5-the-registry-served-by-Rust-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/hemant-observatory/observatory-research-page--e8cd5-the-registry-served-by-Rust-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [mobile] › tests/e2e/observatory.spec.ts:31:3 › module observatory renders with status and navigation 
+
+    Error: expect(locator).toHaveAttribute(expected) failed
+
+    Locator: getByRole('navigation', { name: 'Modules' }).getByRole('link', { name: 'Observatory' })
+    Expected: "page"
+    Error: strict mode violation: getByRole('navigation', { name: 'Modules' }).getByRole('link', { name: 'Observatory' }) resolved to 2 elements:
+        1) <a aria-current="page" href="/observatory">Observatory</a> aka getByRole('link', { name: 'Observatory', exact: true })
+        2) <a href="/modes">Observatory modes</a> aka getByRole('link', { name: 'Observatory modes' })
+
+    Call log:
+      - Expect "toHaveAttribute" getByRole('navigation', { name: 'Modules' }).getByRole('link', { name: 'Observatory' }) with timeout 5000ms
+      - waiting for getByRole('navigation', { name: 'Modules' }).getByRole('link', { name: 'Observatory' })
+
+
+      34 |     await page.goto(`/${section.slug}`);
+      35 |     await expect(page.getByRole("heading", { level: 1 })).toContainText(section.title);
+    > 36 |     await expect(page.getByRole("navigation", { name: "Modules" }).getByRole("link", { name: section.title })).toHaveAttribute("aria-current", "page");
+         |                                                                                                                ^
+      37 |     await expect(page.getByLabel("Capability status")).toContainText(section.pending === "—" ? "Works now" : "Pending");
+      38 |     const overflow = await page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth);
+      39 |     expect(overflow).toBeLessThanOrEqual(1);
+        at /Users/vesahe/Downloads/maataa-ui-full-alpha7/apps/hemant-observatory/tests/e2e/observatory.spec.ts:36:112
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../test-results/hemant-observatory/observatory-module-observa-3749a--with-status-and-navigation-mobile/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../../test-results/hemant-observatory/observatory-module-observa-3749a--with-status-and-navigation-mobile/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/hemant-observatory/observatory-module-observa-3749a--with-status-and-navigation-mobile/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/hemant-observatory/observatory-module-observa-3749a--with-status-and-navigation-mobile/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  5) [mobile] › tests/e2e/observatory.spec.ts:44:1 › clock converter: valid epoch converts through Rust; invalid input is refused before any request 
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: getByRole('alert')
+    Expected substring: "signed integer"
+    Error: strict mode violation: getByRole('alert') resolved to 2 elements:
+        1) <p role="alert" class="m-error" id="convert-error">unix_nanos must be a signed integer (digits only)</p> aka getByText('unix_nanos must be a signed')
+        2) <div role="alert" aria-live="assertive" id="__next-route-announcer__"></div> aka locator('[id="__next-route-announcer__"]')
+
+    Call log:
+      - Expect "toContainText" getByRole('alert') with timeout 5000ms
+      - waiting for getByRole('alert')
+
+
+      52 |   await page.getByLabel("Unix nanoseconds").fill("12; rm -rf /");
+      53 |   await page.getByRole("button", { name: "Convert with Rust" }).click();
+    > 54 |   await expect(page.getByRole("alert")).toContainText("signed integer");
+         |                                         ^
+      55 |   expect(converts).toBe(0);
+      56 | });
+      57 |
+        at /Users/vesahe/Downloads/maataa-ui-full-alpha7/apps/hemant-observatory/tests/e2e/observatory.spec.ts:54:41
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../test-results/hemant-observatory/observatory-clock-converte-ef431--refused-before-any-request-mobile/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../../test-results/hemant-observatory/observatory-clock-converte-ef431--refused-before-any-request-mobile/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/hemant-observatory/observatory-clock-converte-ef431--refused-before-any-request-mobile/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/hemant-observatory/observatory-clock-converte-ef431--refused-before-any-request-mobile/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  6) [mobile] › tests/e2e/observatory.spec.ts:58:1 › research page renders exactly the registry served by Rust 
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  getByLabel(/^Method /)
+    Expected: 2
+    Received: 3
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveCount" getByLabel(/^Method /) with timeout 5000ms
+      - waiting for getByLabel(/^Method /)
+        14 × locator resolved to 3 elements
+           - unexpected value "3"
+
+
+      61 |   for (const m of methods.methods) await expect(page.getByLabel(`Method ${m.id}`)).toBeVisible();
+      62 |   await page.getByRole("button", { name: "pending" }).click();
+    > 63 |   await expect(page.getByLabel(/^Method /)).toHaveCount(2);
+         |                                             ^
+      64 | });
+      65 |
+      66 | test("unavailable Rust shell is shown as unavailable, never replaced by a value", async ({ page }) => {
+        at /Users/vesahe/Downloads/maataa-ui-full-alpha7/apps/hemant-observatory/tests/e2e/observatory.spec.ts:63:45
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../test-results/hemant-observatory/observatory-research-page--e8cd5-the-registry-served-by-Rust-mobile/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../../test-results/hemant-observatory/observatory-research-page--e8cd5-the-registry-served-by-Rust-mobile/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/hemant-observatory/observatory-research-page--e8cd5-the-registry-served-by-Rust-mobile/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/hemant-observatory/observatory-research-page--e8cd5-the-registry-served-by-Rust-mobile/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  6 failed
+    [desktop] › tests/e2e/observatory.spec.ts:31:3 › module observatory renders with status and navigation 
+    [desktop] › tests/e2e/observatory.spec.ts:44:1 › clock converter: valid epoch converts through Rust; invalid input is refused before any request 
+    [desktop] › tests/e2e/observatory.spec.ts:58:1 › research page renders exactly the registry served by Rust 
+    [mobile] › tests/e2e/observatory.spec.ts:31:3 › module observatory renders with status and navigation 
+    [mobile] › tests/e2e/observatory.spec.ts:44:1 › clock converter: valid epoch converts through Rust; invalid input is refused before any request 
+    [mobile] › tests/e2e/observatory.spec.ts:58:1 › research page renders exactly the registry served by Rust 
+  40 passed (22.4s)
+exit=1
+
+### record repo status outside this app
+$ bash -c git -C ../.. --no-optional-locks status --porcelain -- apps/hemant-observatory >/dev/null && git -C ../.. --no-optional-locks status --porcelain | grep -v "apps/hemant-observatory" > "$0" ; true /Users/vesahe/Downloads/maataa-ui-full-alpha7/apps/hemant-observatory/evidence/outside-status-20261009T044207Z.txt
+exit=0
+
+## Summary
+- PASS | rustfmt --check
+- PASS | cargo test
+- PASS | clippy -D warnings
+- PASS | cargo build (debug, used by API/e2e)
+- PASS | cargo build --release
+- PASS | fixture drift: method registry
+- PASS | fixture drift: epoch time result
+- PASS | contract + shell tests (node)
+- PASS | tsc --noEmit
+- PASS | next build
+- FAIL(1) | playwright (desktop + mobile)
+- PASS | record repo status outside this app

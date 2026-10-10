@@ -1,0 +1,258 @@
+# Hemant Observatory checks 20261009T052907Z
+Darwin Vesahes-MacBook-Pro.local 27.0.0 Darwin Kernel Version 27.0.0: Tue Aug 11 21:06:24 PDT 2026; root:xnu-13432.1.9~1/RELEASE_ARM64_T6030 arm64
+cargo 1.91.0 (ea2d97820 2025-10-10)
+rustc 1.91.0 (f8297e351 2025-10-28)
+v22.22.3
+
+### rustfmt --check
+$ cargo fmt --all --check
+exit=0
+
+### cargo test
+$ cargo test --workspace --offline
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.01s
+     Running unittests src/lib.rs (target/debug/deps/hemant_core-5e9e151841d0035f)
+
+running 23 tests
+test astronomy::tests::body_codes_match_naif_integer_ids ... ok
+test json::tests::integers_beyond_javascript_safe_range_become_strings ... ok
+test astronomy::tests::the_default_provider_never_fabricates_a_position ... ok
+test registry::tests::pending_methods_are_marked_pending_and_produce_nothing ... ok
+test json::tests::escapes_quotes_backslashes_and_control_characters ... ok
+test registry::tests::clock_epoch_and_units_keep_distinct_evidence ... ok
+test registry::tests::every_method_has_complete_provenance_fields_and_unique_id ... ok
+test time::tests::host_clock_snapshot_is_unverified_with_unknown_uncertainty ... ok
+test result::tests::maximum_supported_value_produces_a_result_with_string_nanos ... ok
+test result::tests::fixture_result_is_versioned_and_names_methods_for_every_section ... ok
+test time::tests::host_monotonic_clock_never_goes_backwards ... ok
+test time::tests::injected_wall_clock_is_labelled_by_its_source_and_never_verified ... ok
+test registry::tests::registry_json_names_its_schema_and_every_method ... ok
+test time::tests::leap_second_instants_are_not_representable ... ok
+test time::tests::monotonic_intervals_order_readings_and_reject_reversal ... ok
+test time::tests::negative_and_subsecond_timestamps_format_exactly ... ok
+test time::tests::range_boundaries_are_inclusive_and_outside_values_are_rejected ... ok
+test units::tests::a_pre_epoch_instant_has_signed_day_and_normal_subday_units ... ok
+test units::tests::epoch_is_the_selected_kashi_reference ... ok
+test units::tests::one_day_breaks_down_to_thirty_muhurta ... ok
+test units::tests::one_muhurta_is_forty_eight_minutes_under_the_named_convention ... ok
+test units::tests::subsecond_input_is_floored_to_whole_nimesha_with_residual ... ok
+test units::tests::whole_supported_range_converts_and_extremes_report_overflow ... ok
+
+test result: ok. 23 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/main.rs (target/debug/deps/hemant_shell-32eb834848e752c6)
+
+running 5 tests
+test tests::help_is_available_without_reading_the_clock ... ok
+test tests::invalid_arguments_fail_closed ... ok
+test tests::supplied_epoch_json_is_unverified_caller_input ... ok
+test tests::text_output_names_methods_and_limits ... ok
+test tests::methods_json_is_the_registry ... ok
+
+test result: ok. 5 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests hemant_core
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+exit=0
+
+### clippy -D warnings
+$ cargo clippy --workspace --all-targets --offline -- -D warnings
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.05s
+exit=0
+
+### cargo build (debug, used by API/e2e)
+$ cargo build --workspace --offline
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.03s
+exit=0
+
+### cargo build --release
+$ cargo build --release --workspace --offline
+    Finished `release` profile [optimized] target(s) in 0.00s
+exit=0
+
+### fixture drift: method registry
+$ bash -c diff <(target/debug/hemant-shell --methods-json) fixtures/method-registry.json
+exit=0
+
+### fixture drift: epoch time result
+$ bash -c diff <(target/debug/hemant-shell --unix-nanos 285148740000000000 --json) fixtures/time-result.epoch.json
+exit=0
+
+### contract + shell tests (node)
+$ bash -c node --experimental-strip-types --no-warnings --test tests/*.test.ts
+TAP version 13
+# Subtest: registry fixture satisfies the provenance contract; pending methods stay pending
+ok 1 - registry fixture satisfies the provenance contract; pending methods stay pending
+  ---
+  duration_ms: 1.306375
+  type: 'test'
+  ...
+# Subtest: registry rejects over-claims, missing fields and duplicates
+ok 2 - registry rejects over-claims, missing fields and duplicates
+  ---
+  duration_ms: 0.348125
+  type: 'test'
+  ...
+# Subtest: time-result fixture is valid and every section names an active registry method
+ok 3 - time-result fixture is valid and every section names an active registry method
+  ---
+  duration_ms: 0.473542
+  type: 'test'
+  ...
+# Subtest: time-result rejects verification claims, bad ranges and unknown methods
+ok 4 - time-result rejects verification claims, bad ranges and unknown methods
+  ---
+  duration_ms: 1.144792
+  type: 'test'
+  ...
+# Subtest: caller input validation accepts only bounded signed integers
+ok 5 - caller input validation accepts only bounded signed integers
+  ---
+  duration_ms: 0.679
+  type: 'test'
+  ...
+# Subtest: snapshot age uses the client monotonic clock and never goes negative
+ok 6 - snapshot age uses the client monotonic clock and never goes negative
+  ---
+  duration_ms: 0.0595
+  type: 'test'
+  ...
+# Subtest: missing binary is 503, a failing binary is 422, garbage output is 502
+ok 7 - missing binary is 503, a failing binary is 422, garbage output is 502
+  ---
+  duration_ms: 12.043209
+  type: 'test'
+  ...
+# Subtest: real hemant-shell output matches the contract and the committed fixtures
+ok 8 - real hemant-shell output matches the contract and the committed fixtures
+  ---
+  duration_ms: 16.253667
+  type: 'test'
+  ...
+1..8
+# tests 8
+# suites 0
+# pass 8
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1929.650292
+exit=0
+
+### tsc --noEmit
+$ node node_modules/typescript/bin/tsc --noEmit -p tsconfig.json
+exit=0
+
+### next build
+$ node node_modules/next/dist/bin/next build
+▲ Next.js 16.3.8 (Turbopack)
+✓ Running next.config.ts took 68ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 315ms
+  Running TypeScript ...
+  Finished TypeScript in 719ms ...
+  Collecting page data using 8 workers ...
+  Generating static pages using 8 workers (0/18) ...
+  Generating static pages using 8 workers (4/18) 
+  Generating static pages using 8 workers (8/18) 
+  Generating static pages using 8 workers (13/18) 
+✓ Generating static pages using 8 workers (18/18) in 312ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├   /[section]
+│ ├ ● /clock
+│ ├ ● /observatory
+│ ├ ● /panchanga
+│ └ ● [+12 more paths]
+├ ƒ /api/convert
+├ ƒ /api/methods
+└ ƒ /api/time
+
+
+○  (Static)   prerendered as static content
+●  (SSG)      prerendered as static HTML (uses generateStaticParams)
+ƒ  (Dynamic)  server-rendered on demand
+
+exit=0
+
+### playwright (desktop + mobile)
+$ node ../../node_modules/@playwright/test/cli.js test --config playwright.config.ts
+
+Running 46 tests using 1 worker
+
+  ✓   1 [desktop] › tests/e2e/observatory.spec.ts:5:3 › API contract › /api/methods and /api/time agree; /api/convert validates input (70ms)
+  ✓   2 [desktop] › tests/e2e/observatory.spec.ts:24:1 › overview shows the Rust snapshot with source and verification (424ms)
+  ✓   3 [desktop] › tests/e2e/observatory.spec.ts:31:3 › module clock renders with status and navigation (260ms)
+  ✓   4 [desktop] › tests/e2e/observatory.spec.ts:31:3 › module observatory renders with status and navigation (227ms)
+  ✓   5 [desktop] › tests/e2e/observatory.spec.ts:31:3 › module panchanga renders with status and navigation (262ms)
+  ✓   6 [desktop] › tests/e2e/observatory.spec.ts:31:3 › module sankranti renders with status and navigation (261ms)
+  ✓   7 [desktop] › tests/e2e/observatory.spec.ts:31:3 › module cosmology renders with status and navigation (217ms)
+  ✓   8 [desktop] › tests/e2e/observatory.spec.ts:31:3 › module developer renders with status and navigation (217ms)
+  ✓   9 [desktop] › tests/e2e/observatory.spec.ts:31:3 › module learn renders with status and navigation (235ms)
+  ✓  10 [desktop] › tests/e2e/observatory.spec.ts:31:3 › module timeline renders with status and navigation (199ms)
+  ✓  11 [desktop] › tests/e2e/observatory.spec.ts:31:3 › module services renders with status and navigation (206ms)
+  ✓  12 [desktop] › tests/e2e/observatory.spec.ts:31:3 › module research renders with status and navigation (256ms)
+  ✓  13 [desktop] › tests/e2e/observatory.spec.ts:31:3 › module mobile renders with status and navigation (226ms)
+  ✓  14 [desktop] › tests/e2e/observatory.spec.ts:31:3 › module widgets renders with status and navigation (210ms)
+  ✓  15 [desktop] › tests/e2e/observatory.spec.ts:31:3 › module modes renders with status and navigation (228ms)
+  ✓  16 [desktop] › tests/e2e/observatory.spec.ts:31:3 › module planetary renders with status and navigation (231ms)
+  ✓  17 [desktop] › tests/e2e/observatory.spec.ts:31:3 › module ratios renders with status and navigation (235ms)
+  ✓  18 [desktop] › tests/e2e/observatory.spec.ts:44:1 › clock converter: valid epoch converts through Rust; invalid input is refused before any request (330ms)
+  ✓  19 [desktop] › tests/e2e/observatory.spec.ts:58:1 › research page renders exactly the registry served by Rust (254ms)
+  ✓  20 [desktop] › tests/e2e/observatory.spec.ts:66:1 › unavailable Rust shell is shown as unavailable, never replaced by a value (235ms)
+  ✓  21 [desktop] › tests/e2e/observatory.spec.ts:73:1 › malformed shell output is rejected by the client contract (199ms)
+  ✓  22 [desktop] › tests/e2e/observatory.spec.ts:79:1 › pending modules never show computed values (307ms)
+  ✓  23 [desktop] › tests/e2e/observatory.spec.ts:89:1 › keyboard: skip link reaches module content (238ms)
+  ✓  24 [mobile] › tests/e2e/observatory.spec.ts:5:3 › API contract › /api/methods and /api/time agree; /api/convert validates input (54ms)
+  ✓  25 [mobile] › tests/e2e/observatory.spec.ts:24:1 › overview shows the Rust snapshot with source and verification (191ms)
+  ✓  26 [mobile] › tests/e2e/observatory.spec.ts:31:3 › module clock renders with status and navigation (171ms)
+  ✓  27 [mobile] › tests/e2e/observatory.spec.ts:31:3 › module observatory renders with status and navigation (154ms)
+  ✓  28 [mobile] › tests/e2e/observatory.spec.ts:31:3 › module panchanga renders with status and navigation (153ms)
+  ✓  29 [mobile] › tests/e2e/observatory.spec.ts:31:3 › module sankranti renders with status and navigation (154ms)
+  ✓  30 [mobile] › tests/e2e/observatory.spec.ts:31:3 › module cosmology renders with status and navigation (151ms)
+  ✓  31 [mobile] › tests/e2e/observatory.spec.ts:31:3 › module developer renders with status and navigation (148ms)
+  ✓  32 [mobile] › tests/e2e/observatory.spec.ts:31:3 › module learn renders with status and navigation (133ms)
+  ✓  33 [mobile] › tests/e2e/observatory.spec.ts:31:3 › module timeline renders with status and navigation (150ms)
+  ✓  34 [mobile] › tests/e2e/observatory.spec.ts:31:3 › module services renders with status and navigation (133ms)
+  ✓  35 [mobile] › tests/e2e/observatory.spec.ts:31:3 › module research renders with status and navigation (149ms)
+  ✓  36 [mobile] › tests/e2e/observatory.spec.ts:31:3 › module mobile renders with status and navigation (153ms)
+  ✓  37 [mobile] › tests/e2e/observatory.spec.ts:31:3 › module widgets renders with status and navigation (146ms)
+  ✓  38 [mobile] › tests/e2e/observatory.spec.ts:31:3 › module modes renders with status and navigation (130ms)
+  ✓  39 [mobile] › tests/e2e/observatory.spec.ts:31:3 › module planetary renders with status and navigation (151ms)
+  ✓  40 [mobile] › tests/e2e/observatory.spec.ts:31:3 › module ratios renders with status and navigation (151ms)
+  ✓  41 [mobile] › tests/e2e/observatory.spec.ts:44:1 › clock converter: valid epoch converts through Rust; invalid input is refused before any request (235ms)
+  ✓  42 [mobile] › tests/e2e/observatory.spec.ts:58:1 › research page renders exactly the registry served by Rust (182ms)
+  ✓  43 [mobile] › tests/e2e/observatory.spec.ts:66:1 › unavailable Rust shell is shown as unavailable, never replaced by a value (156ms)
+  ✓  44 [mobile] › tests/e2e/observatory.spec.ts:73:1 › malformed shell output is rejected by the client contract (133ms)
+  ✓  45 [mobile] › tests/e2e/observatory.spec.ts:79:1 › pending modules never show computed values (251ms)
+  ✓  46 [mobile] › tests/e2e/observatory.spec.ts:89:1 › keyboard: skip link reaches module content (148ms)
+
+  46 passed (10.4s)
+exit=0
+
+### record repo status outside this app
+$ bash -c git -C ../.. --no-optional-locks status --porcelain -- apps/hemant-observatory >/dev/null && git -C ../.. --no-optional-locks status --porcelain | grep -v "apps/hemant-observatory" > "$0" ; true /Users/vesahe/Downloads/maataa-ui-full-alpha7/apps/hemant-observatory/evidence/outside-status-20261009T052907Z.txt
+exit=0
+
+## Summary
+- PASS | rustfmt --check
+- PASS | cargo test
+- PASS | clippy -D warnings
+- PASS | cargo build (debug, used by API/e2e)
+- PASS | cargo build --release
+- PASS | fixture drift: method registry
+- PASS | fixture drift: epoch time result
+- PASS | contract + shell tests (node)
+- PASS | tsc --noEmit
+- PASS | next build
+- PASS | playwright (desktop + mobile)
+- PASS | record repo status outside this app

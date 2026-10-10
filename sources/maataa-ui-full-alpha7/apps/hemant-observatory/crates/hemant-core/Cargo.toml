@@ -1,0 +1,9 @@
+[package]
+name = "hemant-core"
+version = "0.1.0"
+edition = "2021"
+description = "Dependency-free Hemant elapsed-time and provenance primitives"
+license = "MIT"
+
+[lib]
+path = "src/lib.rs"

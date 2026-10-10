@@ -1,0 +1,9 @@
+allowBuilds:
+  electron-winstaller: false
+  esbuild: true
+  workerd: true
+overrides:
+  '@storybook/addon-actions>uuid': 11.1.1
+  # Keep the stable v26 builder on @electron/get v5 to remove its vulnerable v3 proxy/logger chain.
+  # @electron/get v5 requires Node.js >=22.12.0 for desktop packaging.
+  'app-builder-lib>@electron/get': 5.1.0

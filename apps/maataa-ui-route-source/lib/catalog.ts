@@ -1,0 +1,3 @@
+export const componentSlugs=["button", "input", "textarea", "select", "checkbox", "radio", "switch", "tabs", "card", "dialog", "drawer", "accordion", "popover", "tooltip", "alert", "toast", "badge", "progress", "skeleton", "header", "sidebar", "breadcrumbs", "menu", "pagination", "command-palette", "empty-state", "error-state"] as const;
+export const patterns={"identity": ["sign-in", "invitation", "mfa", "recovery", "workspace-switcher", "permissions", "sessions"], "production": ["dashboard", "asset-browser", "scene-controls", "quote-editor", "client-review", "approval", "handoff"]} as const;
+export const exampleSlugs=["identity", "production", "spatial", "scene", "theme"] as const;

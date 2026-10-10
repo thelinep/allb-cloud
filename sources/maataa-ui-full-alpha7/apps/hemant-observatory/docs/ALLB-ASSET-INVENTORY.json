@@ -1,0 +1,824 @@
+[
+  {
+    "path": "public/allb/extracted/allb-card-1-0.webp",
+    "bytes": 1904,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "f333fee8cdd63bc253eeaeefbd07b5b9db6aabede1ff89fa5bb9bbb741d8daff"
+  },
+  {
+    "path": "public/allb/extracted/allb-card-1-1.webp",
+    "bytes": 4494,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "11c3513577aab9a948f170c80bac81c17633d149092791d1407cba3fa494bbb7"
+  },
+  {
+    "path": "public/allb/extracted/allb-card-1-2.webp",
+    "bytes": 4350,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "97a2274202049b1324a3ea45b5ea3a6b3529d3f9970c58d3666a50cef6dfbc63"
+  },
+  {
+    "path": "public/allb/extracted/allb-closing.webp",
+    "bytes": 6000,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "1ba8bd90fbd188a41309afbb7599d4f9a32259006bf2f0084a3841e73aa05355"
+  },
+  {
+    "path": "public/allb/extracted/allb-detail-5.webp",
+    "bytes": 2900,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "3c9d0aa9f3927501b19c98ff983b568179232587af46f7359c904cd6c35c2a81"
+  },
+  {
+    "path": "public/allb/extracted/allb-hero.webp",
+    "bytes": 12800,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "c5d575d98ec41329b41a1aa9199de691bde5498c04d104bd56a6a3663c73f893"
+  },
+  {
+    "path": "public/allb/extracted/applications-closing.webp",
+    "bytes": 4834,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "57128298024cb78ba9e84fc4c015f90b80ef8672706c1ad5e6d3bd82f0087e79"
+  },
+  {
+    "path": "public/allb/extracted/applications-hero.webp",
+    "bytes": 11240,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "938c0afe909bebca8b1190ea7482973b756c1df500289e751b45cd6a7c69e2f6"
+  },
+  {
+    "path": "public/allb/extracted/apps-closing.webp",
+    "bytes": 2286,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "89cf3e515b8869fef43a4ec808200d45d8bd9df550c5403bc160d958d200f310"
+  },
+  {
+    "path": "public/allb/extracted/apps-hero.webp",
+    "bytes": 16080,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "0995b7fae7802ae9c0c440102559167e888b700a07fe70d556079d6cc83c54c6"
+  },
+  {
+    "path": "public/allb/extracted/brahmi-closing.webp",
+    "bytes": 2720,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "44585618ccfd3520bda408c62bc94c57116f854061458459b0b9102e373e8eb6"
+  },
+  {
+    "path": "public/allb/extracted/brahmi-hero.webp",
+    "bytes": 13590,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "5254f7ab850be1bc24c40b172015826615b5ea41c91f5121c90504ab3833be8a"
+  },
+  {
+    "path": "public/allb/extracted/catalog-01.webp",
+    "bytes": 2446,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "c188721658716bd4d333be7547ceb26b5f8994b1678986ca8f56308fe242838c"
+  },
+  {
+    "path": "public/allb/extracted/catalog-02.webp",
+    "bytes": 3460,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "8986003ec6ccdbd656b0b9f23364811c76f226e7546cd3cd31e2fb146f22ba22"
+  },
+  {
+    "path": "public/allb/extracted/catalog-03.webp",
+    "bytes": 3172,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "cc7ab27b9b6528d3d9f7e640b604b92d9801047c69aefb6d8f651afe868112a8"
+  },
+  {
+    "path": "public/allb/extracted/catalog-04.webp",
+    "bytes": 2056,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "50efc8cb5f6c94efba21c59f67afd0863d2f7cd354bb3cce08540d067c1512ff"
+  },
+  {
+    "path": "public/allb/extracted/catalog-05.webp",
+    "bytes": 3024,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "546229c4bff08d9e7bd7bb8b0273834f3c1aa32df3417d26f9fb4749e185af4f"
+  },
+  {
+    "path": "public/allb/extracted/catalog-06.webp",
+    "bytes": 1880,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "abfe71fa9cba9a4773fa02dc228da31540f574dc061dbcc89e1781e2dd0964d2"
+  },
+  {
+    "path": "public/allb/extracted/catalog-07.webp",
+    "bytes": 2776,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "019612bf58bf82381d3dad67a55c9845e71abc85c77dc31e4a80ea1e2a44656d"
+  },
+  {
+    "path": "public/allb/extracted/catalog-08.webp",
+    "bytes": 1842,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "af1c92b7a84029aa7bd1362d24105ac00e160e210cfbf4f0b0ae2045e94a908a"
+  },
+  {
+    "path": "public/allb/extracted/catalog-09.webp",
+    "bytes": 2362,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "bbf370859dac20a05fde58cb15a10e99863fd499a8bd0e5f735487ac455c8320"
+  },
+  {
+    "path": "public/allb/extracted/catalog-10.webp",
+    "bytes": 3346,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "7bc17792c8d4e30f792501f93c713888e3c206ec640e0e365556f4f011e19fe0"
+  },
+  {
+    "path": "public/allb/extracted/catalog-11.webp",
+    "bytes": 2128,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "0c2a5e6cc985c7da7c93a9e030ad172d87d4b277148bd3e6b12f7e34d222ff68"
+  },
+  {
+    "path": "public/allb/extracted/catalog-12.webp",
+    "bytes": 2114,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "1f79b8d60ba92bd865ffed5e962d66c7e5ee5583ce4e6791ee2dcd8560982c80"
+  },
+  {
+    "path": "public/allb/extracted/catalog-13.webp",
+    "bytes": 2132,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "f1993244b62635532b552bec138f5d5915f2c3ba2062504ba894993af6f2c4cf"
+  },
+  {
+    "path": "public/allb/extracted/catalog-14.webp",
+    "bytes": 2754,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "e7a47c0290492c92763bb77b43091060f9416462187c08fdbfdbc629b429afb8"
+  },
+  {
+    "path": "public/allb/extracted/catalog-15.webp",
+    "bytes": 1690,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "3aa6c9b43e0da714a52c7ef46e5f2b5394e915e53a6c77b06327cf82aa57bef0"
+  },
+  {
+    "path": "public/allb/extracted/catalog-16.webp",
+    "bytes": 2232,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "44962cd98886967b10ede68b817751888c4813b7679d63a15fb894f5e78ff95b"
+  },
+  {
+    "path": "public/allb/extracted/catalog-17.webp",
+    "bytes": 2446,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "a3582736c9c7cf1080fa03d6a8d84105ef2de94d76cba4743090d36d40109c5f"
+  },
+  {
+    "path": "public/allb/extracted/catalog-18.webp",
+    "bytes": 2420,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "b15e1b2083cced5ab74314d50fee82fb8349083bf23a23e117250584c0196c7e"
+  },
+  {
+    "path": "public/allb/extracted/catalog-19.webp",
+    "bytes": 2982,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "ed9bb8d160e92617488a5f0d73b8f42ee6df59c8d69f8c241570b265b986600b"
+  },
+  {
+    "path": "public/allb/extracted/catalog-20.webp",
+    "bytes": 2880,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "caaeb1cacf3eb3e8cf9c202f0da7d2a505d04c032550856c1d353ba7722240e2"
+  },
+  {
+    "path": "public/allb/extracted/commerce-closing.webp",
+    "bytes": 4900,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "f369b9cdad486f4c5fe6ae0c07d6a79fbbacbe7383cd7ae00cb72a438b9cfa30"
+  },
+  {
+    "path": "public/allb/extracted/commerce-hero.webp",
+    "bytes": 15696,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "00589ade0b48a6bb3decc163dad6691904622a5acd30271c128fc27193f591fb"
+  },
+  {
+    "path": "public/allb/extracted/core-aham-closing.webp",
+    "bytes": 4932,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "e547e26e27aacfd7893f3053049adbce0d02c9416b9d69c1a5cbb99a4cc10dc5"
+  },
+  {
+    "path": "public/allb/extracted/core-aham-hero.webp",
+    "bytes": 18420,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "78b21a7ef90b2bec9aae3efe6f575f23856e77b584a2b589d3795f29e8f478ba"
+  },
+  {
+    "path": "public/allb/extracted/data-services-closing.webp",
+    "bytes": 4780,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "9a84fdd1d5ba9bd762911103b2274eaaafd2fe6b0e3175bd11798524f86085e9"
+  },
+  {
+    "path": "public/allb/extracted/data-services-hero.webp",
+    "bytes": 16570,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "7a078572dead372deab66baef4dd26545f20f3972e5ebb1fd56c0a23dc2967d8"
+  },
+  {
+    "path": "public/allb/extracted/developer-ecosystem-closing.webp",
+    "bytes": 2650,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "ac234d33d47d0db515860a30917f49ba1aaf401c8ac6226c684d04887d8cd6d9"
+  },
+  {
+    "path": "public/allb/extracted/developer-ecosystem-hero.webp",
+    "bytes": 21474,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "c730f606454e6970477ebf7212f6c40c25144c9e84cdc01f4a8b8da21a5fb5c4"
+  },
+  {
+    "path": "public/allb/extracted/developer-tools-closing.webp",
+    "bytes": 3372,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "a67f3000b632c41458133aa27fc6dc6c40fd6bf05efad7580d339c13642b2bfd"
+  },
+  {
+    "path": "public/allb/extracted/developer-tools-hero.webp",
+    "bytes": 20034,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "ef33715e35fb0f9d17928bcdac66b917f0b1af5bc3bd9cdf0665dbb1eb24e0e6"
+  },
+  {
+    "path": "public/allb/extracted/game-1.webp",
+    "bytes": 6186,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "988f591cd26b911da7b220cc9b87544f89a0cfacca667b7f509b5c11bbf0d7f3"
+  },
+  {
+    "path": "public/allb/extracted/game-2.webp",
+    "bytes": 4960,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "ebfbaa0951e53f0ce3bbb188ed7dc49adc4823380b83c69c611ed5a8d3fc4815"
+  },
+  {
+    "path": "public/allb/extracted/game-3.webp",
+    "bytes": 6300,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "d0447cb9c90e2621b85e60d31b694796347eb77ecbf51831f1d36e9aaabe9731"
+  },
+  {
+    "path": "public/allb/extracted/game-4.webp",
+    "bytes": 8142,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "15b509ab90e3afa397ed45ff8bfc9ee4ed99ec5cfa1613f944427756d3118301"
+  },
+  {
+    "path": "public/allb/extracted/games-card-0-0.webp",
+    "bytes": 5704,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "cfcbdf1538d797a88f0a072b61a882077b66151c9300146b2defb943621dd24c"
+  },
+  {
+    "path": "public/allb/extracted/games-card-0-1.webp",
+    "bytes": 4024,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "9eb5335965e02be3a8313435e09b4902715ae5474cb3bf190bec60f9ca028668"
+  },
+  {
+    "path": "public/allb/extracted/games-card-0-2.webp",
+    "bytes": 4822,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "d99eeef20b4001c7754160d7c3d7b7e7e68081ae17184ab1821f660dfdcab21d"
+  },
+  {
+    "path": "public/allb/extracted/games-closing.webp",
+    "bytes": 5032,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "4925ba70027b53473f5ac17854d0ec73de6b9a7c39647817410ac768cce52ab7"
+  },
+  {
+    "path": "public/allb/extracted/games-detail-1.webp",
+    "bytes": 19096,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "f63f07c1e7dea5fbe907246e843dbf17689389c1b10a8ba2580261567cf5bd1b"
+  },
+  {
+    "path": "public/allb/extracted/games-detail-4.webp",
+    "bytes": 5626,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "041e20be0bb132128b4be9ac8b4349e7444808cdb593c1fce833e037dad2bc51"
+  },
+  {
+    "path": "public/allb/extracted/games-hero.webp",
+    "bytes": 19824,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "ac7948dba406b3395c8caa96c29ff8c0fead6a8fef5c44a79de1a571c9cb5460"
+  },
+  {
+    "path": "public/allb/extracted/governance-closing.webp",
+    "bytes": 2378,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "755d1e3572ee83699ba04d54b5aa5d5ffeff2f35e0a7a2fa47abeae321fbf8d1"
+  },
+  {
+    "path": "public/allb/extracted/governance-hero.webp",
+    "bytes": 21648,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "010548b832fad5d38b679ce041aa6f4ff2d5cbed0c78a29bffc1912f20a399e9"
+  },
+  {
+    "path": "public/allb/extracted/hardware-closing.webp",
+    "bytes": 6494,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "9834ca3e0b97032c13c4c4b59a56d4840255350a39846cf55ed3e5e7d0dda5a2"
+  },
+  {
+    "path": "public/allb/extracted/hardware-hero.webp",
+    "bytes": 14806,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "c3ffb3532a009f88fdb89fdbadc97b3d53482f300c6cc7b04b2af626a65bd983"
+  },
+  {
+    "path": "public/allb/extracted/hemant-clock-closing.webp",
+    "bytes": 6384,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "b8e0547fbaf03e92f846ccf4a9c99f8eccba942d9337aa3d1b77c2164bbb51a8"
+  },
+  {
+    "path": "public/allb/extracted/hemant-clock-hero.webp",
+    "bytes": 21220,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "eaf8321a278794be40202dd55ce69a5a50221af1287d3777b3bd4b3e34e4a629"
+  },
+  {
+    "path": "public/allb/extracted/kharoshti-closing.webp",
+    "bytes": 1394,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "bb0b2f19c783df5f7b1b3840b3c9c0d0575c7566acf96d5bf449bcc4a0f649ab"
+  },
+  {
+    "path": "public/allb/extracted/kharoshti-hero.webp",
+    "bytes": 15876,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "2503dcf0de1b040925a06b8edda43c1df94a7b38ee13e3c098486326380deea8"
+  },
+  {
+    "path": "public/allb/extracted/maataa-auth-closing.webp",
+    "bytes": 3624,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "b872f523922ab8c2ce86f2fb917fcbd87fbdbab69159bc302c95ccbb5c381dd7"
+  },
+  {
+    "path": "public/allb/extracted/maataa-auth-hero.webp",
+    "bytes": 17076,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "febd050a927c5128f7d864d68ebb4459a3f5014a7b39022a73ea20331650bd7a"
+  },
+  {
+    "path": "public/allb/extracted/maataa-closing.webp",
+    "bytes": 3482,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "b422739d0ef5803e070e1c872e96dfdd8533a993b027b9bd576d5bce9357fce1"
+  },
+  {
+    "path": "public/allb/extracted/maataa-db-studio-closing.webp",
+    "bytes": 2528,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "c3b068385f785bc953dfe4c0eb3aa22d469608aa3d4287f7138044e672be85d1"
+  },
+  {
+    "path": "public/allb/extracted/maataa-db-studio-hero.webp",
+    "bytes": 17802,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "048374169d672af09e75784be743419cbeb7880e5cce4ea03110622baaf6cfe4"
+  },
+  {
+    "path": "public/allb/extracted/maataa-desktop-closing.webp",
+    "bytes": 3372,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "e44a9488065b345523086e62b844a1b475e88b1a6ed9ab5c0b6c5b35c7b25a31"
+  },
+  {
+    "path": "public/allb/extracted/maataa-desktop-hero.webp",
+    "bytes": 15524,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "98cdba33c4447b0df22c33205e7890a33aa4ceb9065fca02a4cc6f41c8d2d411"
+  },
+  {
+    "path": "public/allb/extracted/maataa-hero.webp",
+    "bytes": 14874,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "dbef3e1dd2f8ad5b5881cc7170080f046cb2b12bf38fd7f1cc536ab3162f10d1"
+  },
+  {
+    "path": "public/allb/extracted/maataa-os-closing.webp",
+    "bytes": 2396,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "7482fd975c70efd85254c53885a9202ed030e7bed39f8d4c81f13538d58e1eb7"
+  },
+  {
+    "path": "public/allb/extracted/maataa-os-hero.webp",
+    "bytes": 8220,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "a29be6939a3d2fccbff19caefedc0981aa9b855eb2c4c559e93b44839c662b42"
+  },
+  {
+    "path": "public/allb/extracted/maataa-ui-closing.webp",
+    "bytes": 4078,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "0ebccebe453c0067028a04297f44f6de374476e66db4fad39259652e032a1e0a"
+  },
+  {
+    "path": "public/allb/extracted/maataa-ui-hero.webp",
+    "bytes": 13072,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "f1b3bc8df9cce8cde4742d858b6a9c4f66fcadfc3309eb329a30b8ef2239ea85"
+  },
+  {
+    "path": "public/allb/extracted/nevo-card-0-0.webp",
+    "bytes": 5648,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "d259157d7b041528ad64c6a9e661a4e29908a5f05f9aa938045768d8a95fcf13"
+  },
+  {
+    "path": "public/allb/extracted/nevo-card-0-1.webp",
+    "bytes": 6306,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "f1293664dadfa43fd3c49b4fd9c4775f449520850021f52c17a17ab263a1892f"
+  },
+  {
+    "path": "public/allb/extracted/nevo-card-0-2.webp",
+    "bytes": 5476,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "906a6b74dfc03d42fb55ae7c989c356a158765fcba7c745a1232a772960053ce"
+  },
+  {
+    "path": "public/allb/extracted/nevo-card-0-3.webp",
+    "bytes": 6462,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "7ab7de04d358b2782a50771e6924b91325688198ae65ea15043d60e4373776c2"
+  },
+  {
+    "path": "public/allb/extracted/nevo-card-0-4.webp",
+    "bytes": 3846,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "a6a22614574d3a752cb6b8a7560f26042a720520cde35830eca4cf92c2734f2f"
+  },
+  {
+    "path": "public/allb/extracted/nevo-closing.webp",
+    "bytes": 8052,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "07acf983c9eb64709998d03dd73746a103f03f5c3e62ff5b1a69ab6b34a24142"
+  },
+  {
+    "path": "public/allb/extracted/nevo-detail-2.webp",
+    "bytes": 22072,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "49604aacbb56cf41cc2343d2baa7868c2509c8ddf2f1f857b498d8c5db4857a1"
+  },
+  {
+    "path": "public/allb/extracted/nevo-hero.webp",
+    "bytes": 30908,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "ea1217c475f4b2a09b34299a07170a8909ac5727fdb5e28ca3f9e7310d012213"
+  },
+  {
+    "path": "public/allb/extracted/nevo-workflow-closing.webp",
+    "bytes": 4472,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "d1017ef0ddb6b12d6f10e3ed43def7ab33b4d019aa72099c6262934a977291e5"
+  },
+  {
+    "path": "public/allb/extracted/nevo-workflow-detail-0.webp",
+    "bytes": 19596,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "bf3fa7d2fb5d6bf3ac98fc1926e76c40884f443e35cf5f7e2468eb0e0d6c14a8"
+  },
+  {
+    "path": "public/allb/extracted/nevo-workflow-hero.webp",
+    "bytes": 21772,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "32e462e3baa5743a9d22087460c702b3f912e8ab494d9e420bd045b30f9d5c53"
+  },
+  {
+    "path": "public/allb/extracted/observatory-closing.webp",
+    "bytes": 7396,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "77483da65e339e58b69322fe68692a8c0cb6f205f8ed5a28b5615bcbaa8d5f72"
+  },
+  {
+    "path": "public/allb/extracted/observatory-hero.webp",
+    "bytes": 26118,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "013cc32a6bf4dc4192131878dc4662d5761483a4a480ce123fb3ff9f143113b8"
+  },
+  {
+    "path": "public/allb/extracted/operations-closing.webp",
+    "bytes": 5930,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "b97b60e1a9be5c459eeef2ee618cb5e4b5d067d3f2fbe96f6b61be2f31418017"
+  },
+  {
+    "path": "public/allb/extracted/operations-hero.webp",
+    "bytes": 12648,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "ae5c4ca02b9ac6a22407901960e809f91327cf604ddfbe6997633589c083541f"
+  },
+  {
+    "path": "public/allb/extracted/panchanga-choice-0.webp",
+    "bytes": 2390,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "53a2b7d896306f35499f105e1d38e5a60e8418432d8d02c949fb271b24c2ee7d"
+  },
+  {
+    "path": "public/allb/extracted/panchanga-choice-1.webp",
+    "bytes": 2290,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "e40923cd6da646b69a7a3bab1ef82d2e9056af6c71e82e0a0ea8c8b515f83de1"
+  },
+  {
+    "path": "public/allb/extracted/panchanga-choice-2.webp",
+    "bytes": 2956,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "b12e9c8892d0a252c4b7da40ac4195873044ab8d78989bf39fbaed93ade591d5"
+  },
+  {
+    "path": "public/allb/extracted/panchanga-choice-3.webp",
+    "bytes": 2924,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "1fb296bd05c3a17bb857bc54b0bb193f3220cfb874a3637dba65f9757fcc55e5"
+  },
+  {
+    "path": "public/allb/extracted/panchanga-choice-4.webp",
+    "bytes": 2326,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "b79fea38c10f0d1ec0dbe12b4b1db98aaafee5444e587d40b3dcc77f6dc1dab7"
+  },
+  {
+    "path": "public/allb/extracted/panchanga-closing.webp",
+    "bytes": 3524,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "212de41cf33e63f93d893d8b5d5c18c7a8b15a0981231a7207357eb948fff60b"
+  },
+  {
+    "path": "public/allb/extracted/panchanga-hero.webp",
+    "bytes": 30552,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "f479d0226b4ad5c902292a6c8fb078d7bff7fc63e344dd92d39877d19a03b32c"
+  },
+  {
+    "path": "public/allb/extracted/product-directory-closing.webp",
+    "bytes": 1458,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "5339ce3360dc0e2aba003d2fa12cdf348b4ca2e810c47cdf1612b4d6b6f93c05"
+  },
+  {
+    "path": "public/allb/extracted/product-directory-hero.webp",
+    "bytes": 13890,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "9e9849811c78713289ba27441c11676b9b6efe16b11035a34408b58996d09ed3"
+  },
+  {
+    "path": "public/allb/extracted/production-closing.webp",
+    "bytes": 4902,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "e99f5259dbc413d92d53a196f1a50afadaea9196a6a6707609fb7e2d9eb3d56f"
+  },
+  {
+    "path": "public/allb/extracted/production-hero.webp",
+    "bytes": 22126,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "8bdccaaf7dbf7dd841f3c35e7912cbae49359d8ca7ae9bc5433f62b2b627cbda"
+  },
+  {
+    "path": "public/allb/extracted/roadmap-closing.webp",
+    "bytes": 4494,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "ac90b11d4f0ed6b994ffa3cdea86b2e248bfafdde9ef40f91e3f3172a3756dab"
+  },
+  {
+    "path": "public/allb/extracted/roadmap-hero.webp",
+    "bytes": 21190,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "9e4ca7933f5440bd6fb2bd0b833738f54ac0b6a376f4660fb8899a04176fdb1e"
+  },
+  {
+    "path": "public/allb/extracted/samwat-closing.webp",
+    "bytes": 5816,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "c51652b0adc3125af1c6ca53da0df247a692ee48171b65b9b0a5bd8d2c8f8a76"
+  },
+  {
+    "path": "public/allb/extracted/samwat-detail-0.webp",
+    "bytes": 15390,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "75280573c066c4f80baf4609605f88c1575a56510775ad5c9cbc213c2ddb007f"
+  },
+  {
+    "path": "public/allb/extracted/samwat-hero.webp",
+    "bytes": 31424,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "7e1b7e8a82e6270767245d7d506f49e45e9591cba95f2d9201ef725b46a47bc0"
+  },
+  {
+    "path": "public/allb/extracted/samwat-research-card-0-0.webp",
+    "bytes": 1436,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "e85bf4d6e38cb02d5849869432de2ae82585a3e7c97aa3529770d52934cf1d12"
+  },
+  {
+    "path": "public/allb/extracted/samwat-research-card-0-1.webp",
+    "bytes": 828,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "adc0f95cdf0d119054bb5e16b1d5feefbb15324f52297ccec7e7cb909a8a9b77"
+  },
+  {
+    "path": "public/allb/extracted/samwat-research-card-0-2.webp",
+    "bytes": 1348,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "955e9a2671b3d4168bae2eb24f6f269447d080caff1afe357179d0a875a4d90a"
+  },
+  {
+    "path": "public/allb/extracted/samwat-research-closing.webp",
+    "bytes": 5144,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "b585b217f1d8e05e280a280e6b2f3cf6b20bc8e4b7821a55c2e319400ff7e18f"
+  },
+  {
+    "path": "public/allb/extracted/samwat-research-detail-1.webp",
+    "bytes": 11884,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "57ac77c87a7ba44abcbb8712de42275f3ebc0212af25dffbb4598e8b9b6f4a7f"
+  },
+  {
+    "path": "public/allb/extracted/samwat-research-hero.webp",
+    "bytes": 19502,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "935816f38f7e51fd369c463a284870d8105221578ad4d2286633a8ac204e4483"
+  },
+  {
+    "path": "public/allb/extracted/sankranti-closing.webp",
+    "bytes": 5540,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "1c13c84a594c13e72429b273546e34644ede37a52593c8f591fc347e44217dda"
+  },
+  {
+    "path": "public/allb/extracted/sankranti-hero.webp",
+    "bytes": 14950,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "7ed2a5388945cce19fa9015ec1ac6a6ae773d6d31d0d95be927fd4fca4ae698b"
+  },
+  {
+    "path": "public/allb/extracted/shree-closing.webp",
+    "bytes": 3762,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "869b010c8a9273450c37f49a7d7f1aa741e7440b83735fa832d0787bf62717eb"
+  },
+  {
+    "path": "public/allb/extracted/shree-hero.webp",
+    "bytes": 17918,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "3a2af58d619b66d2ccb0eda5f33d6ca36bbd8f628e279c48d8c8800315fe9e41"
+  },
+  {
+    "path": "public/allb/extracted/siddham-card-0-0.webp",
+    "bytes": 3364,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "681a5ab18467ddfa2ad92cbf9655590d9917886fb73ccaaf8c1adbaba6a0ab4f"
+  },
+  {
+    "path": "public/allb/extracted/siddham-card-0-1.webp",
+    "bytes": 3566,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "ecf88ebb374730582a693e7ea6354512a22ddd945d1ca14607f40b9e1bbbe20c"
+  },
+  {
+    "path": "public/allb/extracted/siddham-card-0-2.webp",
+    "bytes": 3428,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "556d93f007056b352b211131048d818ab2cebabafe4f8e511eb253acd4de4c69"
+  },
+  {
+    "path": "public/allb/extracted/siddham-card-3-0.webp",
+    "bytes": 2768,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "492ebbd89eedce61f3738b4fda55c15617edd7a8db0943c6e85c47c15d6c9793"
+  },
+  {
+    "path": "public/allb/extracted/siddham-card-3-1.webp",
+    "bytes": 3654,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "183c5ff2f50604a835eb584b8e76917b197eac1eb6f203d4419ff799c1a0eab1"
+  },
+  {
+    "path": "public/allb/extracted/siddham-card-3-2.webp",
+    "bytes": 4796,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "4c89307aeeb373a9f2204dafea7e43e82ad208a53218d2f4cc1a588391afd13b"
+  },
+  {
+    "path": "public/allb/extracted/siddham-closing.webp",
+    "bytes": 3298,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "a45640c72abd8d2b148508f3931f0d01005c2b256fdccd03e3a510a8e562cf9b"
+  },
+  {
+    "path": "public/allb/extracted/siddham-hero.webp",
+    "bytes": 16394,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "2a2e0d4d2060315a81f1534b6c103e593706676052d32beab85fb5b293dd35b3"
+  },
+  {
+    "path": "public/allb/extracted/simulation-timeline-closing.webp",
+    "bytes": 2230,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "9611fbc5e309766ab16ee464e6580cfedf7e39fc46ecf997db863c071bcc9d4c"
+  },
+  {
+    "path": "public/allb/extracted/simulation-timeline-hero.webp",
+    "bytes": 18028,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "fe79aff053e584a5a378085698a6ca97bec9782bea345541473125744af21983"
+  },
+  {
+    "path": "public/allb/extracted/tlps-card-0-0.webp",
+    "bytes": 2940,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "321566baad0f0c8ceef2cac811da0b5efc231ec03c0d98e67f1c4bb42b1cb61c"
+  },
+  {
+    "path": "public/allb/extracted/tlps-card-0-1.webp",
+    "bytes": 3248,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "b88732cedfef107330bea0a33009164543a0d8d155d963c4441510ce4f1d83b0"
+  },
+  {
+    "path": "public/allb/extracted/tlps-card-0-2.webp",
+    "bytes": 2658,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "4974487f5061405227701f6a0d4e97f78dde53e3c2d3510ea3f8bf700b7f9b5d"
+  },
+  {
+    "path": "public/allb/extracted/tlps-closing.webp",
+    "bytes": 4658,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "b1d12993ebbda6ed5a3a39eaf0a32ab5719ba2167a1df47538db0221e2d975ce"
+  },
+  {
+    "path": "public/allb/extracted/tlps-detail-2.webp",
+    "bytes": 10426,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "c315471e1a20a5cca160ab64b724bd4e902180413912341d784224f73ca5bc49"
+  },
+  {
+    "path": "public/allb/extracted/tlps-hero.webp",
+    "bytes": 22080,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "70534f0a8b9528f40bea1447e48e0eced22cf2da7cbe5083d02226282bfa984a"
+  },
+  {
+    "path": "public/allb/extracted/tlps-workflow-choice-0.webp",
+    "bytes": 2604,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "5a3a5808ea1561f5ab07ce761a8ecb29494c9172159e30a9be36b3a988a7993d"
+  },
+  {
+    "path": "public/allb/extracted/tlps-workflow-choice-1.webp",
+    "bytes": 2246,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "7cfd6c3181b425c2915b0e352e9146655e8d2ae562b29186cc64905fd503b1df"
+  },
+  {
+    "path": "public/allb/extracted/tlps-workflow-choice-2.webp",
+    "bytes": 2408,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "6b186eff9420d9c2373189d68a1d807d73baf419ab072468ff16eff033fc5ff5"
+  },
+  {
+    "path": "public/allb/extracted/tlps-workflow-choice-3.webp",
+    "bytes": 2306,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "94bd079f0ed5110e44da1673e7100fda4488f008010041b666834d706eb36516"
+  },
+  {
+    "path": "public/allb/extracted/tlps-workflow-closing.webp",
+    "bytes": 1922,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "4dd99c1dc32dd4da216f157077d819562712592f4840a582191d8199db9de2f0"
+  },
+  {
+    "path": "public/allb/extracted/tlps-workflow-detail-3.webp",
+    "bytes": 11182,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "6792c3374124e5ce514e495ba102106cbb2fa07e4a91a20f8d301ec96e473cad"
+  },
+  {
+    "path": "public/allb/extracted/tlps-workflow-hero.webp",
+    "bytes": 13900,
+    "source": "Crop of supplied optimized WebP; original pixels preserved",
+    "sha256": "fe615449325102ae03b9a7c9bc985e1a002b283d884fb4b4a68b9921ee458752"
+  }
+]

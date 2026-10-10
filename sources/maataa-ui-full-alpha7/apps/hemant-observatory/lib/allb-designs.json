@@ -1,0 +1,3279 @@
+[
+  {
+    "slug": "allb",
+    "headline": "Matter to possibility",
+    "family": "ecosystem",
+    "hero": "/allb/extracted/allb-hero.webp",
+    "closing": "/allb/extracted/allb-closing.webp",
+    "sections": [
+      {
+        "kicker": "Ecosystem",
+        "title": "The ALLB / MAATAA ecosystem",
+        "kind": "ecosystem",
+        "labels": [
+          "SAMWAT",
+          "ALLB",
+          "MAATAA"
+        ],
+        "art": "/allb/extracted/allb-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Explore the relationship between the ALLB root, MAATAA platform and SAMWAT time-and-sky concept.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Products",
+        "title": "Three products. A broader tomorrow",
+        "kind": "cards",
+        "labels": [
+          "Core",
+          "Mover",
+          "NEVO"
+        ],
+        "art": "/allb/extracted/allb-hero.webp",
+        "layout": "wide",
+        "cardArts": [
+          "/allb/extracted/allb-card-1-0.webp",
+          "/allb/extracted/allb-card-1-1.webp",
+          "/allb/extracted/allb-card-1-2.webp"
+        ],
+        "description": "Distinct concepts, each with its own role in the larger ecosystem.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Workspace",
+        "title": "A foundation for your world",
+        "kind": "dashboard",
+        "labels": [
+          "Projects",
+          "People",
+          "Activity"
+        ],
+        "art": "/allb/extracted/allb-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "A foundation for your world. Explore the visual context and its explicit limits.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Applications",
+        "title": "Six application families",
+        "kind": "pursuits",
+        "labels": [
+          "Space",
+          "Cities",
+          "Environment",
+          "Oceans",
+          "Industries",
+          "People"
+        ],
+        "art": "/allb/extracted/allb-hero.webp",
+        "layout": "wide",
+        "cardArts": [],
+        "description": "From space to everyday life, these are visual application themes rather than deployed services.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Production",
+        "title": "From idea to reality",
+        "kind": "steps",
+        "labels": [
+          "Design",
+          "Simulate",
+          "Prototype",
+          "Manufacture",
+          "Test",
+          "Deploy"
+        ],
+        "art": "/allb/extracted/allb-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "From idea to reality. Explore the visual context and its explicit limits.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Science",
+        "title": "Science for a brighter world",
+        "kind": "feature",
+        "labels": [],
+        "art": "/allb/extracted/allb-detail-5.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Science for a brighter world. Explore the visual context and its explicit limits.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Developers",
+        "title": "Build from a common root",
+        "kind": "code",
+        "labels": [
+          "Python",
+          "TypeScript",
+          "JSON"
+        ],
+        "art": "/allb/extracted/allb-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Review and copy a local example contract. No SDK, endpoint or remote operation is implied.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Roadmap",
+        "title": "A journey worth building",
+        "kind": "timeline",
+        "labels": [
+          "Foundation",
+          "Validation",
+          "Pilot",
+          "Review",
+          "Expansion"
+        ],
+        "art": "/allb/extracted/allb-hero.webp",
+        "layout": "wide",
+        "cardArts": [],
+        "description": "A journey worth building. Explore the visual context and its explicit limits.",
+        "tone": "dark"
+      }
+    ],
+    "heroDescription": "Gold orbital rings surround a polished matter sphere above an illuminated Earth horizon.",
+    "closingTitle": "Matter to possibility",
+    "faqTone": "light",
+    "closingTone": "dark",
+    "lede": "Materials, intelligence and applications\u2014from physical foundations to a more capable, creative world."
+  },
+  {
+    "slug": "siddham",
+    "headline": "Intelligence starts with silicon",
+    "family": "hardware",
+    "hero": "/allb/extracted/siddham-hero.webp",
+    "closing": "/allb/extracted/siddham-closing.webp",
+    "sections": [
+      {
+        "kicker": "Processors",
+        "title": "Purpose-built intelligence",
+        "kind": "cards",
+        "labels": [
+          "S1 Compute",
+          "V1 Vision",
+          "C1 Connect"
+        ],
+        "art": "/allb/extracted/siddham-hero.webp",
+        "layout": "split",
+        "cardArts": [
+          "/allb/extracted/siddham-card-0-0.webp",
+          "/allb/extracted/siddham-card-0-1.webp",
+          "/allb/extracted/siddham-card-0-2.webp"
+        ],
+        "description": "Distinct concepts, each with its own role in the larger ecosystem.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Architecture",
+        "title": "Intelligence in every layer",
+        "kind": "layers",
+        "labels": [
+          "Application",
+          "Runtime",
+          "Memory",
+          "Compute",
+          "Silicon"
+        ],
+        "art": "/allb/extracted/siddham-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Understand the relationships between layers and the boundaries that still need implementation.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Workflow",
+        "title": "From idea to integration",
+        "kind": "steps",
+        "labels": [
+          "Design",
+          "Develop",
+          "Simulate",
+          "Deploy"
+        ],
+        "art": "/allb/extracted/siddham-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "From idea to integration. Explore the visual context and its explicit limits.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Ecosystem",
+        "title": "Part of a connected whole",
+        "kind": "cards",
+        "labels": [
+          "NEVO",
+          "Siddham",
+          "SAMWAT"
+        ],
+        "art": "/allb/extracted/siddham-hero.webp",
+        "layout": "split",
+        "cardArts": [
+          "/allb/extracted/siddham-card-3-0.webp",
+          "/allb/extracted/siddham-card-3-1.webp",
+          "/allb/extracted/siddham-card-3-2.webp"
+        ],
+        "description": "Distinct concepts, each with its own role in the larger ecosystem.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Specifications",
+        "title": "Designed to be understood",
+        "kind": "specs",
+        "labels": [
+          "Architecture",
+          "Interface",
+          "Power envelope",
+          "Package"
+        ],
+        "art": "/allb/extracted/siddham-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Inspect the reference fields as local examples. Values, hardware specifications and readiness remain unverified.",
+        "tone": "light"
+      }
+    ],
+    "heroDescription": "A large black Siddham chip stands diagonally on rocky ground against a planetary sunrise.",
+    "closingTitle": "Build what is next with Siddham",
+    "faqTone": "dark",
+    "closingTone": "dark",
+    "lede": "Explore silicon concepts for compute, perception and connected control. Keep architecture and evidence in view."
+  },
+  {
+    "slug": "kharoshti",
+    "headline": "Intelligence at the edge",
+    "family": "hardware",
+    "hero": "/allb/extracted/kharoshti-hero.webp",
+    "closing": "/allb/extracted/kharoshti-closing.webp",
+    "sections": [
+      {
+        "kicker": "Device",
+        "title": "Small footprint. Broad possibility",
+        "kind": "tabs",
+        "labels": [
+          "Front",
+          "Back",
+          "Side",
+          "Top"
+        ],
+        "art": "/allb/extracted/kharoshti-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Small footprint. Broad possibility. Explore the visual context and its explicit limits.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Pipeline",
+        "title": "Closer to the source",
+        "kind": "steps",
+        "labels": [
+          "Data",
+          "Edge",
+          "Sync",
+          "Insights"
+        ],
+        "art": "/allb/extracted/kharoshti-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Closer to the source. Explore the visual context and its explicit limits.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Fleet",
+        "title": "One view of every edge",
+        "kind": "dashboard",
+        "labels": [
+          "Gateway North",
+          "Gateway West",
+          "Gateway South"
+        ],
+        "art": "/allb/extracted/kharoshti-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "One view of every edge. Explore the visual context and its explicit limits.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Deployment",
+        "title": "A clear path to scale",
+        "kind": "timeline",
+        "labels": [
+          "Discover",
+          "Pilot",
+          "Scale",
+          "Operate"
+        ],
+        "art": "/allb/extracted/kharoshti-hero.webp",
+        "layout": "wide",
+        "cardArts": [],
+        "description": "A clear path to scale. Explore the visual context and its explicit limits.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Compatibility",
+        "title": "Built to connect",
+        "kind": "cards",
+        "labels": [
+          "Compute",
+          "Sensors",
+          "Communications",
+          "Platform"
+        ],
+        "art": "/allb/extracted/kharoshti-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Distinct concepts, each with its own role in the larger ecosystem.",
+        "tone": "light"
+      }
+    ],
+    "heroDescription": "A compact black edge computer sits among rocks in warm low-angle light.",
+    "closingTitle": "Bring intelligence to the edge",
+    "faqTone": "light",
+    "closingTone": "dark",
+    "lede": "Bring the device, data path and deployment context together. A closer view of intelligence at the edge."
+  },
+  {
+    "slug": "brahmi",
+    "headline": "Connect the physical world",
+    "family": "hardware",
+    "hero": "/allb/extracted/brahmi-hero.webp",
+    "closing": "/allb/extracted/brahmi-closing.webp",
+    "sections": [
+      {
+        "kicker": "Capabilities",
+        "title": "Transmit. Connect. Integrate. Enable",
+        "kind": "cards",
+        "labels": [
+          "Transmit",
+          "Connect",
+          "Integrate",
+          "Enable"
+        ],
+        "art": "/allb/extracted/brahmi-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Distinct concepts, each with its own role in the larger ecosystem.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Details",
+        "title": "Small details. Bigger possibilities",
+        "kind": "feature",
+        "labels": [],
+        "art": "/allb/extracted/brahmi-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Small details. Bigger possibilities. Explore the visual context and its explicit limits.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Signals",
+        "title": "See the signal",
+        "kind": "lighting",
+        "labels": [
+          "Frequency",
+          "Gain",
+          "Noise"
+        ],
+        "art": "/allb/extracted/brahmi-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Adjust the scene appearance in a local visual demo. These controls do not produce photometric measurements.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Network",
+        "title": "Connected by design",
+        "kind": "layers",
+        "labels": [
+          "Source",
+          "Brahmi gateway",
+          "Edge device",
+          "Platform"
+        ],
+        "art": "/allb/extracted/brahmi-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Understand the relationships between layers and the boundaries that still need implementation.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Workflow",
+        "title": "From signal to insight",
+        "kind": "steps",
+        "labels": [
+          "Connect",
+          "Configure",
+          "Transmit",
+          "Inspect"
+        ],
+        "art": "/allb/extracted/brahmi-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "From signal to insight. Explore the visual context and its explicit limits.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Specifications",
+        "title": "Every interface matters",
+        "kind": "specs",
+        "labels": [
+          "Connector",
+          "Frequency band",
+          "Protocol",
+          "Power"
+        ],
+        "art": "/allb/extracted/brahmi-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Inspect the reference fields as local examples. Values, hardware specifications and readiness remain unverified.",
+        "tone": "light"
+      }
+    ],
+    "heroDescription": "A communications unit and multiple antennas are staged against a planetary landscape.",
+    "closingTitle": "Bring the physical world into what is next",
+    "faqTone": "dark",
+    "closingTone": "light",
+    "lede": "From physical signals to shared context. Explore connections, interfaces and the path between them."
+  },
+  {
+    "slug": "maataa-ui",
+    "headline": "A common language for interfaces",
+    "family": "interface",
+    "hero": "/allb/extracted/maataa-ui-hero.webp",
+    "closing": "/allb/extracted/maataa-ui-closing.webp",
+    "sections": [
+      {
+        "kicker": "Foundation",
+        "title": "Start with the essentials",
+        "kind": "components",
+        "labels": [
+          "Buttons",
+          "Inputs",
+          "Cards",
+          "Navigation",
+          "Feedback",
+          "Overlays"
+        ],
+        "art": "/allb/extracted/maataa-ui-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Start with the essentials. Explore the visual context and its explicit limits.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Tokens",
+        "title": "One language. Different expressions",
+        "kind": "tokens",
+        "labels": [
+          "Graphite",
+          "Earth",
+          "Cosmic",
+          "Pearl"
+        ],
+        "art": "/allb/extracted/maataa-ui-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Graphite, earth, cosmic and pearl expressions share a considered visual foundation.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Components",
+        "title": "From primitives to possibilities",
+        "kind": "components",
+        "labels": [
+          "Buttons",
+          "Inputs",
+          "Cards",
+          "Navigation",
+          "Feedback",
+          "Overlays"
+        ],
+        "art": "/allb/extracted/maataa-ui-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "From primitives to possibilities. Explore the visual context and its explicit limits.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Accessibility",
+        "title": "Thoughtful by default",
+        "kind": "cards",
+        "labels": [
+          "Keyboard",
+          "Contrast",
+          "Readable type",
+          "Reduced motion"
+        ],
+        "art": "/allb/extracted/maataa-ui-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Distinct concepts, each with its own role in the larger ecosystem.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Themes",
+        "title": "Light and dark. Equally considered",
+        "kind": "themes",
+        "labels": [
+          "Light",
+          "Dark"
+        ],
+        "art": "/allb/extracted/maataa-ui-closing.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Contrast, spacing and hierarchy deserve the same attention in light and dark surfaces.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Code",
+        "title": "Built for your workflow",
+        "kind": "code",
+        "labels": [
+          "React",
+          "HTML",
+          "Design tokens"
+        ],
+        "art": "/allb/extracted/maataa-ui-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Review and copy a local example contract. No SDK, endpoint or remote operation is implied.",
+        "tone": "dark"
+      }
+    ],
+    "heroDescription": "A glowing brass-gold planet with a fine orbit rests on layered dark stone.",
+    "closingTitle": "Create more meaningful experiences, together",
+    "faqTone": "light",
+    "closingTone": "dark",
+    "lede": "Calm. Consistent. Human. A shared visual language for interfaces across the ALLB ecosystem."
+  },
+  {
+    "slug": "maataa",
+    "headline": "One foundation. Many tools",
+    "family": "ecosystem",
+    "hero": "/allb/extracted/maataa-hero.webp",
+    "closing": "/allb/extracted/maataa-closing.webp",
+    "sections": [
+      {
+        "kicker": "Platform",
+        "title": "Shared foundations. Connected possibilities",
+        "kind": "cards",
+        "labels": [
+          "OS",
+          "Desktop",
+          "Data",
+          "UI",
+          "Auth"
+        ],
+        "art": "/allb/extracted/maataa-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Distinct concepts, each with its own role in the larger ecosystem.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Time",
+        "title": "See the bigger picture",
+        "kind": "feature",
+        "labels": [],
+        "art": "/allb/extracted/maataa-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "See the bigger picture. Explore the visual context and its explicit limits.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Creation",
+        "title": "Create with clarity",
+        "kind": "feature",
+        "labels": [],
+        "art": "/allb/extracted/maataa-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Create with clarity. Explore the visual context and its explicit limits.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Services",
+        "title": "Common capabilities. Less repetition",
+        "kind": "cards",
+        "labels": [
+          "Identity",
+          "Data",
+          "Design",
+          "Runtime",
+          "Operations"
+        ],
+        "art": "/allb/extracted/maataa-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Distinct concepts, each with its own role in the larger ecosystem.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Governance",
+        "title": "From intent to accountable action",
+        "kind": "steps",
+        "labels": [
+          "Idea",
+          "Plan",
+          "Build",
+          "Review",
+          "Operate"
+        ],
+        "art": "/allb/extracted/maataa-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "From intent to accountable action. Explore the visual context and its explicit limits.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Directory",
+        "title": "Find your next tool",
+        "kind": "directory",
+        "labels": [],
+        "art": "/allb/extracted/maataa-hero.webp",
+        "layout": "wide",
+        "cardArts": [],
+        "description": "Search the actual concepts in this collection and open their responsive landing pages.",
+        "tone": "light"
+      }
+    ],
+    "heroDescription": "A tower of translucent platform layers rises in the right half of the hero.",
+    "closingTitle": "Build on a common foundation",
+    "faqTone": "light",
+    "closingTone": "dark",
+    "lede": "Shared foundations for your tools, workspaces and decisions. Explore how the pieces fit together."
+  },
+  {
+    "slug": "maataa-auth",
+    "headline": "Identity with explicit authority",
+    "family": "identity",
+    "hero": "/allb/extracted/maataa-auth-hero.webp",
+    "closing": "/allb/extracted/maataa-auth-closing.webp",
+    "sections": [
+      {
+        "kicker": "Sign in",
+        "title": "A clear beginning",
+        "kind": "form",
+        "labels": [
+          "Email",
+          "Password"
+        ],
+        "art": "/allb/extracted/maataa-auth-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Preview an identity context without signing in or sending credentials to a service.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Workspaces",
+        "title": "One identity. Explicit contexts",
+        "kind": "dashboard",
+        "labels": [
+          "Research workspace",
+          "Production workspace",
+          "Design workspace"
+        ],
+        "art": "/allb/extracted/maataa-auth-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "One identity. Explicit contexts. Explore the visual context and its explicit limits.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Permissions",
+        "title": "Know who can do what",
+        "kind": "matrix",
+        "labels": [
+          "Viewer",
+          "Operator",
+          "Editor",
+          "Admin"
+        ],
+        "art": "/allb/extracted/maataa-auth-hero.webp",
+        "layout": "wide",
+        "cardArts": [],
+        "description": "Know who can do what. Explore the visual context and its explicit limits.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Sessions",
+        "title": "Keep control of your sessions",
+        "kind": "sessions",
+        "labels": [
+          "Desktop",
+          "Mobile",
+          "Studio",
+          "Browser"
+        ],
+        "art": "/allb/extracted/maataa-auth-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Keep control of your sessions. Explore the visual context and its explicit limits.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Audit",
+        "title": "Every action leaves a trail",
+        "kind": "table",
+        "labels": [
+          "Sign-in preview",
+          "Role reviewed",
+          "Session removed",
+          "Workspace selected"
+        ],
+        "art": "/allb/extracted/maataa-auth-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Inspect the reference fields as local examples. Values, hardware specifications and readiness remain unverified.",
+        "tone": "light"
+      }
+    ],
+    "heroDescription": "A fractured pale mineral sphere exposes a warm inner core.",
+    "closingTitle": "Explore identity with explicit authority",
+    "faqTone": "dark",
+    "closingTone": "light",
+    "lede": "One identity. Explicit contexts. Inspect authority, permissions and the record of every decision."
+  },
+  {
+    "slug": "maataa-os",
+    "headline": "A foundation for your workspace",
+    "family": "platform",
+    "hero": "/allb/extracted/maataa-os-hero.webp",
+    "closing": "/allb/extracted/maataa-os-closing.webp",
+    "sections": [
+      {
+        "kicker": "Architecture",
+        "title": "Every layer has a purpose",
+        "kind": "layers",
+        "labels": [
+          "Applications",
+          "Desktop",
+          "Services",
+          "Runtime",
+          "Core"
+        ],
+        "art": "/allb/extracted/maataa-os-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Understand the relationships between layers and the boundaries that still need implementation.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Workspace",
+        "title": "Make room for your work",
+        "kind": "tabs",
+        "labels": [
+          "Files",
+          "Notes",
+          "Studio",
+          "Browser",
+          "Settings"
+        ],
+        "art": "/allb/extracted/maataa-os-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Make room for your work. Explore the visual context and its explicit limits.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Connected",
+        "title": "One foundation. Connected surfaces",
+        "kind": "cards",
+        "labels": [
+          "Desktop",
+          "Edge",
+          "Data services"
+        ],
+        "art": "/allb/extracted/maataa-os-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Distinct concepts, each with its own role in the larger ecosystem.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Recovery",
+        "title": "Move forward with a way back",
+        "kind": "steps",
+        "labels": [
+          "Review",
+          "Snapshot",
+          "Update",
+          "Recover"
+        ],
+        "art": "/allb/extracted/maataa-os-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Move forward with a way back. Explore the visual context and its explicit limits.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Compatibility",
+        "title": "A deliberate path to compatibility",
+        "kind": "timeline",
+        "labels": [
+          "Today",
+          "Next",
+          "Further"
+        ],
+        "art": "/allb/extracted/maataa-os-hero.webp",
+        "layout": "wide",
+        "cardArts": [],
+        "description": "A deliberate path to compatibility. Explore the visual context and its explicit limits.",
+        "tone": "light"
+      }
+    ],
+    "heroDescription": "A large planet and glowing horizon sit over reflective water.",
+    "closingTitle": "Make room for your next idea",
+    "faqTone": "dark",
+    "closingTone": "light",
+    "lede": "A considered foundation for applications, connected surfaces and recoverable change."
+  },
+  {
+    "slug": "core-aham",
+    "headline": "Intelligence with boundaries",
+    "family": "intelligence",
+    "hero": "/allb/extracted/core-aham-hero.webp",
+    "closing": "/allb/extracted/core-aham-closing.webp",
+    "sections": [
+      {
+        "kicker": "Intent",
+        "title": "From intention to accountable action",
+        "kind": "steps",
+        "labels": [
+          "Intent",
+          "Context",
+          "Proposal",
+          "Approval",
+          "Execute"
+        ],
+        "art": "/allb/extracted/core-aham-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "From intention to accountable action. Explore the visual context and its explicit limits.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Memory",
+        "title": "Context you can inspect",
+        "kind": "directory",
+        "labels": [],
+        "art": "/allb/extracted/core-aham-hero.webp",
+        "layout": "wide",
+        "cardArts": [],
+        "description": "Search the actual concepts in this collection and open their responsive landing pages.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Tools",
+        "title": "Useful tools. Explicit authority",
+        "kind": "cards",
+        "labels": [
+          "Search",
+          "Analyse",
+          "Create",
+          "Integrate"
+        ],
+        "art": "/allb/extracted/core-aham-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Distinct concepts, each with its own role in the larger ecosystem.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Trace",
+        "title": "Follow every decision",
+        "kind": "workflow",
+        "labels": [
+          "Request",
+          "Context",
+          "Proposal",
+          "Review",
+          "Result"
+        ],
+        "art": "/allb/extracted/core-aham-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Choose a step to inspect the local draft context. The preview does not advance a production workflow.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Ecosystem",
+        "title": "A shared foundation for intelligence",
+        "kind": "cards",
+        "labels": [
+          "ALLB",
+          "MAATAA",
+          "SAMWAT"
+        ],
+        "art": "/allb/extracted/core-aham-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Distinct concepts, each with its own role in the larger ecosystem.",
+        "tone": "light"
+      }
+    ],
+    "heroDescription": "A split stone shell surrounds a luminous central core.",
+    "closingTitle": "Explore intelligence with boundaries",
+    "faqTone": "dark",
+    "closingTone": "light",
+    "lede": "Bring intent, context and evidence together. Keep every tool, proposal and approval within visible boundaries."
+  },
+  {
+    "slug": "maataa-desktop",
+    "headline": "Your connected workspace",
+    "family": "workspace",
+    "hero": "/allb/extracted/maataa-desktop-hero.webp",
+    "closing": "/allb/extracted/maataa-desktop-closing.webp",
+    "sections": [
+      {
+        "kicker": "Desktop",
+        "title": "A place for your work",
+        "kind": "dashboard",
+        "labels": [
+          "Projects",
+          "Documents",
+          "Activity"
+        ],
+        "art": "/allb/extracted/maataa-desktop-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "A place for your work. Explore the visual context and its explicit limits.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Applications",
+        "title": "Tools that work together",
+        "kind": "cards",
+        "labels": [
+          "Files",
+          "Notes",
+          "Studio",
+          "Browser"
+        ],
+        "art": "/allb/extracted/maataa-desktop-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Distinct concepts, each with its own role in the larger ecosystem.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Context",
+        "title": "Keep the context close",
+        "kind": "tabs",
+        "labels": [
+          "This document",
+          "Related content",
+          "People",
+          "Timeline"
+        ],
+        "art": "/allb/extracted/maataa-desktop-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Keep the context close. Explore the visual context and its explicit limits.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Workflow",
+        "title": "From review to action",
+        "kind": "steps",
+        "labels": [
+          "Review",
+          "Refine",
+          "Take action"
+        ],
+        "art": "/allb/extracted/maataa-desktop-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "From review to action. Explore the visual context and its explicit limits.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Personalise",
+        "title": "Make your workspace yours",
+        "kind": "tabs",
+        "labels": [
+          "Graphite",
+          "Pearl",
+          "Cosmic"
+        ],
+        "art": "/allb/extracted/maataa-desktop-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Make your workspace yours. Explore the visual context and its explicit limits.",
+        "tone": "light"
+      }
+    ],
+    "heroDescription": "A brass orbital sculpture sits inside an arched interior at night.",
+    "closingTitle": "Step into your connected workspace",
+    "faqTone": "dark",
+    "closingTone": "light",
+    "lede": "Make room for ideas, documents and shared context. See how work can move from review to action."
+  },
+  {
+    "slug": "developer-tools",
+    "headline": "Build from a common root",
+    "family": "developer",
+    "hero": "/allb/extracted/developer-tools-hero.webp",
+    "closing": "/allb/extracted/developer-tools-closing.webp",
+    "sections": [
+      {
+        "kicker": "Foundations",
+        "title": "Small building blocks. Broad possibilities",
+        "kind": "layers",
+        "labels": [
+          "Applications",
+          "SDKs and APIs",
+          "Shared platform"
+        ],
+        "art": "/allb/extracted/developer-tools-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Understand the relationships between layers and the boundaries that still need implementation.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Code",
+        "title": "Start with something tangible",
+        "kind": "code",
+        "labels": [
+          "Python",
+          "TypeScript",
+          "cURL",
+          "CLI"
+        ],
+        "art": "/allb/extracted/developer-tools-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Review and copy a local example contract. No SDK, endpoint or remote operation is implied.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Workflow",
+        "title": "A clear path from setup to integration",
+        "kind": "steps",
+        "labels": [
+          "Set up",
+          "Configure",
+          "Build",
+          "Integrate"
+        ],
+        "art": "/allb/extracted/developer-tools-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "A clear path from setup to integration. Explore the visual context and its explicit limits.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Roadmap",
+        "title": "Built in deliberate stages",
+        "kind": "timeline",
+        "labels": [
+          "Foundation",
+          "Contracts",
+          "Tools",
+          "Validation"
+        ],
+        "art": "/allb/extracted/developer-tools-hero.webp",
+        "layout": "wide",
+        "cardArts": [],
+        "description": "Built in deliberate stages. Explore the visual context and its explicit limits.",
+        "tone": "dark"
+      }
+    ],
+    "heroDescription": "A branching luminous root structure links a central orb to its surroundings.",
+    "closingTitle": "Build from a common root",
+    "faqTone": "light",
+    "closingTone": "dark",
+    "lede": "Begin with shared contracts and inspectable building blocks. Explore one path from setup to integration."
+  },
+  {
+    "slug": "data-services",
+    "headline": "A shared data foundation",
+    "family": "data",
+    "hero": "/allb/extracted/data-services-hero.webp",
+    "closing": "/allb/extracted/data-services-closing.webp",
+    "sections": [
+      {
+        "kicker": "Storage",
+        "title": "A place for every record",
+        "kind": "feature",
+        "labels": [],
+        "art": "/allb/extracted/data-services-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "A place for every record. Explore the visual context and its explicit limits.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Services",
+        "title": "From input to insight",
+        "kind": "cards",
+        "labels": [
+          "Ingest",
+          "Search",
+          "Sync",
+          "Work"
+        ],
+        "art": "/allb/extracted/data-services-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Distinct concepts, each with its own role in the larger ecosystem.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Provenance",
+        "title": "Keep the origin visible",
+        "kind": "layers",
+        "labels": [
+          "Source",
+          "Record",
+          "Method",
+          "Version",
+          "Evidence"
+        ],
+        "art": "/allb/extracted/data-services-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Understand the relationships between layers and the boundaries that still need implementation.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Recovery",
+        "title": "Continue with confidence",
+        "kind": "steps",
+        "labels": [
+          "Past state",
+          "Review",
+          "Recover",
+          "Continue"
+        ],
+        "art": "/allb/extracted/data-services-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Continue with confidence. Explore the visual context and its explicit limits.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Connected",
+        "title": "Shared across the ecosystem",
+        "kind": "cards",
+        "labels": [
+          "MAATAA",
+          "SAMWAT",
+          "NEVO"
+        ],
+        "art": "/allb/extracted/data-services-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Distinct concepts, each with its own role in the larger ecosystem.",
+        "tone": "light"
+      }
+    ],
+    "heroDescription": "Tall server-like pillars with gold edges stand against an Earth horizon.",
+    "closingTitle": "Give your data a clearer foundation",
+    "faqTone": "dark",
+    "closingTone": "dark",
+    "lede": "Every record has a source. Explore storage, lineage and recovery as parts of one shared foundation."
+  },
+  {
+    "slug": "operations",
+    "headline": "Keep the system observable",
+    "family": "operations",
+    "hero": "/allb/extracted/operations-hero.webp",
+    "closing": "/allb/extracted/operations-closing.webp",
+    "sections": [
+      {
+        "kicker": "Overview",
+        "title": "A clear view of the system",
+        "kind": "dashboard",
+        "labels": [
+          "Platform",
+          "Edge",
+          "Data",
+          "Workspace"
+        ],
+        "art": "/allb/extracted/operations-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "A clear view of the system. Explore the visual context and its explicit limits.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Deployments",
+        "title": "Follow the path to release",
+        "kind": "workflow",
+        "labels": [
+          "Build",
+          "Staging",
+          "Review",
+          "Production"
+        ],
+        "art": "/allb/extracted/operations-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Choose a step to inspect the local draft context. The preview does not advance a production workflow.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Incidents",
+        "title": "Bring the details into focus",
+        "kind": "table",
+        "labels": [
+          "Latency investigation",
+          "Device review",
+          "Record recovery",
+          "Deployment review"
+        ],
+        "art": "/allb/extracted/operations-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Inspect the reference fields as local examples. Values, hardware specifications and readiness remain unverified.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Recovery",
+        "title": "A considered path to recovery",
+        "kind": "steps",
+        "labels": [
+          "Diagnose",
+          "Remediate",
+          "Validate"
+        ],
+        "art": "/allb/extracted/operations-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "A considered path to recovery. Explore the visual context and its explicit limits.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Fleet",
+        "title": "Connected systems. Visible context",
+        "kind": "layers",
+        "labels": [
+          "Workspace",
+          "Services",
+          "Edge",
+          "Devices"
+        ],
+        "art": "/allb/extracted/operations-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Understand the relationships between layers and the boundaries that still need implementation.",
+        "tone": "light"
+      }
+    ],
+    "heroDescription": "An operator faces a bank of monitors in a dark observatory-like room.",
+    "closingTitle": "Keep the bigger picture in view",
+    "faqTone": "dark",
+    "closingTone": "dark",
+    "lede": "Follow the system from draft to deployment. Bring status, incidents and recovery into one considered view."
+  },
+  {
+    "slug": "maataa-db-studio",
+    "headline": "Inspectable data",
+    "family": "data",
+    "hero": "/allb/extracted/maataa-db-studio-hero.webp",
+    "closing": "/allb/extracted/maataa-db-studio-closing.webp",
+    "sections": [
+      {
+        "kicker": "Explore",
+        "title": "Understand the structure",
+        "kind": "tabs",
+        "labels": [
+          "Schema",
+          "Tables",
+          "Relationships"
+        ],
+        "art": "/allb/extracted/maataa-db-studio-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Understand the structure. Explore the visual context and its explicit limits.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Query",
+        "title": "Ask a clear question",
+        "kind": "query",
+        "labels": [],
+        "art": "/allb/extracted/maataa-db-studio-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Preview a fixed SELECT fixture. This landing does not execute SQL against a database.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Records",
+        "title": "See what is really there",
+        "kind": "records",
+        "labels": [],
+        "art": "/allb/extracted/maataa-db-studio-hero.webp",
+        "layout": "wide",
+        "cardArts": [],
+        "description": "Local fixture records help demonstrate the inspection surface. No database is connected.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Lineage",
+        "title": "Trace a record to its origin",
+        "kind": "layers",
+        "labels": [
+          "Source",
+          "Transform",
+          "Review",
+          "Record"
+        ],
+        "art": "/allb/extracted/maataa-db-studio-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Understand the relationships between layers and the boundaries that still need implementation.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Export",
+        "title": "Take your findings further",
+        "kind": "export",
+        "labels": [
+          "CSV",
+          "JSON"
+        ],
+        "art": "/allb/extracted/maataa-db-studio-hero.webp",
+        "layout": "wide",
+        "cardArts": [],
+        "description": "Take your findings further. Explore the visual context and its explicit limits.",
+        "tone": "light"
+      }
+    ],
+    "heroDescription": "Five glass towers express Explore, Query, Visualize, Trace and Export.",
+    "closingTitle": "Explore your data with clarity",
+    "faqTone": "light",
+    "closingTone": "dark",
+    "lede": "Explore structure, review records and trace their origins. Keep the method close to every query."
+  },
+  {
+    "slug": "governance",
+    "headline": "Make every action accountable",
+    "family": "governance",
+    "hero": "/allb/extracted/governance-hero.webp",
+    "closing": "/allb/extracted/governance-closing.webp",
+    "sections": [
+      {
+        "kicker": "Policies",
+        "title": "Make the rules explicit",
+        "kind": "policy",
+        "labels": [],
+        "art": "/allb/extracted/governance-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Draft a review rule locally; no workspace policy or permission is published.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Review",
+        "title": "Bring decisions into the open",
+        "kind": "tabs",
+        "labels": [
+          "Pending",
+          "Approved",
+          "Rejected"
+        ],
+        "art": "/allb/extracted/governance-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Bring decisions into the open. Explore the visual context and its explicit limits.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Evidence",
+        "title": "Keep the context beside the decision",
+        "kind": "records",
+        "labels": [],
+        "art": "/allb/extracted/governance-hero.webp",
+        "layout": "wide",
+        "cardArts": [],
+        "description": "Local fixture records help demonstrate the inspection surface. No database is connected.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Approval",
+        "title": "A clear path to execution",
+        "kind": "workflow",
+        "labels": [
+          "Submitted",
+          "Under review",
+          "Approved",
+          "Execution"
+        ],
+        "art": "/allb/extracted/governance-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Choose a step to inspect the local draft context. The preview does not advance a production workflow.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "History",
+        "title": "Review the whole journey",
+        "kind": "timeline",
+        "labels": [
+          "Request",
+          "Evidence",
+          "Decision",
+          "Handoff"
+        ],
+        "art": "/allb/extracted/governance-hero.webp",
+        "layout": "wide",
+        "cardArts": [],
+        "description": "Review the whole journey. Explore the visual context and its explicit limits.",
+        "tone": "light"
+      }
+    ],
+    "heroDescription": "A gold orbital instrument is framed by an illuminated architectural arch.",
+    "closingTitle": "Make your next decision accountable",
+    "faqTone": "dark",
+    "closingTone": "light",
+    "lede": "Make policies visible and decisions traceable. Put context, evidence and review beside every proposed action."
+  },
+  {
+    "slug": "commerce",
+    "headline": "Connect products and entitlements",
+    "family": "commerce",
+    "hero": "/allb/extracted/commerce-hero.webp",
+    "closing": "/allb/extracted/commerce-closing.webp",
+    "sections": [
+      {
+        "kicker": "Catalog",
+        "title": "Find the right fit",
+        "kind": "directory",
+        "labels": [],
+        "art": "/allb/extracted/commerce-hero.webp",
+        "layout": "wide",
+        "cardArts": [],
+        "description": "Search the actual concepts in this collection and open their responsive landing pages.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Licenses",
+        "title": "Choose a clear context",
+        "kind": "tabs",
+        "labels": [
+          "Individual",
+          "Team",
+          "Enterprise"
+        ],
+        "art": "/allb/extracted/commerce-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Choose a clear context. Explore the visual context and its explicit limits.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Journey",
+        "title": "From selection to access",
+        "kind": "steps",
+        "labels": [
+          "Select",
+          "Review",
+          "Entitlement",
+          "Manage"
+        ],
+        "art": "/allb/extracted/commerce-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "From selection to access. Explore the visual context and its explicit limits.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Billing",
+        "title": "A record of every decision",
+        "kind": "tabs",
+        "labels": [
+          "Orders",
+          "Subscriptions",
+          "Payment methods"
+        ],
+        "art": "/allb/extracted/commerce-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "A record of every decision. Explore the visual context and its explicit limits.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Availability",
+        "title": "Understand the boundaries",
+        "kind": "cards",
+        "labels": [
+          "Product concept",
+          "Local preview",
+          "Service integration"
+        ],
+        "art": "/allb/extracted/commerce-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Distinct concepts, each with its own role in the larger ecosystem.",
+        "tone": "light"
+      }
+    ],
+    "heroDescription": "Product surfaces orbit a larger central planet in a dark cosmic field.",
+    "closingTitle": "Find the right product context",
+    "faqTone": "light",
+    "closingTone": "dark",
+    "lede": "Understand the path from product selection to an entitlement. Explore catalogs, license contexts and order records."
+  },
+  {
+    "slug": "tlps",
+    "headline": "From set to shot",
+    "family": "production",
+    "hero": "/allb/extracted/tlps-hero.webp",
+    "closing": "/allb/extracted/tlps-closing.webp",
+    "sections": [
+      {
+        "kicker": "Stories",
+        "title": "Bring the frame to life",
+        "kind": "cards",
+        "labels": [
+          "Film",
+          "Broadcast",
+          "Experiential"
+        ],
+        "art": "/allb/extracted/tlps-hero.webp",
+        "layout": "split",
+        "cardArts": [
+          "/allb/extracted/tlps-card-0-0.webp",
+          "/allb/extracted/tlps-card-0-1.webp",
+          "/allb/extracted/tlps-card-0-2.webp"
+        ],
+        "description": "Distinct concepts, each with its own role in the larger ecosystem.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Lighting",
+        "title": "Shape the light",
+        "kind": "lighting",
+        "labels": [
+          "Key",
+          "Fill",
+          "Backlight"
+        ],
+        "art": "/allb/extracted/tlps-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Adjust the scene appearance in a local visual demo. These controls do not produce photometric measurements.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Shots",
+        "title": "Find the right perspective",
+        "kind": "tabs",
+        "labels": [
+          "Wide",
+          "Medium",
+          "Close-up",
+          "Over shoulder"
+        ],
+        "art": "/allb/extracted/tlps-detail-2.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Find the right perspective. Explore the visual context and its explicit limits.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Equipment",
+        "title": "Tools for your vision",
+        "kind": "cards",
+        "labels": [
+          "Camera",
+          "Lens",
+          "Light",
+          "Grip"
+        ],
+        "art": "/allb/extracted/tlps-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Distinct concepts, each with its own role in the larger ecosystem.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Handoff",
+        "title": "From capture to delivery",
+        "kind": "steps",
+        "labels": [
+          "Capture",
+          "Review",
+          "Handoff"
+        ],
+        "art": "/allb/extracted/tlps-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "From capture to delivery. Explore the visual context and its explicit limits.",
+        "tone": "light"
+      }
+    ],
+    "heroDescription": "A professional film camera dominates the right half of an amber-lit set.",
+    "closingTitle": "Bring your next story to life",
+    "faqTone": "dark",
+    "closingTone": "dark",
+    "lede": "Plan, capture and review the next frame. Bring camera, lighting and creative choices into the same production context."
+  },
+  {
+    "slug": "nevo",
+    "headline": "Luxury in every moment",
+    "family": "event",
+    "hero": "/allb/extracted/nevo-hero.webp",
+    "closing": "/allb/extracted/nevo-closing.webp",
+    "sections": [
+      {
+        "kicker": "Experiences",
+        "title": "Every gathering has a story",
+        "kind": "cards",
+        "labels": [
+          "Weddings",
+          "Social",
+          "Corporate",
+          "Cultural",
+          "Private"
+        ],
+        "art": "/allb/extracted/nevo-hero.webp",
+        "layout": "split",
+        "cardArts": [
+          "/allb/extracted/nevo-card-0-0.webp",
+          "/allb/extracted/nevo-card-0-1.webp",
+          "/allb/extracted/nevo-card-0-2.webp",
+          "/allb/extracted/nevo-card-0-3.webp",
+          "/allb/extracted/nevo-card-0-4.webp"
+        ],
+        "description": "Distinct concepts, each with its own role in the larger ecosystem.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Venue",
+        "title": "Find the space for your vision",
+        "kind": "venue",
+        "labels": [],
+        "art": "/allb/extracted/nevo-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Describe an event brief locally. No venue availability, quote or booking service is queried.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Atmosphere",
+        "title": "See the evening unfold",
+        "kind": "tabs",
+        "labels": [
+          "Sunset",
+          "Evening",
+          "Night"
+        ],
+        "art": "/allb/extracted/nevo-detail-2.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "See the evening unfold. Explore the visual context and its explicit limits.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Perspective",
+        "title": "An experience begins with a feeling",
+        "kind": "quotation",
+        "labels": [],
+        "art": "/allb/extracted/nevo-hero.webp",
+        "layout": "wide",
+        "cardArts": [],
+        "description": "\u201cA beautiful event is not just seen; it is felt \u2014 in every detail, by everyone, long after it is over.\u201d",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Planning",
+        "title": "From first thought to final detail",
+        "kind": "steps",
+        "labels": [
+          "Brief",
+          "Design",
+          "Review",
+          "Handoff"
+        ],
+        "art": "/allb/extracted/nevo-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "From first thought to final detail. Explore the visual context and its explicit limits.",
+        "tone": "light"
+      }
+    ],
+    "heroDescription": "A flower-covered illuminated pavilion stands above reflecting water at sunset.",
+    "closingTitle": "Ready to create your extraordinary moment?",
+    "faqTone": "light",
+    "closingTone": "light",
+    "lede": "Extraordinary settings. Thoughtful details. Explore how an event can take shape, from its first brief to a considered handoff."
+  },
+  {
+    "slug": "hardware",
+    "headline": "Chip. Device. Signal.",
+    "family": "hardware-overview",
+    "hero": "/allb/extracted/hardware-hero.webp",
+    "closing": "/allb/extracted/hardware-closing.webp",
+    "sections": [
+      {
+        "kicker": "Purpose",
+        "title": "Compute. Understand. Connect",
+        "kind": "cards",
+        "labels": [
+          "Compute",
+          "Understand",
+          "Connect"
+        ],
+        "art": "/allb/extracted/hardware-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Distinct concepts, each with its own role in the larger ecosystem.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Silicon",
+        "title": "Siddham Semiconductor",
+        "kind": "feature",
+        "labels": [],
+        "art": "/allb/extracted/hardware-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Siddham Semiconductor. Explore the visual context and its explicit limits.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Edge",
+        "title": "Kharoshti Edge",
+        "kind": "feature",
+        "labels": [],
+        "art": "/allb/extracted/hardware-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Kharoshti Edge. Explore the visual context and its explicit limits.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Signals",
+        "title": "Brahmi Communications",
+        "kind": "feature",
+        "labels": [],
+        "art": "/allb/extracted/hardware-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Brahmi Communications. Explore the visual context and its explicit limits.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Integration",
+        "title": "Built on shared foundations",
+        "kind": "layers",
+        "labels": [
+          "Applications",
+          "Drivers",
+          "Firmware",
+          "Hardware"
+        ],
+        "art": "/allb/extracted/hardware-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Understand the relationships between layers and the boundaries that still need implementation.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Lifecycle",
+        "title": "Designed with tomorrow in mind",
+        "kind": "steps",
+        "labels": [
+          "Source",
+          "Use",
+          "Repair",
+          "Reuse"
+        ],
+        "art": "/allb/extracted/hardware-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Designed with tomorrow in mind. Explore the visual context and its explicit limits.",
+        "tone": "dark"
+      }
+    ],
+    "heroDescription": "Chip, disc and communications forms stand together above a dark planetary horizon.",
+    "closingTitle": "Be part of what comes next.",
+    "faqTone": "light",
+    "closingTone": "dark",
+    "lede": "Compute. Understand. Connect. Explore the physical foundations and their place in a broader ecosystem."
+  },
+  {
+    "slug": "shree",
+    "headline": "Finance connected to production",
+    "family": "finance",
+    "hero": "/allb/extracted/shree-hero.webp",
+    "closing": "/allb/extracted/shree-closing.webp",
+    "sections": [
+      {
+        "kicker": "Overview",
+        "title": "See the whole production",
+        "kind": "dashboard",
+        "labels": [
+          "Budget",
+          "Actual",
+          "Committed"
+        ],
+        "art": "/allb/extracted/shree-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "See the whole production. Explore the visual context and its explicit limits.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Costs",
+        "title": "Keep every department in view",
+        "kind": "tabs",
+        "labels": [
+          "Budget",
+          "Costs",
+          "Invoices"
+        ],
+        "art": "/allb/extracted/shree-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Keep every department in view. Explore the visual context and its explicit limits.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Quantities",
+        "title": "From scene to estimate",
+        "kind": "records",
+        "labels": [],
+        "art": "/allb/extracted/shree-hero.webp",
+        "layout": "wide",
+        "cardArts": [],
+        "description": "Local fixture records help demonstrate the inspection surface. No database is connected.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Decisions",
+        "title": "Review with the context intact",
+        "kind": "workflow",
+        "labels": [
+          "Draft",
+          "Version review",
+          "Client decision",
+          "Handoff"
+        ],
+        "art": "/allb/extracted/shree-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Choose a step to inspect the local draft context. The preview does not advance a production workflow.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Reporting",
+        "title": "A clearer picture of production",
+        "kind": "table",
+        "labels": [
+          "Art department",
+          "Lighting",
+          "Camera",
+          "Crew"
+        ],
+        "art": "/allb/extracted/shree-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Inspect the reference fields as local examples. Values, hardware specifications and readiness remain unverified.",
+        "tone": "dark"
+      }
+    ],
+    "heroDescription": "A classical sculpture and production objects connect finance to filmmaking.",
+    "closingTitle": "See finance in the production context",
+    "faqTone": "light",
+    "closingTone": "dark",
+    "lede": "See the relationship between a scene, its quantities and its financial context. Review the draft before it becomes a handoff."
+  },
+  {
+    "slug": "applications",
+    "headline": "Built around real pursuits",
+    "family": "applications",
+    "hero": "/allb/extracted/applications-hero.webp",
+    "closing": "/allb/extracted/applications-closing.webp",
+    "sections": [
+      {
+        "kicker": "Applications",
+        "title": "Different pursuits. Shared possibilities",
+        "kind": "cards",
+        "labels": [
+          "TLPS",
+          "NEVO",
+          "SHREE",
+          "SAMWAT"
+        ],
+        "art": "/allb/extracted/applications-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Distinct concepts, each with its own role in the larger ecosystem.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Interests",
+        "title": "Find your starting point",
+        "kind": "directory",
+        "labels": [],
+        "art": "/allb/extracted/applications-hero.webp",
+        "layout": "wide",
+        "cardArts": [],
+        "description": "Search the actual concepts in this collection and open their responsive landing pages.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Workflow",
+        "title": "From curiosity to contribution",
+        "kind": "steps",
+        "labels": [
+          "Explore",
+          "Create",
+          "Build",
+          "Share"
+        ],
+        "art": "/allb/extracted/applications-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "From curiosity to contribution. Explore the visual context and its explicit limits.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Ecosystem",
+        "title": "Part of a bigger picture",
+        "kind": "feature",
+        "labels": [],
+        "art": "/allb/extracted/applications-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Part of a bigger picture. Explore the visual context and its explicit limits.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Examples",
+        "title": "See a path take shape",
+        "kind": "cards",
+        "labels": [
+          "Production planning",
+          "Event design",
+          "Sky research"
+        ],
+        "art": "/allb/extracted/applications-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Distinct concepts, each with its own role in the larger ecosystem.",
+        "tone": "light"
+      }
+    ],
+    "heroDescription": "A lone traveler stands on a cliff against a giant planet and distant landscape.",
+    "closingTitle": "Start with your real pursuit",
+    "faqTone": "light",
+    "closingTone": "dark",
+    "lede": "Film, events, finance, knowledge and the sky. Begin with a pursuit, then discover its tools."
+  },
+  {
+    "slug": "samwat",
+    "headline": "Time, sky and perspective",
+    "family": "science",
+    "hero": "/allb/extracted/samwat-hero.webp",
+    "closing": "/allb/extracted/samwat-closing.webp",
+    "sections": [
+      {
+        "kicker": "Observatory",
+        "title": "A place to understand the sky",
+        "kind": "feature",
+        "labels": [],
+        "art": "/allb/extracted/samwat-detail-0.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "A place to understand the sky. Explore the visual context and its explicit limits.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Seasons",
+        "title": "A solar journey",
+        "kind": "orbit",
+        "labels": [
+          "Sun",
+          "Moon",
+          "Planets"
+        ],
+        "art": "/allb/extracted/samwat-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "A visual model of relationships. Illustrative geometry, with no verified positions or transition dates.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Instruments",
+        "title": "Many ways to understand time",
+        "kind": "cards",
+        "labels": [
+          "Sundials",
+          "Astrolabes",
+          "Star positions",
+          "Lunar cycles"
+        ],
+        "art": "/allb/extracted/samwat-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Distinct concepts, each with its own role in the larger ecosystem.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Explore",
+        "title": "See the sky from a new perspective",
+        "kind": "orbit",
+        "labels": [
+          "Sun",
+          "Moon",
+          "Planets"
+        ],
+        "art": "/allb/extracted/samwat-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "A visual model of relationships. Illustrative geometry, with no verified positions or transition dates.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Evidence",
+        "title": "Keep the sources in view",
+        "kind": "cards",
+        "labels": [
+          "Inscriptions",
+          "Instruments",
+          "Texts"
+        ],
+        "art": "/allb/extracted/samwat-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Distinct concepts, each with its own role in the larger ecosystem.",
+        "tone": "light"
+      }
+    ],
+    "heroDescription": "A brass astronomical instrument stands beneath the Milky Way.",
+    "closingTitle": "Explore time, sky and perspective",
+    "faqTone": "dark",
+    "closingTone": "dark",
+    "lede": "Ancient instruments. Contemporary questions. Explore time, sky geometry and cultural perspectives with their assumptions visible."
+  },
+  {
+    "slug": "observatory",
+    "headline": "Inspect the sky",
+    "family": "observatory",
+    "hero": "/allb/extracted/observatory-hero.webp",
+    "closing": "/allb/extracted/observatory-closing.webp",
+    "sections": [
+      {
+        "kicker": "Observer",
+        "title": "Begin with your perspective",
+        "kind": "observer",
+        "labels": [],
+        "art": "/allb/extracted/observatory-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Set the perspective before interpreting the sky. This form does not calculate celestial positions.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Sky",
+        "title": "Look closely. Ask better questions",
+        "kind": "orbit",
+        "labels": [
+          "Sky",
+          "Planets",
+          "Constellations",
+          "Grid"
+        ],
+        "art": "/allb/extracted/observatory-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "A visual model of relationships. Illustrative geometry, with no verified positions or transition dates.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Frames",
+        "title": "More than one way to see",
+        "kind": "frames",
+        "labels": [
+          "Modern",
+          "Traditional",
+          "Cultural"
+        ],
+        "art": "/allb/extracted/observatory-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Modern, traditional and cultural frames express different contexts; they are not interchangeable calculations.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Methods",
+        "title": "Keep the method beside the view",
+        "kind": "layers",
+        "labels": [
+          "Source",
+          "Time scale",
+          "Reference frame",
+          "Uncertainty"
+        ],
+        "art": "/allb/extracted/observatory-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Understand the relationships between layers and the boundaries that still need implementation.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Questions",
+        "title": "Start with a question",
+        "kind": "cards",
+        "labels": [
+          "Moon",
+          "Planets",
+          "Constellations",
+          "Eclipses",
+          "Seasons"
+        ],
+        "art": "/allb/extracted/observatory-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Distinct concepts, each with its own role in the larger ecosystem.",
+        "tone": "light"
+      }
+    ],
+    "heroDescription": "An illuminated Jantar Mantar instrument rises against a dense night sky.",
+    "closingTitle": "The same sky, new perspectives",
+    "faqTone": "light",
+    "closingTone": "dark",
+    "lede": "Choose a perspective. Examine the diagram. Keep observer context, methods and uncertainty beside your view of the sky."
+  },
+  {
+    "slug": "hemant-clock",
+    "headline": "Time with its source",
+    "family": "clock",
+    "hero": "/allb/extracted/hemant-clock-hero.webp",
+    "closing": "/allb/extracted/hemant-clock-closing.webp",
+    "sections": [
+      {
+        "kicker": "Clock",
+        "title": "See time with context",
+        "kind": "clock",
+        "labels": [],
+        "art": "/allb/extracted/hemant-clock-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Explore a date and hour input beside an instrument illustration. The existing Observatory clock is separate.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Earth",
+        "title": "Rotation. Revolution. Perspective",
+        "kind": "orbit",
+        "labels": [
+          "Rotation",
+          "Revolution",
+          "Tilt"
+        ],
+        "art": "/allb/extracted/hemant-clock-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "A visual model of relationships. Illustrative geometry, with no verified positions or transition dates.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Conventions",
+        "title": "Keep the conventions visible",
+        "kind": "table",
+        "labels": [
+          "Host clock",
+          "IST presentation",
+          "UTC presentation",
+          "Solar time pending"
+        ],
+        "art": "/allb/extracted/hemant-clock-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Inspect the reference fields as local examples. Values, hardware specifications and readiness remain unverified.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Source",
+        "title": "Know what the clock can tell you",
+        "kind": "dashboard",
+        "labels": [
+          "Host clock",
+          "Display convention",
+          "Validation pending"
+        ],
+        "art": "/allb/extracted/hemant-clock-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Know what the clock can tell you. Explore the visual context and its explicit limits.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Method",
+        "title": "Understand the conversion",
+        "kind": "cards",
+        "labels": [
+          "Source",
+          "Convention",
+          "Limitations"
+        ],
+        "art": "/allb/extracted/hemant-clock-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Distinct concepts, each with its own role in the larger ecosystem.",
+        "tone": "light"
+      }
+    ],
+    "heroDescription": "A brass mechanical clock stands on a desk in warm light.",
+    "closingTitle": "Explore time with its source",
+    "faqTone": "dark",
+    "closingTone": "dark",
+    "lede": "A time display deserves a visible source. Explore inputs and conventions while keeping physical time and presentation separate."
+  },
+  {
+    "slug": "games",
+    "headline": "Explore worlds of possibility",
+    "family": "games",
+    "hero": "/allb/extracted/games-hero.webp",
+    "closing": "/allb/extracted/games-closing.webp",
+    "sections": [
+      {
+        "kicker": "Worlds",
+        "title": "Distinct realms. One connected universe",
+        "kind": "cards",
+        "labels": [
+          "ALLB",
+          "MAATAA",
+          "NEVO"
+        ],
+        "art": "/allb/extracted/games-hero.webp",
+        "layout": "split",
+        "cardArts": [
+          "/allb/extracted/games-card-0-0.webp",
+          "/allb/extracted/games-card-0-1.webp",
+          "/allb/extracted/games-card-0-2.webp"
+        ],
+        "description": "Distinct concepts, each with its own role in the larger ecosystem.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Arena",
+        "title": "Play together across worlds",
+        "kind": "feature",
+        "labels": [],
+        "art": "/allb/extracted/games-detail-1.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Play together across worlds. Explore the visual context and its explicit limits.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Learning",
+        "title": "Play. Discover. See differently",
+        "kind": "orbit",
+        "labels": [
+          "Explore",
+          "Learn",
+          "Reflect"
+        ],
+        "art": "/allb/extracted/games-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "A visual model of relationships. Illustrative geometry, with no verified positions or transition dates.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Gallery",
+        "title": "A closer look at what is possible",
+        "kind": "games-gallery",
+        "labels": [],
+        "art": "/allb/extracted/games-hero.webp",
+        "layout": "wide",
+        "cardArts": [],
+        "description": "Search the actual concepts in this collection and open their responsive landing pages.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Questions",
+        "title": "Games that open new questions",
+        "kind": "feature",
+        "labels": [],
+        "art": "/allb/extracted/games-detail-4.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Games that open new questions. Explore the visual context and its explicit limits.",
+        "tone": "dark"
+      }
+    ],
+    "heroDescription": "A glass world sphere contains a miniature mountain landscape and reflects a futuristic environment.",
+    "closingTitle": "Step into the next world",
+    "faqTone": "light",
+    "closingTone": "light",
+    "lede": "Original worlds, shared questions and new perspectives. Explore visual directions for play, learning and discovery."
+  },
+  {
+    "slug": "panchanga",
+    "headline": "Calendar conventions made visible",
+    "family": "calendar",
+    "hero": "/allb/extracted/panchanga-hero.webp",
+    "closing": "/allb/extracted/panchanga-closing.webp",
+    "sections": [
+      {
+        "kicker": "Traditions",
+        "title": "Different traditions. One sky",
+        "kind": "tabs",
+        "labels": [
+          "Vedic",
+          "Drik",
+          "Tamil",
+          "Malayalam",
+          "Regional"
+        ],
+        "art": "/allb/extracted/panchanga-hero.webp",
+        "layout": "split",
+        "cardArts": [
+          "/allb/extracted/panchanga-choice-0.webp",
+          "/allb/extracted/panchanga-choice-1.webp",
+          "/allb/extracted/panchanga-choice-2.webp",
+          "/allb/extracted/panchanga-choice-3.webp",
+          "/allb/extracted/panchanga-choice-4.webp"
+        ],
+        "description": "Different traditions. One sky. Explore the visual context and its explicit limits.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Elements",
+        "title": "Tithi, Nakshatra, Yoga, Karana, Vara",
+        "kind": "cards",
+        "labels": [
+          "Tithi",
+          "Nakshatra",
+          "Yoga",
+          "Karana",
+          "Vara"
+        ],
+        "art": "/allb/extracted/panchanga-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Distinct concepts, each with its own role in the larger ecosystem.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Method",
+        "title": "From principles to calendar dates",
+        "kind": "layers",
+        "labels": [
+          "Observer",
+          "Time scale",
+          "Ephemeris",
+          "Convention",
+          "Result"
+        ],
+        "art": "/allb/extracted/panchanga-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Understand the relationships between layers and the boundaries that still need implementation.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Variation",
+        "title": "A range that needs context",
+        "kind": "table",
+        "labels": [
+          "Vedic convention",
+          "Drik convention",
+          "Tamil convention",
+          "Malayalam convention"
+        ],
+        "art": "/allb/extracted/panchanga-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Inspect the reference fields as local examples. Values, hardware specifications and readiness remain unverified.",
+        "tone": "dark"
+      }
+    ],
+    "heroDescription": "Brass rings bind a manuscript-like calendar with a lamp glowing behind it.",
+    "closingTitle": "See the calendar with context",
+    "faqTone": "light",
+    "closingTone": "dark",
+    "lede": "Different traditions share one sky. Explore how sources, reference frames and regional conventions shape calendar interpretation."
+  },
+  {
+    "slug": "apps",
+    "headline": "Tools for purposeful work",
+    "family": "directory",
+    "hero": "/allb/extracted/apps-hero.webp",
+    "closing": "/allb/extracted/apps-closing.webp",
+    "sections": [
+      {
+        "kicker": "Directory",
+        "title": "Find the right app for your purpose",
+        "kind": "directory",
+        "labels": [],
+        "art": "/allb/extracted/apps-hero.webp",
+        "layout": "wide",
+        "cardArts": [],
+        "description": "Search the actual concepts in this collection and open their responsive landing pages.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Categories",
+        "title": "Purpose-built for every dimension of work",
+        "kind": "cards",
+        "labels": [
+          "Productivity",
+          "Creativity",
+          "Knowledge",
+          "Planetary",
+          "Integration"
+        ],
+        "art": "/allb/extracted/apps-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Distinct concepts, each with its own role in the larger ecosystem.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Workspace",
+        "title": "A connected workspace",
+        "kind": "layers",
+        "labels": [
+          "Your workspace",
+          "Shared identity",
+          "Shared records",
+          "Connected tools"
+        ],
+        "art": "/allb/extracted/apps-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Understand the relationships between layers and the boundaries that still need implementation.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Roadmap",
+        "title": "A growing ecosystem",
+        "kind": "timeline",
+        "labels": [
+          "Now",
+          "Next",
+          "Review"
+        ],
+        "art": "/allb/extracted/apps-hero.webp",
+        "layout": "wide",
+        "cardArts": [],
+        "description": "A growing ecosystem. Explore the visual context and its explicit limits.",
+        "tone": "dark"
+      }
+    ],
+    "heroDescription": "Application tiles float on fine orbital lines above a planetary surface.",
+    "closingTitle": "Discover a more purposeful way to work",
+    "faqTone": "light",
+    "closingTone": "dark",
+    "lede": "Find a tool for your purpose. Explore creative, productive and knowledge-centered directions within one connected collection."
+  },
+  {
+    "slug": "sankranti",
+    "headline": "Follow the seasonal transition",
+    "family": "seasonal",
+    "hero": "/allb/extracted/sankranti-hero.webp",
+    "closing": "/allb/extracted/sankranti-closing.webp",
+    "sections": [
+      {
+        "kicker": "Convention",
+        "title": "Ayanamsha convention",
+        "kind": "tabs",
+        "labels": [
+          "Sidereal",
+          "Tropical"
+        ],
+        "art": "/allb/extracted/sankranti-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Ayanamsha convention. Explore the visual context and its explicit limits.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Journey",
+        "title": "Twelve Sankrantis. A solar journey",
+        "kind": "orbit",
+        "labels": [
+          "Mesha",
+          "Vrishabha",
+          "Mithuna",
+          "Karka",
+          "Simha",
+          "Kanya",
+          "Tula",
+          "Vrischika",
+          "Dhanu",
+          "Makara",
+          "Kumbha",
+          "Meena"
+        ],
+        "art": "/allb/extracted/sankranti-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "A visual model of relationships. Illustrative geometry, with no verified positions or transition dates.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Perspectives",
+        "title": "Two perspectives. One Sun",
+        "kind": "tabs",
+        "labels": [
+          "Sidereal",
+          "Tropical"
+        ],
+        "art": "/allb/extracted/sankranti-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Two perspectives. One Sun. Explore the visual context and its explicit limits.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Evidence",
+        "title": "Calculation evidence pending",
+        "kind": "table",
+        "labels": [
+          "Observer",
+          "Ephemeris",
+          "Ayanamsha",
+          "Time scale",
+          "Validation"
+        ],
+        "art": "/allb/extracted/sankranti-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Inspect the reference fields as local examples. Values, hardware specifications and readiness remain unverified.",
+        "tone": "dark"
+      }
+    ],
+    "heroDescription": "A pierced brass solar instrument frames the setting Sun above a river valley.",
+    "closingTitle": "Explore Sankranti in context",
+    "faqTone": "light",
+    "closingTone": "dark",
+    "lede": "Follow the idea of a seasonal transition through astronomy, reference frames and lived traditions."
+  },
+  {
+    "slug": "product-directory",
+    "headline": "Find your next possibility",
+    "family": "catalog",
+    "hero": "/allb/extracted/product-directory-hero.webp",
+    "closing": "/allb/extracted/product-directory-closing.webp",
+    "sections": [
+      {
+        "kicker": "Directory",
+        "title": "Explore the ecosystem",
+        "kind": "catalog",
+        "labels": [],
+        "art": "/allb/extracted/product-directory-hero.webp",
+        "layout": "wide",
+        "cardArts": [],
+        "description": "Search the actual concepts in this collection and open their responsive landing pages.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Featured",
+        "title": "A closer look at the concept",
+        "kind": "tabs",
+        "labels": [
+          "ALLB",
+          "MAATAA",
+          "SAMWAT",
+          "NEVO"
+        ],
+        "art": "/allb/extracted/product-directory-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "A closer look at the concept. Explore the visual context and its explicit limits.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Concepts",
+        "title": "Different paths. A shared purpose",
+        "kind": "cards",
+        "labels": [
+          "ALLB",
+          "MAATAA",
+          "SAMWAT",
+          "NEVO"
+        ],
+        "art": "/allb/extracted/product-directory-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Distinct concepts, each with its own role in the larger ecosystem.",
+        "tone": "light"
+      }
+    ],
+    "heroDescription": "Black orb, tablet, ring and home-device concepts sit on stone before a planet.",
+    "closingTitle": "A more expansive tomorrow is within reach",
+    "faqTone": "light",
+    "closingTone": "dark",
+    "lede": "A growing field of hardware, software and experiences. Inspect the named concepts and discover where each belongs."
+  },
+  {
+    "slug": "simulation-timeline",
+    "headline": "Reproduce the journey",
+    "family": "simulation",
+    "hero": "/allb/extracted/simulation-timeline-hero.webp",
+    "closing": "/allb/extracted/simulation-timeline-closing.webp",
+    "sections": [
+      {
+        "kicker": "Initial conditions",
+        "title": "Define the initial conditions",
+        "kind": "simulation",
+        "labels": [],
+        "art": "/allb/extracted/simulation-timeline-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Make the input configuration inspectable before selecting and validating a physical model.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Preview",
+        "title": "Illustrative orbital geometry",
+        "kind": "orbit",
+        "labels": [
+          "2D view",
+          "Trajectory",
+          "Parameters"
+        ],
+        "art": "/allb/extracted/simulation-timeline-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "A visual model of relationships. Illustrative geometry, with no verified positions or transition dates.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Timeline",
+        "title": "Play through time",
+        "kind": "timeline",
+        "labels": [
+          "Initial state",
+          "Quarter orbit",
+          "Half orbit",
+          "Three quarters",
+          "Final state"
+        ],
+        "art": "/allb/extracted/simulation-timeline-hero.webp",
+        "layout": "wide",
+        "cardArts": [],
+        "description": "Play through time. Explore the visual context and its explicit limits.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Versions",
+        "title": "Compare and revisit",
+        "kind": "tabs",
+        "labels": [
+          "Baseline",
+          "Transfer sketch",
+          "Inclined sketch"
+        ],
+        "art": "/allb/extracted/simulation-timeline-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Compare and revisit. Explore the visual context and its explicit limits.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Assumptions",
+        "title": "Take the context further",
+        "kind": "export",
+        "labels": [
+          "JSON"
+        ],
+        "art": "/allb/extracted/simulation-timeline-hero.webp",
+        "layout": "wide",
+        "cardArts": [],
+        "description": "Take the context further. Explore the visual context and its explicit limits.",
+        "tone": "light"
+      }
+    ],
+    "heroDescription": "A solar-panel spacecraft floats above the curved Earth toward a bright Sun.",
+    "closingTitle": "Start with a reproducible configuration",
+    "faqTone": "dark",
+    "closingTone": "dark",
+    "lede": "Inputs before results. Explore a reproducible configuration, its timeline and the assumptions a physical model must make explicit."
+  },
+  {
+    "slug": "production",
+    "headline": "Create. Review. Hand off",
+    "family": "production-overview",
+    "hero": "/allb/extracted/production-hero.webp",
+    "closing": "/allb/extracted/production-closing.webp",
+    "sections": [
+      {
+        "kicker": "Pathways",
+        "title": "Multiple pathways. One ecosystem",
+        "kind": "cards",
+        "labels": [
+          "Event",
+          "Film",
+          "Broadcast",
+          "Experiential"
+        ],
+        "art": "/allb/extracted/production-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Distinct concepts, each with its own role in the larger ecosystem.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Authoring",
+        "title": "Build scenes with purpose",
+        "kind": "tabs",
+        "labels": [
+          "Scenes",
+          "Assets",
+          "Environments",
+          "Lighting",
+          "Cameras"
+        ],
+        "art": "/allb/extracted/production-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Build scenes with purpose. Explore the visual context and its explicit limits.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Review",
+        "title": "See it. Discuss it. Move forward",
+        "kind": "review",
+        "labels": [],
+        "art": "/allb/extracted/production-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "See it. Discuss it. Move forward. Explore the visual context and its explicit limits.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Handoff",
+        "title": "From creative to delivery",
+        "kind": "steps",
+        "labels": [
+          "Approved scenes",
+          "Package assets",
+          "Configure delivery",
+          "Handoff"
+        ],
+        "art": "/allb/extracted/production-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "From creative to delivery. Explore the visual context and its explicit limits.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Demonstration",
+        "title": "Production flow, illustrated",
+        "kind": "workflow",
+        "labels": [
+          "Creating",
+          "In review",
+          "Preparing handoff",
+          "Delivered"
+        ],
+        "art": "/allb/extracted/production-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Choose a step to inspect the local draft context. The preview does not advance a production workflow.",
+        "tone": "light"
+      }
+    ],
+    "heroDescription": "A camera operator frames a staged figure before a large planetary backdrop.",
+    "closingTitle": "Your next production starts here",
+    "faqTone": "dark",
+    "closingTone": "dark",
+    "lede": "From an event stage to a cinematic frame. Explore a considered path through authoring, review and delivery."
+  },
+  {
+    "slug": "developer-ecosystem",
+    "headline": "Create together on common foundations",
+    "family": "developer-ecosystem",
+    "hero": "/allb/extracted/developer-ecosystem-hero.webp",
+    "closing": "/allb/extracted/developer-ecosystem-closing.webp",
+    "sections": [
+      {
+        "kicker": "Workspace",
+        "title": "Linked developer workspaces",
+        "kind": "dashboard",
+        "labels": [
+          "ALLB",
+          "MAATAA",
+          "NEVO"
+        ],
+        "art": "/allb/extracted/developer-ecosystem-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Linked developer workspaces. Explore the visual context and its explicit limits.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Contracts",
+        "title": "Integration contracts",
+        "kind": "layers",
+        "labels": [
+          "Request",
+          "Versioned contract",
+          "Boundary",
+          "Response"
+        ],
+        "art": "/allb/extracted/developer-ecosystem-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Understand the relationships between layers and the boundaries that still need implementation.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Tools",
+        "title": "Tools for your flow",
+        "kind": "code",
+        "labels": [
+          "JavaScript",
+          "Python",
+          "REST",
+          "Examples"
+        ],
+        "art": "/allb/extracted/developer-ecosystem-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Review and copy a local example contract. No SDK, endpoint or remote operation is implied.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Runtime",
+        "title": "Runtime boundaries",
+        "kind": "layers",
+        "labels": [
+          "Your application",
+          "Ecosystem services",
+          "Runtime boundary",
+          "Infrastructure"
+        ],
+        "art": "/allb/extracted/developer-ecosystem-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Understand the relationships between layers and the boundaries that still need implementation.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Examples",
+        "title": "Build what matters",
+        "kind": "cards",
+        "labels": [
+          "Knowledge hub",
+          "Cultural intelligence",
+          "Immersive heritage"
+        ],
+        "art": "/allb/extracted/developer-ecosystem-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Distinct concepts, each with its own role in the larger ecosystem.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Roadmap",
+        "title": "The road ahead",
+        "kind": "timeline",
+        "labels": [
+          "APIs",
+          "Plugins",
+          "Tools",
+          "Review",
+          "Contributions"
+        ],
+        "art": "/allb/extracted/developer-ecosystem-hero.webp",
+        "layout": "wide",
+        "cardArts": [],
+        "description": "The road ahead. Explore the visual context and its explicit limits.",
+        "tone": "dark"
+      }
+    ],
+    "heroDescription": "Three linked illuminated spheres labeled ALLB, MAATAA and NEVO rest in rocky terrain.",
+    "closingTitle": "Ready to build?",
+    "faqTone": "light",
+    "closingTone": "dark",
+    "lede": "Shared contracts, tools and runtime boundaries. Explore how distinct workspaces can build on common foundations."
+  },
+  {
+    "slug": "nevo-workflow",
+    "headline": "Scene to handoff",
+    "family": "event-workflow",
+    "hero": "/allb/extracted/nevo-workflow-hero.webp",
+    "closing": "/allb/extracted/nevo-workflow-closing.webp",
+    "sections": [
+      {
+        "kicker": "Layout",
+        "title": "Venue layout",
+        "kind": "workflow",
+        "labels": [
+          "Venue layout",
+          "Lighting",
+          "Quote review",
+          "Handoff"
+        ],
+        "art": "/allb/extracted/nevo-workflow-detail-0.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Choose a step to inspect the local draft context. The preview does not advance a production workflow.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Seating",
+        "title": "Tables and seating",
+        "kind": "seating",
+        "labels": [],
+        "art": "/allb/extracted/nevo-workflow-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Adjust an illustrative seating layout. Scale, capacity and circulation are not engineering validations.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Lighting",
+        "title": "Warm or cool lighting",
+        "kind": "tabs",
+        "labels": [
+          "Warm",
+          "Cool"
+        ],
+        "art": "/allb/extracted/nevo-workflow-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Warm or cool lighting. Explore the visual context and its explicit limits.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Quote",
+        "title": "Illustrative allowance",
+        "kind": "quote",
+        "labels": [],
+        "art": "/allb/extracted/nevo-workflow-hero.webp",
+        "layout": "wide",
+        "cardArts": [],
+        "description": "An illustrative allowance from the artwork, separate from reviewed quantities and vendor rates.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Versions",
+        "title": "Compare versions",
+        "kind": "tabs",
+        "labels": [
+          "Classic warm",
+          "Modern cool",
+          "Minimal"
+        ],
+        "art": "/allb/extracted/nevo-workflow-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Compare versions. Explore the visual context and its explicit limits.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Handoff",
+        "title": "JSON export",
+        "kind": "export",
+        "labels": [
+          "JSON"
+        ],
+        "art": "/allb/extracted/nevo-workflow-hero.webp",
+        "layout": "wide",
+        "cardArts": [],
+        "description": "JSON export. Explore the visual context and its explicit limits.",
+        "tone": "light"
+      }
+    ],
+    "heroDescription": "Round banquet tables face a gold-lit stage beneath orbital ring chandeliers.",
+    "closingTitle": "Ready to explore the full workflow?",
+    "faqTone": "light",
+    "closingTone": "dark",
+    "lede": "From venue layout to lighting, quote context and a versioned handoff. Shape a local scene draft and inspect its choices."
+  },
+  {
+    "slug": "roadmap",
+    "headline": "Make the vision reviewable",
+    "family": "roadmap",
+    "hero": "/allb/extracted/roadmap-hero.webp",
+    "closing": "/allb/extracted/roadmap-closing.webp",
+    "sections": [
+      {
+        "kicker": "Phases",
+        "title": "Foundation. Validation. Release",
+        "kind": "timeline",
+        "labels": [
+          "Foundation",
+          "Validation",
+          "Applications"
+        ],
+        "art": "/allb/extracted/roadmap-hero.webp",
+        "layout": "wide",
+        "cardArts": [],
+        "description": "Foundation. Validation. Release. Explore the visual context and its explicit limits.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Layers",
+        "title": "A layered path to a greater whole",
+        "kind": "cards",
+        "labels": [
+          "ALLB",
+          "SAMWAT",
+          "NEVO"
+        ],
+        "art": "/allb/extracted/roadmap-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Distinct concepts, each with its own role in the larger ecosystem.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Readiness",
+        "title": "From foundation to real-world value",
+        "kind": "matrix",
+        "labels": [
+          "Foundation",
+          "Validation",
+          "Applications"
+        ],
+        "art": "/allb/extracted/roadmap-hero.webp",
+        "layout": "wide",
+        "cardArts": [],
+        "description": "From foundation to real-world value. Explore the visual context and its explicit limits.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Evidence",
+        "title": "Progress you can review",
+        "kind": "steps",
+        "labels": [
+          "Technical validation",
+          "Independent review",
+          "Readiness gate"
+        ],
+        "art": "/allb/extracted/roadmap-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Progress you can review. Explore the visual context and its explicit limits.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Next",
+        "title": "Next steps on our journey",
+        "kind": "workflow",
+        "labels": [
+          "Complete foundation",
+          "Validate methods",
+          "Pilot applications"
+        ],
+        "art": "/allb/extracted/roadmap-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Choose a step to inspect the local draft context. The preview does not advance a production workflow.",
+        "tone": "light"
+      }
+    ],
+    "heroDescription": "Three levels of a curved contemporary building represent layered phases above a valley.",
+    "closingTitle": "A more open future starts now",
+    "faqTone": "light",
+    "closingTone": "dark",
+    "lede": "A vision becomes useful when it can be reviewed. Explore phases, evidence gates and the decisions before expansion."
+  },
+  {
+    "slug": "tlps-workflow",
+    "headline": "Shape the frame",
+    "family": "film-workflow",
+    "hero": "/allb/extracted/tlps-workflow-hero.webp",
+    "closing": "/allb/extracted/tlps-workflow-closing.webp",
+    "sections": [
+      {
+        "kicker": "Camera",
+        "title": "Choose your camera",
+        "kind": "tabs",
+        "labels": [
+          "ALEXA 35",
+          "RED V-RAPTOR",
+          "VENICE 2",
+          "URSA 12K"
+        ],
+        "art": "/allb/extracted/tlps-workflow-hero.webp",
+        "layout": "split",
+        "cardArts": [
+          "/allb/extracted/tlps-workflow-choice-0.webp",
+          "/allb/extracted/tlps-workflow-choice-1.webp",
+          "/allb/extracted/tlps-workflow-choice-2.webp",
+          "/allb/extracted/tlps-workflow-choice-3.webp"
+        ],
+        "description": "Choose your camera. Explore the visual context and its explicit limits.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Lighting",
+        "title": "Control the key light",
+        "kind": "lighting",
+        "labels": [
+          "Intensity",
+          "Angle",
+          "Softness"
+        ],
+        "art": "/allb/extracted/tlps-workflow-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Adjust the scene appearance in a local visual demo. These controls do not produce photometric measurements.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Tone",
+        "title": "Warm or cool",
+        "kind": "tabs",
+        "labels": [
+          "Cool",
+          "Neutral",
+          "Warm"
+        ],
+        "art": "/allb/extracted/tlps-workflow-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Warm or cool. Explore the visual context and its explicit limits.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Preview",
+        "title": "See the result",
+        "kind": "tabs",
+        "labels": [
+          "Wide",
+          "Medium",
+          "Close-up",
+          "Profile"
+        ],
+        "art": "/allb/extracted/tlps-workflow-detail-3.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "See the result. Explore the visual context and its explicit limits.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Equipment",
+        "title": "What you need",
+        "kind": "cards",
+        "labels": [
+          "Camera",
+          "Lens",
+          "Key light",
+          "Diffusion",
+          "Tripod"
+        ],
+        "art": "/allb/extracted/tlps-workflow-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Distinct concepts, each with its own role in the larger ecosystem.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Export",
+        "title": "Export as JSON",
+        "kind": "export",
+        "labels": [
+          "JSON"
+        ],
+        "art": "/allb/extracted/tlps-workflow-hero.webp",
+        "layout": "wide",
+        "cardArts": [],
+        "description": "Export as JSON. Explore the visual context and its explicit limits.",
+        "tone": "dark"
+      }
+    ],
+    "heroDescription": "A camera operator and camera monitor face an amber-lit subject on a film set.",
+    "closingTitle": "Ready to shape your frame?",
+    "faqTone": "light",
+    "closingTone": "dark",
+    "lede": "Choose a camera. Shape the light. Compare the tone. See how a frame can take form through explicit creative choices."
+  },
+  {
+    "slug": "samwat-research",
+    "headline": "Methods beside every result",
+    "family": "research",
+    "hero": "/allb/extracted/samwat-research-hero.webp",
+    "closing": "/allb/extracted/samwat-research-closing.webp",
+    "sections": [
+      {
+        "kicker": "Questions",
+        "title": "From timeless questions to traceable answers",
+        "kind": "cards",
+        "labels": [
+          "Celestial cycles",
+          "Planetary motions",
+          "Time and calendars"
+        ],
+        "art": "/allb/extracted/samwat-research-hero.webp",
+        "layout": "split",
+        "cardArts": [
+          "/allb/extracted/samwat-research-card-0-0.webp",
+          "/allb/extracted/samwat-research-card-0-1.webp",
+          "/allb/extracted/samwat-research-card-0-2.webp"
+        ],
+        "description": "Distinct concepts, each with its own role in the larger ecosystem.",
+        "tone": "light"
+      },
+      {
+        "kicker": "References",
+        "title": "Built on documented knowledge",
+        "kind": "feature",
+        "labels": [],
+        "art": "/allb/extracted/samwat-research-detail-1.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Built on documented knowledge. Explore the visual context and its explicit limits.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Versions",
+        "title": "Methods that evolve with clarity",
+        "kind": "tabs",
+        "labels": [
+          "Candidate v2.1",
+          "Candidate v2.0",
+          "Candidate v1.2"
+        ],
+        "art": "/allb/extracted/samwat-research-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "Methods that evolve with clarity. Explore the visual context and its explicit limits.",
+        "tone": "light"
+      },
+      {
+        "kicker": "Experiments",
+        "title": "Recreate. Explore. Verify",
+        "kind": "research",
+        "labels": [],
+        "art": "/allb/extracted/samwat-research-hero.webp",
+        "layout": "split",
+        "cardArts": [],
+        "description": "A reproducible experiment begins with named inputs, sourced methods and documented uncertainty.",
+        "tone": "dark"
+      },
+      {
+        "kicker": "Uncertainty",
+        "title": "See the full picture",
+        "kind": "export",
+        "labels": [
+          "JSON",
+          "CSV"
+        ],
+        "art": "/allb/extracted/samwat-research-hero.webp",
+        "layout": "wide",
+        "cardArts": [],
+        "description": "See the full picture. Explore the visual context and its explicit limits.",
+        "tone": "light"
+      }
+    ],
+    "heroDescription": "A brass observing instrument stands on a stone terrace beneath the Milky Way.",
+    "closingTitle": "Explore SAMWAT Research",
+    "faqTone": "dark",
+    "closingTone": "dark",
+    "lede": "Transparent methods. Reproducible experiments. Keep sources, versions and uncertainty beside every research question."
+  }
+]

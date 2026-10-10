@@ -1,0 +1,548 @@
+[
+  {
+    "path": "/",
+    "group": "Start",
+    "title": "MAATAA UI",
+    "mode": "directory",
+    "description": "MAATAA UI contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/overview",
+    "group": "Start",
+    "title": "Overview",
+    "mode": "directory",
+    "description": "Overview contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/getting-started",
+    "group": "Start",
+    "title": "Getting started",
+    "mode": "docs",
+    "description": "Getting started contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/installation",
+    "group": "Start",
+    "title": "Installation",
+    "mode": "docs",
+    "description": "Installation contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/quick-start",
+    "group": "Start",
+    "title": "Quick start",
+    "mode": "docs",
+    "description": "Quick start contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/foundations/colors",
+    "group": "Foundations",
+    "title": "Colors",
+    "mode": "tokens",
+    "description": "Colors contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/foundations/typography",
+    "group": "Foundations",
+    "title": "Typography",
+    "mode": "tokens",
+    "description": "Typography contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/foundations/spacing",
+    "group": "Foundations",
+    "title": "Spacing",
+    "mode": "tokens",
+    "description": "Spacing contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/foundations/layout",
+    "group": "Foundations",
+    "title": "Layout",
+    "mode": "tokens",
+    "description": "Layout contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/foundations/icons",
+    "group": "Foundations",
+    "title": "Icons",
+    "mode": "tokens",
+    "description": "Icons contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/foundations/elevation",
+    "group": "Foundations",
+    "title": "Elevation",
+    "mode": "tokens",
+    "description": "Elevation contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/foundations/borders",
+    "group": "Foundations",
+    "title": "Borders",
+    "mode": "tokens",
+    "description": "Borders contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/foundations/motion",
+    "group": "Foundations",
+    "title": "Motion",
+    "mode": "tokens",
+    "description": "Motion contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/foundations/responsive",
+    "group": "Foundations",
+    "title": "Responsive",
+    "mode": "tokens",
+    "description": "Responsive contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/components",
+    "group": "Components",
+    "title": "Component directory",
+    "mode": "directory",
+    "description": "Component directory contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/forms/validation",
+    "group": "Forms",
+    "title": "Validation",
+    "mode": "form",
+    "description": "Validation contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/forms/multi-step",
+    "group": "Forms",
+    "title": "Multi Step",
+    "mode": "form",
+    "description": "Multi Step contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/forms/file-upload",
+    "group": "Forms",
+    "title": "File Upload",
+    "mode": "form",
+    "description": "File Upload contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/forms",
+    "group": "Forms",
+    "title": "Forms",
+    "mode": "form",
+    "description": "Forms contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/data/tables",
+    "group": "Data",
+    "title": "Tables",
+    "mode": "data",
+    "description": "Tables contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/data/filters",
+    "group": "Data",
+    "title": "Filters",
+    "mode": "data",
+    "description": "Filters contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/data/charts",
+    "group": "Data",
+    "title": "Charts",
+    "mode": "data",
+    "description": "Charts contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/data/tree",
+    "group": "Data",
+    "title": "Tree",
+    "mode": "data",
+    "description": "Tree contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/data/timeline",
+    "group": "Data",
+    "title": "Timeline",
+    "mode": "data",
+    "description": "Timeline contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/data/code-viewer",
+    "group": "Data",
+    "title": "Code Viewer",
+    "mode": "data",
+    "description": "Code Viewer contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/spatial",
+    "group": "Spatial",
+    "title": "Spatial overview",
+    "mode": "directory",
+    "description": "Spatial overview contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/spatial/map",
+    "group": "Spatial",
+    "title": "Map",
+    "mode": "spatial",
+    "description": "Map contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/spatial/layers",
+    "group": "Spatial",
+    "title": "Layers",
+    "mode": "spatial",
+    "description": "Layers contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/spatial/coordinates",
+    "group": "Spatial",
+    "title": "Coordinates",
+    "mode": "spatial",
+    "description": "Coordinates contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/spatial/geometry",
+    "group": "Spatial",
+    "title": "Geometry",
+    "mode": "spatial",
+    "description": "Geometry contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/spatial/measurement",
+    "group": "Spatial",
+    "title": "Measurement",
+    "mode": "spatial",
+    "description": "Measurement contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/spatial/raster-terrain",
+    "group": "Spatial",
+    "title": "Raster Terrain",
+    "mode": "spatial",
+    "description": "Raster Terrain contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/spatial/query",
+    "group": "Spatial",
+    "title": "Query",
+    "mode": "spatial",
+    "description": "Query contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/3d",
+    "group": "3D",
+    "title": "3D overview",
+    "mode": "directory",
+    "description": "3D overview contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/3d/viewport",
+    "group": "3D",
+    "title": "Viewport",
+    "mode": "scene",
+    "description": "Viewport contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/3d/scene-tree",
+    "group": "3D",
+    "title": "Scene Tree",
+    "mode": "scene",
+    "description": "Scene Tree contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/3d/transforms",
+    "group": "3D",
+    "title": "Transforms",
+    "mode": "scene",
+    "description": "Transforms contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/3d/assets",
+    "group": "3D",
+    "title": "Assets",
+    "mode": "scene",
+    "description": "Assets contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/3d/materials",
+    "group": "3D",
+    "title": "Materials",
+    "mode": "scene",
+    "description": "Materials contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/3d/lighting",
+    "group": "3D",
+    "title": "Lighting",
+    "mode": "scene",
+    "description": "Lighting contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/3d/cameras",
+    "group": "3D",
+    "title": "Cameras",
+    "mode": "scene",
+    "description": "Cameras contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/3d/animation",
+    "group": "3D",
+    "title": "Animation",
+    "mode": "scene",
+    "description": "Animation contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/3d/annotations",
+    "group": "3D",
+    "title": "Annotations",
+    "mode": "scene",
+    "description": "Annotations contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/scene/2d-3d",
+    "group": "Scene",
+    "title": "2D 3D",
+    "mode": "scene",
+    "description": "2D 3D contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/scene/history",
+    "group": "Scene",
+    "title": "History",
+    "mode": "scene",
+    "description": "History contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/scene/validation",
+    "group": "Scene",
+    "title": "Validation",
+    "mode": "scene",
+    "description": "Validation contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/examples",
+    "group": "Examples",
+    "title": "Examples directory",
+    "mode": "directory",
+    "description": "Examples directory contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/developers/contracts",
+    "group": "Developers",
+    "title": "Contracts",
+    "mode": "code",
+    "description": "Contracts contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/developers/integration",
+    "group": "Developers",
+    "title": "Integration",
+    "mode": "code",
+    "description": "Integration contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/developers/composition",
+    "group": "Developers",
+    "title": "Composition",
+    "mode": "code",
+    "description": "Composition contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/developers/state",
+    "group": "Developers",
+    "title": "State",
+    "mode": "code",
+    "description": "State contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/developers/migration",
+    "group": "Developers",
+    "title": "Migration",
+    "mode": "code",
+    "description": "Migration contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/accessibility",
+    "group": "Accessibility",
+    "title": "Accessibility",
+    "mode": "docs",
+    "description": "Accessibility contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/accessibility/keyboard",
+    "group": "Accessibility",
+    "title": "Keyboard",
+    "mode": "docs",
+    "description": "Keyboard contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/accessibility/screen-readers",
+    "group": "Accessibility",
+    "title": "Screen Readers",
+    "mode": "docs",
+    "description": "Screen Readers contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/accessibility/contrast",
+    "group": "Accessibility",
+    "title": "Contrast",
+    "mode": "docs",
+    "description": "Contrast contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/accessibility/forms",
+    "group": "Accessibility",
+    "title": "Forms",
+    "mode": "docs",
+    "description": "Forms contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/accessibility/reduced-motion",
+    "group": "Accessibility",
+    "title": "Reduced Motion",
+    "mode": "docs",
+    "description": "Reduced Motion contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/readiness",
+    "group": "Release",
+    "title": "Readiness",
+    "mode": "readiness",
+    "description": "Readiness contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/changelog",
+    "group": "Release",
+    "title": "Changelog",
+    "mode": "readiness",
+    "description": "Changelog contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/deprecations",
+    "group": "Release",
+    "title": "Deprecations",
+    "mode": "readiness",
+    "description": "Deprecations contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/compatibility",
+    "group": "Release",
+    "title": "Compatibility",
+    "mode": "readiness",
+    "description": "Compatibility contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/studio",
+    "group": "Studio",
+    "title": "Studio",
+    "mode": "directory",
+    "description": "Studio contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/studio/workspaces",
+    "group": "Studio",
+    "title": "Studio Workspaces",
+    "mode": "directory",
+    "description": "Studio Workspaces contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/studio/themes",
+    "group": "Studio",
+    "title": "Studio Themes",
+    "mode": "tokens",
+    "description": "Studio Themes contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/studio/tokens",
+    "group": "Studio",
+    "title": "Studio Tokens",
+    "mode": "tokens",
+    "description": "Studio Tokens contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/studio/assets",
+    "group": "Studio",
+    "title": "Studio Assets",
+    "mode": "assets",
+    "description": "Studio Assets contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/studio/scenes",
+    "group": "Studio",
+    "title": "Studio Scenes",
+    "mode": "directory",
+    "description": "Studio Scenes contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/studio/settings",
+    "group": "Studio",
+    "title": "Studio Settings",
+    "mode": "directory",
+    "description": "Studio Settings contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/studio/settings/members",
+    "group": "Studio",
+    "title": "Studio Settings Members",
+    "mode": "members",
+    "description": "Studio Settings Members contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/studio/settings/permissions",
+    "group": "Studio",
+    "title": "Studio Settings Permissions",
+    "mode": "permissions",
+    "description": "Studio Settings Permissions contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/studio/settings/security",
+    "group": "Studio",
+    "title": "Studio Settings Security",
+    "mode": "auth",
+    "description": "Studio Settings Security contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/studio/settings/sessions",
+    "group": "Studio",
+    "title": "Studio Settings Sessions",
+    "mode": "sessions",
+    "description": "Studio Settings Sessions contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/studio/audit",
+    "group": "Studio",
+    "title": "Studio Audit",
+    "mode": "audit",
+    "description": "Studio Audit contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/sign-in",
+    "group": "Identity",
+    "title": "Sign In",
+    "mode": "auth",
+    "description": "Sign In contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/auth/callback",
+    "group": "Identity",
+    "title": "Auth Callback",
+    "mode": "auth",
+    "description": "Auth Callback contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/auth/mfa",
+    "group": "Identity",
+    "title": "Auth Mfa",
+    "mode": "auth",
+    "description": "Auth Mfa contracts, examples and local interaction guidance."
+  },
+  {
+    "path": "/auth/recovery",
+    "group": "Identity",
+    "title": "Auth Recovery",
+    "mode": "auth",
+    "description": "Auth Recovery contracts, examples and local interaction guidance."
+  }
+]

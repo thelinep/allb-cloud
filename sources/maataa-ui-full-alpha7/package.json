@@ -1,0 +1,533 @@
+{
+  "name": "@maataa/ui",
+  "version": "1.0.0-alpha.8.4",
+  "description": "Standalone MAATAA React + TypeScript UI package — Alpha 8.4 Beta-prep with certified Alpha 8 baseline, bundle budgets/code splitting, clean packed-consumer validation, Playwright browser/a11y smoke tests, release evidence and deterministic readiness gates",
+  "type": "module",
+  "private": true,
+  "sideEffects": [
+    "./dist/styles.css"
+  ],
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "docs",
+    "manifests",
+    "examples/redux-demo"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./styles.css": "./dist/styles.css",
+    "./foundation": {
+      "types": "./dist/foundation/index.d.ts",
+      "default": "./dist/foundation/index.js"
+    },
+    "./typography": {
+      "types": "./dist/typography/index.d.ts",
+      "default": "./dist/typography/index.js"
+    },
+    "./actions": {
+      "types": "./dist/actions/index.d.ts",
+      "default": "./dist/actions/index.js"
+    },
+    "./forms": {
+      "types": "./dist/forms/index.d.ts",
+      "default": "./dist/forms/index.js"
+    },
+    "./hooks": {
+      "types": "./dist/hooks/index.d.ts",
+      "default": "./dist/hooks/index.js"
+    },
+    "./navigation": {
+      "types": "./dist/navigation/index.d.ts",
+      "default": "./dist/navigation/index.js"
+    },
+    "./surfaces": {
+      "types": "./dist/surfaces/index.d.ts",
+      "default": "./dist/surfaces/index.js"
+    },
+    "./feedback": {
+      "types": "./dist/feedback/index.d.ts",
+      "default": "./dist/feedback/index.js"
+    },
+    "./data": {
+      "types": "./dist/data/index.d.ts",
+      "default": "./dist/data/index.js"
+    },
+    "./visualization": {
+      "types": "./dist/visualization/index.d.ts",
+      "default": "./dist/visualization/index.js"
+    },
+    "./maps": {
+      "types": "./dist/maps/index.d.ts",
+      "default": "./dist/maps/index.js"
+    },
+    "./mobile": {
+      "types": "./dist/mobile/index.d.ts",
+      "default": "./dist/mobile/index.js"
+    },
+    "./themes": {
+      "types": "./dist/themes/index.d.ts",
+      "default": "./dist/themes/index.js"
+    },
+    "./atomic": {
+      "types": "./dist/atomic/index.d.ts",
+      "default": "./dist/atomic/index.js"
+    },
+    "./atomic/*": {
+      "types": "./dist/atomic/*.d.ts",
+      "default": "./dist/atomic/*.js"
+    },
+    "./components": {
+      "types": "./dist/components/index.d.ts",
+      "default": "./dist/components/index.js"
+    },
+    "./components/*": {
+      "types": "./dist/components/*.d.ts",
+      "default": "./dist/components/*.js"
+    },
+    "./foundation/*": {
+      "types": "./dist/foundation/*.d.ts",
+      "default": "./dist/foundation/*.js"
+    },
+    "./typography/*": {
+      "types": "./dist/typography/*.d.ts",
+      "default": "./dist/typography/*.js"
+    },
+    "./actions/*": {
+      "types": "./dist/actions/*.d.ts",
+      "default": "./dist/actions/*.js"
+    },
+    "./forms/*": {
+      "types": "./dist/forms/*.d.ts",
+      "default": "./dist/forms/*.js"
+    },
+    "./navigation/*": {
+      "types": "./dist/navigation/*.d.ts",
+      "default": "./dist/navigation/*.js"
+    },
+    "./surfaces/*": {
+      "types": "./dist/surfaces/*.d.ts",
+      "default": "./dist/surfaces/*.js"
+    },
+    "./feedback/*": {
+      "types": "./dist/feedback/*.d.ts",
+      "default": "./dist/feedback/*.js"
+    },
+    "./data/*": {
+      "types": "./dist/data/*.d.ts",
+      "default": "./dist/data/*.js"
+    },
+    "./visualization/*": {
+      "types": "./dist/visualization/*.d.ts",
+      "default": "./dist/visualization/*.js"
+    },
+    "./maps/*": {
+      "types": "./dist/maps/*.d.ts",
+      "default": "./dist/maps/*.js"
+    },
+    "./mobile/*": {
+      "types": "./dist/mobile/*.d.ts",
+      "default": "./dist/mobile/*.js"
+    },
+    "./themes/*": {
+      "types": "./dist/themes/*.d.ts",
+      "default": "./dist/themes/*.js"
+    },
+    "./layout-atoms": {
+      "types": "./dist/layout-atoms/index.d.ts",
+      "default": "./dist/layout-atoms/index.js"
+    },
+    "./layout-atoms/*": {
+      "types": "./dist/layout-atoms/*.d.ts",
+      "default": "./dist/layout-atoms/*.js"
+    },
+    "./layouts": {
+      "types": "./dist/layouts/index.d.ts",
+      "default": "./dist/layouts/index.js"
+    },
+    "./layouts/*": {
+      "types": "./dist/layouts/*.d.ts",
+      "default": "./dist/layouts/*.js"
+    },
+    "./page-atoms": {
+      "types": "./dist/page-atoms/index.d.ts",
+      "default": "./dist/page-atoms/index.js"
+    },
+    "./page-atoms/*": {
+      "types": "./dist/page-atoms/*.d.ts",
+      "default": "./dist/page-atoms/*.js"
+    },
+    "./pages": {
+      "types": "./dist/pages/index.d.ts",
+      "default": "./dist/pages/index.js"
+    },
+    "./pages/*": {
+      "types": "./dist/pages/*.d.ts",
+      "default": "./dist/pages/*.js"
+    },
+    "./workspace-atoms": {
+      "types": "./dist/workspace-atoms/index.d.ts",
+      "default": "./dist/workspace-atoms/index.js"
+    },
+    "./workspace-atoms/*": {
+      "types": "./dist/workspace-atoms/*.d.ts",
+      "default": "./dist/workspace-atoms/*.js"
+    },
+    "./workspaces": {
+      "types": "./dist/workspaces/index.d.ts",
+      "default": "./dist/workspaces/index.js"
+    },
+    "./workspaces/*": {
+      "types": "./dist/workspaces/*.d.ts",
+      "default": "./dist/workspaces/*.js"
+    },
+    "./registries": {
+      "types": "./dist/registries/index.d.ts",
+      "default": "./dist/registries/index.js"
+    },
+    "./registries/*": {
+      "types": "./dist/registries/*.d.ts",
+      "default": "./dist/registries/*.js"
+    },
+    "./page-groups": {
+      "types": "./dist/page-groups/index.d.ts",
+      "default": "./dist/page-groups/index.js"
+    },
+    "./page-groups/*": {
+      "types": "./dist/page-groups/*.d.ts",
+      "default": "./dist/page-groups/*.js"
+    },
+    "./workspace-groups": {
+      "types": "./dist/workspace-groups/index.d.ts",
+      "default": "./dist/workspace-groups/index.js"
+    },
+    "./workspace-groups/*": {
+      "types": "./dist/workspace-groups/*.d.ts",
+      "default": "./dist/workspace-groups/*.js"
+    },
+    "./layout-groups": {
+      "types": "./dist/layout-groups/index.d.ts",
+      "default": "./dist/layout-groups/index.js"
+    },
+    "./layout-groups/*": {
+      "types": "./dist/layout-groups/*.d.ts",
+      "default": "./dist/layout-groups/*.js"
+    },
+    "./registry-atoms": {
+      "types": "./dist/registry-atoms/index.d.ts",
+      "default": "./dist/registry-atoms/index.js"
+    },
+    "./registry-atoms/*": {
+      "types": "./dist/registry-atoms/*.d.ts",
+      "default": "./dist/registry-atoms/*.js"
+    },
+    "./registry-ui": {
+      "types": "./dist/registry-ui/index.d.ts",
+      "default": "./dist/registry-ui/index.js"
+    },
+    "./registry-ui/*": {
+      "types": "./dist/registry-ui/*.d.ts",
+      "default": "./dist/registry-ui/*.js"
+    },
+    "./generator-atoms": {
+      "types": "./dist/generator-atoms/index.d.ts",
+      "default": "./dist/generator-atoms/index.js"
+    },
+    "./generator-atoms/*": {
+      "types": "./dist/generator-atoms/*.d.ts",
+      "default": "./dist/generator-atoms/*.js"
+    },
+    "./generators": {
+      "types": "./dist/generators/index.d.ts",
+      "default": "./dist/generators/index.js"
+    },
+    "./generators/*": {
+      "types": "./dist/generators/*.d.ts",
+      "default": "./dist/generators/*.js"
+    },
+    "./generator-groups": {
+      "types": "./dist/generator-groups/index.d.ts",
+      "default": "./dist/generator-groups/index.js"
+    },
+    "./tool-atoms": {
+      "types": "./dist/tool-atoms/index.d.ts",
+      "default": "./dist/tool-atoms/index.js"
+    },
+    "./tool-atoms/*": {
+      "types": "./dist/tool-atoms/*.d.ts",
+      "default": "./dist/tool-atoms/*.js"
+    },
+    "./tools": {
+      "types": "./dist/tools/index.d.ts",
+      "default": "./dist/tools/index.js"
+    },
+    "./tools/*": {
+      "types": "./dist/tools/*.d.ts",
+      "default": "./dist/tools/*.js"
+    },
+    "./tool-groups": {
+      "types": "./dist/tool-groups/index.d.ts",
+      "default": "./dist/tool-groups/index.js"
+    },
+    "./ai-space-atoms": {
+      "types": "./dist/ai-space-atoms/index.d.ts",
+      "default": "./dist/ai-space-atoms/index.js"
+    },
+    "./ai-space-atoms/*": {
+      "types": "./dist/ai-space-atoms/*.d.ts",
+      "default": "./dist/ai-space-atoms/*.js"
+    },
+    "./ai-spaces": {
+      "types": "./dist/ai-spaces/index.d.ts",
+      "default": "./dist/ai-spaces/index.js"
+    },
+    "./ai-spaces/*": {
+      "types": "./dist/ai-spaces/*.d.ts",
+      "default": "./dist/ai-spaces/*.js"
+    },
+    "./ai-space-groups": {
+      "types": "./dist/ai-space-groups/index.d.ts",
+      "default": "./dist/ai-space-groups/index.js"
+    },
+    "./device-atoms": {
+      "types": "./dist/device-atoms/index.d.ts",
+      "default": "./dist/device-atoms/index.js"
+    },
+    "./device-atoms/*": {
+      "types": "./dist/device-atoms/*.d.ts",
+      "default": "./dist/device-atoms/*.js"
+    },
+    "./devices": {
+      "types": "./dist/devices/index.d.ts",
+      "default": "./dist/devices/index.js"
+    },
+    "./devices/*": {
+      "types": "./dist/devices/*.d.ts",
+      "default": "./dist/devices/*.js"
+    },
+    "./device-groups": {
+      "types": "./dist/device-groups/index.d.ts",
+      "default": "./dist/device-groups/index.js"
+    },
+    "./device-groups/*": {
+      "types": "./dist/device-groups/*.d.ts",
+      "default": "./dist/device-groups/*.js"
+    },
+    "./types": {
+      "types": "./dist/types/index.d.ts",
+      "default": "./dist/types/index.js"
+    },
+    "./types/*": {
+      "types": "./dist/types/*.d.ts",
+      "default": "./dist/types/*.js"
+    },
+    "./redux": {
+      "types": "./dist/redux/index.d.ts",
+      "default": "./dist/redux/index.js"
+    },
+    "./redux/*": {
+      "types": "./dist/redux/*.d.ts",
+      "default": "./dist/redux/*.js"
+    },
+    "./redux/slices/*": {
+      "types": "./dist/redux/slices/*.d.ts",
+      "default": "./dist/redux/slices/*.js"
+    },
+    "./redux/selectors/*": {
+      "types": "./dist/redux/selectors/*.d.ts",
+      "default": "./dist/redux/selectors/*.js"
+    },
+    "./redux/middleware/*": {
+      "types": "./dist/redux/middleware/*.d.ts",
+      "default": "./dist/redux/middleware/*.js"
+    },
+    "./static-data": {
+      "types": "./dist/static-data/index.d.ts",
+      "default": "./dist/static-data/index.js"
+    },
+    "./static-data/*": {
+      "types": "./dist/static-data/*.d.ts",
+      "default": "./dist/static-data/*.js"
+    },
+    "./demo": {
+      "types": "./dist/demo/index.d.ts",
+      "default": "./dist/demo/index.js"
+    },
+    "./demo/*": {
+      "types": "./dist/demo/*.d.ts",
+      "default": "./dist/demo/*.js"
+    },
+    "./identity": {
+      "types": "./dist/identity/index.d.ts",
+      "default": "./dist/identity/index.js"
+    },
+    "./identity/*": {
+      "types": "./dist/identity/*.d.ts",
+      "default": "./dist/identity/*.js"
+    },
+    "./icons": {
+      "types": "./dist/icons/index.d.ts",
+      "default": "./dist/icons/index.js"
+    },
+    "./icons/*": {
+      "types": "./dist/icons/*.d.ts",
+      "default": "./dist/icons/*.js"
+    },
+    "./composer": {
+      "types": "./dist/composer/index.d.ts",
+      "default": "./dist/composer/index.js"
+    },
+    "./composer/*": {
+      "types": "./dist/composer/*.d.ts",
+      "default": "./dist/composer/*.js"
+    },
+    "./editor": {
+      "types": "./dist/editor/index.d.ts",
+      "default": "./dist/editor/index.js"
+    },
+    "./editor/*": {
+      "types": "./dist/editor/*.d.ts",
+      "default": "./dist/editor/*.js"
+    },
+    "./runtime": {
+      "types": "./dist/runtime/index.d.ts",
+      "default": "./dist/runtime/index.js"
+    },
+    "./runtime/*": {
+      "types": "./dist/runtime/*.d.ts",
+      "default": "./dist/runtime/*.js"
+    }
+  },
+  "peerDependencies": {
+    "react": ">=18.2.0 <20",
+    "react-dom": ">=18.2.0 <20",
+    "react-redux": ">=9.1.0 <10"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.10.0",
+    "@playwright/test": "^1.52.0",
+    "@storybook/addon-a11y": "8.6.18",
+    "@storybook/addon-essentials": "8.6.18",
+    "@storybook/react": "8.6.18",
+    "@storybook/react-vite": "8.6.18",
+    "@testing-library/jest-dom": "^6.6.0",
+    "@testing-library/react": "^16.0.0",
+    "@testing-library/user-event": "^14.6.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.0",
+    "@vitest/coverage-v8": "4.1.11",
+    "electron": "^44.5.1",
+    "electron-builder": "^26.17.0",
+    "eslint": "^9.0.0",
+    "jsdom": "^26.0.0",
+    "prettier": "^3.5.0",
+    "react-redux": "^9.2.0",
+    "storybook": "8.6.18",
+    "typescript": "^5.8.0",
+    "vite": "^6.0.0",
+    "vitest": "4.1.11",
+    "wrangler": "^4.149.0"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json && node scripts/finalize-esm.mjs && node scripts/copy-css.mjs",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "test:contracts": "tsc -p tsconfig.contracts.json && node --experimental-strip-types --no-warnings --test tests/contracts/*.contract-spec.ts",
+    "storybook": "storybook dev -p 6006",
+    "storybook:build": "storybook build --output-dir .certification/storybook",
+    "format": "prettier --write src tests stories docs manifests README.md",
+    "format:check": "prettier --check src tests stories docs manifests README.md",
+    "api:manifest": "node scripts/api-manifest.mjs",
+    "registry:coverage": "node scripts/api-manifest.mjs --check && node scripts/audit-component-registry-coverage.mjs",
+    "compare:consumers": "node scripts/compare-maataa-ui-active-consumers.mjs",
+    "prepack": "pnpm build && pnpm api:manifest && pnpm api:atomic && pnpm redux:manifest && pnpm type:manifest && pnpm depth:manifest && pnpm device:manifest && pnpm validate:devices && pnpm demo:manifest && pnpm validate:demo && pnpm surface:manifest && pnpm validate:surface && pnpm identity:manifest && pnpm validate:depth && pnpm beta:manifest",
+    "api:atomic": "node scripts/atomic-manifest.mjs",
+    "validate:ai": "node scripts/validate-ai-catalog.mjs",
+    "device:manifest": "node scripts/device-manifest.mjs",
+    "validate:devices": "node scripts/validate-device-catalog.mjs",
+    "demo:manifest": "node scripts/demo-manifest.mjs",
+    "validate:demo": "node scripts/validate-demo.mjs",
+    "demo": "vite --config examples/redux-demo/vite.config.mjs",
+    "tlp:dev": "vite --config apps/tlp-film/vite.config.mjs",
+    "tlp:build": "vite build --config apps/tlp-film/vite.config.mjs",
+    "tlp:typecheck": "tsc --noEmit -p apps/tlp-film/tsconfig.json",
+    "tlps:dev": "vite --config apps/tlps/vite.config.mjs",
+    "tlps:build": "vite build --config apps/tlps/vite.config.mjs",
+    "tlps:typecheck": "tsc --noEmit -p apps/tlps/tsconfig.json",
+    "products:build": "pnpm tlp:build && pnpm tlps:build",
+    "products:typecheck": "pnpm tlp:typecheck && pnpm tlps:typecheck",
+    "products:e2e": "playwright test --config playwright.products.config.ts",
+    "support-center": "vite --config examples/support-center/vite.config.mjs",
+    "support-center:catalog": "pnpm workspace:slices:check && node scripts/generate-support-center-package-index.mjs",
+    "support-center:build": "pnpm support-center:catalog && vite build --config examples/support-center/vite.config.mjs",
+    "support-center:typecheck": "tsc --noEmit -p examples/support-center/tsconfig.json",
+    "support-center:screenshots": "pnpm support-center:catalog && playwright test --config playwright.gallery.config.ts && playwright test --config playwright.support-gallery.config.ts",
+    "maataa:desktop:build": "pnpm demo:build && pnpm support-center:build && pnpm tlp:build && pnpm tlps:build",
+    "maataa:browser:dev": "cargo run --manifest-path apps/maataa-browser/src-tauri/Cargo.toml --locked",
+    "maataa:browser:build": "cargo build --manifest-path apps/maataa-browser/src-tauri/Cargo.toml --locked --release",
+    "maataa:desktop:dev": "pnpm maataa:desktop:build && cargo build --manifest-path apps/maataa-browser/src-tauri/Cargo.toml --locked && electron examples/support-center/electron",
+    "maataa:desktop:check": "pnpm maataa:desktop:build && playwright test --config playwright.desktop.config.ts",
+    "maataa:desktop:pack": "pnpm support-center:screenshots && pnpm maataa:desktop:build && pnpm maataa:browser:build && electron-builder --mac --arm64 --config examples/support-center/electron-builder.yml",
+    "maataa:tauri:products": "pnpm demo:build && pnpm products:build && pnpm support-center:build && node scripts/build-tauri-desktop-products.mjs",
+    "maataa:tauri:build": "pnpm maataa:tauri:products && cd apps/maataa-desktop-tauri/src-tauri && cargo tauri build --bundles app --no-sign",
+    "maataa:tauri:check": "pnpm products:typecheck && cargo fmt --check --manifest-path apps/maataa-desktop-tauri/src-tauri/Cargo.toml && cargo test --manifest-path apps/maataa-desktop-tauri/src-tauri/Cargo.toml --offline && playwright test --config playwright.desktop-tauri-trial.config.ts",
+    "support-center:desktop:dev": "pnpm maataa:desktop:dev",
+    "support-center:desktop:pack": "pnpm maataa:desktop:pack",
+    "support-center:check": "pnpm support-center:typecheck && pnpm support-center:screenshots && pnpm support-center:build && playwright test --config playwright.support.config.ts",
+    "brahmini:runtime": "node examples/redux-demo/brahmini-runtime.mjs",
+    "brahmini:dev": "node scripts/start-brahmini-demo.mjs",
+    "brahmini:preview": "node scripts/start-brahmini-demo.mjs --preview",
+    "demo:build": "node scripts/generate-preview-loaders.mjs && vite build --config examples/redux-demo/vite.config.mjs",
+    "demo:videos": "pnpm demo:build && node scripts/record-demo-videos.mjs",
+    "demo:preview": "vite preview --config examples/redux-demo/vite.config.mjs",
+    "surface:manifest": "node scripts/public-surface-manifest.mjs",
+    "validate:surface": "node scripts/validate-public-surface.mjs",
+    "identity:manifest": "node scripts/identity-manifest.mjs",
+    "stories:generate": "node scripts/generate-component-stories.mjs",
+    "validate:depth": "node scripts/validate-depth.mjs",
+    "certify": "pnpm typecheck && pnpm test && pnpm registry:coverage && pnpm stories:generate && pnpm storybook:build && pnpm demo:build && pnpm validate:depth",
+    "redux:manifest": "node scripts/redux-manifest.mjs",
+    "workspace:slices": "node scripts/generate-workspace-data-slices.mjs",
+    "workspace:slices:check": "node scripts/generate-workspace-data-slices.mjs --check",
+    "type:manifest": "node scripts/type-manifest.mjs",
+    "depth:manifest": "node scripts/depth-manifest.mjs",
+    "storybook:check": "node scripts/check-storybook-stack.mjs",
+    "bundle:check": "node scripts/check-bundle-budgets.mjs",
+    "package:consumer": "node scripts/certify-consumer.mjs",
+    "consumer:next:preview": "node fixtures/consumer-next/serve-export.mjs",
+    "browser:install": "playwright install chromium firefox webkit",
+    "browser:test": "pnpm demo:build && playwright test",
+    "browser:a11y": "pnpm demo:build && playwright test tests/e2e/accessibility.spec.ts",
+    "beta:manifest": "node scripts/beta-prep-manifest.mjs",
+    "beta:validate": "node scripts/validate-beta-prep.mjs",
+    "certify:beta:no-browser": "pnpm certify && pnpm package:consumer && pnpm bundle:check && pnpm beta:validate",
+    "certify:beta": "pnpm certify:enterprise",
+    "security:baseline": "node scripts/security-baseline.mjs",
+    "performance:check": "node scripts/check-composition-performance.mjs",
+    "docs:generate": "node scripts/generate-canonical-docs.mjs",
+    "docs:check": "node scripts/generate-canonical-docs.mjs --check",
+    "certify:enterprise": "node scripts/certify-enterprise.mjs",
+    "performance:runtime": "node scripts/measure-runtime-performance.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.5.0"
+  },
+  "peerDependenciesMeta": {
+    "react-redux": {
+      "optional": true
+    }
+  }
+}
