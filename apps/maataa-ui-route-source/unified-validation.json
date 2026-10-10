@@ -1,0 +1,10 @@
+{
+  "routesPassed": 259,
+  "unknownRoute404Checks": 5,
+  "landingWorkspacePairs": 36,
+  "assetHTTPChecks": 174,
+  "assetHashesMatchSource": true,
+  "toolTargetsVerified": true,
+  "browserInteractions": "UNTESTED",
+  "mobileVisualQA": "UNTESTED"
+}

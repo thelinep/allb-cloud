@@ -1,0 +1,14 @@
+{
+  "checks": "PASS",
+  "coverage": [
+    "draft/apply separation",
+    "draft persistence",
+    "Studio-to-landing theme propagation",
+    "route branding and tagline",
+    "workspace handoff link",
+    "brand workspace inheritance",
+    "exact-route isolation",
+    "corrupt-storage recovery"
+  ],
+  "environment": "jsdom DOM simulation; not real browser or visual QA"
+}

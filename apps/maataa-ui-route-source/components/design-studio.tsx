@@ -36,7 +36,7 @@ export function DesignStudio({tab}:{tab:'theme'|'branding'}){
   <p className="eyebrow">MAATAA UI / Design configuration</p><h1>{tab==='theme'?'Theme Studio':'Branding Studio'}</h1>
   <p className="lead">Configure global defaults, brand identities and individual routes. New routes inherit defaults automatically. Adding a route configuration does not create the route itself.</p>
   <nav className="controls" aria-label="Design studios"><a href="/studio/themes" aria-current={tab==='theme'?'page':undefined}>Theme Studio</a><a href="/studio/branding" aria-current={tab==='branding'?'page':undefined}>Branding Studio</a></nav>
-  <p className="notice">Browser-local configuration. Use JSON export/import to transfer settings between browsers or separately hosted apps. No database, access control or server publication is connected.</p>
+  <p className="notice">Browser-local configuration. Landings and workspaces share this active configuration. Use JSON export/import to transfer settings between browsers. No database, access control or server publication is connected.</p>
   <fieldset disabled={!ready}><legend>Configuration scope</legend><div className="controls">
    <label>Scope<select value={scope} onChange={e=>{setScope(e.target.value as typeof scope);setTarget('');}}><option value="global">Global defaults</option><option value="brand">Brand</option><option value="route">Route / landing</option></select></label>
    {scope==='brand'&&<label>Brand<select value={target} onChange={e=>setTarget(e.target.value)}><option value="">Select a brand</option>{Object.keys(config.brands).map(id=><option key={id}>{id}</option>)}</select></label>}

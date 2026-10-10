@@ -1,0 +1,16 @@
+{
+  "name": "allb-cloud",
+  "private": true,
+  "scripts": {
+    "setup": "npm ci --prefix apps/maataa-ui-route-source",
+    "dev": "npm --prefix apps/maataa-ui-route-source run dev",
+    "build": "npm --prefix apps/maataa-ui-route-source run build",
+    "start": "npm --prefix apps/maataa-ui-route-source run start",
+    "typecheck": "npm --prefix apps/maataa-ui-route-source run typecheck",
+    "test:config": "node --experimental-strip-types packages/design-config/tests/config.test.mjs",
+    "test:routes": "npm --prefix apps/maataa-ui-route-source run validate:routes",
+    "test:integration": "npm --prefix apps/maataa-ui-route-source run test:integration",
+    "test:design-dom": "npm --prefix apps/maataa-ui-route-source run test:design-dom"
+  },
+  "type": "module"
+}

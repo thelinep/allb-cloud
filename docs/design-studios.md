@@ -1,3 +1,5 @@
+> Current application integration: see [Unified ALLB application](unified-app-integration.md). Studio and landings now share one application/origin; manual JSON transfer is only needed for other browsers or separately hosted legacy copies.
+
 # MAATAA Theme Studio and Branding Studio
 
 ## Where to open
@@ -20,7 +22,7 @@ The sidebar and Studio directory expose both routes.
 - Exact route settings override family settings.
 - Theme and branding overrides are independent; changing one field leaves other fields inherited.
 - Future routes inherit automatically. Adding a configuration does not implement the route.
-- The route selector includes all 184 supported MAATAA fixture/catalogue URLs and 36 ALLB landing routes. Arbitrary future paths and family patterns can be added.
+- The route selector includes all 259 supported MAATAA fixture/catalogue URLs and 36 ALLB landing routes. Arbitrary future paths and family patterns can be added.
 - Theme: four editable presets, six semantic colors, light/dark color scheme, font, density and radius.
 - Branding: name, tagline, existing logo/favicon/hero URLs and hero alternative text.
 - Draft preview and text color contrast checks. Preview is illustrative, not a screenshot of the target page.
@@ -49,7 +51,7 @@ CSS must use the shared tokens; embedded artwork, arbitrary hardcoded child styl
 
 - MAATAA UI TypeScript: PASS.
 - MAATAA UI production build: PASS.
-- Route registry: 79 concrete page modules, 184 supported catalogue/fixture URLs.
+- Route registry: 82 concrete page modules, 259 supported catalogue/fixture URLs.
 - HTTP rendering: /studio/themes, /studio/branding and /studio return 200.
 - Shared configuration tests: PASS (inheritance, family specificity, future routes, exact overrides, brand resolution, immutable resolution, validation, asset URL restrictions, contrast and JSON roundtrip).
 - Scoped ALLB landing TypeScript: PASS, using the installed route application's Next/React tooling.

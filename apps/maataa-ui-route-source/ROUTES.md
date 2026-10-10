@@ -186,3 +186,10 @@
 
 - `/studio/branding` — Branding Studio (global / brand / route).
 - `/studio/themes` — Theme Studio configuration editor.
+
+## Unified application routes
+
+- `/` — ALLB portal; former MAATAA root is now `/ui`.
+- `/allb` and `/allb/[slug]` — gallery and 36 landings.
+- `/workspace` and `/workspace/[brand]` — directory and 36 brand hubs.
+- 259 supported fixture/catalogue URLs; 82 concrete registry modules.

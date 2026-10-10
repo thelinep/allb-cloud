@@ -1,17 +1,20 @@
 {
-  "scope": "Theme and Branding Studios",
+  "scope": "Unified ALLB UI application",
   "typecheck": "PASS",
   "productionBuild": "PASS",
   "routeRegistry": {
-    "concreteModules": 79,
-    "supportedURLs": 184
+    "concreteModules": 82,
+    "supportedURLs": 259
   },
-  "studioHTTP": "3/3 PASS",
+  "studioHTTP": "259/259 unified routes PASS",
   "configurationTests": "PASS",
-  "landingScopedTypecheck": "PASS using route-app tooling",
-  "landingFullBuild": "BLOCKED: @opennextjs/cloudflare unavailable",
+  "landingScopedTypecheck": "PASS in canonical application",
+  "landingFullBuild": "Canonical unified application PASS; legacy scientific runtime not integrated",
   "browserInteractions": "UNTESTED: Chromium installation failed",
   "mobileVisualQA": "UNTESTED",
   "serverPersistence": "NOT IMPLEMENTED",
-  "deployment": "NOT PERFORMED"
+  "deployment": "NOT PERFORMED",
+  "simulatedDOMTests": "PASS",
+  "assets": "174/174 HTTP checks and matching source hashes",
+  "landingWorkspaceLinks": "36/36 PASS"
 }

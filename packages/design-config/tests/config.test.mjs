@@ -6,6 +6,8 @@ c.routes['/allb/*']={theme:{radius:20}};
 c.routes['/allb/nevo']={brand:'nevo',theme:{accent:'#ffffff'}};
 parseConfig(c);
 assert.equal(resolveDesign(c,'/allb/nevo').branding.name,'NEVO');
+assert.equal(resolveDesign(c,'/workspace/nevo').branding.name,'NEVO');
+assert.equal(resolveDesign(c,'/workspace/nevo').theme.accent,'#e7bcd7');
 assert.equal(resolveDesign(c,'/allb/nevo').theme.accent,'#ffffff');
 assert.equal(resolveDesign(c,'/allb/new-product').theme.radius,20);
 assert.equal(resolveDesign(c,'/unrelated').theme.radius,12);

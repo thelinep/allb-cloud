@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Horizon Realms",
+    "category": "Exploration",
+    "image": "/allb/extracted/game-1.webp"
+  },
+  {
+    "name": "Starward Journey",
+    "category": "Strategy",
+    "image": "/allb/extracted/game-2.webp"
+  },
+  {
+    "name": "Living Cities",
+    "category": "Creative",
+    "image": "/allb/extracted/game-3.webp"
+  },
+  {
+    "name": "The Convergence",
+    "category": "Multiplayer",
+    "image": "/allb/extracted/game-4.webp"
+  }
+]

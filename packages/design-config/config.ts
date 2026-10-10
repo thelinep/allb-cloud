@@ -42,7 +42,8 @@ export function parseConfig(value:unknown):DesignConfig{
 export function resolveDesign(config:DesignConfig,path:string,brandId?:string):{theme:Theme;branding:Brand;brand?:string}{
  const matches=Object.keys(config.routes).filter(k=>k.endsWith('/*')&&(path===k.slice(0,-2)||path.startsWith(k.slice(0,-1)))).sort((a,b)=>a.length-b.length);
  const overrides=[...matches.map(k=>config.routes[k]),...(Object.hasOwn(config.routes,path)?[config.routes[path]]:[])];
- const assigned=overrides.reduce((id,v)=>v.brand??id,brandId);
+ const workspaceBrand=path.match(/^\/workspace\/([a-z0-9-]+)(?:\/|$)/)?.[1];
+ const assigned=overrides.reduce((id,v)=>v.brand??id,brandId??workspaceBrand);
  const brand=assigned&&Object.hasOwn(config.brands,assigned)?config.brands[assigned]:{};
  let theme={...config.global.theme,...brand.theme};let branding={...config.global.branding,...brand.branding};
  for(const v of overrides){theme={...theme,...v.theme};branding={...branding,...v.branding};}

@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "typecheck": "tsc --noEmit",
-    "validate:routes": "node scripts/validate-routes.mjs"
+    "validate:routes": "node scripts/validate-routes.mjs",
+    "test:integration": "node scripts/unified-check.mjs",
+    "test:design-dom": "node scripts/design-dom-check.cjs"
   },
   "dependencies": {
     "next": "16.3.4",
@@ -15,9 +17,11 @@
     "react-dom": "19.2.6"
   },
   "devDependencies": {
-    "typescript": "5.9.3",
     "@types/node": "22.19.19",
     "@types/react": "19.2.14",
-    "@types/react-dom": "19.2.3"
-  }
+    "@types/react-dom": "19.2.3",
+    "jsdom": "26.1.0",
+    "typescript": "5.9.3"
+  },
+  "type": "module"
 }

@@ -2,9 +2,9 @@
   {
     "path": "/",
     "group": "Start",
-    "title": "MAATAA UI",
+    "title": "ALLB Cloud",
     "mode": "directory",
-    "description": "MAATAA UI contracts, examples and local interaction guidance."
+    "description": "Unified ALLB application portal."
   },
   {
     "path": "/overview",
@@ -551,5 +551,26 @@
     "title": "Branding Studio",
     "mode": "tokens",
     "description": "Scoped brand identity and landing configuration."
+  },
+  {
+    "path": "/ui",
+    "title": "MAATAA UI",
+    "group": "Applications",
+    "mode": "directory",
+    "description": "Shared component and route library."
+  },
+  {
+    "path": "/allb",
+    "title": "ALLB landings",
+    "group": "Applications",
+    "mode": "directory",
+    "description": "36 landing experiences."
+  },
+  {
+    "path": "/workspace",
+    "title": "Brand workspaces",
+    "group": "Applications",
+    "mode": "directory",
+    "description": "Brand launchers for shared local MAATAA tools."
   }
 ]
