@@ -16,7 +16,7 @@ export async function readSession(db,token,{now=new Date()}={}){
  const hash=sessionTokenHash(token);if(!hash)return null;
  const result=await db.query(`SELECT s.user_id,s.authenticated_at,s.mfa_verified_at FROM auth_sessions s
  JOIN auth_accounts a ON a.user_id=s.user_id AND a.credential_version=s.credential_version
- WHERE s.token_hash=$1 AND s.revoked_at IS NULL AND s.expires_at>$2
+ WHERE s.token_hash=$1 AND s.revoked_at IS NULL AND s.expires_at>$2 AND s.authenticated_at<=$2
  AND a.disabled_at IS NULL AND a.verified_at IS NOT NULL`,[hash,now]);
  return result.rows[0]??null;
 }
