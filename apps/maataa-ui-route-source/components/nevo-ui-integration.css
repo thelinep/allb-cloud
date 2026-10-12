@@ -1,0 +1,22 @@
+/* Host adapter: ALLB host input selectors otherwise override upstream opt-in styles. */
+.ui-surface .maataa-ui .maataa-ui__form-builder input,
+.ui-surface .maataa-ui .maataa-ui__form-builder textarea {
+  background: var(--maataa-surface);
+  color: var(--maataa-ink);
+  border-color: var(--maataa-line);
+}
+.ui-surface .maataa-ui .maataa-ui__button {
+  background: var(--maataa-surface);
+  color: var(--maataa-ink);
+  border-color: var(--maataa-line);
+}
+.ui-surface .maataa-ui .maataa-ui__button--primary {
+  background: var(--maataa-accent-strong);
+  color: #fff;
+}
+.ui-surface .maataa-ui .maataa-ui__button:hover:not(:disabled) {
+  background: var(--maataa-surface-subtle);
+}
+.ui-surface .maataa-ui .maataa-ui__button--primary:hover:not(:disabled) {
+  background: var(--maataa-accent);
+}

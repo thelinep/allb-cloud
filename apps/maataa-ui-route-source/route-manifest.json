@@ -260,7 +260,13 @@
     "/workspace/roadmap",
     "/workspace/tlps-workflow",
     "/workspace/samwat-research",
-    "/enterprise/kanban"
+    "/enterprise/kanban",
+    "/integration/ui",
+    "/integration/nevo",
+    "/integration/workflow",
+    "/integration/security",
+    "/integration/assets",
+    "/integration/operations"
   ],
-  "routeCount": 260
+  "routeCount": 266
 }
