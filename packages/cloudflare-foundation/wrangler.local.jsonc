@@ -1,0 +1,11 @@
+{
+ "name":"allb-native-qualification",
+ "main":"worker.mjs",
+ "compatibility_date":"2026-10-01",
+ "workers_dev":false,
+ "preview_urls":false,
+ "d1_databases":[{"binding":"DB","database_name":"allb-native-local","database_id":"00000000-0000-0000-0000-000000000001","migrations_dir":"."}],
+ "r2_buckets":[{"binding":"PRIVATE_ASSETS","bucket_name":"allb-native-private-local"}],
+ "queues":{"producers":[{"binding":"JOBS","queue":"allb-native-local"}],"consumers":[{"queue":"allb-native-local","max_batch_size":10,"max_retries":3,"dead_letter_queue":"allb-native-dead-local"}]},
+ "triggers":{"crons":["*/5 * * * *"]}
+}
