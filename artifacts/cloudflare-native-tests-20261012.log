@@ -1,0 +1,35 @@
+PASS native D1 authority and fresh MFA
+PASS foreign scope denied
+PASS viewer write and fresh MFA denied
+PASS draft revision plus immutable version audit outbox atomic
+PASS stale revision rolls back all writes
+PASS concurrent writers only one succeeds
+PASS version and audit mutation denied
+PASS native private R2 upload and byte-exact download
+PASS duplicate revision compensates new object only
+PASS temporary access is session-bound and expiring
+PASS tampered access signature and revision denied
+PASS outbox dispatch sends reference without private payload
+PASS consumer verifies durable version and deduplicates
+PASS consumer acknowledges success and retries poison message
+PASS queue failure leaves outbox dispatch recoverable
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+  assert.ok(row.completed_at)
+
+    at file:///workspace/scratch/80aa72c897e9/allb-cloud/tests/cloudflare/foundation.mjs:41:381
+    at async check (file:///workspace/scratch/80aa72c897e9/allb-cloud/tests/cloudflare/foundation.mjs:12:46)
+    at async file:///workspace/scratch/80aa72c897e9/allb-cloud/tests/cloudflare/foundation.mjs:41:2 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: null,
+  expected: true,
+  operator: '==',
+  diff: 'simple'
+}
+
+Node.js v24.19.0

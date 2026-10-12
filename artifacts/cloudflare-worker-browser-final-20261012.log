@@ -1,0 +1,414 @@
+[WebServer] (node:18) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] ▲ [WARNING] Proxy environment variables detected. We'll use your proxy for fetch requests.
+[WebServer] 
+[WebServer] 
+[WebServer] (node:26) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] ▲ [WARNING] Using direct eval with a bundler is not recommended and may cause problems [direct-eval]
+[WebServer] 
+[WebServer]     .open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:1031:95855:
+[WebServer]       1031 │ ...{body} };`;ASM_CONSTS[start]=eval(func)}if(updateTableMap(tab...
+[WebServer]            ╵                                 ~~~~
+[WebServer] 
+[WebServer]   You can read more about direct eval and bundling here: https://esbuild.github.io/link/direct-eval
+[WebServer] 
+[WebServer] 
+[WebServer] ▲ [WARNING] Using direct eval with a bundler is not recommended and may cause problems [direct-eval]
+[WebServer] 
+[WebServer]     .open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:1031:96477:
+[WebServer]       1031 │ ...{body};`;moduleExports[name]=eval(func)}for(var name in modul...
+[WebServer]            ╵                                 ~~~~
+[WebServer] 
+[WebServer]   You can read more about direct eval and bundling here: https://esbuild.github.io/link/direct-eval
+[WebServer] 
+[WebServer] 
+[WebServer] ▲ [WARNING] Using direct eval with a bundler is not recommended and may cause problems [direct-eval]
+[WebServer] 
+[WebServer]     .open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:1034:39168:
+[WebServer]       1034 │ ...{body} };`;ASM_CONSTS[start]=eval(func)}if(updateTableMap(tab...
+[WebServer]            ╵                                 ~~~~
+[WebServer] 
+[WebServer]   You can read more about direct eval and bundling here: https://esbuild.github.io/link/direct-eval
+[WebServer] 
+[WebServer] 
+[WebServer] ▲ [WARNING] Using direct eval with a bundler is not recommended and may cause problems [direct-eval]
+[WebServer] 
+[WebServer]     .open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:1034:39790:
+[WebServer]       1034 │ ...{body};`;moduleExports[name]=eval(func)}for(var name in modul...
+[WebServer]            ╵                                 ~~~~
+[WebServer] 
+[WebServer]   You can read more about direct eval and bundling here: https://esbuild.github.io/link/direct-eval
+[WebServer] 
+[WebServer] 
+
+Running 552 tests using 2 workers
+
+(node:77) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:78) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓    2 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:32:1 › Gallery filter and search isolate matching brands (1.3s)
+[WebServer] ✘ [ERROR] kj::getCaughtExceptionAsKj() = rust/cxx/kj-rs-io/ffi.rs:176: disconnected: write(): Broken pipe (os error 32)
+[WebServer] 
+[WebServer]   stack: /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@57eb6c3 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@57ef2b7 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@57ef604 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@3156710 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@229b1f7
+[WebServer] 
+[WebServer] 
+[WebServer] ✘ [ERROR] kj::getCaughtExceptionAsKj() = rust/cxx/kj-rs-io/ffi.rs:176: disconnected: write(): Broken pipe (os error 32)
+[WebServer] 
+[WebServer]   stack: /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@57eb6c3 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@57ef2b7 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@57ef604 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@3156710 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@229b1f7
+[WebServer] 
+[WebServer] 
+[WebServer] ✘ [ERROR] kj::getCaughtExceptionAsKj() = rust/cxx/kj-rs-io/ffi.rs:176: disconnected: write(): Broken pipe (os error 32)
+[WebServer] 
+[WebServer]   stack: /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@57eb6c3 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@57ef2b7 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@57ef604 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@3156710 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@229b1f7
+[WebServer] 
+[WebServer] 
+[WebServer] ✘ [ERROR] kj::getCaughtExceptionAsKj() = rust/cxx/kj-rs-io/ffi.rs:176: disconnected: write(): Broken pipe (os error 32)
+[WebServer] 
+[WebServer]   stack: /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@57eb6c3 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@57ef2b7 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@57ef604 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@3156710 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@229b1f7
+[WebServer] 
+[WebServer] 
+  ✓    3 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:45:1 › Skip link is keyboard accessible (401ms)
+[WebServer] ✘ [ERROR] Uncaught Error: Internal: NoFallbackError Error
+[WebServer] 
+[WebServer]       at m3 (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:801:1006)
+[WebServer]       at responseGenerator (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:801:4444)
+[WebServer]       at handleRevalidate (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:400:13533)
+[WebServer]       at handleGet (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:400:12905)
+[WebServer] 
+[WebServer] 
+[WebServer] ✘ [ERROR] Uncaught Error: Internal: NoFallbackError 
+[WebServer] 
+[WebServer] 
+[WebServer] ✘ [ERROR] Uncaught Error: Internal: NoFallbackError Error
+[WebServer] 
+[WebServer]       at m3 (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:801:1006)
+[WebServer]       at responseGenerator (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:801:4444)
+[WebServer]       at handleRevalidate (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:400:13533)
+[WebServer]       at null.<anonymous> (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:400:13395)
+[WebServer]       at null.<anonymous> (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:400:9031)
+[WebServer]       at null.<anonymous> (node-internal:internal_process:17:9)
+[WebServer] 
+[WebServer] 
+[WebServer] ✘ [ERROR] Uncaught Error: Internal: NoFallbackError 
+[WebServer] 
+[WebServer] 
+[WebServer] ✘ [ERROR] Uncaught Error: Internal: NoFallbackError Error
+[WebServer] 
+[WebServer]       at m3 (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:801:1006)
+[WebServer]       at responseGenerator (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:801:4444)
+[WebServer]       at handleRevalidate (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:400:13533)
+[WebServer]       at handleGet (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:400:12905)
+[WebServer] 
+[WebServer] 
+[WebServer] ✘ [ERROR] Uncaught Error: Internal: NoFallbackError 
+[WebServer] 
+[WebServer] 
+[WebServer] ✘ [ERROR] Uncaught Error: Internal: NoFallbackError Error
+[WebServer] 
+[WebServer]       at m3 (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:801:1006)
+[WebServer]       at responseGenerator (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:801:4444)
+[WebServer]       at handleRevalidate (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:400:13533)
+[WebServer]       at handleGet (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:400:12905)
+[WebServer] 
+[WebServer] 
+[WebServer] ✘ [ERROR] Uncaught Error: Internal: NoFallbackError 
+[WebServer] 
+[WebServer] 
+  ✓    4 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:51:1 › Studio validates JSON and exports a reviewed draft without applying it (798ms)
+[WebServer] ✘ [ERROR] Uncaught Error: Internal: NoFallbackError Error
+[WebServer] 
+[WebServer]       at m3 (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:801:1006)
+[WebServer]       at responseGenerator (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:801:4444)
+[WebServer]       at handleRevalidate (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:400:13533)
+[WebServer]       at handleGet (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:400:12905)
+[WebServer] 
+[WebServer] 
+[WebServer] ✘ [ERROR] Uncaught Error: Internal: NoFallbackError 
+[WebServer] 
+[WebServer] 
+[WebServer] ✘ [ERROR] Uncaught Error: Internal: NoFallbackError Error
+[WebServer] 
+[WebServer]       at m3 (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:801:1006)
+[WebServer]       at responseGenerator (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:801:4444)
+[WebServer]       at handleRevalidate (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:400:13533)
+[WebServer]       at null.<anonymous> (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:400:13395)
+[WebServer]       at null.<anonymous> (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:400:9031)
+[WebServer]       at null.<anonymous> (node-internal:internal_process:17:9)
+[WebServer] 
+[WebServer] 
+[WebServer] ✘ [ERROR] Uncaught Error: Internal: NoFallbackError 
+[WebServer] 
+[WebServer] 
+[WebServer] ▲ [WARNING] NOSENTRY reporting trace with exceptions, but no exception outcome; trace->eventInfo = FetchEventInfo: GET, http://127.0.0.1:8892/workspace/nevo?_rsc=mcseQmcnzJPm55xm
+[WebServer] 
+[WebServer] 
+[WebServer] ✘ [ERROR] kj::getCaughtExceptionAsKj() = rust/cxx/kj-rs-io/ffi.rs:176: disconnected: write(): Broken pipe (os error 32)
+[WebServer] 
+[WebServer]   stack: /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@57eb6c3 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@57ef2b7 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@57ef604 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@3156710 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@229b1f7
+[WebServer] 
+[WebServer] 
+[WebServer] ✘ [ERROR] Uncaught Error: Internal: NoFallbackError Error
+[WebServer] 
+[WebServer]       at m3 (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:801:1006)
+[WebServer]       at responseGenerator (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:801:4444)
+[WebServer]       at handleRevalidate (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:400:13533)
+[WebServer]       at null.<anonymous> (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:400:13395)
+[WebServer]       at null.<anonymous> (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:400:9031)
+[WebServer]       at null.<anonymous> (node-internal:internal_process:17:9)
+[WebServer] 
+[WebServer] 
+[WebServer] ✘ [ERROR] Uncaught Error: Internal: NoFallbackError 
+[WebServer] 
+[WebServer] 
+[WebServer] ✘ [ERROR] kj::getCaughtExceptionAsKj() = rust/cxx/kj-rs-io/ffi.rs:176: disconnected: write(): Broken pipe (os error 32)
+[WebServer] 
+[WebServer]   stack: /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@57eb6c3 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@57ef2b7 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@57ef604 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@3156710 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@229b1f7
+[WebServer] 
+[WebServer] 
+[WebServer] ✘ [ERROR] kj::getCaughtExceptionAsKj() = rust/cxx/kj-rs-io/ffi.rs:176: disconnected: write(): Broken pipe (os error 32)
+[WebServer] 
+[WebServer]   stack: /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@57eb6c3 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@57ef2b7 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@57ef604 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@3156710 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@229b1f7
+[WebServer] 
+[WebServer] 
+[WebServer] ✘ [ERROR] kj::getCaughtExceptionAsKj() = rust/cxx/kj-rs-io/ffi.rs:176: disconnected: write(): Broken pipe (os error 32)
+[WebServer] 
+[WebServer]   stack: /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@57eb6c3 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@57ef2b7 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@57ef604 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@3156710 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@229b1f7
+[WebServer] 
+[WebServer] 
+[WebServer] ✘ [ERROR] kj::getCaughtExceptionAsKj() = rust/cxx/kj-rs-io/ffi.rs:176: disconnected: write(): Broken pipe (os error 32)
+[WebServer] 
+[WebServer]   stack: /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@57eb6c3 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@57ef2b7 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@57ef604 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@3156710 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@229b1f7
+[WebServer] 
+[WebServer] 
+[WebServer] ✘ [ERROR] kj::getCaughtExceptionAsKj() = rust/cxx/kj-rs-io/ffi.rs:176: disconnected: write(): Broken pipe (os error 32)
+[WebServer] 
+[WebServer]   stack: /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@57eb6c3 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@57ef2b7 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@57ef604 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@3156710 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@229b1f7
+[WebServer] 
+[WebServer] 
+[WebServer] ✘ [ERROR] kj::getCaughtExceptionAsKj() = rust/cxx/kj-rs-io/ffi.rs:176: disconnected: write(): Broken pipe (os error 32)
+[WebServer] 
+[WebServer]   stack: /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@57eb6c3 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@57ef2b7 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@57ef604 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@3156710 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@229b1f7
+[WebServer] 
+[WebServer] 
+[WebServer] ✘ [ERROR] Uncaught Error: Internal: NoFallbackError Error
+[WebServer] 
+[WebServer]       at m3 (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:801:1006)
+[WebServer]       at responseGenerator (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:801:4444)
+[WebServer]       at handleRevalidate (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:400:13533)
+[WebServer]       at handleGet (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:400:12905)
+[WebServer] 
+[WebServer] 
+[WebServer] ✘ [ERROR] Uncaught Error: Internal: NoFallbackError 
+[WebServer] 
+[WebServer] 
+  ✓    5 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:71:1 › Global, implicit brand, family and exact settings resolve in the browser (1.2s)
+[WebServer] ✘ [ERROR] Uncaught Error: Internal: NoFallbackError Error
+[WebServer] 
+[WebServer]       at m3 (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:801:1006)
+[WebServer]       at responseGenerator (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:801:4444)
+[WebServer]       at handleRevalidate (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:400:13533)
+[WebServer]       at handleGet (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:400:12905)
+[WebServer] 
+[WebServer] 
+[WebServer] ✘ [ERROR] Uncaught Error: Internal: NoFallbackError 
+[WebServer] 
+[WebServer] 
+[WebServer] ✘ [ERROR] kj::getCaughtExceptionAsKj() = rust/cxx/kj-rs-io/ffi.rs:176: disconnected: write(): Broken pipe (os error 32)
+[WebServer] 
+[WebServer]   stack: /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@57eb6c3 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@57ef2b7 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@57ef604 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@3156710 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@229b1f7
+[WebServer] 
+[WebServer] 
+[WebServer] ✘ [ERROR] kj::getCaughtExceptionAsKj() = rust/cxx/kj-rs-io/ffi.rs:176: disconnected: write(): Connection reset by peer (os error 104)
+[WebServer] 
+[WebServer]   stack: /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@57eb6c3 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@57ef2b7 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@57ef604 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@3156710 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@229b1f7
+[WebServer] 
+[WebServer] 
+[WebServer] ✘ [ERROR] kj::getCaughtExceptionAsKj() = rust/cxx/kj-rs-io/ffi.rs:176: disconnected: write(): Broken pipe (os error 32)
+[WebServer] 
+[WebServer]   stack: /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@57eb6c3 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@57ef2b7 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@57ef604 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@3156710 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@229b1f7
+[WebServer] 
+[WebServer] 
+[WebServer] ✘ [ERROR] kj::getCaughtExceptionAsKj() = rust/cxx/kj-rs-io/ffi.rs:176: disconnected: write(): Broken pipe (os error 32)
+[WebServer] 
+[WebServer]   stack: /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@57eb6c3 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@57ef2b7 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@57ef604 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@3156710 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@229b1f7
+[WebServer] 
+[WebServer] 
+[WebServer] ✘ [ERROR] kj::getCaughtExceptionAsKj() = rust/cxx/kj-rs-io/ffi.rs:176: disconnected: write(): Broken pipe (os error 32)
+[WebServer] 
+[WebServer]   stack: /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@57eb6c3 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@57ef2b7 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@57ef604 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@3156710 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@229b1f7
+[WebServer] 
+[WebServer] 
+[WebServer] ✘ [ERROR] Uncaught Error: Internal: NoFallbackError Error
+[WebServer] 
+[WebServer]       at m3 (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:801:1006)
+[WebServer]       at responseGenerator (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:801:4444)
+[WebServer]       at handleRevalidate (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:400:13533)
+[WebServer]       at handleGet (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:400:12905)
+[WebServer] 
+[WebServer] 
+[WebServer] ✘ [ERROR] Uncaught Error: Internal: NoFallbackError 
+[WebServer] 
+[WebServer] 
+[WebServer] ✘ [ERROR] Uncaught Error: Internal: NoFallbackError Error
+[WebServer] 
+[WebServer]       at m3 (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:801:1006)
+[WebServer]       at responseGenerator (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:801:4444)
+[WebServer]       at handleRevalidate (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:400:13533)
+[WebServer]       at null.<anonymous> (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:400:13395)
+[WebServer]       at null.<anonymous> (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:400:9031)
+[WebServer]       at null.<anonymous> (node-internal:internal_process:17:9)
+[WebServer] 
+[WebServer] 
+[WebServer] ✘ [ERROR] Uncaught Error: Internal: NoFallbackError 
+[WebServer] 
+[WebServer] 
+[WebServer] ✘ [ERROR] kj::getCaughtExceptionAsKj() = rust/cxx/kj-rs-io/ffi.rs:176: disconnected: write(): Broken pipe (os error 32)
+[WebServer] 
+[WebServer]   stack: /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@57eb6c3 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@57ef2b7 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@57ef604 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@3156710 /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64/bin/workerd@229b1f7
+[WebServer] 
+[WebServer] 
+  ✓    6 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:83:1 › Representative visual evidence (1.5s)
+[WebServer] ✘ [ERROR] Uncaught Error: Internal: NoFallbackError Error
+[WebServer] 
+[WebServer]       at m3 (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:801:1006)
+[WebServer]       at responseGenerator (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:801:4444)
+[WebServer]       at handleRevalidate (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:400:13533)
+[WebServer]       at handleGet (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:400:12905)
+[WebServer] 
+[WebServer] 
+[WebServer] ✘ [ERROR] Uncaught Error: Internal: NoFallbackError 
+[WebServer] 
+[WebServer] 
+  ✓    7 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout / (487ms)
+[WebServer] ✘ [ERROR] Uncaught Error: Internal: NoFallbackError Error
+[WebServer] 
+[WebServer]       at m3 (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:801:1006)
+[WebServer]       at responseGenerator (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:801:4444)
+[WebServer]       at handleRevalidate (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:400:13533)
+[WebServer]       at handleGet (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:400:12905)
+[WebServer] 
+[WebServer] 
+[WebServer] ✘ [ERROR] Uncaught Error: Internal: NoFallbackError 
+[WebServer] 
+[WebServer] 
+[WebServer] ✘ [ERROR] Uncaught Error: Internal: NoFallbackError Error
+[WebServer] 
+[WebServer]       at m3 (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:801:1006)
+[WebServer]       at responseGenerator (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:801:4444)
+[WebServer]       at handleRevalidate (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:400:13533)
+[WebServer]       at handleGet (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:400:12905)
+[WebServer] 
+[WebServer] 
+[WebServer] ✘ [ERROR] Uncaught Error: Internal: NoFallbackError 
+[WebServer] 
+[WebServer] 
+[WebServer] ✘ [ERROR] Uncaught Error: Internal: NoFallbackError Error
+[WebServer] 
+[WebServer]       at m3 (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:801:1006)
+[WebServer]       at responseGenerator (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:801:4444)
+[WebServer]       at handleRevalidate (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:400:13533)
+[WebServer]       at handleGet (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:400:12905)
+[WebServer] 
+[WebServer] 
+[WebServer] ✘ [ERROR] Uncaught Error: Internal: NoFallbackError 
+[WebServer] 
+[WebServer] 
+[WebServer] ✘ [ERROR] Uncaught Error: Internal: NoFallbackError Error
+[WebServer] 
+[WebServer]       at m3 (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:801:1006)
+[WebServer]       at responseGenerator (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:801:4444)
+[WebServer]       at handleRevalidate (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:400:13533)
+[WebServer]       at handleGet (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:400:12905)
+[WebServer] 
+[WebServer] 
+[WebServer] ✘ [ERROR] Uncaught Error: Internal: NoFallbackError 
+[WebServer] 
+[WebServer] 
+[WebServer] ✘ [ERROR] Uncaught Error: Internal: NoFallbackError Error
+[WebServer] 
+[WebServer]       at m3 (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:801:1006)
+[WebServer]       at responseGenerator (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:801:4444)
+[WebServer]       at handleRevalidate (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:400:13533)
+[WebServer]       at handleGet (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:400:12905)
+[WebServer] 
+[WebServer] 
+[WebServer] ✘ [ERROR] Uncaught Error: Internal: NoFallbackError 
+[WebServer] 
+[WebServer] 
+[WebServer] ✘ [ERROR] Uncaught Error: Internal: NoFallbackError Error
+[WebServer] 
+[WebServer]       at m3 (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:801:1006)
+[WebServer]       at responseGenerator (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:801:4444)
+[WebServer]       at handleRevalidate (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:400:13533)
+[WebServer]       at handleGet (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:400:12905)
+[WebServer] 
+[WebServer] 
+[WebServer] ✘ [ERROR] Uncaught Error: Internal: NoFallbackError 
+[WebServer] 
+[WebServer] 
+  ✓    8 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /overview (817ms)
+[WebServer] ✘ [ERROR] Uncaught Error: Internal: NoFallbackError Error
+[WebServer] 
+[WebServer]       at m3 (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:801:1006)
+[WebServer]       at responseGenerator (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:801:4444)
+[WebServer]       at handleRevalidate (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:400:13533)
+[WebServer]       at handleGet (file:///workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/.open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:400:12905)
+[WebServer] 
+[WebServer] 
+[WebServer] ✘ [ERROR] Uncaught Error: Internal: NoFallbackError 
+[WebServer] 
+[WebServer] 
+  ✓    9 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /getting-started (558ms)
+  ✘    1 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:6:1 › Studio applies theme and route branding to the actual landing, then survives reload (7.2s)
+Testing stopped early after 1 maximum allowed failures.
+  ✘   10 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /installation (307ms)
+
+
+  1) [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:6:1 › Studio applies theme and route branding to the actual landing, then survives reload 
+
+    Error: expect(locator).toHaveText(expected) failed
+
+    Locator:  getByRole('heading', { level: 1 })
+    Expected: "NEVO"
+    Received: "Page not found"
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveText" with timeout 5000ms
+      - waiting for getByRole('heading', { level: 1 })
+        14 × locator resolved to <h1>Page not found</h1>
+           - unexpected value "Page not found"
+
+
+      28 |  await page.getByRole('link',{name:'Open local workspace',exact:false}).first().click();
+      29 |  await expect(page).toHaveURL(/\/workspace\/nevo$/);
+    > 30 |  await expect(page.getByRole('heading',{level:1})).toHaveText('NEVO');
+         |                                                    ^
+      31 | });
+      32 | test('Gallery filter and search isolate matching brands',async({page})=>{
+      33 |  await page.goto('/allb');
+        at /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/tests/browser/enterprise-ui.spec.ts:30:52
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/enterprise-ui-Studio-appli-13e6b-anding-then-survives-reload-worker-desktop-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/enterprise-ui-Studio-appli-13e6b-anding-then-survives-reload-worker-desktop-chromium/error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/enterprise-ui-Studio-appli-13e6b-anding-then-survives-reload-worker-desktop-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/enterprise-ui-Studio-appli-13e6b-anding-then-survives-reload-worker-desktop-chromium/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:6:1 › Studio applies theme and route branding to the actual landing, then survives reload 
+  1 interrupted
+    [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /installation 
+  542 did not run
+  8 passed (14.6s)
+  1 error was not a part of any test, see above for details

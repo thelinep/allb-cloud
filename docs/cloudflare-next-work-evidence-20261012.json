@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-12T01:18:24.331421+00:00",
+  "productionCertified": false,
+  "externalWrites": false,
+  "registry": {
+    "complete": 100,
+    "blocked": 39
+  },
+  "scope": "Cloudflare public UI and isolated native foundation; full app backend cutover absent",
+  "supersedes": "docs/release-evidence-manifest.json for current working-tree qualification only; prior evidence is historical",
+  "artifacts": [
+    {
+      "path": "artifacts/cloudflare-native/foundation.json",
+      "sha256": "0d6f7d164cf8dbf5c7d257c8a98666f47ba389a37b51630334657fbd1d5e831c"
+    },
+    {
+      "path": "artifacts/cloudflare-native/worker-browser.json",
+      "sha256": "1f723b1f26a9862ac94a114ae487e8960839826f8e37873e85708ea6dd8f01ed"
+    },
+    {
+      "path": "artifacts/cloudflare-native/auth-cost.json",
+      "sha256": "763eed3ecece3b185b98ca443b154476b0854f0080957f0967a7c32f3ba398b7"
+    },
+    {
+      "path": "artifacts/cloudflare-native/notifications.json",
+      "sha256": "647a980a423500e2705bbd3755689e0634a8b7fa52ae9c689cef7d753ae01b3d"
+    },
+    {
+      "path": "artifacts/cloudflare-worker-release-smoke-20261012.json",
+      "sha256": "614b7e77eb9ed8e313bd2fdc5a25f79eaac500ae241f16eb532133c9ee62dc35"
+    },
+    {
+      "path": "artifacts/hardening/dependency-review.json",
+      "sha256": "9345f589c48a0bbed26b15e939f6fe4ba6fcce97156e1216b94d8e3cad536d17"
+    },
+    {
+      "path": "artifacts/cloudflare-release-build-20261012.log",
+      "sha256": "8a0e1f41c7c93d8c96a1570b21768daca5d99aaf350801b83d23389f28937742"
+    },
+    {
+      "path": "artifacts/cloudflare-platform-build-20261012.log",
+      "sha256": "6c8402a77bde0d023b6ed96bc95a9f5842069538cfe3dbcdd5770620e2fd78ad"
+    },
+    {
+      "path": "artifacts/cloudflare-typecheck-release-20261012.log",
+      "sha256": "9d676b249294ee677835dd58f76f01669dc345ed1b0ab7f94e6df6ebea9768c3"
+    }
+  ]
+}

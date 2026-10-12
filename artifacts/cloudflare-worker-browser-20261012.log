@@ -1,0 +1,484 @@
+[WebServer] (node:19) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] ▲ [WARNING] Proxy environment variables detected. We'll use your proxy for fetch requests.
+[WebServer] 
+[WebServer] 
+[WebServer] (node:27) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] ▲ [WARNING] Using direct eval with a bundler is not recommended and may cause problems [direct-eval]
+[WebServer] 
+[WebServer]     .open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:865:95855:
+[WebServer]       865 │ ...{body} };`;ASM_CONSTS[start]=eval(func)}if(updateTableMap(tabl...
+[WebServer]           ╵                                 ~~~~
+[WebServer] 
+[WebServer]   You can read more about direct eval and bundling here: https://esbuild.github.io/link/direct-eval
+[WebServer] 
+[WebServer] 
+[WebServer] ▲ [WARNING] Using direct eval with a bundler is not recommended and may cause problems [direct-eval]
+[WebServer] 
+[WebServer]     .open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:865:96477:
+[WebServer]       865 │ ...{body};`;moduleExports[name]=eval(func)}for(var name in module...
+[WebServer]           ╵                                 ~~~~
+[WebServer] 
+[WebServer]   You can read more about direct eval and bundling here: https://esbuild.github.io/link/direct-eval
+[WebServer] 
+[WebServer] 
+[WebServer] ▲ [WARNING] Using direct eval with a bundler is not recommended and may cause problems [direct-eval]
+[WebServer] 
+[WebServer]     .open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:868:39168:
+[WebServer]       868 │ ...{body} };`;ASM_CONSTS[start]=eval(func)}if(updateTableMap(tabl...
+[WebServer]           ╵                                 ~~~~
+[WebServer] 
+[WebServer]   You can read more about direct eval and bundling here: https://esbuild.github.io/link/direct-eval
+[WebServer] 
+[WebServer] 
+[WebServer] ▲ [WARNING] Using direct eval with a bundler is not recommended and may cause problems [direct-eval]
+[WebServer] 
+[WebServer]     .open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:868:39790:
+[WebServer]       868 │ ...{body};`;moduleExports[name]=eval(func)}for(var name in module...
+[WebServer]           ╵                                 ~~~~
+[WebServer] 
+[WebServer]   You can read more about direct eval and bundling here: https://esbuild.github.io/link/direct-eval
+[WebServer] 
+[WebServer] 
+
+Running 552 tests using 2 workers
+
+(node:76) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:77) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘    1 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:6:1 › Studio applies theme and route branding to the actual landing, then survives reload (2ms)
+  ✘    2 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:32:1 › Gallery filter and search isolate matching brands (2ms)
+(node:100) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:106) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘    3 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:45:1 › Skip link is keyboard accessible (2ms)
+  ✘    4 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:51:1 › Studio validates JSON and exports a reviewed draft without applying it (1ms)
+(node:124) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:130) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘    5 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:71:1 › Global, implicit brand, family and exact settings resolve in the browser (1ms)
+  ✘    6 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:83:1 › Representative visual evidence (1ms)
+(node:148) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:154) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘    7 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout / (2ms)
+  ✘    8 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /overview (2ms)
+(node:172) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:180) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘    9 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /getting-started (2ms)
+  ✘   10 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /installation (1ms)
+(node:202) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:196) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   11 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /foundations/colors (1ms)
+  ✘   12 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /quick-start (2ms)
+(node:220) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:227) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   13 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /foundations/typography (4ms)
+  ✘   14 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /foundations/spacing (1ms)
+(node:251) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:244) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   15 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /foundations/icons (2ms)
+  ✘   16 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /foundations/layout (2ms)
+(node:268) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:275) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   17 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /foundations/elevation (2ms)
+  ✘   18 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /foundations/borders (1ms)
+(node:292) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:300) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   19 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /foundations/motion (1ms)
+  ✘   20 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /foundations/responsive (2ms)
+(node:316) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:324) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   21 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /forms/validation (2ms)
+  ✘   22 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /components (1ms)
+(node:336) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:348) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   23 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /forms/multi-step (2ms)
+  ✘   24 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /forms/file-upload (2ms)
+(node:364) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:372) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   25 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /forms (2ms)
+  ✘   26 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /data/tables (2ms)
+(node:384) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:396) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   27 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /data/filters (1ms)
+  ✘   28 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /data/charts (1ms)
+(node:412) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:420) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   29 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /data/tree (2ms)
+  ✘   30 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /data/timeline (2ms)
+(node:436) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:442) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   31 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /data/code-viewer (2ms)
+  ✘   32 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /spatial (1ms)
+(node:460) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:467) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   33 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /spatial/map (1ms)
+  ✘   34 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /spatial/layers (2ms)
+(node:484) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:491) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   35 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /spatial/coordinates (2ms)
+  ✘   36 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /spatial/geometry (2ms)
+(node:508) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:516) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   37 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /spatial/measurement (2ms)
+  ✘   38 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /spatial/raster-terrain (1ms)
+(node:528) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:540) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   39 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /spatial/query (2ms)
+  ✘   40 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /3d (1ms)
+(node:556) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:564) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   41 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /3d/viewport (1ms)
+  ✘   42 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /3d/scene-tree (2ms)
+(node:580) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:588) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   43 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /3d/transforms (1ms)
+  ✘   44 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /3d/assets (2ms)
+(node:604) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:612) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   45 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /3d/materials (2ms)
+  ✘   46 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /3d/lighting (2ms)
+(node:629) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:628) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   47 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /3d/animation (1ms)
+  ✘   48 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /3d/cameras (2ms)
+(node:652) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:660) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   49 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /3d/annotations (2ms)
+  ✘   50 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /scene/2d-3d (1ms)
+(node:676) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:684) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   51 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /scene/history (2ms)
+  ✘   52 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /scene/validation (2ms)
+(node:700) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:708) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   53 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /examples (2ms)
+  ✘   54 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /developers/contracts (2ms)
+(node:724) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:730) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   55 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /developers/integration (2ms)
+  ✘   56 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /developers/composition (2ms)
+(node:748) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:749) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   57 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /developers/state (2ms)
+  ✘   58 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /developers/migration (1ms)
+(node:772) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:773) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   59 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /accessibility (2ms)
+  ✘   60 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /accessibility/keyboard (1ms)
+(node:797) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:796) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   61 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /accessibility/contrast (2ms)
+  ✘   62 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /accessibility/screen-readers (2ms)
+(node:820) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:827) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   63 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /accessibility/forms (1ms)
+  ✘   64 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /accessibility/reduced-motion (2ms)
+(node:844) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:851) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   65 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /readiness (1ms)
+  ✘   66 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /changelog (2ms)
+(node:868) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:875) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   67 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /deprecations (2ms)
+  ✘   68 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /compatibility (2ms)
+(node:892) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:900) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   69 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /studio (2ms)
+  ✘   70 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /studio/workspaces (6ms)
+(node:916) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:922) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   71 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /studio/themes (2ms)
+  ✘   72 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /studio/tokens (2ms)
+(node:940) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:947) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   73 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /studio/assets (2ms)
+  ✘   74 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /studio/scenes (1ms)
+(node:964) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:971) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   75 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /studio/settings (1ms)
+  ✘   76 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /studio/settings/members (2ms)
+(node:988) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:995) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   77 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /studio/settings/permissions (1ms)
+  ✘   78 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /studio/settings/security (1ms)
+(node:1012) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1020) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   79 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /studio/settings/sessions (1ms)
+  ✘   80 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /studio/audit (1ms)
+(node:1036) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1044) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   81 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /sign-in (1ms)
+  ✘   82 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /auth/callback (1ms)
+(node:1060) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1068) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   83 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /auth/mfa (1ms)
+  ✘   84 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /auth/recovery (2ms)
+(node:1084) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1091) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   85 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /components/button (2ms)
+  ✘   86 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /components/input (1ms)
+(node:1108) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1115) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   87 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /components/textarea (2ms)
+  ✘   88 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /components/select (3ms)
+(node:1138) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1132) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   89 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /components/radio (1ms)
+  ✘   90 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /components/checkbox (1ms)
+(node:1156) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1163) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   91 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /components/switch (2ms)
+  ✘   92 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /components/tabs (2ms)
+(node:1180) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1187) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   93 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /components/card (1ms)
+  ✘   94 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /components/dialog (1ms)
+(node:1200) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1212) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   95 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /components/drawer (2ms)
+  ✘   96 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /components/accordion (1ms)
+(node:1224) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1236) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   97 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /components/popover (1ms)
+  ✘   98 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /components/tooltip (1ms)
+(node:1248) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1260) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   99 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /components/alert (2ms)
+  ✘  100 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /components/toast (1ms)
+(node:1272) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1284) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  101 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /components/badge (2ms)
+  ✘  102 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /components/progress (1ms)
+(node:1296) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1308) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  103 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /components/skeleton (2ms)
+  ✘  104 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /components/header (1ms)
+(node:1320) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1332) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  105 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /components/sidebar (1ms)
+  ✘  106 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /components/breadcrumbs (1ms)
+(node:1344) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  107 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /components/menu (2ms)
+(node:1356) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  108 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /components/pagination (2ms)
+(node:1368) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  109 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /components/command-palette (2ms)
+(node:1380) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  110 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /components/empty-state (1ms)
+(node:1392) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  111 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /components/error-state (2ms)
+(node:1404) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  112 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /playground/button (1ms)
+(node:1416) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  113 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /playground/input (2ms)
+(node:1428) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  114 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /playground/textarea (1ms)
+(node:1440) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  115 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /playground/select (1ms)
+(node:1452) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  116 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /playground/checkbox (1ms)
+(node:1464) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1476) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  117 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /playground/radio (2ms)
+  ✘  118 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /playground/switch (1ms)
+(node:1488) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1500) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  119 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /playground/tabs (2ms)
+  ✘  120 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /playground/card (1ms)
+(node:1512) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1524) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  121 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /playground/dialog (2ms)
+  ✘  122 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /playground/drawer (1ms)
+(node:1536) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1548) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  123 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /playground/accordion (1ms)
+  ✘  124 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /playground/popover (1ms)
+(node:1560) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1572) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  125 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /playground/tooltip (2ms)
+  ✘  126 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /playground/alert (2ms)
+(node:1584) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  127 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /playground/toast (1ms)
+(node:1596) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  128 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /playground/badge (2ms)
+(node:1608) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  129 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /playground/progress (1ms)
+(node:1620) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  130 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /playground/skeleton (2ms)
+(node:1632) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  131 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /playground/header (1ms)
+(node:1644) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  132 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /playground/sidebar (2ms)
+(node:1656) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  133 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /playground/breadcrumbs (2ms)
+(node:1668) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  134 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /playground/menu (1ms)
+(node:1680) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  135 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /playground/pagination (1ms)
+(node:1692) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  136 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /playground/command-palette (2ms)
+(node:1704) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  137 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /playground/empty-state (1ms)
+(node:1716) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  138 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /playground/error-state (2ms)
+(node:1728) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  139 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /studio/components/button (1ms)
+(node:1740) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  140 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /studio/components/input (2ms)
+(node:1752) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  141 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /studio/components/textarea (1ms)
+(node:1764) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  142 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /studio/components/select (1ms)
+(node:1776) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  143 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /studio/components/checkbox (1ms)
+(node:1788) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  144 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /studio/components/radio (1ms)
+(node:1800) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  145 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /studio/components/switch (2ms)
+(node:1812) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  146 [worker-desktop-chromium] › tests/browser/enterprise-ui.spec.ts:91:2 › accessibility and horizontal layout /studio/components/tabs (2ms)

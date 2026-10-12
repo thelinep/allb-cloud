@@ -1,0 +1,30 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> build:platform
+> npm run build --workspace @platform/auth-core --workspace @platform/mfa --workspace @platform/payments --workspace @platform/audit-evidence --workspace @platform/notifications --workspace @platform/ui-forms
+
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> @platform/auth-core@0.1.0 build
+> tsc --project tsconfig.json
+
+
+> @platform/mfa@0.1.0 build
+> tsc --project tsconfig.json
+
+
+> @platform/payments@0.1.0 build
+> tsc --project tsconfig.json
+
+
+> @platform/audit-evidence@0.1.0 build
+> tsc --project tsconfig.json
+
+
+> @platform/notifications@0.1.0 build
+> tsc --project tsconfig.json
+
+
+> @platform/ui-forms@0.1.0 build
+> tsc --project tsconfig.json
+

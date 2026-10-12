@@ -1,23 +1,32 @@
-// Read-only readiness inventory; deliberately never deploys or reads secret values.
+// Read-only local inventory: no account calls, provisioning or secret reads.
 import fs from 'node:fs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const app=path.join(root,'apps/maataa-ui-route-source');
-const exists=p=>fs.existsSync(path.join(app,p));
 const pkg=JSON.parse(fs.readFileSync(path.join(app,'package.json'),'utf8'));
 const deps={...pkg.dependencies,...pkg.devDependencies};
-const checks=[
- {id:'application',status:'pass',detail:`Unified application found; Next.js ${deps.next}`},
- {id:'adapter',status:deps['@opennextjs/cloudflare']?'present':'blocked',detail:'An installed adapter is required; package presence alone does not verify runtime compatibility.'},
- {id:'wrangler',status:deps.wrangler?'present':'blocked',detail:'Unified app must pin Wrangler and use its own configuration.'},
- {id:'configuration',status:['wrangler.jsonc','wrangler.json','wrangler.toml'].some(exists)?'present':'blocked',detail:'Archived Hemant configuration is not the unified app deployment configuration.'},
- {id:'worker-build',status:exists('.open-next/worker.js')?'present':'blocked',detail:'Worker bundle must be built and tested in workerd; next build alone is insufficient.'},
- {id:'runtime',status:'untested',detail:'This inventory does not execute workerd or make a Cloudflare API request.'},
- {id:'auth-cost',status:'unverified',detail:'Node scrypt N=2^17/r=8 exceeds 128 MiB before overhead; benchmark or isolate credential verification before selecting Workers hosting for Auth.'},
- {id:'database',status:'unverified',detail:'PGlite migration tests are development evidence, not a durable networked production database.'},
- {id:'domain',status:'user-confirmed',detail:'nevoevents.in is already configured in Cloudflare; account, zone and route access have not been inspected.'},
- {id:'delivery',status:'unverified',detail:'Invitation/recovery outbound delivery provider and verified sender remain to be tested.'}
-];
-console.log(JSON.stringify({kind:'cloudflare-readiness-inventory',compatibilityVerified:false,externalWrites:false,checks},null,2));
-process.exitCode=checks.some(c=>c.status==='blocked')?2:0;
+const configPath=path.join(app,'wrangler.integration.jsonc');
+const config=fs.existsSync(configPath)?JSON.parse(fs.readFileSync(configPath,'utf8')):{};
+const checks=[];
+const add=(id,present,detail)=>checks.push({id,status:present?'present':'blocked',detail});
+add('application',true,`Unified application; Next.js ${deps.next}`);
+add('adapter',!!deps['@opennextjs/cloudflare'],'Adapter dependency presence is not runtime qualification.');
+add('wrangler',!!deps.wrangler,'Wrangler dependency presence is not a release pass.');
+add('configuration',fs.existsSync(configPath),'Local integration configuration; no production account inspected.');
+add('worker-build',fs.existsSync(path.join(app,'.open-next/worker.js')),'Existing bundle may be stale; fresh Worker build and HTTP checks required.');
+add('d1-binding',!!config.d1_databases?.length,'D1 target selected; native schema, transaction and tenant tests required.');
+add('private-r2-binding',!!config.r2_buckets?.length,'Private R2 target selected; access expiry and immutable asset tests required.');
+add('queue-bindings',!!config.queues?.producers?.length&&!!config.queues?.consumers?.length,'Producer and consumer plus outbox/retry tests required.');
+add('scheduled-jobs',!!config.triggers?.crons?.length,'Cron target selected; schedules and policy approval absent.');
+for(const [id,detail] of [
+ ['workerd-runtime','Public UI passes 552 local Chromium checks; full authenticated D1 backend/staging qualification remains open.'],
+ ['auth-cost','Unchanged scrypt succeeds in local workerd probe; deployed CPU/memory budget and full identity lifecycle remain unverified.'],
+ ['database-port','PostgreSQL SQL and callback transaction semantics require a native D1 implementation.'],
+ ['delivery','Workers-compatible notification delivery and provider reconciliation unverified.'],
+ ['recovery','D1 Time Travel/export and R2 recovery not tested.'],
+ ['staging-certification','No authorized staging acceptance, SLO, manual AT or visual approval.'],
+ ['rollout-authorization','Deployment, DNS and external configuration remain unauthorized.']
+])add(id,false,detail);
+console.log(JSON.stringify({kind:'cloudflare-only-readiness',target:{runtime:'Workers/OpenNext',database:'D1',assets:'private R2',jobs:'Queues'},compatibilityVerified:false,productionReady:false,externalWrites:false,checks},null,2));
+process.exitCode=2;

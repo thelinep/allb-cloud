@@ -2,11 +2,67 @@
   "schemaVersion": 1,
   "status": "requires_operator_and_business_approval",
   "externalConfigurationPerformed": false,
-  "secrets": {"source": "approved environment secret store", "separateEnvironments": true, "valuesIncluded": false},
-  "backupProposal": {"dailyFull": true, "postgresWalPitr": true, "dailyRetentionDays": 30, "monthlyRetentionMonths": 12, "restoreExercise": "monthly and before destructive migrations", "rpoMinutes": 15, "rtoMinutes": 60, "approved": false, "configured": false},
-  "incidentOwners": {"primary": null, "secondary": null, "database": null, "identity": null, "providers": null},
-  "alerts": {"crossTenantExposure": "stop release and incident review", "auditIntegrityMismatch": "stop release", "failedRestore": "stop release", "latencyAndErrorThresholds": null, "destinations": [], "configured": false},
-  "financialPolicy": {"handoff": "settled_payment local evidence only", "advanceVsFullSettlement": null, "taxAuthority": null, "providerReconciliation": "unverified"},
-  "rollout": {"enabled": false, "productionEnvironment": null, "approvedCommit": null, "rolloutFractions": [], "rollbackThresholds": null},
-  "unsupportedClaims": ["No real provider settlement", "No physical device or manual AT certification", "No deployment, approved baseline, performance SLO or named operational owner"]
+  "secrets": {
+    "source": "Cloudflare environment secrets and restricted bindings",
+    "separateEnvironments": true,
+    "valuesIncluded": false
+  },
+  "backupProposal": {
+    "dailyFull": true,
+    "dailyRetentionDays": 30,
+    "monthlyRetentionMonths": 12,
+    "restoreExercise": "monthly and before destructive migrations",
+    "rpoMinutes": 15,
+    "rtoMinutes": 60,
+    "approved": false,
+    "configured": false,
+    "database": "D1",
+    "mechanism": "Time Travel plus reviewed export to private R2",
+    "timeTravelWindow": "verify account plan before acceptance",
+    "restoreVerified": false
+  },
+  "incidentOwners": {
+    "primary": null,
+    "secondary": null,
+    "database": null,
+    "identity": null,
+    "providers": null
+  },
+  "alerts": {
+    "crossTenantExposure": "stop release and incident review",
+    "auditIntegrityMismatch": "stop release",
+    "failedRestore": "stop release",
+    "latencyAndErrorThresholds": null,
+    "destinations": [],
+    "configured": false
+  },
+  "financialPolicy": {
+    "handoff": "settled_payment local evidence only",
+    "advanceVsFullSettlement": null,
+    "taxAuthority": null,
+    "providerReconciliation": "unverified"
+  },
+  "rollout": {
+    "enabled": false,
+    "productionEnvironment": null,
+    "approvedCommit": null,
+    "rolloutFractions": [],
+    "rollbackThresholds": null
+  },
+  "unsupportedClaims": [
+    "No real provider settlement",
+    "No physical device or manual AT certification",
+    "No deployment, approved baseline, performance SLO or named operational owner"
+  ],
+  "releaseTarget": {
+    "provider": "Cloudflare only",
+    "runtime": "Workers via existing OpenNext adapter",
+    "database": "D1",
+    "objectStorage": "private R2",
+    "jobs": "Queues",
+    "scheduledJobs": "Cron Triggers",
+    "decisionDate": "2026-10-12",
+    "implemented": false,
+    "externalWritesAuthorized": false
+  }
 }

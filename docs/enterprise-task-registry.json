@@ -16,7 +16,8 @@
     "Hardening & recovery",
     "Staging certification",
     "Controlled production release",
-    "Brand expansion"
+    "Brand expansion",
+    "Cloudflare-only qualification"
   ],
   "statusRules": {
     "complete": "Task-specific evidence exists. Completion does not imply enterprise release certification.",
@@ -194,10 +195,11 @@
     {
       "id": "E03.01",
       "phase": 3,
-      "title": "Confirm PostgreSQL target and secure connection configuration",
+      "title": "Confirm Cloudflare-only runtime and D1 database target",
       "status": "complete",
       "dependsOn": "E01.05",
-      "evidence": "docs/enterprise-verification.json; packages/enterprise-db; docs/enterprise-database-environments.md"
+      "evidence": "docs/enterprise-verification.json; packages/enterprise-db; docs/enterprise-database-environments.md",
+      "completionScope": "Target selection only; previous PostgreSQL local evidence does not certify D1. CF02 and CF03 are mandatory."
     },
     {
       "id": "E03.02",
@@ -598,7 +600,7 @@
       "status": "blocked",
       "dependsOn": "E07.13",
       "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
-      "blocker": "Object-storage target and retention policy require owner approval; local filesystem adapter exists."
+      "blocker": "Private R2 target selected; retention policy and account/bucket acceptance remain unapproved."
     },
     {
       "id": "E08.02",
@@ -721,7 +723,7 @@
       "status": "blocked",
       "dependsOn": "E09.06",
       "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
-      "blocker": "Real commercial provider selection, credentials and external configuration unavailable/not authorized."
+      "blocker": "Cloudflare-only hosting selected; real commercial credentials, account configuration and Workers-compatible provider integration unverified."
     },
     {
       "id": "E09.08",
@@ -844,9 +846,10 @@
       "id": "E11.04",
       "phase": 11,
       "title": "Review dependency supply chain and vulnerabilities",
-      "status": "blocked",
+      "status": "complete",
       "dependsOn": "E11.03",
-      "evidence": "artifacts/hardening/dependency-review.json: npm audit reports one high nodemailer advisory. Root overrides did not upgrade linked workspace resolution; ineffective override removed. Original platform source manifests preserved. Requires reviewed source/dependency upgrade before release."
+      "evidence": "artifacts/hardening/dependency-review.json; artifacts/cloudflare-platform-build-20261012.log; packages/notifications-runtime/package.json",
+      "completionScope": "Active workspace upgraded to Nodemailer 10.1.0; npm audit reports zero known advisories at review time. Imported snapshot unchanged; not universal security certification."
     },
     {
       "id": "E11.05",
@@ -964,11 +967,11 @@
     {
       "id": "E12.09",
       "phase": 12,
-      "title": "Verify backup restore and migration rollout/rollback",
+      "title": "Verify D1 restore and migration rollout/recovery",
       "status": "blocked",
       "dependsOn": "E12.08",
       "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
-      "blocker": "Local cold restore verified; production PostgreSQL migration rollout/rollback and PITR unavailable."
+      "blocker": "PostgreSQL local restore is historical evidence only; D1 Time Travel/export, R2 assets and migration recovery unverified."
     },
     {
       "id": "E12.10",
@@ -1108,6 +1111,78 @@
       "status": "complete",
       "dependsOn": "E14.05",
       "evidence": "docs/enterprise-hardening-runbooks.md; tests/brand-compatibility.test.mjs; compatibility/deprecation policy"
+    },
+    {
+      "id": "CF01",
+      "phase": 15,
+      "title": "Repair and qualify public UI routes on workerd",
+      "status": "complete",
+      "dependsOn": null,
+      "evidence": "artifacts/cloudflare-native/worker-browser.json; artifacts/cloudflare-worker-all-routes-smoke-20261012.json",
+      "completionScope": "Local public rendering/UI qualification: 552 Chromium desktop/mobile checks and 7 HTTP checks. Authenticated native backend cutover and deployed limits remain mandatory CF02/CF03/CF08 gates."
+    },
+    {
+      "id": "CF02",
+      "phase": 15,
+      "title": "Port PostgreSQL migrations and durable repositories to D1",
+      "status": "blocked",
+      "dependsOn": "CF01",
+      "blocker": "Native D1 foundation, atomic guarded revisions/audit/outbox and local restart tested. Full existing auth, scene, quote, approval/handoff repositories and application API cutover remain unimplemented.",
+      "evidence": "packages/cloudflare-foundation/001_native.sql; packages/cloudflare-foundation/repository.mjs; artifacts/cloudflare-native/foundation.json"
+    },
+    {
+      "id": "CF03",
+      "phase": 15,
+      "title": "Qualify identity and tenant authority on Workers and D1",
+      "status": "blocked",
+      "dependsOn": "CF01",
+      "blocker": "Unchanged scrypt primitive succeeds locally in workerd; native session authority and revocation tested. Full invitation/recovery/MFA/login lifecycle port, integrated UI and deployed CPU/memory qualification remain open.",
+      "evidence": "artifacts/cloudflare-native/auth-cost.json; artifacts/cloudflare-native/foundation.json"
+    },
+    {
+      "id": "CF04",
+      "phase": 15,
+      "title": "Implement private R2 asset and expiring access adapter",
+      "status": "blocked",
+      "dependsOn": "CF01",
+      "blocker": "Native private R2 generic-object adapter, scoped expiring access, compensation and local restart tested. Existing asset/image-validation API cutover, approved retention and real private bucket acceptance remain open.",
+      "evidence": "packages/cloudflare-foundation/assets.mjs; artifacts/cloudflare-native/foundation.json"
+    },
+    {
+      "id": "CF05",
+      "phase": 15,
+      "title": "Implement Queues consumer and atomic outbox dispatch",
+      "status": "blocked",
+      "dependsOn": "CF01",
+      "blocker": "Actual local Queues delivery, deduplication and outbox consistency tested for version verification. Existing job kinds, main application integration, deployed dead-letter behavior and operational monitoring remain open.",
+      "evidence": "packages/cloudflare-foundation/jobs.mjs; packages/cloudflare-foundation/worker.mjs; artifacts/cloudflare-native/foundation.json"
+    },
+    {
+      "id": "CF06",
+      "phase": 15,
+      "title": "Qualify notification and payment adapters on Workers",
+      "status": "blocked",
+      "dependsOn": "CF01",
+      "blocker": "Native Cloudflare EMAIL binding adapter passes seven mocked contract checks; no actual email sent. Consent/outbox application integration, sender onboarding, delivery evidence and payment adapter port remain open.",
+      "evidence": "packages/cloudflare-foundation/notifications.mjs; artifacts/cloudflare-native/notifications.json"
+    },
+    {
+      "id": "CF07",
+      "phase": 15,
+      "title": "Verify D1 recovery and R2 retention policies",
+      "status": "blocked",
+      "dependsOn": "CF01",
+      "blocker": "Replace PostgreSQL WAL plan with D1 Time Travel/export and R2 retention; approve policies and test restore and migration recovery.",
+      "evidence": "docs/cloudflare-release-progress-20261012.md"
+    },
+    {
+      "id": "CF08",
+      "phase": 15,
+      "title": "Certify Cloudflare staging and controlled release",
+      "status": "blocked",
+      "dependsOn": "CF01",
+      "blocker": "Authorized staging bindings, E2E, security, load/soak, manual AT, visual approval and rollout gates remain open.",
+      "evidence": "docs/cloudflare-release-progress-20261012.md"
     }
   ],
   "decisions": {
@@ -1124,5 +1199,16 @@
       "team handoff"
     ]
   },
-  "localVerificationScope": "Completed implementation tasks describe tested local Node/PGlite integration. Production PostgreSQL, Workers, remote storage/provider delivery, manual accessibility and real pilot remain separate release gates."
+  "localVerificationScope": "Historical Node evidence plus local workerd public UI and isolated D1/R2/Queues foundation qualification; not complete Cloudflare application or production certification.",
+  "releaseTarget": {
+    "provider": "Cloudflare only",
+    "runtime": "Workers via existing OpenNext adapter",
+    "database": "D1",
+    "objectStorage": "private R2",
+    "jobs": "Queues",
+    "scheduledJobs": "Cron Triggers",
+    "decisionDate": "2026-10-12",
+    "implemented": false,
+    "externalWritesAuthorized": false
+  }
 }

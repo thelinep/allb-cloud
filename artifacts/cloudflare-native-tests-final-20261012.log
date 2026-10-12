@@ -1,0 +1,18 @@
+PASS native D1 authority and fresh MFA
+PASS foreign scope denied
+PASS viewer write and fresh MFA denied
+PASS draft revision plus immutable version audit outbox atomic
+PASS stale revision rolls back all writes
+PASS concurrent writers only one succeeds
+PASS version and audit mutation denied
+PASS native private R2 upload and byte-exact download
+PASS duplicate revision compensates new object only
+PASS temporary access is session-bound and expiring
+PASS tampered access signature and revision denied
+PASS outbox dispatch sends reference without private payload
+PASS consumer verifies durable version and deduplicates
+PASS consumer acknowledges success and retries poison message
+PASS queue failure leaves outbox dispatch recoverable
+PASS actual workerd Queue producer to native consumer delivery
+PASS qualification worker refuses public API rather than fake service
+PASS session revocation immediately denies signed asset and records

@@ -1,0 +1,102 @@
+{
+  "runtime": "Miniflare/workerd",
+  "externalWrites": false,
+  "checks": [
+    {
+      "name": "native D1 authority and fresh MFA",
+      "pass": true
+    },
+    {
+      "name": "unverified disabled and rotated accounts denied",
+      "pass": true
+    },
+    {
+      "name": "foreign scope denied",
+      "pass": true
+    },
+    {
+      "name": "viewer write and fresh MFA denied",
+      "pass": true
+    },
+    {
+      "name": "draft revision plus immutable version audit outbox atomic",
+      "pass": true
+    },
+    {
+      "name": "stale revision rolls back all writes",
+      "pass": true
+    },
+    {
+      "name": "concurrent writers only one succeeds",
+      "pass": true
+    },
+    {
+      "name": "authority revocation between read and batch blocks mutation",
+      "pass": true
+    },
+    {
+      "name": "late outbox failure rolls back revision version and audit",
+      "pass": true
+    },
+    {
+      "name": "version and audit mutation denied",
+      "pass": true
+    },
+    {
+      "name": "native private R2 upload and byte-exact download",
+      "pass": true
+    },
+    {
+      "name": "duplicate revision compensates new object only",
+      "pass": true
+    },
+    {
+      "name": "temporary access is session-bound and expiring",
+      "pass": true
+    },
+    {
+      "name": "tampered access signature and revision denied",
+      "pass": true
+    },
+    {
+      "name": "outbox dispatch sends reference without private payload",
+      "pass": true
+    },
+    {
+      "name": "consumer verifies durable version and deduplicates",
+      "pass": true
+    },
+    {
+      "name": "consumer acknowledges success and retries poison message",
+      "pass": true
+    },
+    {
+      "name": "queue failure leaves outbox dispatch recoverable",
+      "pass": true
+    },
+    {
+      "name": "actual workerd Queue producer to native consumer delivery",
+      "pass": true
+    },
+    {
+      "name": "qualification worker refuses public API rather than fake service",
+      "pass": true
+    },
+    {
+      "name": "session revocation immediately denies signed asset and records",
+      "pass": true
+    },
+    {
+      "name": "D1 and R2 persist across workerd restart",
+      "pass": true
+    }
+  ],
+  "productionCertified": false,
+  "limitations": [
+    "No production bindings",
+    "No existing app route integration",
+    "No password verification",
+    "Additional failure-injection queue transport mocked; happy-path producer/consumer uses actual Miniflare Queues",
+    "Asset bytes generic private objects, not image validation"
+  ]
+}

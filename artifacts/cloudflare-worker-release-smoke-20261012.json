@@ -1,0 +1,232 @@
+{
+  "kind": "local-worker-http-smoke",
+  "externalWrites": false,
+  "runtimeStarted": true,
+  "checks": [
+    {
+      "url": "/allb",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "/allb/allb",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "/allb/siddham",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "/allb/kharoshti",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "/allb/brahmi",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "/allb/maataa-ui",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "/allb/maataa",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "/allb/maataa-auth",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "/allb/maataa-os",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "/allb/core-aham",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "/allb/maataa-desktop",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "/allb/developer-tools",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "/allb/data-services",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "/allb/operations",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "/allb/maataa-db-studio",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "/allb/governance",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "/allb/commerce",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "/allb/tlps",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "/allb/nevo",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "/allb/hardware",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "/allb/shree",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "/allb/applications",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "/allb/samwat",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "/allb/observatory",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "/allb/hemant-clock",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "/allb/games",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "/allb/panchanga",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "/allb/apps",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "/allb/sankranti",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "/allb/product-directory",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "/allb/simulation-timeline",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "/allb/production",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "/allb/developer-ecosystem",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "/allb/nevo-workflow",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "/allb/roadmap",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "/allb/tlps-workflow",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "/allb/samwat-research",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "/workspace/nevo",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "/studio/themes",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "/studio/branding",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "/api/enterprise/kanban",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "/allb/01-allb.webp",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "url": "/allb/unknown-worker-check",
+      "status": 404,
+      "pass": true
+    },
+    {
+      "url": "/workspace/unknown-worker-check",
+      "status": 404,
+      "pass": true
+    },
+    {
+      "url": "compiled-registry-counts",
+      "pass": true
+    }
+  ],
+  "logs": "ation-local)      Worker                    local [connected]\nenv.ASSETS                                              Assets                    local\nenv.ENVIRONMENT (\"integration-local\")                   Environment Variable      local\n\n\nService bindings, Durable Object bindings, and Tail consumers connect to other Wrangler or Vite dev processes running locally, with their connection status indicated by [connected] or [not connected]. For more details, refer to https://developers.cloudflare.com/workers/runtime-apis/bindings/service-bindings/#local-development\n\n\u001b[33m▲ \u001b[43;33m[\u001b[43;30mWARNING\u001b[43;33m]\u001b[0m \u001b[1mUsing direct eval with a bundler is not recommended and may cause problems\u001b[0m [direct-eval]\n\n    .open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:1031:95855:\n\u001b[37m      1031 │ ...{body} };`;ASM_CONSTS[start]=\u001b[32meval\u001b[37m(func)}if(updateTableMap(tab...\n           ╵                                 \u001b[32m~~~~\u001b[0m\n\n  You can read more about direct eval and bundling here: \u001b[4mhttps://esbuild.github.io/link/direct-eval\u001b[0m\n\n\n\u001b[33m▲ \u001b[43;33m[\u001b[43;30mWARNING\u001b[43;33m]\u001b[0m \u001b[1mUsing direct eval with a bundler is not recommended and may cause problems\u001b[0m [direct-eval]\n\n    .open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:1031:96477:\n\u001b[37m      1031 │ ...{body};`;moduleExports[name]=\u001b[32meval\u001b[37m(func)}for(var name in modul...\n           ╵                                 \u001b[32m~~~~\u001b[0m\n\n  You can read more about direct eval and bundling here: \u001b[4mhttps://esbuild.github.io/link/direct-eval\u001b[0m\n\n\n\u001b[33m▲ \u001b[43;33m[\u001b[43;30mWARNING\u001b[43;33m]\u001b[0m \u001b[1mUsing direct eval with a bundler is not recommended and may cause problems\u001b[0m [direct-eval]\n\n    .open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:1034:39168:\n\u001b[37m      1034 │ ...{body} };`;ASM_CONSTS[start]=\u001b[32meval\u001b[37m(func)}if(updateTableMap(tab...\n           ╵                                 \u001b[32m~~~~\u001b[0m\n\n  You can read more about direct eval and bundling here: \u001b[4mhttps://esbuild.github.io/link/direct-eval\u001b[0m\n\n\n\u001b[33m▲ \u001b[43;33m[\u001b[43;30mWARNING\u001b[43;33m]\u001b[0m \u001b[1mUsing direct eval with a bundler is not recommended and may cause problems\u001b[0m [direct-eval]\n\n    .open-next/server-functions/default/apps/maataa-ui-route-source/handler.mjs:1034:39790:\n\u001b[37m      1034 │ ...{body};`;moduleExports[name]=\u001b[32meval\u001b[37m(func)}for(var name in modul...\n           ╵                                 \u001b[32m~~~~\u001b[0m\n\n  You can read more about direct eval and bundling here: \u001b[4mhttps://esbuild.github.io/link/direct-eval\u001b[0m\n\n\n⎔ Starting local server...\n[wrangler:warn] Unable to fetch the `Request.cf` object! Falling back to a default placeholder...\nTimeoutError: The operation was aborted due to timeout\n    at new DOMException (node:internal/per_context/domexception:76:18)\n    at Timeout._onTimeout (node:internal/abort_controller:210:9)\n    at listOnTimeout (node:internal/timers:635:17)\n    at process.processTimers (node:internal/timers:571:7)\n    at /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/undici/index.js:157:7\n    at async setupCf (/workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/miniflare/dist/src/index.js:78690:17)\n    at async #assembleConfig (/workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/miniflare/dist/src/index.js:134170:21)\n    at async #assembleAndUpdateConfigInternal (/workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/miniflare/dist/src/index.js:134569:21)\n    at async #assembleAndUpdateConfig (/workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/miniflare/dist/src/index.js:134556:7)\n    at async /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/miniflare/dist/src/index.js:133333:7\n    at async Mutex.runWith (/workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/miniflare/dist/src/index.js:80693:16)\nWrangler detected this dev session is running in an AI agent.\nThe Local Explorer API is available at http://127.0.0.1:8891/cdn-cgi/local/explorer/api\nUseful routes:\n  GET http://127.0.0.1:8891/cdn-cgi/local/explorer/api/local/workers - local Workers and bindings\n  POST http://127.0.0.1:8891/cdn-cgi/local/explorer/api/local/scheduled?worker=<name> - invoke a Worker's scheduled handler; cron is required (see the OpenAPI schema for the full request)\n  GET http://127.0.0.1:8891/cdn-cgi/local/explorer/api/storage/kv/namespaces - KV namespaces\n  GET http://127.0.0.1:8891/cdn-cgi/local/explorer/api/d1/database - D1 databases\n  GET http://127.0.0.1:8891/cdn-cgi/local/explorer/api/r2/buckets - R2 buckets\n  GET http://127.0.0.1:8891/cdn-cgi/local/explorer/api/workers/durable_objects/namespaces - Durable Object namespaces\n  GET http://127.0.0.1:8891/cdn-cgi/local/explorer/api/workflows - Workflows\n  POST http://127.0.0.1:8891/cdn-cgi/local/explorer/api/local/observability/query - run a read-only SQL query (SELECT/WITH only) over captured request traces and console logs. Tables: spans, logs (read attributes via json(attributes)). Example:\n    curl -X POST http://127.0.0.1:8891/cdn-cgi/local/explorer/api/local/observability/query -H 'Content-Type: application/json' -d '{\"sql\":\"SELECT service, name, outcome, duration_ms FROM spans WHERE parent_id IS NULL LIMIT 20\"}'\n  POST http://127.0.0.1:8891/cdn-cgi/local/explorer/api/local/observability/clear - clear all captured traces and logs\nIf the routes above don't cover what you need, fetch the full OpenAPI schema (large - use only as a last resort):\n  GET http://127.0.0.1:8891/cdn-cgi/local/explorer/api - OpenAPI schema\n[wrangler:warn] Unable to fetch the `Request.cf` object! Falling back to a default placeholder...\nTimeoutError: The operation was aborted due to timeout\n    at new DOMException (node:internal/per_context/domexception:76:18)\n    at Timeout._onTimeout (node:internal/abort_controller:210:9)\n    at listOnTimeout (node:internal/timers:635:17)\n    at process.processTimers (node:internal/timers:571:7)\n    at /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/undici/index.js:157:7\n    at async setupCf (/workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/miniflare/dist/src/index.js:78690:17)\n    at async #assembleConfig (/workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/miniflare/dist/src/index.js:134170:21)\n    at async #assembleAndUpdateConfigInternal (/workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/miniflare/dist/src/index.js:134569:21)\n    at async #assembleAndUpdateConfig (/workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/miniflare/dist/src/index.js:134556:7)\n    at async /workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/miniflare/dist/src/index.js:133333:7\n    at async Mutex.runWith (/workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/miniflare/dist/src/index.js:80693:16)\n    at async #waitForReady (/workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/miniflare/dist/src/index.js:134764:5)\n    at async #onBundleComplete (/workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/wrangler/wrangler-dist/cli.js:370258:33)\n    at async Mutex.runWith (/workspace/scratch/80aa72c897e9/allb-cloud/apps/maataa-ui-route-source/node_modules/miniflare/dist/src/index.js:80693:16)\n[wrangler:info] Ready on http://127.0.0.1:8891\n[wrangler:info] GET /allb 200 OK (1821ms)\n[wrangler:info] GET /allb 200 OK (50ms)\n[wrangler:info] GET /allb/allb 200 OK (40ms)\n[wrangler:info] GET /allb/siddham 200 OK (26ms)\n[wrangler:info] GET /allb/kharoshti 200 OK (32ms)\n[wrangler:info] GET /allb/brahmi 200 OK (28ms)\n[wrangler:info] GET /allb/maataa-ui 200 OK (23ms)\n[wrangler:info] GET /allb/maataa 200 OK (26ms)\n[wrangler:info] GET /allb/maataa-auth 200 OK (25ms)\n[wrangler:info] GET /allb/maataa-os 200 OK (24ms)\n[wrangler:info] GET /allb/core-aham 200 OK (27ms)\n[wrangler:info] GET /allb/maataa-desktop 200 OK (21ms)\n[wrangler:info] GET /allb/developer-tools 200 OK (22ms)\n[wrangler:info] GET /allb/data-services 200 OK (23ms)\n[wrangler:info] GET /allb/operations 200 OK (21ms)\n[wrangler:info] GET /allb/maataa-db-studio 200 OK (27ms)\n[wrangler:info] GET /allb/governance 200 OK (23ms)\n[wrangler:info] GET /allb/commerce 200 OK (23ms)\n[wrangler:info] GET /allb/tlps 200 OK (37ms)\n[wrangler:info] GET /allb/nevo 200 OK (22ms)\n[wrangler:info] GET /allb/hardware 200 OK (23ms)\n[wrangler:info] GET /allb/shree 200 OK (24ms)\n[wrangler:info] GET /allb/applications 200 OK (24ms)\n[wrangler:info] GET /allb/samwat 200 OK (22ms)\n[wrangler:info] GET /allb/observatory 200 OK (24ms)\n[wrangler:info] GET /allb/hemant-clock 200 OK (25ms)\n[wrangler:info] GET /allb/games 200 OK (23ms)\n[wrangler:info] GET /allb/panchanga 200 OK (21ms)\n[wrangler:info] GET /allb/apps 200 OK (21ms)\n[wrangler:info] GET /allb/sankranti 200 OK (24ms)\n[wrangler:info] GET /allb/product-directory 200 OK (22ms)\n[wrangler:info] GET /allb/simulation-timeline 200 OK (21ms)\n[wrangler:info] GET /allb/production 200 OK (22ms)\n[wrangler:info] GET /allb/developer-ecosystem 200 OK (23ms)\n[wrangler:info] GET /allb/nevo-workflow 200 OK (21ms)\n[wrangler:info] GET /allb/roadmap 200 OK (21ms)\n[wrangler:info] GET /allb/tlps-workflow 200 OK (24ms)\n[wrangler:info] GET /allb/samwat-research 200 OK (21ms)\n[wrangler:info] GET /workspace/nevo 200 OK (22ms)\n[wrangler:info] GET /studio/themes 200 OK (43ms)\n[wrangler:info] GET /studio/branding 200 OK (43ms)\n[wrangler:info] GET /api/enterprise/kanban 200 OK (39ms)\n[wrangler:info] GET /allb/01-allb.webp 200 OK (4ms)\n[wrangler:info] GET /allb/unknown-worker-check 404 Not Found (5ms)\n[wrangler:info] GET /workspace/unknown-worker-check 404 Not Found (3ms)\n[wrangler:info] GET /api/enterprise/kanban 200 OK (8ms)\n"
+}

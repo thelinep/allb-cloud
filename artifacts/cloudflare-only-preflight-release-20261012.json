@@ -1,0 +1,94 @@
+{
+  "kind": "cloudflare-only-readiness",
+  "target": {
+    "runtime": "Workers/OpenNext",
+    "database": "D1",
+    "assets": "private R2",
+    "jobs": "Queues"
+  },
+  "compatibilityVerified": false,
+  "productionReady": false,
+  "externalWrites": false,
+  "checks": [
+    {
+      "id": "application",
+      "status": "present",
+      "detail": "Unified application; Next.js 16.3.8"
+    },
+    {
+      "id": "adapter",
+      "status": "present",
+      "detail": "Adapter dependency presence is not runtime qualification."
+    },
+    {
+      "id": "wrangler",
+      "status": "present",
+      "detail": "Wrangler dependency presence is not a release pass."
+    },
+    {
+      "id": "configuration",
+      "status": "present",
+      "detail": "Local integration configuration; no production account inspected."
+    },
+    {
+      "id": "worker-build",
+      "status": "present",
+      "detail": "Existing bundle may be stale; fresh Worker build and HTTP checks required."
+    },
+    {
+      "id": "d1-binding",
+      "status": "blocked",
+      "detail": "D1 target selected; native schema, transaction and tenant tests required."
+    },
+    {
+      "id": "private-r2-binding",
+      "status": "blocked",
+      "detail": "Private R2 target selected; access expiry and immutable asset tests required."
+    },
+    {
+      "id": "queue-bindings",
+      "status": "blocked",
+      "detail": "Producer and consumer plus outbox/retry tests required."
+    },
+    {
+      "id": "scheduled-jobs",
+      "status": "blocked",
+      "detail": "Cron target selected; schedules and policy approval absent."
+    },
+    {
+      "id": "workerd-runtime",
+      "status": "blocked",
+      "detail": "Public UI passes 552 local Chromium checks; full authenticated D1 backend/staging qualification remains open."
+    },
+    {
+      "id": "auth-cost",
+      "status": "blocked",
+      "detail": "Unchanged scrypt succeeds in local workerd probe; deployed CPU/memory budget and full identity lifecycle remain unverified."
+    },
+    {
+      "id": "database-port",
+      "status": "blocked",
+      "detail": "PostgreSQL SQL and callback transaction semantics require a native D1 implementation."
+    },
+    {
+      "id": "delivery",
+      "status": "blocked",
+      "detail": "Workers-compatible notification delivery and provider reconciliation unverified."
+    },
+    {
+      "id": "recovery",
+      "status": "blocked",
+      "detail": "D1 Time Travel/export and R2 recovery not tested."
+    },
+    {
+      "id": "staging-certification",
+      "status": "blocked",
+      "detail": "No authorized staging acceptance, SLO, manual AT or visual approval."
+    },
+    {
+      "id": "rollout-authorization",
+      "status": "blocked",
+      "detail": "Deployment, DNS and external configuration remain unauthorized."
+    }
+  ]
+}

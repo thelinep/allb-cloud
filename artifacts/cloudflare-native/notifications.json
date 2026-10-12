@@ -1,0 +1,35 @@
+{
+  "externalWrites": false,
+  "transport": "mocked native EMAIL binding",
+  "productionCertified": false,
+  "checks": [
+    {
+      "name": "missing binding fails closed",
+      "pass": true
+    },
+    {
+      "name": "missing durable consent refuses send",
+      "pass": true
+    },
+    {
+      "name": "header injection and multiple recipients refused",
+      "pass": true
+    },
+    {
+      "name": "native structured binding contract records acceptance not delivery",
+      "pass": true
+    },
+    {
+      "name": "unknown timeout redacted and never automatically resent",
+      "pass": true
+    },
+    {
+      "name": "provider error details not leaked",
+      "pass": true
+    },
+    {
+      "name": "unverified sender rejected without delivery claim",
+      "pass": true
+    }
+  ]
+}

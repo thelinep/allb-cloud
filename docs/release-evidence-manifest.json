@@ -66,5 +66,7 @@
   "browserCases": 552,
   "finalBuild": "pass",
   "typeScript": "pass",
-  "diffCheck": "pass"
+  "diffCheck": "pass",
+  "currentQualificationEvidence": "docs/cloudflare-next-work-evidence-20261012.json",
+  "historicalOnly": true
 }

@@ -1,0 +1,20 @@
+{
+  "kind": "local-workerd-scrypt-qualification",
+  "externalWrites": false,
+  "status": 200,
+  "result": {
+    "primitiveSucceeded": true,
+    "elapsedMs": 281,
+    "parameters": {
+      "N": 131072,
+      "r": 8,
+      "p": 1
+    }
+  },
+  "productionCertified": false,
+  "limitations": [
+    "Local simulation does not certify deployed Worker CPU/memory quota",
+    "No hashing parameter weakened",
+    "No real credential or account used"
+  ]
+}

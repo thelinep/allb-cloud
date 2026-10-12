@@ -1,30 +1,30 @@
-# Cloudflare deployment readiness
+# Cloudflare-only deployment plan
 
-User decisions: Cloudflare hosting; `nevoevents.in` already configured there; own MAATAA Auth, invitation-only accounts, MFA for administrators and publishers. Domain configuration is user-confirmed, not independently inspected. No deployment, account mutation, email send or DNS change has been performed.
+Updated 2026-10-12 from the user's explicit Cloudflare-only decision. Production target: Workers, D1, private R2, Queues, Cron Triggers, Cloudflare secrets and observability. Node and PostgreSQL remain local/historical test tools, not approved production fallbacks. No deployment, DNS change, provisioning, email send or external configuration is authorized or performed.
 
-## Current application
+## Actual checkout
 
-The root commands target `apps/maataa-ui-route-source`. That application pins Next.js 16.3.4 and currently has no OpenNext adapter, Wrangler dependency, deployment configuration or Worker bundle. The archived Hemant `wrangler.jsonc` under `sources/` targets `samwat.allb.xyz`, not the unified application or NEVO domain. Reusing that file would misroute deployment.
+The unified app is `apps/maataa-ui-route-source`. Installed OpenNext and Wrangler declarations, `wrangler.integration.jsonc`, and a generated Worker bundle exist. The integration config has assets and a self-reference only: no D1, R2, Queue or Cron bindings. Archived Hemant config must not be reused for the unified application.
 
-Cloudflare currently documents both its Next.js route and the OpenNext adapter. For this existing Next.js application, evaluate a pinned OpenNext adapter first to preserve the current framework contracts. This is a candidate, not verified compatibility. Official references reviewed: [OpenNext adapter](https://developers.cloudflare.com/workers/framework-guides/web-apps/opennext/), [automatic configuration](https://developers.cloudflare.com/workers/framework-guides/automatic-configuration/). Automatic configuration can choose a different runtime, so do not run it blindly against this repository.
+Historical Worker smoke failed valid dynamic routes with NoFallbackError. Request-time fixture rendering and manifest-based early 404 validation now pass a fresh 552-case Worker Chromium matrix and 45 HTTP/registry checks. This qualifies public UI locally; authenticated D1 application cutover and remote staging remain open.
 
-## Local reproducible inventory
+## Migration and acceptance sequence
 
-```bash
-node scripts/cloudflare-preflight.mjs
-```
+1. CF01: public UI rendering is locally qualified under workerd. Keep Next.js App Router conventions. Current official docs recommend vinext for new applications; that is not authorization to replace this existing adapter without compatibility evidence.
+2. CF02: port PostgreSQL migrations and repositories to D1. Current SQL uses PostgreSQL JSON functions and row locks; transaction callbacks cannot be mechanically mapped to separate auto-committed writes. Use native conditional statements and atomic batches; prove race/conflict, rollback, audit/outbox and tenant invariants.
+3. CF03: qualify identity on Workers and D1 without weakening password hashing. Measure CPU/memory; verify fresh MFA, disabled accounts, revocation and server-derived tenancy.
+4. CF04: native private R2 storage, immutable revision references and expiring authorized access. No public bucket or unauthenticated reference lookup.
+5. CF05: Queues consumers with deduplication, bounded retries and dead-letter handling; demonstrate consistency with D1 outbox records.
+6. CF06: qualify invitation/recovery delivery and commercial adapters on Workers. Cloudflare-only hosting does not create payment settlement or verified email delivery; Razorpay remains an external business integration.
+7. CF07: replace PostgreSQL WAL recovery assumptions with D1 Time Travel plus reviewed exports to R2. Verify actual account limits, approve retention and perform restore/migration recovery drills.
+8. CF08: authorized Cloudflare staging followed by regression, security, load/soak, recovery, manual accessibility, visual review and pilot. Production remains gated by E13.01-E13.08.
 
-The inventory is read-only and emits no secrets. Exit 2 means missing prerequisites; it is deliberately not a passing compatibility test. Initial run: application found; adapter, Wrangler, configuration and Worker output blocked; runtime/database/email unverified. The script does not start workerd or prove that it failed in this environment.
+`node scripts/cloudflare-preflight.mjs` is read-only and deliberately exits 2 until qualification. Resource presence does not count as an acceptance pass.
 
-## Runtime gates
+## Official references checked 2026-10-12
 
-1. Choose and pin an adapter version compatible with the exact Next.js version. Install in an isolated copy first; inspect peer dependency constraints and lockfile.
-2. Add staging-only configuration with no production routes. Build Worker output and run workerd locally with `nodejs_compat`, not just the Node development server.
-3. Verify SSR, assets, unknown-route 404s, cookies, server mutations, errors and Studio state on that runtime.
-4. Benchmark credential verification separately. Current scrypt uses N=2^17/r=8: its approximately 128 MiB working memory excludes application and runtime overhead. Do not weaken password hashing to make it fit. A dedicated own Auth service may be necessary; approve that architecture only after memory/CPU measurements.
-5. Select durable PostgreSQL connectivity and verify transactions, tenant isolation, session revocation, backups and restore against it. Disposable PGlite tests do not meet this gate.
-6. Verify invitation/recovery outbound email capability, sender authentication and token lifecycle. Cloudflare DNS configuration alone does not establish email delivery.
-7. Obtain authorized account/zone access through secure environment configuration. Never put credentials in chat, documents or client bundles. Create a separate staging target only after the local runtime gates pass.
-8. Run staging E2E/security/load/recovery checks. Record artifact hashes, migration version, binding identifiers, rollback and monitoring evidence before production release.
+- https://developers.cloudflare.com/workers/framework-guides/web-apps/opennext/
+- https://developers.cloudflare.com/d1/worker-api/d1-database/
+- https://developers.cloudflare.com/d1/reference/time-travel/
 
-No claim is made that Cloudflare Workers, the database or email service is production-ready for this app. The current plan is executable readiness work, not a deployment manifest.
+D1 batch statements are transactional, rolling back the sequence on a statement error. This does not establish equivalence with the application's existing read-dependent PostgreSQL transaction callbacks.
