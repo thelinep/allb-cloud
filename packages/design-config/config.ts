@@ -1,7 +1,7 @@
 export type Theme = {mode:'light'|'dark';background:string;surface:string;text:string;muted:string;accent:string;border:string;radius:number;density:'comfortable'|'compact';font:'system'|'serif'|'mono'};
 export type Brand = {name:string;tagline:string;logo:string;favicon:string;hero:string;heroAlt:string};
 export type Override = {theme?:Partial<Theme>;branding?:Partial<Brand>};
-export type DesignConfig = {schemaVersion:1;global:{theme:Theme;branding:Brand};brands:Record<string,Override>;routes:Record<string,Override & {brand?:string}>};
+export type DesignConfig = {schemaVersion:1;assetReferences?:{assetId:string;revision:number}[];global:{theme:Theme;branding:Brand};brands:Record<string,Override>;routes:Record<string,Override & {brand?:string}>};
 export const STORAGE_KEY='allb.design-studio.v1';
 export const ACTIVE_KEY='allb.design-studio.active.v1';
 export const CHANGE_EVENT='allb:design-config';
@@ -30,6 +30,7 @@ export function validRoute(path:string){return /^\/[a-zA-Z0-9/_.*-]*$/.test(path
 export function validBrandId(id:string){return /^[a-z0-9][a-z0-9-]{0,79}$/.test(id)&&!['constructor','prototype','__proto__'].includes(id);}
 export function parseConfig(value:unknown):DesignConfig{
  if(!object(value)||value.schemaVersion!==1||!object(value.global)||!validateTheme(value.global.theme)||!validateBrand(value.global.branding)||!object(value.brands)||!object(value.routes))throw Error('Invalid design configuration or unsupported schema version.');
+ if(value.assetReferences!==undefined&&(!Array.isArray(value.assetReferences)||value.assetReferences.length>100||value.assetReferences.some((r:any)=>!object(r)||typeof r.assetId!=='string'||!/^([a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})$/i.test(r.assetId)||!Number.isInteger(r.revision)||Number(r.revision)<1)))throw Error('Invalid asset references.');
  if(Object.keys(value.brands).length>200||Object.keys(value.routes).length>2000)throw Error('Configuration exceeds supported limits.');
  for(const [id,v] of Object.entries(value.brands)){
   if(!validBrandId(id)||!object(v)||Object.keys(v).some(k=>!['theme','branding'].includes(k))||v.theme!==undefined&&!validateTheme(v.theme,true)||v.branding!==undefined&&!validateBrand(v.branding,true))throw Error('Invalid brand: '+id);

@@ -1,5 +1,6 @@
 'use client';
 import {useEffect,useState,type CSSProperties} from 'react';
+import {DesignServerControls} from './design-server-controls';
 import routes from '../lib/routes.json';
 import manifest from '../route-manifest.json';
 import landings from '../lib/landing-routes.json';
@@ -36,7 +37,7 @@ export function DesignStudio({tab}:{tab:'theme'|'branding'}){
   <p className="eyebrow">MAATAA UI / Design configuration</p><h1>{tab==='theme'?'Theme Studio':'Branding Studio'}</h1>
   <p className="lead">Configure global defaults, brand identities and individual routes. New routes inherit defaults automatically. Adding a route configuration does not create the route itself.</p>
   <nav className="controls" aria-label="Design studios"><a href="/studio/themes" aria-current={tab==='theme'?'page':undefined}>Theme Studio</a><a href="/studio/branding" aria-current={tab==='branding'?'page':undefined}>Branding Studio</a></nav>
-  <p className="notice">Browser-local configuration. Landings and workspaces share this active configuration. Use JSON export/import to transfer settings between browsers. No database, access control or server publication is connected.</p>
+  <p className="notice">Browser-local configuration. Landings and workspaces share this active configuration. Use JSON export/import to transfer settings between browsers. Authenticated server publishing is available separately below; local apply never publishes.</p>
   <fieldset disabled={!ready}><legend>Configuration scope</legend><div className="controls">
    <label>Scope<select aria-label="Scope" value={scope} onChange={e=>{setScope(e.target.value as typeof scope);setTarget('');}}><option value="global">Global defaults</option><option value="brand">Brand</option><option value="route">Route / landing</option></select></label>
    {scope==='brand'&&<label>Brand<select value={target} onChange={e=>setTarget(e.target.value)}><option value="">Select a brand</option>{Object.keys(config.brands).map(id=><option key={id}>{id}</option>)}</select></label>}
@@ -67,6 +68,7 @@ export function DesignStudio({tab}:{tab:'theme'|'branding'}){
     <details><summary>Resolved configuration</summary><pre>{JSON.stringify({scope,target,...resolved},null,2)}</pre></details>
    </section></div>
   <div className="controls"><button disabled={!ready} onClick={()=>save()}>Save draft</button><button disabled={!ready} onClick={()=>save(true)}>Apply locally</button><button disabled={!ready} onClick={download}>Export JSON</button><label>Import JSON<input disabled={!ready} type="file" accept=".json,application/json" onChange={e=>{void importFile(e.target.files?.[0]);e.target.value='';}}/></label></div>
+  <DesignServerControls config={config} onLoad={setConfig}/>
   <p role="status" aria-live="polite">{message||'Global → brand → route family → exact route. Changes stay in draft until applied.'}</p>
  </main>;
 }

@@ -37,6 +37,10 @@ try{
  await db.query('UPDATE memberships SET role=$3 WHERE organization_id=$1 AND user_id=$2',[id(1),id(5),'editor']);
  await service.review(scopes.reviewer,{versionId:v1.id,decision:'approved'});ok();
  await reject(service.review(scopes.reviewer,{versionId:v1.id,decision:'rejected'}),'decision_already_recorded');
+ const stricter=createPublishingService(db,{validateConfig:v=>v,minimumApprovals:2});
+ await reject(stricter.publish(scopes.admin,{versionId:v1.id,route:'/allb/nevo',expectedGeneration:0}),'approval_required');
+ const snapshot=await service.list(scopes.viewer);assert.equal(snapshot.versions.length,1);assert.equal(snapshot.minimumApprovals,1);ok();
+ await assert.rejects(db.query('UPDATE design_versions SET number=99 WHERE id=$1',[v1.id]),/immutable/);ok();
  await service.publish(scopes.admin,{versionId:v1.id,route:'/allb/nevo',expectedGeneration:0});ok();
  await reject(service.publish(scopes.admin,{versionId:v1.id,route:'/allb/nevo',expectedGeneration:0}),'stale_generation');
  await db.query(`UPDATE auth_sessions SET mfa_verified_at=NULL WHERE user_id=$1`,[id(7)]);
@@ -52,12 +56,12 @@ try{
  await service.publish(scopes.admin,{versionId:v2.id,route:'/allb/nevo',expectedGeneration:1});
  const rollback=await service.rollback(scopes.admin,{versionId:v1.id,route:'/allb/nevo',expectedGeneration:2});assert.equal(rollback.generation,3);assert.equal(rollback.version_id,v1.id);ok();
  await reject(service.rollback(scopes.admin,{versionId:v2.id,route:'/never-published',expectedGeneration:0}),'not_found');
- assert.equal((await db.query('SELECT count(*)::int AS n FROM outbox_events')).rows[0].n,3);ok();
+ assert.equal((await db.query("SELECT count(*)::int AS n FROM outbox_events WHERE kind='design.published'")).rows[0].n,3);ok();
  assert.equal((await db.query('SELECT config FROM design_versions WHERE id=$1',[v1.id])).rows[0].config.theme,'first');ok();
  const failing=createPublishingService({transaction:fn=>db.transaction(tx=>fn({query:(sql,args)=>sql.includes('INSERT INTO outbox_events')?Promise.reject(Error('injected outbox failure')):tx.query(sql,args)}))},{validateConfig:v=>v});
  await assert.rejects(failing.publish(scopes.admin,{versionId:v2.id,route:'/allb/nevo',expectedGeneration:3}),/injected outbox failure/);ok();
  assert.equal((await db.query('SELECT generation FROM design_publications')).rows[0].generation,3);ok();
- assert.equal((await db.query('SELECT count(*)::int AS n FROM outbox_events')).rows[0].n,3);ok();
+ assert.equal((await db.query("SELECT count(*)::int AS n FROM outbox_events WHERE kind='design.published'")).rows[0].n,3);ok();
  await db.query('UPDATE auth_sessions SET revoked_at=now() WHERE user_id=$1',[id(5)]);
  await reject(service.saveDraft(scopes.editor,{...draft,expectedRevision:2}),'unauthenticated');
  console.log(`PASS ${checks} design publishing service assertions (disposable PostgreSQL/PGlite)`);
