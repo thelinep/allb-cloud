@@ -1,0 +1,38 @@
+{
+  "name": "@platform/notifications",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./nodemailer": {
+      "types": "./dist/nodemailer.d.ts",
+      "default": "./dist/nodemailer.js"
+    },
+    "./whatsapp/business-api": {
+      "types": "./dist/whatsapp/business-api.d.ts",
+      "default": "./dist/whatsapp/business-api.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "nodemailer": "^9.0.6"
+  },
+  "devDependencies": {
+    "@types/nodemailer": "^8.0.1",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.9.3"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ]
+}

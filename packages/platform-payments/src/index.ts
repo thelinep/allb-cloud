@@ -1,0 +1,6 @@
+import { createHmac, timingSafeEqual } from "node:crypto";
+
+export interface PaymentProvider { createIntent(input: { amount: number; currency: string; idempotencyKey: string }): Promise<{ providerReference: string; status: "PENDING" }>; refund(input: { providerReference: string; amount: number }): Promise<{ providerReference: string; status: "PENDING" }>; verifyWebhook(input: { signature?: string; payload: string; secret?: string }): Promise<boolean>; }
+export class LocalPaymentProvider implements PaymentProvider { async createIntent(input: { idempotencyKey: string }) { return { providerReference: `local-payment-${input.idempotencyKey}`, status: "PENDING" as const }; } async refund(input: { providerReference: string }) { return { providerReference: `local-refund-${input.providerReference}`, status: "PENDING" as const }; } async verifyWebhook(input: { signature?: string; payload: string; secret?: string }) { if (!input.signature || !input.secret) return false; const supplied = input.signature.replace(/^sha256=/, ""); const expected = createHmac("sha256", input.secret).update(input.payload).digest("hex"); return supplied.length === expected.length && timingSafeEqual(Buffer.from(supplied, "hex"), Buffer.from(expected, "hex")); } }
+
+export * from "./primitives.js";

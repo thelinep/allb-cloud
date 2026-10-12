@@ -1,0 +1,114 @@
+{
+  "repository": "https://github.com/thelinep/nevoeos",
+  "ref": "f50af9dd91b987080faa8fa00f2416b73cf8de78",
+  "upstreamDirectory": "packages/maataa-ui",
+  "importedFiles": [
+    {
+      "path": "packages/maataa-ui/README.md",
+      "gitBlobSha": "e94f7f0ca9ad2f73abd35546b6b4e12613b0c11c",
+      "size": 683
+    },
+    {
+      "path": "packages/maataa-ui/package.json",
+      "gitBlobSha": "7fcb66bd96b3f750797c456d12120be4c6e05376",
+      "size": 1067
+    },
+    {
+      "path": "packages/maataa-ui/src/components.tsx",
+      "gitBlobSha": "12a7b99062bc3d0bbba795e56390e5419a23c373",
+      "size": 8595
+    },
+    {
+      "path": "packages/maataa-ui/src/contracts.ts",
+      "gitBlobSha": "2b58565dbb663abdbe96cbb38d230e05158e32d9",
+      "size": 1079
+    },
+    {
+      "path": "packages/maataa-ui/src/icons.tsx",
+      "gitBlobSha": "edc42911a2d43902c2e02ecd8deaba77062ca904",
+      "size": 5722
+    },
+    {
+      "path": "packages/maataa-ui/src/index.ts",
+      "gitBlobSha": "ddcba460e749e2945c41f3ec732f731b46b933fb",
+      "size": 155
+    },
+    {
+      "path": "packages/maataa-ui/src/navigation.ts",
+      "gitBlobSha": "257ef56aff3f401421ab7bafb623a5a493f4e4ef",
+      "size": 568
+    },
+    {
+      "path": "packages/maataa-ui/src/nevo.tsx",
+      "gitBlobSha": "d3badabc7e15213fb1d25204279ecb607edbf027",
+      "size": 3280
+    },
+    {
+      "path": "packages/maataa-ui/src/styles.css",
+      "gitBlobSha": "f19ece4296c2f4d8b4ba7245df5322d7a2d180f2",
+      "size": 5083
+    },
+    {
+      "path": "packages/maataa-ui/src/themes.ts",
+      "gitBlobSha": "07bff7bc844112408a5cb281577a24b353566e61",
+      "size": 934
+    },
+    {
+      "path": "packages/maataa-ui/src/tokens-stagelight.proposal.css",
+      "gitBlobSha": "a1b0a44ee32c418f3ea9f5f16f509a5d390ba5cf",
+      "size": 2356
+    },
+    {
+      "path": "packages/maataa-ui/src/tokens.css",
+      "gitBlobSha": "c9dea1ed2d8ee18ab13c542382bb822676d39338",
+      "size": 3992
+    },
+    {
+      "path": "packages/maataa-ui/src/wizard/DefaultLayout.tsx",
+      "gitBlobSha": "6828238e73f32b7627c8a09c09515ab48f9cbdfc",
+      "size": 1341
+    },
+    {
+      "path": "packages/maataa-ui/src/wizard/NevoWizardParts.tsx",
+      "gitBlobSha": "dffe0d338f3b57d02daefa0d3b6c1b34e1572254",
+      "size": 14922
+    },
+    {
+      "path": "packages/maataa-ui/src/wizard/context.tsx",
+      "gitBlobSha": "a660d319bd38722a84d193306f144dcac8bb5e92",
+      "size": 11687
+    },
+    {
+      "path": "packages/maataa-ui/src/wizard/index.ts",
+      "gitBlobSha": "3d6aaeb8455c3636f6a1c5cee66af4315952efcf",
+      "size": 497
+    },
+    {
+      "path": "packages/maataa-ui/src/wizard/types.ts",
+      "gitBlobSha": "691ba00896af4431acedc0ac25d0447613283034",
+      "size": 5382
+    },
+    {
+      "path": "packages/maataa-ui/src/wizard/wizard.css",
+      "gitBlobSha": "403c7df022843ca92c7a754e9da02ae2bee7d22a",
+      "size": 7582
+    },
+    {
+      "path": "packages/maataa-ui/tests/primitives.test.mjs",
+      "gitBlobSha": "4f1ce4c3278ff4750a4d3137fbbf1d0fb9baa8a0",
+      "size": 813
+    },
+    {
+      "path": "packages/maataa-ui/tests/themes.test.mjs",
+      "gitBlobSha": "e9ecc4238fa8986ad7b7058f0574ce7dcb14909c",
+      "size": 332
+    },
+    {
+      "path": "packages/maataa-ui/tsconfig.json",
+      "gitBlobSha": "56f09d2677ba93e54ccc0244ef55d92538a9debb",
+      "size": 307
+    }
+  ],
+  "modifications": "Imported upstream files unchanged. PROVENANCE.json and INTEGRATION.md are ALLB additions.",
+  "licensing": "No package license field or package LICENSE file in pinned source; licensing approval remains a release gate."
+}

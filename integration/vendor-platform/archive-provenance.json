@@ -1,0 +1,510 @@
+{
+  "archive": "Archive(1).zip",
+  "sha256": "6ab0369850b75cf045b9524ff4dfd7447dcdbb84c3fcbaf6209cd879b50906d8",
+  "files": [
+    {
+      "path": "packages/platform-ui-forms/README.md",
+      "sha256": "830d8b5b158ac55b49ab35f22adf610585b1a8f458e4d5530704355fda15d25a"
+    },
+    {
+      "path": "packages/platform-ui-forms/.gitignore",
+      "sha256": "d15f232be465c9c8646f8af762131180e79f266aaac444919a5493efcaa4cb38"
+    },
+    {
+      "path": "packages/platform-ui-forms/package.json",
+      "sha256": "328c9a702d8464f23a1061808d0f62bcc80e3c81ddb0cc67bc7749b766ac41eb"
+    },
+    {
+      "path": "packages/platform-ui-forms/tsconfig.json",
+      "sha256": "48cd29fe2ef1c8402c93d219ccdfdd0afe4701b85744ab6887f8aad444250026"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/Form.stories.tsx",
+      "sha256": "f06ac842cbb83de416da7dfe4a13b865a440e48d2c7f35ece47a98e1240a0ca4"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/Form.test.tsx",
+      "sha256": "9f553bc301972b805383f291088e95c2a62cf47c237512d8114da6ebffe3ed07"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/FormRow.stories.tsx",
+      "sha256": "f756ac544edc5d992dc7419183412ce78da538d5ba7070062f5d22f2fc2284fa"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/DatePicker.tsx",
+      "sha256": "ab5c326342298d2dc3234983f84720b77957654510ff36d8413935ec98e40197"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/Slider.tsx",
+      "sha256": "62d1ae4a46fb0dfe8ede452297010a7f23a9a82d61925f866fceeaf7e0f2362a"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/DateRangePicker.test.tsx",
+      "sha256": "23165675af4a1339d0df6eca59c862e47835a6c92c36621148842840d2621f3d"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/ToggleGroup.test.tsx",
+      "sha256": "8fe056f7772b315e4ae1d58d6eb705a99cb147bfcae4675946792fca5343ab28"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/ValidationMessage.test.tsx",
+      "sha256": "a478f362be8480492a0f0f2a07583f528715e49eb8cce7c9bcf29273e2341043"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/Radio.tsx",
+      "sha256": "10fafaeddc28c7b7bc8b8774937d648943a919edcde31ab78bf76f4d7b59f529"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/Toggle.test.tsx",
+      "sha256": "136143cbb484553e6160c4658ead7d1651f4adc9848385b76aee1c86fa1c7a0b"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/ToggleGroup.tsx",
+      "sha256": "f734b8e964a1e346311995e28dbd64f795892117214fdeed0f74679fc0ae5a93"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/ValidationMessage.tsx",
+      "sha256": "4e95ee54cb8c4f6559b56a14c79a90bf93ac2d1f3c00cf203b607a5289db8cd4"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/ValidationMessage.stories.tsx",
+      "sha256": "8978bee5dcc9b97421b54b490c0cf05e80192d5d44417da16e8f1d5522f8f605"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/DateRangePicker.tsx",
+      "sha256": "353fbafffdf621d480810812f00274c7a4215275be2ae0235cb78d3aa5900fdc"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/FieldShell.tsx",
+      "sha256": "9b0535207dbc0a1014066446a8eefdc1bef880b7a3bc3ca83b1de21fd20ceaee"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/dateUtils.ts",
+      "sha256": "5ee50104bbc369710a0d48ac728d93190763e4aac5e0bf57fb74067530e9460a"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/Checkbox.stories.tsx",
+      "sha256": "ac12ac17cc9d01e2e53e7318602916dcc6e697e0438a13aadba5e91acd8a6fef"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/FileInput.test.tsx",
+      "sha256": "f448c73ea2211e45dbc23dbdaee82812f10afd1bbc57bd6c4947e5a0279d0f04"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/FileInput.stories.tsx",
+      "sha256": "724af4cbbf6e67939395e7e96e52cf29722e6e43f6c49ef96d192f57be3e520b"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/DateTimePicker.tsx",
+      "sha256": "4313e0f92e6340583baef6fa2304e20e224ec4d507edd958f56a6503cb287a64"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/Label.tsx",
+      "sha256": "175433aac09b07aaa09a1bb3441efb4c8c7163cb775e57f9e6b4fa82413e1194"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/SearchInput.test.tsx",
+      "sha256": "836db87814dba2c15286b457e6fd7cc1627768398a93e95fdaec6b7b4aac45ef"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/DatePicker.test.tsx",
+      "sha256": "96a7fbf35a1140afb235e816f0e76accf9c3a5bd4dc09eed1f9f4ba9d235e16f"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/Select.stories.tsx",
+      "sha256": "ee416e678ac476f74b20f5d4fb385d67cd0a46a5ffe6ea2523399671793a17b2"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/TimePicker.tsx",
+      "sha256": "6c33abdb3db75a86bebb8b596c2466bf8a8034b3ca85729361ca4048001c7183"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/Textarea.stories.tsx",
+      "sha256": "3600109d9fceed0602449b42907134b857d48944f61df2e0b36d9eef8e68f199"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/CalendarGrid.tsx",
+      "sha256": "84a0c2b8ca09b72b6d495a28e57dcd1916b94a57102d8478ba7f8a1841cbe407"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/DateTimePicker.stories.tsx",
+      "sha256": "b71d3893a892af182eb9df205e94f6fef4a734954f95d2e95e4d06c5be449bd3"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/FormSection.test.tsx",
+      "sha256": "751a2cda21bb95c1ab613141e2dec4949135f7d3158b88ba1b134b187c69963c"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/Select.test.tsx",
+      "sha256": "b192dab1829e2951f3bb72aaf3c8b5ddb355766983d703604047801fc07e1285"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/tokens.ts",
+      "sha256": "6dc8ad6615422dd13f3e70a75fa776564ff42e5eb0ecef42f11e1c4174a6bea0"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/FormActions.stories.tsx",
+      "sha256": "2660c8d2ff43d40433fe567337b27a12597ce13ebbecea82723c97de33b0c663"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/Toggle.stories.tsx",
+      "sha256": "af9358d08cfa03d654f589658c2c77f385648e57e2f17d843c16e416748504a6"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/Textarea.test.tsx",
+      "sha256": "536e695364466c9c7820cb45f557069dca7f297efd6a875c729d919d8d0b02c3"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/DateTimePicker.test.tsx",
+      "sha256": "52ad4b1727e23449f0d2afcfe61138ce585dc78b364ad5fd0471132010391824"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/TimePicker.stories.tsx",
+      "sha256": "6de0807b7f2a0421b8d01cc6c89d0f9b4a93d5fa6e84f9329c0992687510ecb0"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/FileInput.tsx",
+      "sha256": "b29d0e03c6f16138279ada0dba51d95064269e92a322569dbf65bad7f2fecc34"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/SearchInput.stories.tsx",
+      "sha256": "ddbcaa17113466488c79ce1e0bb1f92059cb878188d5568173ee6af88d646b55"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/FormActions.tsx",
+      "sha256": "89e7d3fe6343b20953d0fa6d36f626ae45fa0b12629562c4a69681fa820945dd"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/DatePicker.stories.tsx",
+      "sha256": "7f8c335ae21d18509485a6e4d6099c2bf8c176e7941b03e540da2de21773d674"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/Checkbox.test.tsx",
+      "sha256": "6474ad4b4a551c59190fc706f2a4801534e8a31e015b9bfd5aa74c9a57ead9d3"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/TimePicker.test.tsx",
+      "sha256": "3f5e34f4f0e3e191adf87fa43fb581039eedde5d7432b84fd122de8b51786573"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/index.ts",
+      "sha256": "e4a090dba4b0d02dbbb3525fafa7a3d770df80c07c110e012e096e549765fe39"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/Radio.stories.tsx",
+      "sha256": "8b4c7150a2cd26b34025365441778efd9a6f561c1db3040074a5b1cd1deaad38"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/DateRangePicker.stories.tsx",
+      "sha256": "4725312c2f2d6264659900508d4ac3382c8747fd6e6e3d5d4d73fe67df22cee6"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/Toggle.tsx",
+      "sha256": "0b4bf4951615cfbe0c47f3dc560cf50bebd0122f8e065020456d871c432fa34d"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/FormActions.test.tsx",
+      "sha256": "05e551db6d80386552bf5969942bd5f7f42c15cbfb0339bbd506f17370b4335d"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/Slider.stories.tsx",
+      "sha256": "2f21e00ecbd2e2e93fad82f588b47f42d1952f9201876c45b902f3141f08e1f8"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/FieldShell.test.tsx",
+      "sha256": "8cbac065c7c0e98be843b999bab7e8c1b5f2578469dc1dcb65f33166a31be4b7"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/FormSection.stories.tsx",
+      "sha256": "d028178b324393861742ef8755dcdd323f84b3323de5d8056723815f2da13ae8"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/Checkbox.tsx",
+      "sha256": "725596f83f13ca326300fb53ef51fb27f7c1f91638d33c7bafd2ca149d5a02a6"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/MultiSelect.tsx",
+      "sha256": "58f969eb32234271cab1b52b91d85d54db5de6057b57cf7c6e394c8007ae5410"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/FieldShell.stories.tsx",
+      "sha256": "9e1dfec391bf0fb8063ce667cb7ddaafae014519300ae4d256e5d8efff1627cb"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/Slider.test.tsx",
+      "sha256": "655d39d96b6e7fcb39b9db31ee90512c58cd1e8aedfe752b6c496470f46309a6"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/ToggleGroup.stories.tsx",
+      "sha256": "629466545636754e33ffe49f787549653897b979e196589f07007a6738908909"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/Radio.test.tsx",
+      "sha256": "ff258fba96dc7fd984c84c925c1ee2e259317e4be82f5720d6c7768c95c10f07"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/Select.tsx",
+      "sha256": "05a3f1061617450f06b0c42e5b37647d4636c9aab02930084cdbeb4b5189c8db"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/Textarea.tsx",
+      "sha256": "213422d377b7cde9cd8f4d524f6975c9f81e72e05eea936baaf64ba4997befaf"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/SearchInput.tsx",
+      "sha256": "dc3b7efa686416292edf317afd43ac8468c5af91eb16e03678226ae7700203be"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/FormRow.tsx",
+      "sha256": "4dc6c21bc36effa1752f475cd28eca75416b921b2a13abc5c250e3b2218d59e3"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/FormRow.test.tsx",
+      "sha256": "08054bc6549b9bb96884c92fb5965de88bd16ffafa76fcae4737c029890e78f4"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/FormSection.tsx",
+      "sha256": "c50593bea2949648aff854745ffc02a6e7ed67e95afe917f31c57e71582df5f3"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/Form.tsx",
+      "sha256": "6c5014fd0b65c1d259c1e9ff175405b0b6ca112b0985b168b3d602fa6b02c299"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/_internal/Stack.tsx",
+      "sha256": "3549698f2173a476a9fea68bb4330495c1c603b5dd53dc469fb278929325748d"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/_internal/README.md",
+      "sha256": "b86218162b5207df2053d28360783d38ea50ae6e88dc6992857445f1015c4846"
+    },
+    {
+      "path": "packages/platform-ui-forms/src/_internal/Portal.tsx",
+      "sha256": "568ff5dcecbe044d94d8711ea4a4533c8d847628f4f15a6b59658a4b0edbdcbe"
+    },
+    {
+      "path": "packages/platform-payments/pnpm-lock.yaml",
+      "sha256": "3e924ed8d115e30bb5e1b20154699acd6c314bcb6d2a34e768930f8c6a74796c"
+    },
+    {
+      "path": "packages/platform-payments/README.md",
+      "sha256": "cf32eef0eede5ff0ffee5299fb0a4fe316f7fa2013e32c1d9ce379154d1664b7"
+    },
+    {
+      "path": "packages/platform-payments/.gitignore",
+      "sha256": "d15f232be465c9c8646f8af762131180e79f266aaac444919a5493efcaa4cb38"
+    },
+    {
+      "path": "packages/platform-payments/package-lock.json",
+      "sha256": "3d74e1a08fe17973e0283dc512eb193e49ca4f8c646c6e81007d8b66f595991e"
+    },
+    {
+      "path": "packages/platform-payments/package.json",
+      "sha256": "d20ae9215e97d264f0a06962e0e641cf5012372dbd344f42b0058bd22255acc4"
+    },
+    {
+      "path": "packages/platform-payments/tsconfig.json",
+      "sha256": "ff9c17ae71fdd0074974c46f54f56757e4a74caf7f0eefac41e7f068528e46a9"
+    },
+    {
+      "path": "packages/platform-payments/tests/payments.test.mjs",
+      "sha256": "451175b3a80156d6b262c9f9e705dd100cdcb7eb91a34302e0fd7a555df2e4b0"
+    },
+    {
+      "path": "packages/platform-payments/src/primitives.ts",
+      "sha256": "d85f01f41b34ef9a65f5dbdac1c1df1b8ef36948a3d473912383d18901e24e43"
+    },
+    {
+      "path": "packages/platform-payments/src/index.ts",
+      "sha256": "3ee2175eaa6866b0dd6b67ce5adf06ceb611f806c326170e83d06611dbc9f5b8"
+    },
+    {
+      "path": "packages/platform-payments/src/razorpay.ts",
+      "sha256": "12690a77d4250ead3e2a4908ee3f434fb7e9ad6ca5a292d285f4de80bea2715b"
+    },
+    {
+      "path": "packages/platform-payments/src/upi/direct-integration.ts",
+      "sha256": "bcbe1ba65f5d73e05a0d0f44316df40caa83e599849d90b79534bf414b5f0579"
+    },
+    {
+      "path": "packages/platform-notifications/pnpm-lock.yaml",
+      "sha256": "0e66d8abbd87037df1358cff5faa08fc595436ea5b0722cceac8470a1bdc11a9"
+    },
+    {
+      "path": "packages/platform-notifications/README.md",
+      "sha256": "c3638a68b4c104ed578d7dbfc6c68f032a9485a7c1d7845d7c4f5586c4f6f4c4"
+    },
+    {
+      "path": "packages/platform-notifications/.gitignore",
+      "sha256": "d15f232be465c9c8646f8af762131180e79f266aaac444919a5493efcaa4cb38"
+    },
+    {
+      "path": "packages/platform-notifications/package-lock.json",
+      "sha256": "5d12eb7fbe73c66c29b4e7bf5fbd161e36ba0740bf53980701be34175c6ce2e4"
+    },
+    {
+      "path": "packages/platform-notifications/package.json",
+      "sha256": "bfa95a25b2f74a050b45991b5d598e2986d21b5f76dce5cd25f4f451fcafce28"
+    },
+    {
+      "path": "packages/platform-notifications/tsconfig.json",
+      "sha256": "e0dffad232801323f4ffe1806f9a82056d169c3480beeaf916e27140f1799756"
+    },
+    {
+      "path": "packages/platform-notifications/src/types.ts",
+      "sha256": "a725ea60d71f2f8a8dc827324b3725019d291628491195f6fdcc5fddc820c0b4"
+    },
+    {
+      "path": "packages/platform-notifications/src/local.ts",
+      "sha256": "e3b0518a71b7da9315e58dc7dd3d16aea3b1693646d946bdc28cd3427effbd8e"
+    },
+    {
+      "path": "packages/platform-notifications/src/index.ts",
+      "sha256": "3d5c634c6786eb0941b3861b3e075a0fe02a37def34d12e3a3fb23c689b55696"
+    },
+    {
+      "path": "packages/platform-notifications/src/nodemailer.ts",
+      "sha256": "a4c5364899abd863008408076d771c0197cb19ba026061abdf78d1316f21e81c"
+    },
+    {
+      "path": "packages/platform-notifications/src/whatsapp/business-api.ts",
+      "sha256": "27bfbaf1a0ac3fa878851dd06c06299025ffdb78f7d1dd75154ee24dceb2ca16"
+    },
+    {
+      "path": "packages/platform-mfa/pnpm-lock.yaml",
+      "sha256": "d7f3180ac5b170213293fd5f2e78f4ff56f21a734a6657e70151292937ea2995"
+    },
+    {
+      "path": "packages/platform-mfa/README.md",
+      "sha256": "6ebf7af7fde94f13da6dbca21622577b6aa7677c1790d2dd8a1916a4d90de770"
+    },
+    {
+      "path": "packages/platform-mfa/.gitignore",
+      "sha256": "d15f232be465c9c8646f8af762131180e79f266aaac444919a5493efcaa4cb38"
+    },
+    {
+      "path": "packages/platform-mfa/package-lock.json",
+      "sha256": "c87cca60478f26d0d902188b021aa93acd2fd60553625586caacda9669a6453a"
+    },
+    {
+      "path": "packages/platform-mfa/package.json",
+      "sha256": "592b905250919e60d3e71e050867481a357401156fbd2d42ab0556b3dbb7d80e"
+    },
+    {
+      "path": "packages/platform-mfa/tsconfig.json",
+      "sha256": "e0dffad232801323f4ffe1806f9a82056d169c3480beeaf916e27140f1799756"
+    },
+    {
+      "path": "packages/platform-mfa/src/constants.ts",
+      "sha256": "b6dee4a673b2620b8e8cbbcab712a6e189524a5e3c1cc81e2e1b3678e4928d7a"
+    },
+    {
+      "path": "packages/platform-mfa/src/device.ts",
+      "sha256": "a8fe8d0e95575ef09eb8463e5788ad9423f50a1b2ec2d2b290b12495344dd78f"
+    },
+    {
+      "path": "packages/platform-mfa/src/challenge-store.ts",
+      "sha256": "b9a7d49f2d55f4afae5cf4c7416052dda420422a27421a6b45d25076550b5817"
+    },
+    {
+      "path": "packages/platform-mfa/src/index.ts",
+      "sha256": "462500a8237c4bb7b7f3cd1043395f8dabe7d99fbde4617eed03522d82fa9db1"
+    },
+    {
+      "path": "packages/platform-mfa/src/config.ts",
+      "sha256": "ef6883200fc0fa9b7152fc6aebdf31d271ed883c838ad7c1e44f5563db262318"
+    },
+    {
+      "path": "packages/platform-mfa/src/registration.ts",
+      "sha256": "cc6f2ac56ef51c49a9dcdf20fc1faac99e57ceeabcac360f1683a1ff8000a74a"
+    },
+    {
+      "path": "packages/platform-auth-core/pnpm-lock.yaml",
+      "sha256": "ffb4c5bee73b642a99dcbb834f03002ea2810b467cc68400087c84af68cee35e"
+    },
+    {
+      "path": "packages/platform-auth-core/README.md",
+      "sha256": "dec1af51f0592b916bfa3dd3282ea55fec1485ac482001f7a308b8c89e8198ec"
+    },
+    {
+      "path": "packages/platform-auth-core/.gitignore",
+      "sha256": "d15f232be465c9c8646f8af762131180e79f266aaac444919a5493efcaa4cb38"
+    },
+    {
+      "path": "packages/platform-auth-core/package-lock.json",
+      "sha256": "2715f5b1ae2643dc4bf18b99f89b39ea182e900a101ee55477b749591b0965af"
+    },
+    {
+      "path": "packages/platform-auth-core/package.json",
+      "sha256": "f5d8bb8aca2a700a3311899402dd92773abef478ca2cafbf588ff647d32b6a1a"
+    },
+    {
+      "path": "packages/platform-auth-core/tsconfig.json",
+      "sha256": "e0dffad232801323f4ffe1806f9a82056d169c3480beeaf916e27140f1799756"
+    },
+    {
+      "path": "packages/platform-auth-core/src/nevo.ts",
+      "sha256": "f64f86df01d386da89d6e1eb5f45ff6f11d03fe5030e1cb51dccba7f57c51f69"
+    },
+    {
+      "path": "packages/platform-auth-core/src/email.ts",
+      "sha256": "202e6e040eaf640a0dbca25346d9f87e3fc248598db5f07c08a964a877a029d7"
+    },
+    {
+      "path": "packages/platform-auth-core/src/rate-limiter.ts",
+      "sha256": "45d1f6912dfc8b786b7123a62d5e811d14d289355dc462c68520a4e99e1bc295"
+    },
+    {
+      "path": "packages/platform-auth-core/src/session.ts",
+      "sha256": "5bd7d2675593f142268cb13ee2c987f48095e3445787eac92437fd4b7acac570"
+    },
+    {
+      "path": "packages/platform-auth-core/src/index.ts",
+      "sha256": "291beb572d9c6cef23dd384c2e7b9eddc94af5d9476555d845b1b46d90750b58"
+    },
+    {
+      "path": "packages/platform-auth-core/src/password-policy.ts",
+      "sha256": "b000f2c703e655894366ff41cd709998a2e6b6d027b5ec89977aec01a5bef4db"
+    },
+    {
+      "path": "packages/platform-auth-core/src/password-hashers/bcrypt.ts",
+      "sha256": "4fa497564a77c9fec369c8d4418b849af9b7ec7b16d1811de08b480232985318"
+    },
+    {
+      "path": "packages/platform-auth-core/src/password-hashers/scrypt.ts",
+      "sha256": "dd698e093661179c9fe2979afd352d8ed50a4fd47fcc0710532f784c4d9d2fec"
+    },
+    {
+      "path": "packages/platform-audit-evidence/pnpm-lock.yaml",
+      "sha256": "3e924ed8d115e30bb5e1b20154699acd6c314bcb6d2a34e768930f8c6a74796c"
+    },
+    {
+      "path": "packages/platform-audit-evidence/README.md",
+      "sha256": "7553114989ccd571224529295995cb4834c94db26aef0509e94b01fe39ca5a89"
+    },
+    {
+      "path": "packages/platform-audit-evidence/.gitignore",
+      "sha256": "d15f232be465c9c8646f8af762131180e79f266aaac444919a5493efcaa4cb38"
+    },
+    {
+      "path": "packages/platform-audit-evidence/package-lock.json",
+      "sha256": "3f50d34ea6cca557747a322c3c959151680e1ed24db383903652150edcdde9e0"
+    },
+    {
+      "path": "packages/platform-audit-evidence/package.json",
+      "sha256": "60da44c7f61e407c517f1974cfd9f8eb46e2b611d3668a3083c8db849e017cae"
+    },
+    {
+      "path": "packages/platform-audit-evidence/tsconfig.json",
+      "sha256": "ff9c17ae71fdd0074974c46f54f56757e4a74caf7f0eefac41e7f068528e46a9"
+    },
+    {
+      "path": "packages/platform-audit-evidence/tests/evidence.test.mjs",
+      "sha256": "2bcbc4a147f725105f54833433461eeaf2b807238a1e54ff2e4846616b11d1d3"
+    },
+    {
+      "path": "packages/platform-audit-evidence/src/index.ts",
+      "sha256": "eecfbe80bc4541d05363b4fe1f48ff3a08d10054eaef59d305b9b15fd9aeb70e"
+    }
+  ]
+}

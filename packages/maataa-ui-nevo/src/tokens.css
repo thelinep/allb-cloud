@@ -1,0 +1,99 @@
+/*
+ * Canonical, globally-scoped design tokens for NEVO products.
+ * This is the single source of truth for color, spacing, radius, shadow and
+ * type values used across the app. It is intentionally separate from
+ * styles.css (which stays scoped to .maataa-ui so importing the component
+ * library never restyles a host app on its own) — this file is meant to be
+ * imported once, at the root :root, by the app shell.
+ *
+ * 2026-09-15: replaced with a single "standard corporate" palette (navy /
+ * charcoal ink + white surfaces + blue primary accent) per redesign request.
+ * All values below are verified against WCAG 2.1 AA contrast minimums
+ * (4.5:1 body text, 3:1 large text / functional UI boundaries). The former
+ * 10-theme system and its violet/magenta palette are retired; see
+ * apps/web/lib/store/slices.ts (interfaceStyles) and
+ * apps/web/components/appearance-settings.tsx for the switcher removal.
+ */
+:root {
+  /* Core palette: calm paper surfaces, deep navy navigation and blue action. */
+  --maataa-ink: #172033;
+  --maataa-plum: #183b67;
+  --maataa-accent: #1d4ed8;
+  --maataa-accent-strong: #1e40af;
+  --maataa-cyan: #0f766e;
+  --maataa-cream: #f6f8fc;
+  --maataa-surface: #ffffff;
+  --maataa-surface-raised: #ffffff;
+  --maataa-surface-muted: #eef3f9;
+  --maataa-line: #cbd5e1;
+  --maataa-text-muted: #475569;
+  --maataa-sidebar: #102a4c;
+  --maataa-sidebar-strong: #0b1f3a;
+  --maataa-glass: rgba(255, 255, 255, .92);
+  --maataa-gradient: linear-gradient(115deg, #1e40af, #1d4ed8 58%, #2563eb);
+
+  /* Type — one consistent sans family, no decorative display serif */
+  --maataa-font-display: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --maataa-font-body: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+  /* Shape — smaller, flatter corporate radii */
+  --maataa-radius-sm: .375rem;
+  --maataa-radius-md: .5rem;
+  --maataa-radius-lg: .75rem;
+  --maataa-radius-xl: 1rem;
+
+  /* Space */
+  --maataa-space-1: .5rem;
+  --maataa-space-2: .75rem;
+  --maataa-space-3: 1rem;
+  --maataa-space-4: 1.5rem;
+
+  --maataa-focus-ring: 0 0 0 .2rem rgba(29, 78, 216, .38);
+
+  /* "design.css" palette — the authenticated app shell (sidebar, KPI cards,
+     hero panels) reads these through design.css's own :root aliases. */
+  --nevo-legacy-purple: #1d4ed8;
+  --nevo-legacy-purple-deep: #0f172a;
+  --nevo-legacy-fuchsia: #1d4ed8;
+  --nevo-legacy-fuchsia-dark: #1e40af;
+  --nevo-legacy-blush: #eff6ff;
+  --nevo-legacy-pink-soft: #f8fafc;
+  --nevo-legacy-pearl: #f8fafc;
+  --nevo-legacy-silver: #cbd5e1;
+  --nevo-legacy-silver-light: #f1f5f9;
+  --nevo-legacy-grey: #64748b;
+  --nevo-legacy-grey-dark: #334155;
+  --nevo-legacy-black: #0f172a;
+  --nevo-legacy-white: #fff;
+  --nevo-legacy-success: #15803d;
+  --nevo-legacy-warning: #b45309;
+  --nevo-legacy-danger: #b91c1c;
+  --nevo-legacy-info: #1d4ed8;
+  --nevo-legacy-text: #0f172a;
+  --nevo-legacy-text-muted: #475569;
+  --nevo-legacy-border: #e2e8f0;
+  --nevo-legacy-focus: #1d4ed8;
+  --nevo-legacy-space-1: .25rem;
+  --nevo-legacy-space-2: .5rem;
+  --nevo-legacy-space-3: .75rem;
+  --nevo-legacy-space-4: 1rem;
+  --nevo-legacy-space-5: 1.5rem;
+  --nevo-legacy-space-6: 2rem;
+  --nevo-legacy-space-8: 3rem;
+  --nevo-legacy-space-10: 4rem;
+  --nevo-legacy-space-12: 6rem;
+  --nevo-legacy-radius-sm: .375rem;
+  --nevo-legacy-radius-md: .5rem;
+  --nevo-legacy-radius-lg: .75rem;
+  --nevo-legacy-radius-xl: 1rem;
+  --nevo-legacy-radius-pill: 999px;
+  --nevo-legacy-shadow-sm: 0 1px 3px rgba(15, 23, 42, .08);
+  --nevo-legacy-shadow-md: 0 4px 12px rgba(15, 23, 42, .10);
+  --nevo-legacy-shadow-lg: 0 12px 32px rgba(15, 23, 42, .14);
+  --nevo-legacy-motion-fast: 150ms;
+  --nevo-legacy-motion-base: 240ms;
+  --nevo-legacy-motion-slow: 500ms;
+  --nevo-legacy-ease-out: cubic-bezier(.16, 1, .3, 1);
+  --nevo-legacy-font-nav: var(--maataa-font-body);
+  --nevo-legacy-font-numeric: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+}

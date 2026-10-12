@@ -1,0 +1,124 @@
+/*
+ * NEVO canonical wizard framework -- styles.
+ *
+ * Scoped under .nevo-wizard exactly like packages/maataa-ui/src/styles.css
+ * is scoped under .maataa-ui, so importing this file never restyles a host
+ * app. Reads only the existing --maataa-* tokens defined in tokens.css --
+ * no new color values are introduced (see UI-FOUNDATION-1 rule 9). The
+ * mission asks for dark/light theme coverage; as of this audit NEVO's
+ * token file documents that its prior multi-theme system was retired
+ * (2026-09-15) in favor of a single light palette, so there is no NEVO
+ * dark palette to target yet. The prefers-color-scheme block below is a
+ * structural hook only -- a light desaturation of existing tokens -- so
+ * the wizard degrades reasonably if the OS is set to dark, and will pick
+ * up a real NEVO dark palette automatically the day tokens.css defines
+ * --maataa-surface etc. for [data-theme="dark"] or a dark media query,
+ * without any change needed here.
+ */
+
+.nevo-wizard {
+  display: grid;
+  grid-template-columns: 16rem minmax(0, 1fr);
+  gap: 1.5rem;
+  align-items: start;
+  min-height: 0;
+}
+
+.nevo-wizard__header { display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem; grid-column: 2; }
+.nevo-wizard__eyebrow { margin: 0 0 .2rem; color: var(--maataa-muted); font-size: .8rem; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; }
+.nevo-wizard__title { margin: 0; font-size: 1.5rem; }
+.nevo-wizard__subtitle { margin: .3rem 0 0; color: var(--maataa-muted); }
+.nevo-wizard__muted { color: var(--maataa-muted); font-weight: 400; }
+
+.nevo-wizard__progress { grid-column: 2; }
+.nevo-wizard__progress-track { height: .5rem; border-radius: 999px; background: var(--maataa-surface-subtle); overflow: hidden; }
+.nevo-wizard__progress-fill { height: 100%; background: var(--maataa-accent-strong); transition: width .2s ease; }
+@media (prefers-reduced-motion: reduce) { .nevo-wizard__progress-fill { transition: none; } }
+
+.nevo-wizard__stepper { grid-row: 1 / span 3; grid-column: 1; border-right: 1px solid var(--maataa-line); padding-right: 1rem; }
+.nevo-wizard__stepper ol { list-style: none; margin: 0; padding: 0; display: grid; gap: .25rem; }
+.nevo-wizard__step-nav { display: flex; align-items: center; gap: .65rem; width: 100%; padding: .6rem .5rem; border: 1px solid transparent; border-radius: var(--maataa-radius-control); background: none; color: inherit; font: inherit; text-align: left; cursor: pointer; }
+.nevo-wizard__step-nav:hover { background: var(--maataa-surface-subtle); }
+.nevo-wizard__step-nav--current { border-color: var(--maataa-line); background: var(--maataa-surface); font-weight: 800; }
+.nevo-wizard__step-index { display: inline-flex; align-items: center; justify-content: center; width: 1.6rem; height: 1.6rem; flex: none; border-radius: 999px; border: 1px solid var(--maataa-line); font-size: .75rem; font-weight: 800; }
+.nevo-wizard__step-index--complete { border-color: transparent; background: var(--maataa-accent-strong); color: #fff; }
+.nevo-wizard__step-index--invalid { border-color: #b91c1c; color: #b91c1c; }
+.nevo-wizard__step-index--skipped { opacity: .55; }
+.nevo-wizard__step-nav-text { display: grid; }
+.nevo-wizard__step-nav-title { font-size: .92rem; }
+
+.nevo-wizard__body { grid-column: 2; min-width: 0; display: grid; gap: 1rem; }
+.nevo-wizard__step { display: grid; gap: 1rem; }
+
+/* Generic field layout/error-text utilities for a domain wizard's own
+   step render() content (e.g. event-wizard's multi-field steps) -- kept
+   here rather than duplicated per-consumer since any @maataa/ui/wizard
+   step composed of more than one field needs the same two things: fields
+   stacked with breathing room, and an inline per-field error that reads
+   as an error without claiming role="alert" (that role is reserved for
+   NevoWizardError's single step-level banner -- see its own comment). */
+.nevo-wizard__fieldset { display: grid; gap: .85rem; border: none; margin: 0; padding: 0; min-width: 0; }
+.nevo-wizard__fieldset label { display: grid; gap: .3rem; font-weight: 600; }
+.nevo-wizard__field-error { margin: 0; color: #b91c1c; font-weight: 400; font-size: .85rem; }
+
+.nevo-wizard__error { display: flex; align-items: center; justify-content: space-between; gap: .75rem; padding: .85rem 1rem; border: 1px solid #fecaca; border-radius: var(--maataa-radius-card); background: #fef2f2; color: #b91c1c; }
+.nevo-wizard__error p { margin: 0; font-weight: 700; }
+
+.nevo-wizard__actions { grid-column: 2; display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding-top: 1rem; border-top: 1px solid var(--maataa-line); }
+.nevo-wizard__actions-end { display: flex; gap: .65rem; }
+
+.nevo-wizard__summary { grid-column: 2; display: grid; gap: 1rem; }
+.nevo-wizard__summary-row-head { display: flex; align-items: center; gap: .75rem; margin-bottom: .5rem; }
+.nevo-wizard__summary-row-head h2 { margin: 0; flex: 1; font-size: 1.05rem; }
+
+.nevo-wizard__save-indicator { display: flex; align-items: center; }
+
+.nevo-wizard__mobile-nav { display: none; }
+
+/* Responsive: below the same breakpoint packages/maataa-ui's shell already
+   uses (760px), collapse to one column, hide the sidebar stepper (its
+   steps remain reachable via Back/Next and NevoWizardMobileNav), and pin a
+   condensed nav bar above the viewport bottom, inset for iOS safe areas.
+ *
+ * UI-FOUNDATION-1D: a host app can render its own fixed bottom navigation
+ * (NEVO's authenticated shell always does -- MobileNavigation, class
+ * "mobileNav", visible at its own <=800px breakpoint, a strict superset of
+ * this 760px one). Two independently bottom:0-docked bars physically
+ * collide -- not just visually, but for real pointer/hit-testing, which is
+ * what actually broke mobile E2E here. This package cannot know about a
+ * host app's own nav, so it composes through one CSS custom property the
+ * host app defines: --nevo-mobile-nav-height. When present (NEVO's
+ * nevo-theme.css defines it as the single source of truth also consumed by
+ * that same nav's own scroll-clearance padding in mobile.css), the wizard
+ * nav sits that far above the true viewport bottom instead of docking to
+ * it directly, and stops handling its own safe-area inset -- the host
+ * nav's box already accounts for that in its own height. The `, 0px`
+ * fallback means a host with no such variable (or none at all) gets the
+ * previous true-bottom-docked, self-safe-area-padded behavior unchanged. */
+@media (max-width: 760px) {
+  .nevo-wizard { grid-template-columns: 1fr; gap: 1rem; padding-bottom: 4.5rem; }
+  .nevo-wizard__stepper { display: none; }
+  .nevo-wizard__header, .nevo-wizard__progress, .nevo-wizard__body, .nevo-wizard__actions, .nevo-wizard__summary { grid-column: 1; }
+  .nevo-wizard__actions { display: none; }
+  .nevo-wizard__mobile-nav {
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+    position: fixed;
+    left: 0; right: 0;
+    bottom: calc(var(--nevo-mobile-nav-height, 0px) + env(safe-area-inset-bottom));
+    padding: .6rem 1rem;
+    border-top: 1px solid var(--maataa-line);
+    background: var(--maataa-surface);
+    z-index: 20;
+  }
+  .nevo-wizard__mobile-nav-progress { flex: 1; }
+  .nevo-wizard__mobile-nav-actions { display: flex; gap: .5rem; }
+}
+
+/* Structural dark-mode hook -- see file header comment. */
+@media (prefers-color-scheme: dark) {
+  .nevo-wizard:not([data-theme="light"]) .nevo-wizard__error { background: rgba(185, 28, 28, .16); color: #fca5a5; border-color: rgba(185, 28, 28, .4); }
+}
+
+.nevo-wizard--readonly .nevo-wizard__step-nav { cursor: default; }

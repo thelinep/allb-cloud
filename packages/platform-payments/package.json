@@ -1,0 +1,35 @@
+{
+  "name": "@platform/payments",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./upi/direct-integration": {
+      "types": "./dist/upi/direct-integration.d.ts",
+      "default": "./dist/upi/direct-integration.js"
+    },
+    "./razorpay": {
+      "types": "./dist/razorpay.d.ts",
+      "default": "./dist/razorpay.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "typecheck": "tsc --noEmit",
+    "test": "npm run build && node --test tests/*.test.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.9.3"
+  }
+}

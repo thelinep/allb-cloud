@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-10",
+  "status": "original_sources_imported_runtime_validation_pending",
+  "consumerRepository": "thelinep/nevoeos",
+  "consumerCommit": "f50af9dd91b987080faa8fa00f2416b73cf8de78",
+  "replacementImplementationsCreated": false,
+  "packages": [
+    {
+      "name": "@platform/auth-core",
+      "directory": "platform-auth-core",
+      "sourceCommit": null,
+      "version": "0.1.0",
+      "candidateRepository": "thelinep/platform-auth-core",
+      "accessResult": "provided_user_archive",
+      "sourcePath": "packages/platform-auth-core",
+      "exports": {
+        ".": {
+          "types": "./dist/index.d.ts",
+          "default": "./dist/index.js"
+        },
+        "./nevo": {
+          "types": "./dist/nevo.d.ts",
+          "default": "./dist/nevo.js"
+        }
+      },
+      "scripts": {
+        "build": "tsc --project tsconfig.json",
+        "typecheck": "tsc --noEmit"
+      },
+      "license": null,
+      "dependencies": {
+        "bcrypt": "^6.0.0"
+      }
+    },
+    {
+      "name": "@platform/mfa",
+      "directory": "platform-mfa",
+      "sourceCommit": null,
+      "version": "0.1.0",
+      "candidateRepository": "thelinep/platform-mfa",
+      "accessResult": "provided_user_archive",
+      "sourcePath": "packages/platform-mfa",
+      "exports": {
+        ".": {
+          "types": "./dist/index.d.ts",
+          "default": "./dist/index.js"
+        }
+      },
+      "scripts": {
+        "build": "tsc --project tsconfig.json",
+        "typecheck": "tsc --noEmit"
+      },
+      "license": null,
+      "dependencies": {
+        "@simplewebauthn/server": "^14.0.1"
+      }
+    },
+    {
+      "name": "@platform/payments",
+      "directory": "platform-payments",
+      "sourceCommit": null,
+      "version": "0.1.0",
+      "candidateRepository": "thelinep/platform-payments",
+      "accessResult": "provided_user_archive",
+      "sourcePath": "packages/platform-payments",
+      "exports": {
+        ".": {
+          "types": "./dist/index.d.ts",
+          "default": "./dist/index.js"
+        },
+        "./upi/direct-integration": {
+          "types": "./dist/upi/direct-integration.d.ts",
+          "default": "./dist/upi/direct-integration.js"
+        },
+        "./razorpay": {
+          "types": "./dist/razorpay.d.ts",
+          "default": "./dist/razorpay.js"
+        }
+      },
+      "scripts": {
+        "build": "tsc --project tsconfig.json",
+        "typecheck": "tsc --noEmit",
+        "test": "npm run build && node --test tests/*.test.mjs"
+      },
+      "license": null,
+      "dependencies": {}
+    },
+    {
+      "name": "@platform/audit-evidence",
+      "directory": "platform-audit-evidence",
+      "sourceCommit": null,
+      "version": "0.1.0",
+      "candidateRepository": "thelinep/platform-audit-evidence",
+      "accessResult": "provided_user_archive",
+      "sourcePath": "packages/platform-audit-evidence",
+      "exports": {
+        ".": {
+          "types": "./dist/index.d.ts",
+          "default": "./dist/index.js"
+        }
+      },
+      "scripts": {
+        "build": "tsc --project tsconfig.json",
+        "typecheck": "tsc --noEmit",
+        "test": "npm run build && node --test tests/*.test.mjs"
+      },
+      "license": null,
+      "dependencies": {}
+    },
+    {
+      "name": "@platform/notifications",
+      "directory": "platform-notifications",
+      "sourceCommit": null,
+      "version": "0.1.0",
+      "candidateRepository": "thelinep/platform-notifications",
+      "accessResult": "provided_user_archive",
+      "sourcePath": "packages/platform-notifications",
+      "exports": {
+        ".": {
+          "types": "./dist/index.d.ts",
+          "default": "./dist/index.js"
+        },
+        "./nodemailer": {
+          "types": "./dist/nodemailer.d.ts",
+          "default": "./dist/nodemailer.js"
+        },
+        "./whatsapp/business-api": {
+          "types": "./dist/whatsapp/business-api.d.ts",
+          "default": "./dist/whatsapp/business-api.js"
+        }
+      },
+      "scripts": {
+        "build": "tsc --project tsconfig.json",
+        "typecheck": "tsc --noEmit"
+      },
+      "license": null,
+      "dependencies": {
+        "nodemailer": "^9.0.6"
+      }
+    }
+  ],
+  "requiredGates": [
+    "license_and_ownership_review",
+    "clean_install",
+    "original_package_tests",
+    "nevo_compatibility_tests",
+    "cloudflare_runtime_verification"
+  ],
+  "sourceArchive": "Archive(1).zip",
+  "archiveSha256": "6ab0369850b75cf045b9524ff4dfd7447dcdbb84c3fcbaf6209cd879b50906d8",
+  "additionalPackage": {
+    "name": "@platform/ui-forms",
+    "version": "0.1.0",
+    "sourcePath": "packages/platform-ui-forms",
+    "exports": {
+      ".": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      }
+    }
+  },
+  "validation": {
+    "allSixBuilds": "passed",
+    "paymentsTests": 16,
+    "auditEvidenceTests": 6,
+    "authMfaCompatibilityAssertions": 11,
+    "uiFormsTests": "not_run_no_test_script",
+    "externalProviders": "untested",
+    "cloudflareRuntime": "blocked_uv_interface_addresses",
+    "finalCloudflareBundle": "passed_conditional_export_tracing_fixed"
+  }
+}

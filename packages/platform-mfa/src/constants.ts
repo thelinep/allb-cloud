@@ -1,0 +1,2 @@
+export const FIDO_REGISTER = "REGISTER";
+export const FIDO_AUTHENTICATE = "AUTHENTICATE";
