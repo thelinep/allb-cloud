@@ -259,7 +259,8 @@
     "/workspace/nevo-workflow",
     "/workspace/roadmap",
     "/workspace/tlps-workflow",
-    "/workspace/samwat-research"
+    "/workspace/samwat-research",
+    "/enterprise/kanban"
   ],
-  "routeCount": 259
+  "routeCount": 260
 }

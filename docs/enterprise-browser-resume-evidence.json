@@ -1,0 +1,4904 @@
+{
+  "runtime": "Chromium 153.0.8010.0",
+  "fullInitial": {
+    "tests": 538,
+    "passed": 537
+  },
+  "targetedFinal": {
+    "tests": 4,
+    "passed": 4
+  },
+  "uniqueFinal": {
+    "tests": 540,
+    "passed": 540
+  },
+  "note": "One initial Studio navigation test raced outgoing view. Explicit destination heading/readiness wait fixed the test; affected cases rerun passed. No product UI change.",
+  "executedAt": "2026-10-10T07:39:34.519081+00:00",
+  "checks": [
+    {
+      "run": "full-before-rerun.json",
+      "title": "Studio applies theme and route branding to the actual landing, then survives reload",
+      "project": "desktop-chromium",
+      "status": "unexpected",
+      "results": [
+        "timedOut"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "Gallery filter and search isolate matching brands",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "Skip link is keyboard accessible",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "Studio validates JSON and exports a reviewed draft without applying it",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "Global, implicit brand, family and exact settings resolve in the browser",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "Representative visual evidence",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /overview",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /getting-started",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /installation",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /quick-start",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /foundations/colors",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /foundations/typography",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /foundations/spacing",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /foundations/layout",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /foundations/icons",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /foundations/elevation",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /foundations/borders",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /foundations/motion",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /foundations/responsive",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /components",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /forms/validation",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /forms/multi-step",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /forms/file-upload",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /forms",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /data/tables",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /data/filters",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /data/charts",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /data/tree",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /data/timeline",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /data/code-viewer",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /spatial",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /spatial/map",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /spatial/layers",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /spatial/coordinates",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /spatial/geometry",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /spatial/measurement",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /spatial/raster-terrain",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /spatial/query",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /3d",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /3d/viewport",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /3d/scene-tree",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /3d/transforms",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /3d/assets",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /3d/materials",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /3d/lighting",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /3d/cameras",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /3d/animation",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /3d/annotations",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /scene/2d-3d",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /scene/history",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /scene/validation",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /examples",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /developers/contracts",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /developers/integration",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /developers/composition",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /developers/state",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /developers/migration",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /accessibility",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /accessibility/keyboard",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /accessibility/screen-readers",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /accessibility/contrast",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /accessibility/forms",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /accessibility/reduced-motion",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /readiness",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /changelog",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /deprecations",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /compatibility",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/workspaces",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/themes",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/tokens",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/assets",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/scenes",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/settings",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/settings/members",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/settings/permissions",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/settings/security",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/settings/sessions",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/audit",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /sign-in",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /auth/callback",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /auth/mfa",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /auth/recovery",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /components/button",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /components/input",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /components/textarea",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /components/select",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /components/checkbox",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /components/radio",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /components/switch",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /components/tabs",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /components/card",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /components/dialog",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /components/drawer",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /components/accordion",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /components/popover",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /components/tooltip",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /components/alert",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /components/toast",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /components/badge",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /components/progress",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /components/skeleton",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /components/header",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /components/sidebar",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /components/breadcrumbs",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /components/menu",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /components/pagination",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /components/command-palette",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /components/empty-state",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /components/error-state",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /playground/button",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /playground/input",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /playground/textarea",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /playground/select",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /playground/checkbox",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /playground/radio",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /playground/switch",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /playground/tabs",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /playground/card",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /playground/dialog",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /playground/drawer",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /playground/accordion",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /playground/popover",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /playground/tooltip",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /playground/alert",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /playground/toast",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /playground/badge",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /playground/progress",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /playground/skeleton",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /playground/header",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /playground/sidebar",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /playground/breadcrumbs",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /playground/menu",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /playground/pagination",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /playground/command-palette",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /playground/empty-state",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /playground/error-state",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/components/button",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/components/input",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/components/textarea",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/components/select",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/components/checkbox",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/components/radio",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/components/switch",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/components/tabs",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/components/card",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/components/dialog",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/components/drawer",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/components/accordion",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/components/popover",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/components/tooltip",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/components/alert",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/components/toast",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/components/badge",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/components/progress",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/components/skeleton",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/components/header",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/components/sidebar",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/components/breadcrumbs",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/components/menu",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/components/pagination",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/components/command-palette",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/components/empty-state",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/components/error-state",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /patterns/identity/sign-in",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /patterns/identity/invitation",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /patterns/identity/mfa",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /patterns/identity/recovery",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /patterns/identity/workspace-switcher",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /patterns/identity/permissions",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /patterns/identity/sessions",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /patterns/production/dashboard",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /patterns/production/asset-browser",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /patterns/production/scene-controls",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /patterns/production/quote-editor",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /patterns/production/client-review",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /patterns/production/approval",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /patterns/production/handoff",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /examples/identity",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /examples/production",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /examples/spatial",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /examples/scene",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /examples/theme",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/workspaces/demo-workspace",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/themes/demo-theme",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/scenes/demo-scene",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/scenes/demo-scene/review",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /invitations/demo-invite",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/branding",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /ui",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/allb",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/siddham",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/kharoshti",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/brahmi",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/maataa-ui",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/maataa",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/maataa-auth",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/maataa-os",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/core-aham",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/maataa-desktop",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/developer-tools",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/data-services",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/operations",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/maataa-db-studio",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/governance",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/commerce",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/tlps",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/nevo",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/hardware",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/shree",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/applications",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/samwat",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/observatory",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/hemant-clock",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/games",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/panchanga",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/apps",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/sankranti",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/product-directory",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/simulation-timeline",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/production",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/developer-ecosystem",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/nevo-workflow",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/roadmap",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/tlps-workflow",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/samwat-research",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/allb",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/siddham",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/kharoshti",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/brahmi",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/maataa-ui",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/maataa",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/maataa-auth",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/maataa-os",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/core-aham",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/maataa-desktop",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/developer-tools",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/data-services",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/operations",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/maataa-db-studio",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/governance",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/commerce",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/tlps",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/nevo",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/hardware",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/shree",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/applications",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/samwat",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/observatory",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/hemant-clock",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/games",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/panchanga",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/apps",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/sankranti",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/product-directory",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/simulation-timeline",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/production",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/developer-ecosystem",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/nevo-workflow",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/roadmap",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/tlps-workflow",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/samwat-research",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /enterprise/kanban",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "Application navigation and Studio scope controls operate from the keyboard",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "An unknown route provides a working return-home recovery link",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "Execution Kanban displays real registry tasks and reversible filters",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "Studio applies theme and route branding to the actual landing, then survives reload",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "Gallery filter and search isolate matching brands",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "Skip link is keyboard accessible",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "Studio validates JSON and exports a reviewed draft without applying it",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "Global, implicit brand, family and exact settings resolve in the browser",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "Representative visual evidence",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /overview",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /getting-started",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /installation",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /quick-start",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /foundations/colors",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /foundations/typography",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /foundations/spacing",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /foundations/layout",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /foundations/icons",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /foundations/elevation",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /foundations/borders",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /foundations/motion",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /foundations/responsive",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /components",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /forms/validation",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /forms/multi-step",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /forms/file-upload",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /forms",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /data/tables",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /data/filters",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /data/charts",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /data/tree",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /data/timeline",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /data/code-viewer",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /spatial",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /spatial/map",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /spatial/layers",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /spatial/coordinates",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /spatial/geometry",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /spatial/measurement",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /spatial/raster-terrain",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /spatial/query",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /3d",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /3d/viewport",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /3d/scene-tree",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /3d/transforms",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /3d/assets",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /3d/materials",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /3d/lighting",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /3d/cameras",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /3d/animation",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /3d/annotations",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /scene/2d-3d",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /scene/history",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /scene/validation",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /examples",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /developers/contracts",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /developers/integration",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /developers/composition",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /developers/state",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /developers/migration",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /accessibility",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /accessibility/keyboard",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /accessibility/screen-readers",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /accessibility/contrast",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /accessibility/forms",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /accessibility/reduced-motion",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /readiness",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /changelog",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /deprecations",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /compatibility",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/workspaces",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/themes",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/tokens",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/assets",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/scenes",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/settings",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/settings/members",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/settings/permissions",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/settings/security",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/settings/sessions",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/audit",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /sign-in",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /auth/callback",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /auth/mfa",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /auth/recovery",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /components/button",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /components/input",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /components/textarea",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /components/select",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /components/checkbox",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /components/radio",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /components/switch",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /components/tabs",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /components/card",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /components/dialog",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /components/drawer",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /components/accordion",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /components/popover",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /components/tooltip",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /components/alert",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /components/toast",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /components/badge",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /components/progress",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /components/skeleton",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /components/header",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /components/sidebar",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /components/breadcrumbs",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /components/menu",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /components/pagination",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /components/command-palette",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /components/empty-state",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /components/error-state",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /playground/button",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /playground/input",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /playground/textarea",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /playground/select",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /playground/checkbox",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /playground/radio",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /playground/switch",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /playground/tabs",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /playground/card",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /playground/dialog",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /playground/drawer",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /playground/accordion",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /playground/popover",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /playground/tooltip",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /playground/alert",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /playground/toast",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /playground/badge",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /playground/progress",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /playground/skeleton",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /playground/header",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /playground/sidebar",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /playground/breadcrumbs",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /playground/menu",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /playground/pagination",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /playground/command-palette",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /playground/empty-state",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /playground/error-state",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/components/button",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/components/input",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/components/textarea",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/components/select",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/components/checkbox",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/components/radio",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/components/switch",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/components/tabs",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/components/card",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/components/dialog",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/components/drawer",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/components/accordion",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/components/popover",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/components/tooltip",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/components/alert",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/components/toast",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/components/badge",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/components/progress",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/components/skeleton",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/components/header",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/components/sidebar",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/components/breadcrumbs",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/components/menu",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/components/pagination",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/components/command-palette",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/components/empty-state",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/components/error-state",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /patterns/identity/sign-in",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /patterns/identity/invitation",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /patterns/identity/mfa",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /patterns/identity/recovery",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /patterns/identity/workspace-switcher",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /patterns/identity/permissions",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /patterns/identity/sessions",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /patterns/production/dashboard",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /patterns/production/asset-browser",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /patterns/production/scene-controls",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /patterns/production/quote-editor",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /patterns/production/client-review",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /patterns/production/approval",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /patterns/production/handoff",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /examples/identity",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /examples/production",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /examples/spatial",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /examples/scene",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /examples/theme",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/workspaces/demo-workspace",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/themes/demo-theme",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/scenes/demo-scene",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/scenes/demo-scene/review",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /invitations/demo-invite",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /studio/branding",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /ui",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/allb",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/siddham",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/kharoshti",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/brahmi",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/maataa-ui",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/maataa",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/maataa-auth",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/maataa-os",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/core-aham",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/maataa-desktop",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/developer-tools",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/data-services",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/operations",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/maataa-db-studio",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/governance",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/commerce",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/tlps",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/nevo",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/hardware",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/shree",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/applications",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/samwat",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/observatory",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/hemant-clock",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/games",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/panchanga",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/apps",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/sankranti",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/product-directory",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/simulation-timeline",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/production",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/developer-ecosystem",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/nevo-workflow",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/roadmap",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/tlps-workflow",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /allb/samwat-research",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/allb",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/siddham",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/kharoshti",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/brahmi",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/maataa-ui",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/maataa",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/maataa-auth",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/maataa-os",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/core-aham",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/maataa-desktop",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/developer-tools",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/data-services",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/operations",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/maataa-db-studio",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/governance",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/commerce",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/tlps",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/nevo",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/hardware",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/shree",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/applications",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/samwat",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/observatory",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/hemant-clock",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/games",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/panchanga",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/apps",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/sankranti",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/product-directory",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/simulation-timeline",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/production",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/developer-ecosystem",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/nevo-workflow",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/roadmap",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/tlps-workflow",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /workspace/samwat-research",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "accessibility and horizontal layout /enterprise/kanban",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "Application navigation and Studio scope controls operate from the keyboard",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "An unknown route provides a working return-home recovery link",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "full-before-rerun.json",
+      "title": "Execution Kanban displays real registry tasks and reversible filters",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "targeted-final.json",
+      "title": "Studio applies theme and route branding to the actual landing, then survives reload",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "targeted-final.json",
+      "title": "Kanban accessibility, responsive layout and visual evidence",
+      "project": "desktop-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "targeted-final.json",
+      "title": "Studio applies theme and route branding to the actual landing, then survives reload",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    },
+    {
+      "run": "targeted-final.json",
+      "title": "Kanban accessibility, responsive layout and visual evidence",
+      "project": "mobile-chromium",
+      "status": "expected",
+      "results": [
+        "passed"
+      ]
+    }
+  ],
+  "untested": [
+    "real devices",
+    "Firefox/WebKit",
+    "manual assistive technology",
+    "full visual regression",
+    "loading/error runtime fault recovery"
+  ]
+}

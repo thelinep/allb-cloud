@@ -285,7 +285,7 @@
       "title": "Enforce secure session cookies, expiry and rotation",
       "status": "in_progress",
       "dependsOn": "E04.02",
-      "evidence": "docs/enterprise-verification.json \u2014 partial implementation/coverage; remaining checks explicitly unverified"
+      "evidence": "packages/auth-core/README.md; tests/auth-core.test.mjs \u2014 primitives tested; HTTP, delivery and audit pending"
     },
     {
       "id": "E04.04",
@@ -301,7 +301,7 @@
       "title": "Implement session revocation and device/session listing",
       "status": "in_progress",
       "dependsOn": "E04.04",
-      "evidence": "docs/enterprise-verification.json \u2014 partial implementation/coverage; remaining checks explicitly unverified"
+      "evidence": "packages/auth-core/README.md; tests/auth-core.test.mjs \u2014 primitives tested; HTTP, delivery and audit pending"
     },
     {
       "id": "E04.06",
@@ -323,9 +323,9 @@
       "id": "E04.08",
       "phase": 4,
       "title": "Implement account recovery and anti-enumeration responses",
-      "status": "pending",
+      "status": "in_progress",
       "dependsOn": "E04.07",
-      "evidence": null
+      "evidence": "packages/auth-core/README.md; tests/auth-core.test.mjs \u2014 primitives tested; HTTP, delivery and audit pending"
     },
     {
       "id": "E04.09",
@@ -341,31 +341,31 @@
       "title": "Test replay, expired session and disabled-account rejection",
       "status": "in_progress",
       "dependsOn": "E04.09",
-      "evidence": "docs/enterprise-verification.json \u2014 partial implementation/coverage; remaining checks explicitly unverified"
+      "evidence": "packages/auth-core/README.md; tests/auth-core.test.mjs \u2014 primitives tested; HTTP, delivery and audit pending"
     },
     {
       "id": "E05.01",
       "phase": 5,
       "title": "Build authenticated server identity and tenant-context resolver",
-      "status": "pending",
+      "status": "in_progress",
       "dependsOn": "E04.10",
-      "evidence": null
+      "evidence": "packages/authorization/README.md; tests/authorization.test.mjs \u2014 30 development DB checks; API adoption pending"
     },
     {
       "id": "E05.02",
       "phase": 5,
       "title": "Validate organization/workspace membership for every operation",
-      "status": "pending",
+      "status": "in_progress",
       "dependsOn": "E05.01",
-      "evidence": null
+      "evidence": "packages/authorization/README.md; tests/authorization.test.mjs \u2014 30 development DB checks; API adoption pending"
     },
     {
       "id": "E05.03",
       "phase": 5,
       "title": "Define viewer/editor/reviewer/publisher/admin permission matrix",
-      "status": "pending",
+      "status": "in_progress",
       "dependsOn": "E05.02",
-      "evidence": null
+      "evidence": "packages/authorization/README.md; tests/authorization.test.mjs \u2014 30 development DB checks; API adoption pending"
     },
     {
       "id": "E05.04",
@@ -379,17 +379,17 @@
       "id": "E05.05",
       "phase": 5,
       "title": "Prevent client-controlled tenant/role escalation",
-      "status": "pending",
+      "status": "in_progress",
       "dependsOn": "E05.04",
-      "evidence": null
+      "evidence": "packages/authorization/README.md; tests/authorization.test.mjs \u2014 30 development DB checks; API adoption pending"
     },
     {
       "id": "E05.06",
       "phase": 5,
       "title": "Test cross-tenant reads, writes and identifier guessing",
-      "status": "pending",
+      "status": "in_progress",
       "dependsOn": "E05.05",
-      "evidence": null
+      "evidence": "packages/authorization/README.md; tests/authorization.test.mjs \u2014 30 development DB checks; API adoption pending"
     },
     {
       "id": "E05.07",
@@ -411,9 +411,9 @@
       "id": "E05.09",
       "phase": 5,
       "title": "Verify revocation affects active sessions and cached authority",
-      "status": "pending",
+      "status": "in_progress",
       "dependsOn": "E05.08",
-      "evidence": null
+      "evidence": "packages/authorization/README.md; tests/authorization.test.mjs \u2014 30 development DB checks; API adoption pending"
     },
     {
       "id": "E06.01",
@@ -491,9 +491,9 @@
       "id": "E07.01",
       "phase": 7,
       "title": "Create workspace-scoped design draft API and persistence",
-      "status": "pending",
+      "status": "in_progress",
       "dependsOn": "E06.09",
-      "evidence": null
+      "evidence": "packages/design-publishing/README.md; tests/design-publishing.test.mjs \u2014 SQL service foundation; Studio/API/public rendering pending"
     },
     {
       "id": "E07.02",
@@ -507,49 +507,49 @@
       "id": "E07.03",
       "phase": 7,
       "title": "Generate immutable configuration versions",
-      "status": "pending",
+      "status": "in_progress",
       "dependsOn": "E07.02",
-      "evidence": null
+      "evidence": "packages/design-publishing/README.md; tests/design-publishing.test.mjs \u2014 SQL service foundation; Studio/API/public rendering pending"
     },
     {
       "id": "E07.04",
       "phase": 7,
       "title": "Render preview from a specific version without public mutation",
-      "status": "pending",
+      "status": "in_progress",
       "dependsOn": "E07.03",
-      "evidence": null
+      "evidence": "packages/design-publishing/README.md; tests/design-publishing.test.mjs \u2014 SQL service foundation; Studio/API/public rendering pending"
     },
     {
       "id": "E07.05",
       "phase": 7,
       "title": "Submit a draft for review with evidence and revision checks",
-      "status": "pending",
+      "status": "in_progress",
       "dependsOn": "E07.04",
-      "evidence": null
+      "evidence": "packages/design-publishing/README.md; tests/design-publishing.test.mjs \u2014 SQL service foundation; Studio/API/public rendering pending"
     },
     {
       "id": "E07.06",
       "phase": 7,
       "title": "Record reviewer decisions and change requests",
-      "status": "pending",
+      "status": "in_progress",
       "dependsOn": "E07.05",
-      "evidence": null
+      "evidence": "packages/design-publishing/README.md; tests/design-publishing.test.mjs \u2014 SQL service foundation; Studio/API/public rendering pending"
     },
     {
       "id": "E07.07",
       "phase": 7,
       "title": "Require configured approval policy before publication",
-      "status": "pending",
+      "status": "in_progress",
       "dependsOn": "E07.06",
-      "evidence": null
+      "evidence": "packages/design-publishing/README.md; tests/design-publishing.test.mjs \u2014 SQL service foundation; Studio/API/public rendering pending"
     },
     {
       "id": "E07.08",
       "phase": 7,
       "title": "Atomically publish an approved version per route/brand scope",
-      "status": "pending",
+      "status": "in_progress",
       "dependsOn": "E07.07",
-      "evidence": null
+      "evidence": "packages/design-publishing/README.md; tests/design-publishing.test.mjs \u2014 SQL service foundation; Studio/API/public rendering pending"
     },
     {
       "id": "E07.09",
@@ -563,25 +563,25 @@
       "id": "E07.10",
       "phase": 7,
       "title": "Reject stale or unauthorized approval/publication attempts",
-      "status": "pending",
+      "status": "in_progress",
       "dependsOn": "E07.09",
-      "evidence": null
+      "evidence": "packages/design-publishing/README.md; tests/design-publishing.test.mjs \u2014 SQL service foundation; Studio/API/public rendering pending"
     },
     {
       "id": "E07.11",
       "phase": 7,
       "title": "Implement rollback to a prior immutable approved version",
-      "status": "pending",
+      "status": "in_progress",
       "dependsOn": "E07.10",
-      "evidence": null
+      "evidence": "packages/design-publishing/README.md; tests/design-publishing.test.mjs \u2014 SQL service foundation; Studio/API/public rendering pending"
     },
     {
       "id": "E07.12",
       "phase": 7,
       "title": "Record complete audit trail for edit/review/publish/rollback",
-      "status": "pending",
+      "status": "in_progress",
       "dependsOn": "E07.11",
-      "evidence": null
+      "evidence": "packages/design-publishing/README.md; tests/design-publishing.test.mjs \u2014 SQL service foundation; Studio/API/public rendering pending"
     },
     {
       "id": "E07.13",
@@ -667,17 +667,17 @@
       "id": "E09.01",
       "phase": 9,
       "title": "Select first brand and its primary commercial/business goal",
-      "status": "pending",
+      "status": "complete",
       "dependsOn": "E08.09",
-      "evidence": null
+      "evidence": "User confirmed NEVO inquiry \u2192 venue/layout \u2192 quotation \u2192 approval \u2192 team handoff; docs/enterprise-architecture.md"
     },
     {
       "id": "E09.02",
       "phase": 9,
       "title": "Define roles, entity lifecycle and measurable acceptance criteria",
-      "status": "pending",
+      "status": "in_progress",
       "dependsOn": "E09.01",
-      "evidence": null
+      "evidence": "packages/nevo-workflow/README.md; tests/nevo-workflow.test.mjs \u2014 pure domain only; persisted workflow and business policy confirmation pending"
     },
     {
       "id": "E09.03",
@@ -707,9 +707,9 @@
       "id": "E09.06",
       "phase": 9,
       "title": "Implement decisions, approvals and required outputs",
-      "status": "pending",
+      "status": "in_progress",
       "dependsOn": "E09.05",
-      "evidence": null
+      "evidence": "packages/nevo-workflow/README.md; tests/nevo-workflow.test.mjs \u2014 pure domain only; persisted workflow and business policy confirmation pending"
     },
     {
       "id": "E09.07",
@@ -883,9 +883,9 @@
       "id": "E12.01",
       "phase": 12,
       "title": "Prepare production-like staging data without sensitive production copies",
-      "status": "pending",
+      "status": "blocked",
       "dependsOn": "E11.09",
-      "evidence": null
+      "evidence": "docs/cloudflare-deployment-plan.md; staging runtime/database and authorized environment absent; scripts/cloudflare-preflight.mjs exits 2"
     },
     {
       "id": "E12.02",
@@ -971,9 +971,9 @@
       "id": "E13.01",
       "phase": 13,
       "title": "Confirm domain, hosting, production accounts and rollout authorization",
-      "status": "pending",
+      "status": "blocked",
       "dependsOn": "E12.11",
-      "evidence": null
+      "evidence": "docs/cloudflare-deployment-plan.md; staging runtime/database and authorized environment absent; scripts/cloudflare-preflight.mjs exits 2"
     },
     {
       "id": "E13.02",

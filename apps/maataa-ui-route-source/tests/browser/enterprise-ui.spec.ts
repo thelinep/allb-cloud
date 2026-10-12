@@ -11,6 +11,8 @@ test('Studio applies theme and route branding to the actual landing, then surviv
  expect(await page.evaluate(()=>localStorage.getItem('allb.design-studio.active.v1'))).toBeNull();
  await page.getByRole('button',{name:'Apply locally',exact:true}).click();
  await page.getByRole('navigation',{name:'Application'}).getByRole('link',{name:'Branding',exact:true}).click();
+ await expect(page.getByRole('heading',{name:'Branding Studio',exact:true})).toBeVisible();
+ await expect(page.getByRole('button',{name:'Apply locally',exact:true})).toBeEnabled();
  await page.getByLabel('Scope',{exact:true}).selectOption('route');
  await page.getByLabel('Route',{exact:true}).selectOption('/allb/nevo');
  await page.getByLabel('Brand name',{exact:true}).fill('NEVO Enterprise Test');
@@ -99,3 +101,75 @@ for(const route of manifest.concreteRoutes){
   expect(violations,JSON.stringify(violations,null,2)).toEqual([]);
  });
 }
+
+test('Application navigation and Studio scope controls operate from the keyboard',async({page})=>{
+ await page.goto('/');
+ await page.keyboard.press('Tab');
+ await expect(page.locator('.app-skip')).toBeFocused();
+ // Walk the actual tab order, rather than assigning focus programmatically.
+ for(let index=0;index<12;index++){
+  if(await page.getByRole('navigation',{name:'Application'}).getByRole('link',{name:'Themes',exact:true}).evaluate(el=>el===document.activeElement))break;
+  await page.keyboard.press('Tab');
+ }
+ await expect(page.getByRole('navigation',{name:'Application'}).getByRole('link',{name:'Themes',exact:true})).toBeFocused();
+ await page.keyboard.press('Enter');
+ await expect(page).toHaveURL(/\/studio\/themes$/);
+ await page.reload();
+ for(let index=0;index<150;index++){
+  if(await page.getByLabel('Scope',{exact:true}).evaluate(el=>el===document.activeElement))break;
+  await page.keyboard.press('Tab');
+ }
+ await expect(page.getByLabel('Scope',{exact:true})).toBeFocused();
+ await page.keyboard.press('Home');
+ await page.keyboard.press('ArrowDown');
+ await page.keyboard.press('Enter');
+ await expect(page.getByRole('combobox',{name:/^Brand/})).toBeVisible();
+ for(let index=0;index<150;index++){
+  if(await page.getByRole('combobox',{name:/^Brand/}).evaluate(el=>el===document.activeElement))break;
+  await page.keyboard.press('Tab');
+ }
+ await expect(page.getByRole('combobox',{name:/^Brand/})).toBeFocused();
+ await page.keyboard.press('Home');
+ await page.keyboard.press('ArrowDown');
+ await page.keyboard.press('Enter');
+ await page.keyboard.press('Tab');
+ await expect(page.getByRole('group',{name:'Edit selected scope',exact:true})).toBeEnabled();
+});
+
+test('An unknown route provides a working return-home recovery link',async({page})=>{
+ const response=await page.goto('/unknown-verification-route-998');
+ expect(response?.status()).toBe(404);
+ await expect(page.getByRole('heading',{name:'Page not found',exact:true})).toBeVisible();
+ await page.getByRole('link',{name:'Return to ALLB home',exact:true}).click();
+ await expect(page).toHaveURL(/\/$/);
+ await expect(page.getByRole('heading',{level:1}).first()).toBeVisible();
+});
+
+test('Execution Kanban displays real registry tasks and reversible filters',async({page})=>{
+ await page.goto('/enterprise/kanban');
+ await expect(page.getByRole('status')).toContainText('131 matching tasks');
+ await expect(page.locator('.enterprise-columns article')).toHaveCount(131);
+ await page.getByLabel('Search tasks',{exact:true}).fill('E02.08');
+ await expect(page.locator('.enterprise-columns article')).toHaveCount(1);
+ await expect(page.locator('.enterprise-columns article')).toContainText('E02.08');
+ await page.getByLabel('Search tasks',{exact:true}).fill('');
+ await page.getByRole('combobox',{name:/^Phase/}).selectOption('2');
+ await expect(page.locator('.enterprise-columns article')).toHaveCount(13);
+ await page.getByRole('combobox',{name:/^Phase/}).selectOption('all');
+ await page.getByRole('button',{name:'Refresh status',exact:true}).click();
+ await expect(page.locator('.enterprise-columns article')).toHaveCount(131);
+ await expect(page.getByRole('region',{name:'Agent assignments'})).toBeVisible();
+});
+
+test('Kanban accessibility, responsive layout and visual evidence',async({page},info)=>{
+ await page.goto('/enterprise/kanban');
+ await expect(page.locator('.enterprise-columns article')).toHaveCount(131);
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth+1)).toBeTruthy();
+ await page.addScriptTag({content:axe.source});
+ const violations=await page.evaluate(async()=>{
+  const result=await (window as any).axe.run(document,{runOnly:{type:'tag',values:['wcag2a','wcag2aa','wcag21a','wcag21aa']}});
+  return result.violations.map((entry:any)=>({id:entry.id,impact:entry.impact,targets:entry.nodes.map((node:any)=>node.target)}));
+ });
+ expect(violations,JSON.stringify(violations)).toEqual([]);
+ await page.screenshot({path:info.outputPath('kanban.png'),fullPage:false});
+});
