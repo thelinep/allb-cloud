@@ -27,6 +27,9 @@ async function withLocalDatabase<T>(directory:string,run:(db:Database)=>Promise<
 }
 /** Explicit server configuration only; no browser supplied connection or fallback. */
 export async function withNevoDatabase<T>(run:(db:Database)=>Promise<T>):Promise<T>{
+ // Cloudflare-only production: legacy PostgreSQL/local adapters are validation
+ // tools, never a Worker fallback while the native D1 application port is open.
+ if(process.versions.workerd||'WebSocketPair' in globalThis)throw Object.assign(new Error('NEVO_DATABASE_UNAVAILABLE'),{code:'NEVO_DATABASE_UNAVAILABLE',status:503});
  const connectionString=process.env.ALLB_NEVO_DATABASE_URL;
  const localDirectory=process.env.ALLB_LOCAL_DATABASE_DIR;
  if(connectionString&&localDirectory)throw new Error('NEVO_DATABASE_AMBIGUOUS');

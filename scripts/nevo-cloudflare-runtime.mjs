@@ -18,11 +18,14 @@ try{
   await new Promise(resolve=>setTimeout(resolve,500));
  }
  if(started){
-  for(const [url,status,label] of [['/allb',200,'ALLB'],['/allb/nevo',200,'NEVO'],['/studio/themes',200,'Theme'],['/studio/branding',200,'Brand'],['/api/enterprise/kanban',200,null],['/allb/01-allb.webp',200,null],['/allb/unknown-worker-check',404,null]]){
+  const manifest=JSON.parse(fs.readFileSync(path.join(app,'public/allb/manifest.json'),'utf8'));
+  const routes=[['/allb',200,'ALLB'],...manifest.items.map(item=>['/allb/'+item.slug,200,item.title]),['/workspace/nevo',200,'NEVO'],['/studio/themes',200,'Theme'],['/studio/branding',200,'Brand'],['/api/enterprise/kanban',200,null],['/allb/01-allb.webp',200,null],['/allb/unknown-worker-check',404,null],['/workspace/unknown-worker-check',404,null]];
+  for(const [url,status,label] of routes){
    try{const response=await fetch('http://127.0.0.1:8891'+url,{signal:AbortSignal.timeout(5000)});const body=label?await response.text():'';checks.push({url,status:response.status,pass:response.status===status&&(!label||body.includes(label))});}
    catch(error){checks.push({url,pass:false,error:String(error)});}
   }
  }
+ if(started){const snapshot=await fetch('http://127.0.0.1:8891/api/enterprise/kanban').then(r=>r.json());const tasks=snapshot.registry?.tasks??snapshot.tasks??snapshot.data?.registry?.tasks;const expected=JSON.parse(fs.readFileSync(path.join(root,'docs/enterprise-task-registry.json'),'utf8')).tasks;checks.push({url:'compiled-registry-counts',pass:Array.isArray(tasks)&&JSON.stringify(tasks)===JSON.stringify(expected)});}
  console.log(JSON.stringify({kind:'local-worker-http-smoke',externalWrites:false,runtimeStarted:started,checks,logs},null,2));
  process.exitCode=started&&checks.every(check=>check.pass)?0:2;
 }finally{child.kill('SIGTERM');}

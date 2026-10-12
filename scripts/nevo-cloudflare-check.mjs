@@ -29,8 +29,8 @@ if(process.argv.includes('--build')){
 add('worker-output',exists('.open-next/worker.js')&&(!process.argv.includes('--build')||checks.some(c=>c.id==='adapter-build'&&c.status==='pass')),'Generated Worker bundle must exist; Next.js output alone is insufficient.');
 const kanban=fs.readFileSync(path.join(app,'app/api/enterprise/kanban/route.ts'),'utf8');
 add('kanban-runtime',kanban.includes("source:'compiled-snapshot'")&&kanban.includes('if(!registryDirectory)')&&kanban.includes('ENTERPRISE_REGISTRY_DIR'),'Default serves compiled snapshot; repository file reads require explicit local Node registry configuration. Do not set ENTERPRISE_REGISTRY_DIR on Workers.');
-add('auth-memory',false,'Current Node scrypt N=131072,r=8 requires about 128MiB before overhead; credential runtime memory/CPU proof or isolated own Auth service required. Do not weaken hashing.');
+add('auth-memory',false,'Unchanged scrypt succeeds in local workerd probe; deployed CPU/memory and integrated lifecycle remain unverified. Do not weaken hashing.');
 add('durable-bindings',false,'No durable database, R2, Queue or verified mail bindings provisioned/tested. NEVO deployment identifiers intentionally not copied.');
-add('workerd-runtime',false,'SSR/assets/cookies/tenant/auth/transaction/revocation checks on workerd and staging remain unverified.');
+add('workerd-runtime',false,'Public rendering passes local Worker browser checks; authenticated D1 application cutover and staging qualification remain open.');
 console.log(JSON.stringify({kind:'allb-nevo-cloudflare-gates',sourceRef:'thelinep/nevoeos@f50af9d',externalWrites:false,compatibilityVerified:false,checks},null,2));
 process.exitCode=checks.some(c=>c.status==='blocked')?2:0;

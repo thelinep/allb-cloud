@@ -2,11 +2,9 @@ import AllbLandingPage from "../../../components/allb-landing";
 import { notFound } from "next/navigation";
 import { allbLandings, getAllbLanding } from "../../../lib/allb-landings";
 
-export const dynamicParams=false;
-
-export function generateStaticParams() {
-  return allbLandings.map(({ slug }) => ({ slug }));
-}
+// Render from the bundled manifest on request. The installed adapter cannot
+// retrieve Next 16.3 prerendered dynamic-route fallback records reliably.
+export const dynamic = 'force-dynamic';
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;

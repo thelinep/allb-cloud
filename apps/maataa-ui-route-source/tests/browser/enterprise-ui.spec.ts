@@ -3,6 +3,7 @@ import axe from 'axe-core';
 import fs from 'node:fs';
 import {defaults} from '../../../../packages/design-config/config';
 const manifest:{concreteRoutes:string[]}=JSON.parse(fs.readFileSync('route-manifest.json','utf8'));
+const registryTaskCount=JSON.parse(fs.readFileSync('../../docs/enterprise-task-registry.json','utf8')).tasks.length;
 test('Studio applies theme and route branding to the actual landing, then survives reload',async({page})=>{
  await page.goto('/studio/themes');
  await page.getByLabel('Scope',{exact:true}).selectOption('route');
@@ -151,8 +152,8 @@ test('An unknown route provides a working return-home recovery link',async({page
 
 test('Execution Kanban displays real registry tasks and reversible filters',async({page})=>{
  await page.goto('/enterprise/kanban');
- await expect(page.getByRole('status')).toContainText('131 matching tasks');
- await expect(page.locator('.enterprise-columns article')).toHaveCount(131);
+ await expect(page.getByRole('status')).toContainText(`${registryTaskCount} matching tasks`);
+ await expect(page.locator('.enterprise-columns article')).toHaveCount(registryTaskCount);
  await page.getByLabel('Search tasks',{exact:true}).fill('E02.08');
  await expect(page.locator('.enterprise-columns article')).toHaveCount(1);
  await expect(page.locator('.enterprise-columns article')).toContainText('E02.08');
@@ -161,13 +162,13 @@ test('Execution Kanban displays real registry tasks and reversible filters',asyn
  await expect(page.locator('.enterprise-columns article')).toHaveCount(13);
  await page.getByRole('combobox',{name:/^Phase/}).selectOption('all');
  await page.getByRole('button',{name:'Refresh status',exact:true}).click();
- await expect(page.locator('.enterprise-columns article')).toHaveCount(131);
+ await expect(page.locator('.enterprise-columns article')).toHaveCount(registryTaskCount);
  await expect(page.getByRole('region',{name:'Agent assignments'})).toBeVisible();
 });
 
 test('Kanban accessibility, responsive layout and visual evidence',async({page},info)=>{
  await page.goto('/enterprise/kanban');
- await expect(page.locator('.enterprise-columns article')).toHaveCount(131);
+ await expect(page.locator('.enterprise-columns article')).toHaveCount(registryTaskCount);
  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth+1)).toBeTruthy();
  await page.addScriptTag({content:axe.source});
  const violations=await page.evaluate(async()=>{
