@@ -12,17 +12,23 @@
     "test:design-dom": "node scripts/design-dom-check.cjs",
     "test:browser": "playwright test",
     "test:db": "node tests/enterprise-db.test.mjs",
-    "test:auth-core": "node tests/auth-core.test.mjs"
+    "test:auth-core": "node tests/auth-core.test.mjs",
+    "prebuild": "node scripts/clean-next-build.mjs"
   },
   "dependencies": {
-    "next": "16.3.4",
+    "@opennextjs/cloudflare": "1.20.9",
+    "next": "16.3.8",
+    "pg": "8.23.1",
+    "pg-cloudflare": "^1.4.1",
     "react": "19.2.6",
-    "react-dom": "19.2.6"
+    "react-dom": "19.2.6",
+    "wrangler": "4.149.0",
+    "@electric-sql/pglite": "0.5.8"
   },
   "devDependencies": {
-    "@electric-sql/pglite": "0.5.8",
     "@playwright/test": "1.62.1",
     "@types/node": "22.19.19",
+    "@types/pg": "8.23.1",
     "@types/react": "19.2.14",
     "@types/react-dom": "19.2.3",
     "axe-core": "4.10.3",

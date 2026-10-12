@@ -2,9 +2,9 @@
   "name": "allb-cloud",
   "private": true,
   "scripts": {
-    "setup": "npm ci --prefix apps/maataa-ui-route-source",
+    "setup": "npm ci && npm run build --workspace @maataa/ui && npm run build:platform",
     "dev": "npm --prefix apps/maataa-ui-route-source run dev",
-    "build": "npm --prefix apps/maataa-ui-route-source run build",
+    "build": "npm run sync:execution && npm --prefix apps/maataa-ui-route-source run build",
     "start": "npm --prefix apps/maataa-ui-route-source run start",
     "typecheck": "npm --prefix apps/maataa-ui-route-source run typecheck",
     "test:config": "node --experimental-strip-types packages/design-config/tests/config.test.mjs",
@@ -17,7 +17,24 @@
     "test:authorization": "node apps/maataa-ui-route-source/tests/authorization.test.mjs",
     "test:publishing": "node tests/design-publishing.test.mjs",
     "test:nevo": "node --test tests/nevo-workflow.test.mjs",
-    "preflight:cloudflare": "node scripts/cloudflare-preflight.mjs"
+    "preflight:cloudflare": "node scripts/cloudflare-preflight.mjs",
+    "sync:execution": "node scripts/sync-enterprise-snapshot.mjs",
+    "test:nevo-identity": "node tests/nevo-identity-adapter.test.mjs",
+    "test:nevo-scene": "node --test tests/nevo-scene-adapter.test.mjs",
+    "check:nevo-cloudflare": "node scripts/nevo-cloudflare-check.mjs",
+    "build:platform": "npm run build --workspace @platform/auth-core --workspace @platform/mfa --workspace @platform/payments --workspace @platform/audit-evidence --workspace @platform/notifications --workspace @platform/ui-forms",
+    "test:nevo-commercial": "node --test tests/nevo-commercial-adapter.test.mjs",
+    "test:auth-http": "node tests/auth-http.test.mjs",
+    "test:nevo-records": "node tests/nevo-records.test.mjs",
+    "test:nevo-commercial-persistence": "node --test tests/nevo-commercial-persistence.test.mjs",
+    "test:nevo-workflow-browser": "node tests/nevo-workflow-browser.mjs"
   },
-  "type": "module"
+  "type": "module",
+  "workspaces": [
+    "apps/maataa-ui-route-source",
+    "packages/maataa-ui-nevo",
+    "packages/platform-*",
+    "packages/asset-storage",
+    "packages/asset-worker-processor"
+  ]
 }

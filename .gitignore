@@ -6,3 +6,7 @@ node_modules/
 .env.*.local
 test-results/
 playwright-report/
+
+.open-next/
+.wrangler/
+dist/
