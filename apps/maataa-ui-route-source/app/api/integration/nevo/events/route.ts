@@ -1,0 +1,10 @@
+import {inquirySchema,scopeQuery,optionalUuid} from '../../../../../../../packages/api-contracts/nevo-schemas.mjs';
+import {pagination,validatedQuery,assertVersion} from '../../../../../../../packages/api-contracts/contracts.mjs';
+import {randomUUID} from 'node:crypto';
+import {authorizedCommercial,commercialBody,commercialError,commercialResponse,commercialMutation} from '../../../../../server/nevo-commercial-http';
+import {eventRecords} from '../../../../../../../packages/nevo-records/repository.mjs';
+import {createInquiry} from '../../../../../../../packages/nevo-workflow/workflow.mjs';
+import {commercialActor} from '../../../../../../../packages/nevo-commercial-adapter/service.mjs';
+export const runtime='nodejs';export const dynamic='force-dynamic';
+export async function GET(request:Request){const url=new URL(request.url),scope={organizationId:url.searchParams.get('organizationId'),workspaceId:url.searchParams.get('workspaceId')};try{assertVersion(request);validatedQuery(request.url,{...scopeQuery,eventId:optionalUuid,limit:(v:unknown)=>v===null||typeof v==='string'&&/^\d+$/.test(v),offset:(v:unknown)=>v===null||typeof v==='string'&&/^\d+$/.test(v)});return commercialResponse(await authorizedCommercial(request,scope,'design.read',async(tx,c)=>{const id=url.searchParams.get('eventId');if(!id)return{events:await eventRecords.list(tx,c,pagination(request.url))};const event=await eventRecords.read(tx,c,id);if(!event)throw Object.assign(new Error('NOT_FOUND'),{code:'NOT_FOUND',status:404});return{event};}),200,request);}catch(e){return commercialError(e,request);}}
+export async function POST(request:Request){try{const body=inquirySchema(await commercialBody(request));return commercialResponse(await authorizedCommercial(request,body,'design.edit',async(tx,c)=>commercialMutation(request,body,tx,c,async()=>{const id=body.id??randomUUID();const state=createInquiry({...body,id,organizationId:c.organizationId,workspaceId:c.workspaceId},commercialActor(c,'layout'),new Date().toISOString());return{event:await eventRecords.create(tx,c,{id,title:state.inquiry.title,state})};})),201,request);}catch(e){return commercialError(e,request);}}

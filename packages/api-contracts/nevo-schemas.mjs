@@ -1,0 +1,10 @@
+import {validateObject,ContractError} from './contracts.mjs';
+export const uuid=value=>typeof value==='string'&&/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(value);
+export const optionalUuid=value=>value===undefined||value===null||uuid(value);
+export const scopeQuery={organizationId:uuid,workspaceId:uuid};
+const text=value=>typeof value==='string'&&value.trim().length>0&&value.length<=300;
+const object=value=>value!==null&&typeof value==='object'&&!Array.isArray(value);
+const positive=value=>Number.isSafeInteger(value)&&value>0;
+const optional=validator=>value=>value===undefined||validator(value);
+export function inquirySchema(body){return validateObject(body,{organizationId:uuid,workspaceId:uuid,id:optional(uuid),title:v=>text(v)&&v.length<=200,requestedDate:v=>typeof v==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(v),guestCount:v=>positive(v)&&v<=1000000});}
+export function commandSchema(body){validateObject(body,{organizationId:uuid,workspaceId:uuid,expectedRevision:positive,command:object});validateObject(body.command,{type:text,payload:object});const specs={layout:{venueId:text,venueVersion:text,scene:object,expectedSceneRevision:optional(v=>Number.isSafeInteger(v)&&v>=0)},quote:{id:text,currency:v=>typeof v==='string'&&/^[A-Z]{3}$/.test(v),lines:v=>Array.isArray(v)&&v.length>0&&v.length<=1000},review:{quoteId:text,quoteVersion:positive,outcome:v=>['approve','request_changes'].includes(v),note:text},decide:{quoteId:text,quoteVersion:positive,outcome:v=>['approve','request_changes'].includes(v),note:text},booking:{id:text},payment:{id:text,amount:v=>typeof v==='string'&&/^\d{1,16}(?:\.\d{1,2})?$/.test(v),currency:v=>typeof v==='string'&&/^[A-Z]{3}$/.test(v),evidenceReference:text},handoff:{}};const spec=Object.hasOwn(specs,body.command.type)?specs[body.command.type]:null;if(!spec)throw new ContractError('INVALID_COMMAND');validateObject(body.command.payload,spec);if(body.command.type==='quote')for(const line of body.command.payload.lines)validateObject(line,{id:text,sceneNodeId:text,sku:text,priceVersion:text,quantity:positive,unitPriceMinor:v=>Number.isSafeInteger(v)&&v>=0});return body;}

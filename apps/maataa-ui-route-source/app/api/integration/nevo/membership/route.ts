@@ -1,0 +1,6 @@
+import {commercialBody,commercialError,commercialResponse,rateWorkspaceRequest} from '../../../../../server/nevo-commercial-http';
+import {changeMembership} from '../../../../../../../packages/authorization/workspace.mjs';
+import {validateObject} from '../../../../../../../packages/api-contracts/contracts.mjs';
+export const runtime='nodejs';export const dynamic='force-dynamic';
+const uuid=(value:unknown)=>typeof value==='string'&&/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(value);
+export async function POST(request:Request){try{const token=request.headers.get('cookie')?.match(/(?:^|;\s*)__Host-maataa-session=([A-Za-z0-9_-]{43})(?:;|$)/)?.[1];if(!token)return commercialResponse({error:'UNAUTHENTICATED'},401,request);const body=validateObject(await commercialBody(request),{organizationId:uuid,workspaceId:uuid,userId:uuid,role:(value:unknown)=>value===null||['viewer','editor','reviewer','admin'].includes(String(value))});return commercialResponse(await rateWorkspaceRequest(request,body,'membership.manage',(db,trustedToken)=>changeMembership(db,trustedToken,body,body.userId,body.role,{idempotencyKey:request.headers.get('idempotency-key')??undefined})),200,request);}catch(error){return commercialError(error,request);}}
