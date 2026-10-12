@@ -33,7 +33,12 @@
   "workspaces": [
     "apps/maataa-ui-route-source",
     "packages/maataa-ui-nevo",
-    "packages/platform-*",
+    "packages/platform-audit-evidence",
+    "packages/platform-auth-core",
+    "packages/platform-mfa",
+    "packages/platform-payments",
+    "packages/platform-ui-forms",
+    "packages/notifications-runtime",
     "packages/asset-storage",
     "packages/asset-worker-processor"
   ]

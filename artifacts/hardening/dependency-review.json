@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-10T20:47:20.123Z",
+  "generatedAt": "2026-10-12T01:11:59.855Z",
   "scope": "root npm workspace lockfile, not unrelated archived nested locks",
   "packages": [
     {
@@ -3276,14 +3276,6 @@
       "resolvedProtocol": "https"
     },
     {
-      "path": "node_modules/nodemailer",
-      "name": "nodemailer",
-      "version": "9.1.1",
-      "license": "MIT-0",
-      "integrityPresent": true,
-      "resolvedProtocol": "https"
-    },
-    {
       "path": "node_modules/pg",
       "name": "pg",
       "version": "8.23.1",
@@ -3490,6 +3482,14 @@
       "license": "MIT",
       "integrityPresent": false,
       "resolvedProtocol": null
+    },
+    {
+      "path": "packages/notifications-runtime/node_modules/nodemailer",
+      "name": "nodemailer",
+      "version": "10.1.0",
+      "license": "MIT-0",
+      "integrityPresent": true,
+      "resolvedProtocol": "https"
     }
   ],
   "licenseSummary": {
@@ -3508,124 +3508,27 @@
     "MPL-2.0": 1
   },
   "audit": {
-    "exitCode": 1,
+    "exitCode": 0,
     "signal": null,
     "metadata": {
       "vulnerabilities": {
         "info": 0,
         "low": 0,
         "moderate": 0,
-        "high": 1,
+        "high": 0,
         "critical": 0,
-        "total": 1
+        "total": 0
       },
       "dependencies": {
-        "prod": 398,
+        "prod": 403,
         "dev": 46,
         "optional": 9,
         "peer": 0,
         "peerOptional": 0,
-        "total": 452
+        "total": 457
       }
     },
-    "vulnerabilities": {
-      "nodemailer": {
-        "name": "nodemailer",
-        "severity": "high",
-        "isDirect": true,
-        "via": [
-          {
-            "source": 1239931,
-            "name": "nodemailer",
-            "dependency": "nodemailer",
-            "title": "Nodemailer: Process-global DNS cache reuses TLS `servername` across transports, enabling cross-tenant SMTP credential disclosure",
-            "url": "https://github.com/advisories/GHSA-6vj9-mwq6-2f5v",
-            "severity": "moderate",
-            "cwe": [
-              "CWE-295"
-            ],
-            "cvss": {
-              "score": 5.9,
-              "vectorString": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:L/A:N"
-            },
-            "range": ">=5.0.0 <10.0.2"
-          },
-          {
-            "source": 1240033,
-            "name": "nodemailer",
-            "dependency": "nodemailer",
-            "title": "Nodemailer: Nested structured recipient arrays bypass the parser depth limit and cause stack exhaustion DoS",
-            "url": "https://github.com/advisories/GHSA-8vvx-rff5-p5rq",
-            "severity": "moderate",
-            "cwe": [
-              "CWE-674"
-            ],
-            "cvss": {
-              "score": 5.9,
-              "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H"
-            },
-            "range": "<10.0.2"
-          },
-          {
-            "source": 1240113,
-            "name": "nodemailer",
-            "dependency": "nodemailer",
-            "title": "Nodemailer: Quoted local-part can produce malformed envelope recipient through RFC 5322 comment parsing",
-            "url": "https://github.com/advisories/GHSA-g57g-f23g-4646",
-            "severity": "moderate",
-            "cwe": [
-              "CWE-20",
-              "CWE-436"
-            ],
-            "cvss": {
-              "score": 5.3,
-              "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N"
-            },
-            "range": ">=9.1.0 <10.0.9"
-          },
-          {
-            "source": 1240114,
-            "name": "nodemailer",
-            "dependency": "nodemailer",
-            "title": "Nodemailer: Quadratic backtracking in the addressparser free-text fallback allows remote denial of service",
-            "url": "https://github.com/advisories/GHSA-v53p-9fqp-m79j",
-            "severity": "high",
-            "cwe": [
-              "CWE-407",
-              "CWE-1333"
-            ],
-            "cvss": {
-              "score": 7.5,
-              "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
-            },
-            "range": "<=10.0.5"
-          },
-          {
-            "source": 1241277,
-            "name": "nodemailer",
-            "dependency": "nodemailer",
-            "title": "Nodemailer addressparser: O(n^2) on comment-joined addresses enables a remote DoS (reachable via mailparser)",
-            "url": "https://github.com/advisories/GHSA-prgh-xp8r-p3m5",
-            "severity": "high",
-            "cwe": [
-              "CWE-400",
-              "CWE-407"
-            ],
-            "cvss": {
-              "score": 7.5,
-              "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
-            },
-            "range": ">=9.1.0 <=10.0.4"
-          }
-        ],
-        "effects": [],
-        "range": "<=10.0.8",
-        "nodes": [
-          "node_modules/nodemailer"
-        ],
-        "fixAvailable": true
-      }
-    },
+    "vulnerabilities": {},
     "error": null
   },
   "reviewLimitations": [
