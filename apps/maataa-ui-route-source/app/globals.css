@@ -3,3 +3,54 @@
 .ui-surface{min-height:100vh;background:var(--bg);color:var(--text);font-family:var(--font,system-ui,sans-serif)}.ui-surface header>a{display:flex;align-items:center;gap:10px}.ui-surface header>a span{font-size:24px;color:var(--text)}.ui-surface .card,.ui-surface .panel{border-radius:var(--radius,12px);padding:var(--space,22px)}.ui-surface .brand-logo{object-fit:contain}.ui-surface .studio-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}.ui-surface .studio-grid>section{min-width:0}.ui-surface .studio-colors{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.ui-surface .studio-colors label{display:flex;flex-direction:column;gap:6px}.ui-surface .studio-colors code{font-size:12px}.ui-surface .studio-preview{padding:24px;border:1px solid var(--line);min-height:260px}.ui-surface .studio-preview h3{font-size:28px}.ui-surface .preview-logo{max-height:64px;max-width:160px;object-fit:contain}.ui-surface .preview-hero{width:100%;height:180px;object-fit:cover;border-radius:var(--radius)}@media(max-width:900px){.ui-surface .studio-grid{grid-template-columns:1fr}}
 
 .ui-surface h1,.ui-surface h2{font-family:var(--font)}
+
+/* Preserve native system colors and remove only authored decorative gradients. Image assets remain intact. */
+@media (forced-colors: active) {
+ body {background:Canvas!important;color:CanvasText!important;}
+ body * {color:CanvasText!important;}
+ body :is(p,small,label,h1,h2,h3,h4,span,em,b,strong,dt,dd,li,summary,figcaption) {opacity:1!important;}
+ body .allb-page,
+ body .allb-card,
+ body .allb-art-link::after,
+ body .allb-detail-page,
+ body .lp-hero,
+ body .lp-card-visual,
+ body .lp-editorial-cards article:nth-child(2n) .lp-card-visual,
+ body .lp-layer-stack>div,
+ body .lp-light .lp-layer-stack>div,
+ body .lp-preview-scene,
+ body .lp-light-stage,
+ body .lp-light-beam,
+ body .lp-object,
+ body .lp-space,
+ body .lp-sun,
+ body .lp-orbital-body,
+ body .lp-review-scene,
+ body .lp-clock-face,
+ body .lp-closing,
+ body .lp-event .lp-hero,
+ body .lp-event .lp-card-visual,
+ body .lp-film-workflow .lp-hero,
+ body .lp-production .lp-hero,
+ body .lp-production-overview .lp-hero,
+ body .lp-hardware .lp-hero,
+ body .lp-interface .lp-hero,
+ body .lp-roadmap .lp-hero,
+ body .lp-ecosystem-orb,
+ body .lp-ecosystem-orb.orb-1,
+ body .lp-ecosystem-orb.orb-2,
+ body .lp-token-sphere,
+ body .lp-token-sphere.token-1,
+ body .lp-token-sphere.token-2,
+ body .lp-token-sphere.token-3,
+ body .lp-frame-visual,
+ body .lp-frame-visual.frame-2,
+ body .lp-sky-field,
+ body .lp-season-sphere,
+ body .lp-season-sphere.tropical {background-image:none!important;background-color:Canvas!important;color:CanvasText!important;}
+ body a {color:LinkText!important;}
+ button {background-color:ButtonFace!important;color:ButtonText!important;border-color:ButtonText!important;}
+ input,textarea,select {background-color:Field!important;color:FieldText!important;border-color:FieldText!important;}
+ :focus-visible {outline:3px solid Highlight!important;outline-offset:3px;}
+ button[aria-selected=true],button[aria-pressed=true] {outline:2px solid Highlight!important;outline-offset:2px;}
+}

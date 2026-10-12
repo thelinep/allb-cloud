@@ -52,7 +52,7 @@ test('Studio validates JSON and exports a reviewed draft without applying it',as
  await page.goto('/studio/themes');
  await expect(page.getByLabel('Import JSON')).toBeEnabled();
  await page.getByLabel('Import JSON').setInputFiles({name:'invalid.json',mimeType:'application/json',buffer:Buffer.from('{"schemaVersion":99}')});
- await expect(page.getByRole('status')).toContainText('Invalid design configuration or unsupported schema version');
+ await expect(page.getByRole('status').filter({hasText:'Invalid design configuration or unsupported schema version'})).toBeVisible();
  expect(await page.evaluate(()=>localStorage.getItem('allb.design-studio.active.v1'))).toBeNull();
  const downloadPromise=page.waitForEvent('download');
  await page.getByRole('button',{name:'Export JSON',exact:true}).click();
@@ -62,7 +62,7 @@ test('Studio validates JSON and exports a reviewed draft without applying it',as
  for await(const chunk of stream!)chunks.push(Buffer.from(chunk));
  const config=JSON.parse(Buffer.concat(chunks).toString());
  await page.getByLabel('Import JSON').setInputFiles({name:'valid.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify(config))});
- await expect(page.getByRole('status')).toContainText('Imported as an unsaved draft');
+ await expect(page.getByRole('status').filter({hasText:'Imported as an unsaved draft'})).toBeVisible();
  expect(await page.evaluate(()=>localStorage.getItem('allb.design-studio.active.v1'))).toBeNull();
  await page.getByRole('button',{name:'Reset defaults',exact:true}).click();
  await page.getByRole('button',{name:'Save draft',exact:true}).click();
@@ -82,7 +82,8 @@ test('Global, implicit brand, family and exact settings resolve in the browser',
 });
 test('Representative visual evidence',async({page},info)=>{
  for(const [name,route] of [['gallery','/allb'],['themes','/studio/themes'],['nevo','/allb/nevo'],['workspace','/workspace/nevo']]){
-  await page.goto(route,{waitUntil:'networkidle'});
+  await page.goto(route,{waitUntil:'load'});
+  await page.evaluate(()=>document.fonts.ready);
   await page.screenshot({path:info.outputPath(name+'.png'),fullPage:false});
  }
 });
@@ -90,8 +91,11 @@ for(const route of manifest.concreteRoutes){
  test('accessibility and horizontal layout '+route,async({page})=>{
   const failedStyles:string[]=[];
   page.on('response',response=>{if(response.request().resourceType()==='stylesheet'&&response.status()>=400)failedStyles.push(response.url());});
-  await page.goto(route,{waitUntil:'networkidle'});
+  await page.goto(route,{waitUntil:'load'});
+  await page.evaluate(()=>document.fonts.ready);
   expect(failedStyles,'Stylesheets must load before accessibility/layout qualification').toEqual([]);
+  const brokenImages=await page.locator('img').evaluateAll(images=>images.filter(image=>{const box=image.getBoundingClientRect();return box.width>0&&box.height>0&&box.top<innerHeight&&box.bottom>0&&(!(image as HTMLImageElement).complete||(image as HTMLImageElement).naturalWidth===0);}).map(image=>(image as HTMLImageElement).src));
+  expect(brokenImages,'Visible viewport images must load').toEqual([]);
   expect(await page.locator('.app-header').evaluate(el=>getComputedStyle(el).display)).toBe('flex');
   await expect(page.getByRole('heading',{level:1}).first()).toBeVisible();
   if(route.startsWith('/allb/'))await expect(page.getByRole('link',{name:'Open local workspace',exact:false}).first()).toHaveAttribute('href','/workspace/'+route.split('/').at(-1));
