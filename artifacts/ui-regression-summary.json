@@ -1,0 +1,40 @@
+{
+  "uniqueCases": 548,
+  "routes": 264,
+  "landingRoutes": 36,
+  "viewports": [
+    "desktop1440",
+    "Pixel7mobile"
+  ],
+  "initialPassed": 544,
+  "initialFailures": 4,
+  "affectedRerunPassed": 4,
+  "visualRerunPassed": 2,
+  "recoveryChecksPassed": 8,
+  "unverified": [
+    "Actual Next root/segment exception boundary dispatch and retry",
+    "physical devices",
+    "manual screen-reader qualification"
+  ],
+  "evidenceNotes": [
+    "Initial four failures were two ambiguous Studio status locators and two networkidle navigation timeouts; precise locators and load/fonts readiness were used in affected rerun.",
+    "Recovery fixture intercepts API responses explicitly; not backend authorization evidence."
+  ],
+  "commands": [
+    "ALLB_CHROMIUM_EXECUTABLE=/workspace/scratch/80aa72c897e9/ui-browser-runtime/chromium npm --prefix apps/maataa-ui-route-source run test:browser",
+    "same command -- --grep 'Studio validates JSON|layout /integration/workflow'",
+    "same command -- --grep 'Representative visual evidence'",
+    "ALLB_CHROMIUM_PATH=/workspace/scratch/80aa72c897e9/ui-browser-runtime/chromium node tests/nevo-ui-recovery-browser.mjs"
+  ],
+  "reports": [
+    "artifacts/ui-workflow-regression/matrix-initial.json",
+    "artifacts/ui-workflow-regression/matrix-affected-rerun.json",
+    "artifacts/nevo-ui-recovery/results.json",
+    "docs/ui-workflow-recovery-evidence.md"
+  ],
+  "representativeInspection": [
+    "Desktop/mobile NEVO landing",
+    "Desktop/mobile ThemeStudio",
+    "Desktopgallery"
+  ]
+}

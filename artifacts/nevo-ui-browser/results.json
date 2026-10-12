@@ -1,0 +1,83 @@
+{
+  "results": [
+    {
+      "route": "/integration/ui",
+      "width": 1440,
+      "layout": {
+        "overflow": false,
+        "brokenImages": 0
+      },
+      "accessibilityViolations": []
+    },
+    {
+      "route": "/integration/ui#filled-form",
+      "width": 1440,
+      "accessibilityViolations": []
+    },
+    {
+      "route": "/integration/nevo",
+      "width": 1440,
+      "layout": {
+        "overflow": false,
+        "brokenImages": 0
+      },
+      "accessibilityViolations": []
+    },
+    {
+      "route": "/enterprise/kanban",
+      "width": 1440,
+      "layout": {
+        "overflow": false,
+        "brokenImages": 0
+      },
+      "accessibilityViolations": []
+    },
+    {
+      "route": "/integration/ui",
+      "width": 390,
+      "layout": {
+        "overflow": false,
+        "brokenImages": 0
+      },
+      "accessibilityViolations": []
+    },
+    {
+      "route": "/integration/ui#filled-form",
+      "width": 390,
+      "accessibilityViolations": []
+    },
+    {
+      "route": "/integration/nevo",
+      "width": 390,
+      "layout": {
+        "overflow": false,
+        "brokenImages": 0
+      },
+      "accessibilityViolations": []
+    },
+    {
+      "route": "/enterprise/kanban",
+      "width": 390,
+      "layout": {
+        "overflow": false,
+        "brokenImages": 0
+      },
+      "accessibilityViolations": []
+    }
+  ],
+  "checks": [
+    "NEVO context rejects unauthenticated HTTP request",
+    "NEVO context fails closed without configured database",
+    "required form 1440",
+    "preview 1440",
+    "reset 1440",
+    "integration link 1440",
+    "Kanban filters and refresh 1440",
+    "required form 390",
+    "preview 390",
+    "reset 390",
+    "integration link 390",
+    "Kanban filters and refresh 390"
+  ],
+  "pageErrors": []
+}

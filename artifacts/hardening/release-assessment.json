@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "ready": false,
+  "blockers": [
+    {
+      "gate": "staging",
+      "reason": "Production-like validation or approval unavailable; see task registry."
+    },
+    {
+      "gate": "database",
+      "reason": "Production-like validation or approval unavailable; see task registry."
+    },
+    {
+      "gate": "identity",
+      "reason": "Production-like validation or approval unavailable; see task registry."
+    },
+    {
+      "gate": "assets",
+      "reason": "Production-like validation or approval unavailable; see task registry."
+    },
+    {
+      "gate": "providers",
+      "reason": "Production-like validation or approval unavailable; see task registry."
+    },
+    {
+      "gate": "security",
+      "reason": "Production-like validation or approval unavailable; see task registry."
+    },
+    {
+      "gate": "recovery",
+      "reason": "Production-like validation or approval unavailable; see task registry."
+    },
+    {
+      "gate": "accessibility",
+      "reason": "Production-like validation or approval unavailable; see task registry."
+    },
+    {
+      "gate": "compatibility",
+      "reason": "Production-like validation or approval unavailable; see task registry."
+    },
+    {
+      "gate": "performance",
+      "reason": "Production-like validation or approval unavailable; see task registry."
+    },
+    {
+      "gate": "visualApproval",
+      "reason": "Production-like validation or approval unavailable; see task registry."
+    },
+    {
+      "gate": "businessAcceptance",
+      "reason": "Production-like validation or approval unavailable; see task registry."
+    },
+    {
+      "gate": "operationsOwners",
+      "reason": "Production-like validation or approval unavailable; see task registry."
+    },
+    {
+      "gate": "rolloutAuthorization",
+      "reason": "Production-like validation or approval unavailable; see task registry."
+    }
+  ],
+  "mode": "read-only-assessment",
+  "authority": "Assessment never provisions, deploys or grants approval."
+}

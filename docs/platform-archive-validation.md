@@ -30,3 +30,5 @@ Ordinary Next production build PASS. OpenNext build now BLOCKED by native Sharp 
 ## Commit whitespace exception
 
 Original packages/platform-payments/src/razorpay.ts has a new blank line at EOF (line 315). It is deliberately preserved to retain byte-identical archive provenance. Range whitespace checks exclude only this imported file; all other files use git diff --check.
+
+The pinned NEVO scene vendor file packages/nevo-scene-adapter/vendor/scene.ts also retains its original EOF blank line (line 332). Generated artifacts/logs are exact captured output, so source whitespace qualification excludes artifacts/ as well.

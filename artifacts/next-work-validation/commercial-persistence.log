@@ -1,0 +1,15 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> test:nevo-commercial-persistence
+> node --test tests/nevo-commercial-persistence.test.mjs
+
+PASS 19 durable commercial assertions; advance evidence, exact approvals, role/scope denial, immutable versions and reopen
+✔ tests/nevo-commercial-persistence.test.mjs (1950.725762ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 1
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1958.492398

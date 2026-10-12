@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T07:40:13.022331+00:00",
+  "updatedAt": "2026-10-11T01:21:25.551889+00:00",
   "assignments": {
     "E01.01": "Coordinator / backlog",
     "E01.02": "Coordinator / backlog",
@@ -135,45 +135,43 @@
   },
   "agents": [
     {
-      "name": "MAATAA Auth",
-      "scope": "credentials, challenges, recovery and sessions",
-      "status": "foundation delivered; integration pending"
+      "name": "Runtime integration",
+      "scope": "OpenNext packaging and local Worker checks",
+      "status": "bundle passed; workerd environment blocked"
     },
     {
-      "name": "Authorization",
-      "scope": "tenant membership and permissions",
-      "status": "foundation delivered; integration pending"
+      "name": "Identity integration",
+      "scope": "Real login, encrypted TOTP, server-derived tenancy and revocation",
+      "status": "implemented; actual Next auth browser checks passed"
     },
     {
-      "name": "Design publishing",
-      "scope": "version, review, publish and rollback services",
-      "status": "foundation delivered; integration pending"
+      "name": "Durable records",
+      "scope": "Event/scene versions, audit and atomic persistence",
+      "status": "25 disk-backed assertions passed"
     },
     {
-      "name": "UI verification",
-      "scope": "real browser and keyboard checks",
-      "status": "540 unique Chromium checks passed; manual gates open"
+      "name": "Commerce integration",
+      "scope": "Quotes, separate client decisions and local-evidence handoff",
+      "status": "19 persistence assertions passed; external provider unverified"
     },
     {
-      "name": "Cloudflare readiness",
-      "scope": "runtime preflight and staging gates",
-      "status": "preflight blocked"
+      "name": "Workflow UI",
+      "scope": "Responsive authenticated end-to-end workflow",
+      "status": "implemented; final visual/accessibility verification recorded in release evidence"
     },
     {
-      "name": "NEVO workflow",
-      "scope": "inquiry to quote approval and handoff",
-      "status": "two-stage approval domain tests passed; persistence pending"
-    },
-    {
-      "name": "Coordinator",
-      "scope": "Kanban, integration and evidence review",
-      "status": "review and verification complete; remaining integration backlog"
+      "name": "Release coordinator",
+      "scope": "Evidence reconciliation, backup and release gates",
+      "status": "local evidence report; production certification remains open"
     }
   ],
   "notes": [
-    "Cloudflare credentials and staging environment not available; no deployment or DNS changes.",
-    "Existing completion evidence is retained as historical baseline; this run records new evidence separately.",
-    "Real-device and manual assistive-technology checks require human execution.",
-    "Kanban reads local repository files in Node; Workers runtime is not yet certified."
+    "Recorded assignments are a saved observation, not a live agent-session feed.",
+    "Disk-backed PGlite supports one local Node process only; production PostgreSQL and migration rollout remain untested.",
+    "Payment is authenticated local evidence, not provider-verified settlement; tax/full-payment policy remains open.",
+    "Wrangler runtime blocked by uv_interface_addresses; staging and production pilot remain untested.",
+    "No commit, push, deployment or DNS/service configuration performed.",
+    "Task states reconciled to current local browser evidence; no broad production certification inferred.",
+    "2026-10-11: all original pending tasks assessed; local scope completed where evidenced; remaining tasks explicitly blocked by missing production/approval/provider qualification."
   ]
 }

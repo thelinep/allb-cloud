@@ -1,0 +1,7 @@
+{
+  "kind": "local-worker-http-smoke",
+  "externalWrites": false,
+  "runtimeStarted": false,
+  "checks": [],
+  "logs": "\u001b[33m▲ \u001b[43;33m[\u001b[43;30mWARNING\u001b[43;33m]\u001b[0m \u001b[1mProxy environment variables detected. We'll use your proxy for fetch requests.\u001b[0m\n\n\n\n ⛅️ wrangler 4.149.0\n────────────────────\nYour Worker has access to the following bindings:\nBinding                                                 Resource                  Mode\nenv.WORKER_SELF_REFERENCE (allb-integration-local)      Worker                    local [connected]\nenv.ASSETS                                              Assets                    local\nenv.ENVIRONMENT (\"integration-local\")                   Environment Variable      local\n\n\nService bindings, Durable Object bindings, and Tail consumers connect to other Wrangler or Vite dev processes running locally, with their connection status indicated by [connected] or [not connected]. For more details, refer to https://developers.cloudflare.com/workers/runtime-apis/bindings/service-bindings/#local-development\n\n\n\u001b[31m✘ \u001b[41;31m[\u001b[41;97mERROR\u001b[41;31m]\u001b[0m \u001b[1mA system error occurred: uv_interface_addresses returned Unknown system error 1 (Unknown system error 1)\u001b[0m\n\n\n\u001b[32mIf you think this is a bug then please create an issue at https://github.com/cloudflare/workers-sdk/issues/new/choose\u001b[0m\n🪵  Logs were written to \"/root/.config/.wrangler/logs/wrangler-2026-10-11_01-22-53_909.log\"\n"
+}

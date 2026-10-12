@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "mode": "local-read-baseline",
+  "runtime": "production Next + single-process disk PGlite",
+  "requests": 80,
+  "concurrency": 8,
+  "elapsedMilliseconds": 1409,
+  "p50Milliseconds": 113,
+  "p95Milliseconds": 294,
+  "maxMilliseconds": 555,
+  "requestsPerSecond": 57,
+  "allResponses": "HTTP200 versioned correlated envelope",
+  "approvedPerformanceTarget": false,
+  "limitations": [
+    "No agreed SLO/load/soak criteria.",
+    "No production PostgreSQL, Workers, providers or multi-process concurrency.",
+    "This measures read requests to a synthetic empty tenant; not commercial write capacity."
+  ]
+}

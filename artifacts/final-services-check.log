@@ -1,0 +1,18 @@
+{"checks":45,"passed":true,"durableFiles":7,"mode":"local-validation"}
+✔ tests/asset-operations.test.mjs (8253.091271ms)
+PASS 11 asset-derived configuration binding, scope, immutable version and rollback checks
+✔ tests/design-assets.test.mjs (7550.839463ms)
+PASS 29 design publishing service assertions (disposable PostgreSQL/PGlite)
+✔ tests/design-publishing.test.mjs (5486.392043ms)
+PASS 11 observability redaction, trace, metrics and failure checks
+✔ tests/observability.test.mjs (235.909741ms)
+PASS 7 fail-closed release assessment checks; fixture flags are not real certification
+✔ tests/release-gates.test.mjs (195.562933ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 8271.462959

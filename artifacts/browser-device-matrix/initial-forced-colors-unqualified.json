@@ -1,0 +1,4047 @@
+{
+  "browser": "153.0.8010.0",
+  "engines": [
+    {
+      "engine": "chromium",
+      "installed": true,
+      "executable": "/workspace/scratch/80aa72c897e9/ui-browser-runtime/chromium",
+      "status": "available"
+    },
+    {
+      "engine": "firefox",
+      "installed": false,
+      "executable": "/root/.cache/ms-playwright/firefox-1538/firefox/firefox",
+      "status": "untested_engine_not_installed"
+    },
+    {
+      "engine": "webkit",
+      "installed": false,
+      "executable": "/root/.cache/ms-playwright/webkit-2336/pw_run.sh",
+      "status": "untested_engine_not_installed"
+    }
+  ],
+  "profiles": [
+    {
+      "name": "tablet-portrait",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "hasTouch": true,
+      "isMobile": true
+    },
+    {
+      "name": "tablet-landscape",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "hasTouch": true,
+      "isMobile": true
+    },
+    {
+      "name": "phone-reduced-motion",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "hasTouch": true,
+      "isMobile": true,
+      "reducedMotion": "reduce"
+    },
+    {
+      "name": "desktop-forced-colors",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "forcedColors": "active"
+    }
+  ],
+  "results": [
+    {
+      "profile": "tablet-portrait",
+      "route": "/allb",
+      "status": "pass",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      }
+    },
+    {
+      "profile": "tablet-portrait",
+      "route": "/allb/allb",
+      "status": "pass",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      }
+    },
+    {
+      "profile": "tablet-portrait",
+      "route": "/allb/siddham",
+      "status": "pass",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      }
+    },
+    {
+      "profile": "tablet-portrait",
+      "route": "/allb/maataa-ui",
+      "status": "pass",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      }
+    },
+    {
+      "profile": "tablet-portrait",
+      "route": "/allb/developer-tools",
+      "status": "pass",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      }
+    },
+    {
+      "profile": "tablet-portrait",
+      "route": "/allb/apps",
+      "status": "pass",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      }
+    },
+    {
+      "profile": "tablet-portrait",
+      "route": "/allb/nevo",
+      "status": "pass",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "screenshotSha256": "0157a336adc1cf872480fc11c84629e9b0972a0e42130e331ee17d329e167884"
+    },
+    {
+      "profile": "tablet-portrait",
+      "route": "/allb/observatory",
+      "status": "pass",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      }
+    },
+    {
+      "profile": "tablet-portrait",
+      "route": "/allb/games",
+      "status": "pass",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      }
+    },
+    {
+      "profile": "tablet-portrait",
+      "route": "/studio/themes",
+      "status": "pass",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      }
+    },
+    {
+      "profile": "tablet-portrait",
+      "route": "/integration/workflow",
+      "status": "pass",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "screenshotSha256": "9f2deae5b2d753615f9c1e9a7a4ca1f9bc8a4071efbe146a5243ff608d51c463"
+    },
+    {
+      "profile": "tablet-portrait",
+      "route": "/integration/security",
+      "status": "pass",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      }
+    },
+    {
+      "profile": "tablet-landscape",
+      "route": "/allb",
+      "status": "pass",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      }
+    },
+    {
+      "profile": "tablet-landscape",
+      "route": "/allb/allb",
+      "status": "pass",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      }
+    },
+    {
+      "profile": "tablet-landscape",
+      "route": "/allb/siddham",
+      "status": "pass",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      }
+    },
+    {
+      "profile": "tablet-landscape",
+      "route": "/allb/maataa-ui",
+      "status": "pass",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      }
+    },
+    {
+      "profile": "tablet-landscape",
+      "route": "/allb/developer-tools",
+      "status": "pass",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      }
+    },
+    {
+      "profile": "tablet-landscape",
+      "route": "/allb/apps",
+      "status": "pass",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      }
+    },
+    {
+      "profile": "tablet-landscape",
+      "route": "/allb/nevo",
+      "status": "pass",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "screenshotSha256": "87ffc5b18d94bd268c0d1c2ae91d56189e310f9c9d7bd38e69cdf4aa68ae884a"
+    },
+    {
+      "profile": "tablet-landscape",
+      "route": "/allb/observatory",
+      "status": "pass",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      }
+    },
+    {
+      "profile": "tablet-landscape",
+      "route": "/allb/games",
+      "status": "pass",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      }
+    },
+    {
+      "profile": "tablet-landscape",
+      "route": "/studio/themes",
+      "status": "pass",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      }
+    },
+    {
+      "profile": "tablet-landscape",
+      "route": "/integration/workflow",
+      "status": "pass",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "screenshotSha256": "d6b4ee21e1bc72004a2d1257ec99ee4be10748f0bf2b2f593d33161e6cb43233"
+    },
+    {
+      "profile": "tablet-landscape",
+      "route": "/integration/security",
+      "status": "pass",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      }
+    },
+    {
+      "profile": "phone-reduced-motion",
+      "route": "/allb",
+      "status": "pass",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "profile": "phone-reduced-motion",
+      "route": "/allb/allb",
+      "status": "pass",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "profile": "phone-reduced-motion",
+      "route": "/allb/siddham",
+      "status": "pass",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "profile": "phone-reduced-motion",
+      "route": "/allb/maataa-ui",
+      "status": "pass",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "profile": "phone-reduced-motion",
+      "route": "/allb/developer-tools",
+      "status": "pass",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "profile": "phone-reduced-motion",
+      "route": "/allb/apps",
+      "status": "pass",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "profile": "phone-reduced-motion",
+      "route": "/allb/nevo",
+      "status": "pass",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "screenshotSha256": "9ce1b64c078a5b78a63c75b256b7d815a432433d2828a4f6b8a43ab8eb822c15"
+    },
+    {
+      "profile": "phone-reduced-motion",
+      "route": "/allb/observatory",
+      "status": "pass",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "profile": "phone-reduced-motion",
+      "route": "/allb/games",
+      "status": "pass",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "profile": "phone-reduced-motion",
+      "route": "/studio/themes",
+      "status": "pass",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "profile": "phone-reduced-motion",
+      "route": "/integration/workflow",
+      "status": "pass",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "screenshotSha256": "432d41eb8092f5cafed2ac7b31670d61a62ea35a317574bab535c037090a9d23"
+    },
+    {
+      "profile": "phone-reduced-motion",
+      "route": "/integration/security",
+      "status": "pass",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "profile": "desktop-forced-colors",
+      "route": "/allb",
+      "status": "structural_pass_contrast_unverified",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "systemColors": {
+        "forcedColors": true,
+        "bodyForeground": "rgb(0, 0, 0)",
+        "bodyBackground": "rgb(255, 255, 255)",
+        "bodyRatio": 21,
+        "navigationLinkRatio": 13.994023083921398
+      },
+      "rawAxeContrastFindings": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              ".app-brand > span"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href=\"/\"]"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[aria-current=\"page\"][href$=\"allb\"]"
+            ],
+            [
+              "a[href$=\"workspace\"]"
+            ],
+            [
+              "a[href=\"/ui\"]"
+            ],
+            [
+              "a[href$=\"themes\"]"
+            ],
+            [
+              "a[href$=\"branding\"]"
+            ],
+            [
+              "a[href$=\"kanban\"]"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href$=\"nevo\"]"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href$=\"workflow\"]"
+            ],
+            [
+              "a[href$=\"security\"]"
+            ],
+            [
+              "a[href$=\"assets\"]"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href$=\"operations\"]"
+            ],
+            [
+              ".allb-brand > span:nth-child(2) > b"
+            ],
+            [
+              "small"
+            ],
+            [
+              "nav[aria-label=\"Page links\"] > a[href=\"/\"]"
+            ],
+            [
+              "nav[aria-label=\"Page links\"] > a[aria-current=\"page\"][href$=\"allb\"]"
+            ],
+            [
+              ".eyebrow"
+            ],
+            [
+              "h1"
+            ],
+            [
+              "em"
+            ],
+            [
+              ".allb-lede"
+            ],
+            [
+              ".allb-hero-meta > span:nth-child(1)"
+            ],
+            [
+              "span:nth-child(1) > b"
+            ],
+            [
+              ".allb-hero-meta > span:nth-child(2)"
+            ],
+            [
+              "span:nth-child(3)"
+            ],
+            [
+              "span:nth-child(3) > b"
+            ],
+            [
+              "input"
+            ],
+            [
+              "button:nth-child(1)"
+            ],
+            [
+              "button:nth-child(2)"
+            ],
+            [
+              "button:nth-child(3)"
+            ],
+            [
+              "button:nth-child(4)"
+            ],
+            [
+              "button:nth-child(5)"
+            ],
+            [
+              "button:nth-child(6)"
+            ],
+            [
+              "button:nth-child(7)"
+            ],
+            [
+              "button:nth-child(8)"
+            ],
+            [
+              "button:nth-child(9)"
+            ],
+            [
+              ".allb-result-count"
+            ],
+            [
+              "article:nth-child(1) > .allb-card-copy > .allb-card-kicker > span:nth-child(1)"
+            ],
+            [
+              "article:nth-child(1) > .allb-card-copy > .allb-card-kicker > span:nth-child(2)"
+            ],
+            [
+              "h2 > a[href$=\"allb\"]"
+            ],
+            [
+              "article:nth-child(1) > .allb-card-copy > p"
+            ],
+            [
+              ".allb-card-link[href$=\"allb\"]"
+            ],
+            [
+              "article:nth-child(2) > .allb-card-copy > .allb-card-kicker > span:nth-child(1)"
+            ],
+            [
+              "article:nth-child(2) > .allb-card-copy > .allb-card-kicker > span:nth-child(2)"
+            ],
+            [
+              "h2 > a[href$=\"siddham\"]"
+            ],
+            [
+              "article:nth-child(2) > .allb-card-copy > p"
+            ],
+            [
+              ".allb-card-link[href$=\"siddham\"]"
+            ],
+            [
+              "article:nth-child(3) > .allb-card-copy > .allb-card-kicker > span:nth-child(1)"
+            ],
+            [
+              "article:nth-child(3) > .allb-card-copy > .allb-card-kicker > span:nth-child(2)"
+            ],
+            [
+              "h2 > a[href$=\"kharoshti\"]"
+            ],
+            [
+              "article:nth-child(3) > .allb-card-copy > p"
+            ],
+            [
+              ".allb-card-link[href$=\"kharoshti\"]"
+            ],
+            [
+              "article:nth-child(4) > .allb-card-copy > .allb-card-kicker > span:nth-child(1)"
+            ],
+            [
+              "article:nth-child(4) > .allb-card-copy > .allb-card-kicker > span:nth-child(2)"
+            ],
+            [
+              "h2 > a[href$=\"brahmi\"]"
+            ],
+            [
+              "article:nth-child(4) > .allb-card-copy > p"
+            ],
+            [
+              ".allb-card-link[href$=\"brahmi\"]"
+            ],
+            [
+              "article:nth-child(5) > .allb-card-copy > .allb-card-kicker > span:nth-child(1)"
+            ],
+            [
+              "article:nth-child(5) > .allb-card-copy > .allb-card-kicker > span:nth-child(2)"
+            ],
+            [
+              "h2 > a[href$=\"maataa-ui\"]"
+            ],
+            [
+              "article:nth-child(5) > .allb-card-copy > p"
+            ],
+            [
+              ".allb-card-link[href$=\"maataa-ui\"]"
+            ],
+            [
+              "article:nth-child(6) > .allb-card-copy > .allb-card-kicker > span:nth-child(1)"
+            ],
+            [
+              "article:nth-child(6) > .allb-card-copy > .allb-card-kicker > span:nth-child(2)"
+            ],
+            [
+              "h2 > a[href$=\"maataa\"]"
+            ],
+            [
+              "article:nth-child(6) > .allb-card-copy > p"
+            ],
+            [
+              ".allb-card-link[href$=\"maataa\"]"
+            ],
+            [
+              "article:nth-child(7) > .allb-card-copy > .allb-card-kicker > span:nth-child(1)"
+            ],
+            [
+              "article:nth-child(7) > .allb-card-copy > .allb-card-kicker > span:nth-child(2)"
+            ],
+            [
+              "h2 > a[href$=\"maataa-auth\"]"
+            ],
+            [
+              "article:nth-child(7) > .allb-card-copy > p"
+            ],
+            [
+              ".allb-card-link[href$=\"maataa-auth\"]"
+            ],
+            [
+              "article:nth-child(8) > .allb-card-copy > .allb-card-kicker > span:nth-child(1)"
+            ],
+            [
+              "article:nth-child(8) > .allb-card-copy > .allb-card-kicker > span:nth-child(2)"
+            ],
+            [
+              "h2 > a[href$=\"maataa-os\"]"
+            ],
+            [
+              "article:nth-child(8) > .allb-card-copy > p"
+            ],
+            [
+              ".allb-card-link[href$=\"maataa-os\"]"
+            ],
+            [
+              "article:nth-child(9) > .allb-card-copy > .allb-card-kicker > span:nth-child(1)"
+            ],
+            [
+              "article:nth-child(9) > .allb-card-copy > .allb-card-kicker > span:nth-child(2)"
+            ],
+            [
+              "h2 > a[href$=\"core-aham\"]"
+            ],
+            [
+              "article:nth-child(9) > .allb-card-copy > p"
+            ],
+            [
+              ".allb-card-link[href$=\"core-aham\"]"
+            ],
+            [
+              "article:nth-child(10) > .allb-card-copy > .allb-card-kicker > span:nth-child(1)"
+            ],
+            [
+              "article:nth-child(10) > .allb-card-copy > .allb-card-kicker > span:nth-child(2)"
+            ],
+            [
+              "h2 > a[href$=\"maataa-desktop\"]"
+            ],
+            [
+              "article:nth-child(10) > .allb-card-copy > p"
+            ],
+            [
+              ".allb-card-link[href$=\"maataa-desktop\"]"
+            ],
+            [
+              "article:nth-child(11) > .allb-card-copy > .allb-card-kicker > span:nth-child(1)"
+            ],
+            [
+              "article:nth-child(11) > .allb-card-copy > .allb-card-kicker > span:nth-child(2)"
+            ],
+            [
+              "h2 > a[href$=\"developer-tools\"]"
+            ],
+            [
+              "article:nth-child(11) > .allb-card-copy > p"
+            ],
+            [
+              ".allb-card-link[href$=\"developer-tools\"]"
+            ],
+            [
+              "article:nth-child(12) > .allb-card-copy > .allb-card-kicker > span:nth-child(1)"
+            ],
+            [
+              "article:nth-child(12) > .allb-card-copy > .allb-card-kicker > span:nth-child(2)"
+            ],
+            [
+              "h2 > a[href$=\"data-services\"]"
+            ],
+            [
+              "article:nth-child(12) > .allb-card-copy > p"
+            ],
+            [
+              ".allb-card-link[href$=\"data-services\"]"
+            ],
+            [
+              "article:nth-child(13) > .allb-card-copy > .allb-card-kicker > span:nth-child(1)"
+            ],
+            [
+              "article:nth-child(13) > .allb-card-copy > .allb-card-kicker > span:nth-child(2)"
+            ],
+            [
+              "h2 > a[href$=\"operations\"]"
+            ],
+            [
+              "article:nth-child(13) > .allb-card-copy > p"
+            ],
+            [
+              ".allb-card-link[href$=\"operations\"]"
+            ],
+            [
+              "article:nth-child(14) > .allb-card-copy > .allb-card-kicker > span:nth-child(1)"
+            ],
+            [
+              "article:nth-child(14) > .allb-card-copy > .allb-card-kicker > span:nth-child(2)"
+            ],
+            [
+              "h2 > a[href$=\"maataa-db-studio\"]"
+            ],
+            [
+              "article:nth-child(14) > .allb-card-copy > p"
+            ],
+            [
+              ".allb-card-link[href$=\"maataa-db-studio\"]"
+            ],
+            [
+              "article:nth-child(15) > .allb-card-copy > .allb-card-kicker > span:nth-child(1)"
+            ],
+            [
+              "article:nth-child(15) > .allb-card-copy > .allb-card-kicker > span:nth-child(2)"
+            ],
+            [
+              "h2 > a[href$=\"governance\"]"
+            ],
+            [
+              "article:nth-child(15) > .allb-card-copy > p"
+            ],
+            [
+              ".allb-card-link[href$=\"governance\"]"
+            ],
+            [
+              "article:nth-child(16) > .allb-card-copy > .allb-card-kicker > span:nth-child(1)"
+            ],
+            [
+              "article:nth-child(16) > .allb-card-copy > .allb-card-kicker > span:nth-child(2)"
+            ],
+            [
+              "h2 > a[href$=\"commerce\"]"
+            ],
+            [
+              "article:nth-child(16) > .allb-card-copy > p"
+            ],
+            [
+              ".allb-card-link[href$=\"commerce\"]"
+            ],
+            [
+              "article:nth-child(17) > .allb-card-copy > .allb-card-kicker > span:nth-child(1)"
+            ],
+            [
+              "article:nth-child(17) > .allb-card-copy > .allb-card-kicker > span:nth-child(2)"
+            ],
+            [
+              "h2 > a[href$=\"tlps\"]"
+            ],
+            [
+              "article:nth-child(17) > .allb-card-copy > p"
+            ],
+            [
+              ".allb-card-link[href$=\"tlps\"]"
+            ],
+            [
+              "article:nth-child(18) > .allb-card-copy > .allb-card-kicker > span:nth-child(1)"
+            ],
+            [
+              "article:nth-child(18) > .allb-card-copy > .allb-card-kicker > span:nth-child(2)"
+            ],
+            [
+              "h2 > a[href$=\"nevo\"]"
+            ],
+            [
+              "article:nth-child(18) > .allb-card-copy > p"
+            ],
+            [
+              ".allb-card-link[href$=\"nevo\"]"
+            ],
+            [
+              "article:nth-child(19) > .allb-card-copy > .allb-card-kicker > span:nth-child(1)"
+            ],
+            [
+              "article:nth-child(19) > .allb-card-copy > .allb-card-kicker > span:nth-child(2)"
+            ],
+            [
+              "h2 > a[href$=\"hardware\"]"
+            ],
+            [
+              "article:nth-child(19) > .allb-card-copy > p"
+            ],
+            [
+              ".allb-card-link[href$=\"hardware\"]"
+            ],
+            [
+              "article:nth-child(20) > .allb-card-copy > .allb-card-kicker > span:nth-child(1)"
+            ],
+            [
+              "article:nth-child(20) > .allb-card-copy > .allb-card-kicker > span:nth-child(2)"
+            ],
+            [
+              "h2 > a[href$=\"shree\"]"
+            ],
+            [
+              "article:nth-child(20) > .allb-card-copy > p"
+            ],
+            [
+              ".allb-card-link[href$=\"shree\"]"
+            ],
+            [
+              "article:nth-child(21) > .allb-card-copy > .allb-card-kicker > span:nth-child(1)"
+            ],
+            [
+              "article:nth-child(21) > .allb-card-copy > .allb-card-kicker > span:nth-child(2)"
+            ],
+            [
+              "h2 > a[href$=\"applications\"]"
+            ],
+            [
+              "article:nth-child(21) > .allb-card-copy > p"
+            ],
+            [
+              ".allb-card-link[href$=\"applications\"]"
+            ],
+            [
+              "article:nth-child(22) > .allb-card-copy > .allb-card-kicker > span:nth-child(1)"
+            ],
+            [
+              "article:nth-child(22) > .allb-card-copy > .allb-card-kicker > span:nth-child(2)"
+            ],
+            [
+              "h2 > a[href$=\"samwat\"]"
+            ],
+            [
+              "article:nth-child(22) > .allb-card-copy > p"
+            ],
+            [
+              ".allb-card-link[href$=\"samwat\"]"
+            ],
+            [
+              "article:nth-child(23) > .allb-card-copy > .allb-card-kicker > span:nth-child(1)"
+            ],
+            [
+              "article:nth-child(23) > .allb-card-copy > .allb-card-kicker > span:nth-child(2)"
+            ],
+            [
+              "h2 > a[href$=\"observatory\"]"
+            ],
+            [
+              "article:nth-child(23) > .allb-card-copy > p"
+            ],
+            [
+              ".allb-card-link[href$=\"observatory\"]"
+            ],
+            [
+              "article:nth-child(24) > .allb-card-copy > .allb-card-kicker > span:nth-child(1)"
+            ],
+            [
+              "article:nth-child(24) > .allb-card-copy > .allb-card-kicker > span:nth-child(2)"
+            ],
+            [
+              "h2 > a[href$=\"hemant-clock\"]"
+            ],
+            [
+              "article:nth-child(24) > .allb-card-copy > p"
+            ],
+            [
+              ".allb-card-link[href$=\"hemant-clock\"]"
+            ],
+            [
+              "article:nth-child(25) > .allb-card-copy > .allb-card-kicker > span:nth-child(1)"
+            ],
+            [
+              "article:nth-child(25) > .allb-card-copy > .allb-card-kicker > span:nth-child(2)"
+            ],
+            [
+              "h2 > a[href$=\"games\"]"
+            ],
+            [
+              "article:nth-child(25) > .allb-card-copy > p"
+            ],
+            [
+              ".allb-card-link[href$=\"games\"]"
+            ],
+            [
+              "article:nth-child(26) > .allb-card-copy > .allb-card-kicker > span:nth-child(1)"
+            ],
+            [
+              "article:nth-child(26) > .allb-card-copy > .allb-card-kicker > span:nth-child(2)"
+            ],
+            [
+              "h2 > a[href$=\"panchanga\"]"
+            ],
+            [
+              "article:nth-child(26) > .allb-card-copy > p"
+            ],
+            [
+              ".allb-card-link[href$=\"panchanga\"]"
+            ],
+            [
+              "article:nth-child(27) > .allb-card-copy > .allb-card-kicker > span:nth-child(1)"
+            ],
+            [
+              "article:nth-child(27) > .allb-card-copy > .allb-card-kicker > span:nth-child(2)"
+            ],
+            [
+              "h2 > a[href$=\"apps\"]"
+            ],
+            [
+              "article:nth-child(27) > .allb-card-copy > p"
+            ],
+            [
+              ".allb-card-link[href$=\"apps\"]"
+            ],
+            [
+              "article:nth-child(28) > .allb-card-copy > .allb-card-kicker > span:nth-child(1)"
+            ],
+            [
+              "article:nth-child(28) > .allb-card-copy > .allb-card-kicker > span:nth-child(2)"
+            ],
+            [
+              "h2 > a[href$=\"sankranti\"]"
+            ],
+            [
+              "article:nth-child(28) > .allb-card-copy > p"
+            ],
+            [
+              ".allb-card-link[href$=\"sankranti\"]"
+            ],
+            [
+              "article:nth-child(29) > .allb-card-copy > .allb-card-kicker > span:nth-child(1)"
+            ],
+            [
+              "article:nth-child(29) > .allb-card-copy > .allb-card-kicker > span:nth-child(2)"
+            ],
+            [
+              "h2 > a[href$=\"product-directory\"]"
+            ],
+            [
+              "article:nth-child(29) > .allb-card-copy > p"
+            ],
+            [
+              ".allb-card-link[href$=\"product-directory\"]"
+            ],
+            [
+              "article:nth-child(30) > .allb-card-copy > .allb-card-kicker > span:nth-child(1)"
+            ],
+            [
+              "article:nth-child(30) > .allb-card-copy > .allb-card-kicker > span:nth-child(2)"
+            ],
+            [
+              "h2 > a[href$=\"simulation-timeline\"]"
+            ],
+            [
+              "article:nth-child(30) > .allb-card-copy > p"
+            ],
+            [
+              ".allb-card-link[href$=\"simulation-timeline\"]"
+            ],
+            [
+              "article:nth-child(31) > .allb-card-copy > .allb-card-kicker > span:nth-child(1)"
+            ],
+            [
+              "article:nth-child(31) > .allb-card-copy > .allb-card-kicker > span:nth-child(2)"
+            ],
+            [
+              "h2 > a[href$=\"production\"]"
+            ],
+            [
+              "article:nth-child(31) > .allb-card-copy > p"
+            ],
+            [
+              ".allb-card-link[href$=\"production\"]"
+            ],
+            [
+              "article:nth-child(32) > .allb-card-copy > .allb-card-kicker > span:nth-child(1)"
+            ],
+            [
+              "article:nth-child(32) > .allb-card-copy > .allb-card-kicker > span:nth-child(2)"
+            ],
+            [
+              "h2 > a[href$=\"developer-ecosystem\"]"
+            ],
+            [
+              "article:nth-child(32) > .allb-card-copy > p"
+            ],
+            [
+              ".allb-card-link[href$=\"developer-ecosystem\"]"
+            ],
+            [
+              "article:nth-child(33) > .allb-card-copy > .allb-card-kicker > span:nth-child(1)"
+            ],
+            [
+              "article:nth-child(33) > .allb-card-copy > .allb-card-kicker > span:nth-child(2)"
+            ],
+            [
+              "h2 > a[href$=\"nevo-workflow\"]"
+            ],
+            [
+              "article:nth-child(33) > .allb-card-copy > p"
+            ],
+            [
+              ".allb-card-link[href$=\"nevo-workflow\"]"
+            ],
+            [
+              "article:nth-child(34) > .allb-card-copy > .allb-card-kicker > span:nth-child(1)"
+            ],
+            [
+              "article:nth-child(34) > .allb-card-copy > .allb-card-kicker > span:nth-child(2)"
+            ],
+            [
+              "h2 > a[href$=\"roadmap\"]"
+            ],
+            [
+              "article:nth-child(34) > .allb-card-copy > p"
+            ],
+            [
+              ".allb-card-link[href$=\"roadmap\"]"
+            ],
+            [
+              "article:nth-child(35) > .allb-card-copy > .allb-card-kicker > span:nth-child(1)"
+            ],
+            [
+              "article:nth-child(35) > .allb-card-copy > .allb-card-kicker > span:nth-child(2)"
+            ],
+            [
+              "h2 > a[href$=\"tlps-workflow\"]"
+            ],
+            [
+              "article:nth-child(35) > .allb-card-copy > p"
+            ],
+            [
+              ".allb-card-link[href$=\"tlps-workflow\"]"
+            ],
+            [
+              "article:nth-child(36) > .allb-card-copy > .allb-card-kicker > span:nth-child(1)"
+            ],
+            [
+              "article:nth-child(36) > .allb-card-copy > .allb-card-kicker > span:nth-child(2)"
+            ],
+            [
+              "h2 > a[href$=\"samwat-research\"]"
+            ],
+            [
+              "article:nth-child(36) > .allb-card-copy > p"
+            ],
+            [
+              ".allb-card-link[href$=\"samwat-research\"]"
+            ],
+            [
+              ".allb-footer > span"
+            ],
+            [
+              ".allb-footer > p"
+            ],
+            [
+              ".allb-footer > a[href=\"/\"]"
+            ],
+            [
+              ".app-footer"
+            ],
+            [
+              "a[href$=\"readiness\"]"
+            ]
+          ]
+        }
+      ],
+      "contrastQualification": "manual_unverified_axe_uses_gradient_css_not_forced_paint"
+    },
+    {
+      "profile": "desktop-forced-colors",
+      "route": "/allb/allb",
+      "status": "structural_pass_contrast_unverified",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "systemColors": {
+        "forcedColors": true,
+        "bodyForeground": "rgb(0, 0, 0)",
+        "bodyBackground": "rgb(255, 255, 255)",
+        "bodyRatio": 21,
+        "navigationLinkRatio": 13.994023083921398
+      },
+      "rawAxeContrastFindings": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              ".app-brand > span"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href=\"/\"]"
+            ],
+            [
+              "a[aria-current=\"page\"]"
+            ],
+            [
+              "a[href$=\"workspace\"]"
+            ],
+            [
+              "a[href=\"/ui\"]"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href$=\"themes\"]"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href$=\"branding\"]"
+            ],
+            [
+              "a[href$=\"kanban\"]"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href$=\"nevo\"]"
+            ],
+            [
+              "a[href$=\"workflow\"]"
+            ],
+            [
+              "a[href$=\"security\"]"
+            ],
+            [
+              "a[href$=\"assets\"]"
+            ],
+            [
+              "a[href$=\"operations\"]"
+            ],
+            [
+              ".lp-archive-bar > a[href$=\"allb\"]"
+            ],
+            [
+              ".lp-archive-bar > span"
+            ],
+            [
+              ".lp-archive-bar > a[href=\"/\"]"
+            ],
+            [
+              "a[aria-label=\"ALLB ecosystem\"]"
+            ],
+            [
+              "#landing-navigation > a[href$=\"allb\"]"
+            ],
+            [
+              "a[href$=\"product-directory\"]"
+            ],
+            [
+              "#landing-navigation > a[href$=\"#explore\"]"
+            ],
+            [
+              "#landing-navigation > a[href$=\"#questions\"]"
+            ],
+            [
+              "aside"
+            ],
+            [
+              ".orb-0 > b"
+            ],
+            [
+              ".orb-0 > span"
+            ],
+            [
+              ".orb-1 > b"
+            ],
+            [
+              ".orb-1 > span"
+            ],
+            [
+              "#section-1 > .lp-section-heading > .lp-eyebrow"
+            ],
+            [
+              "#section-1 > .lp-section-heading > h2"
+            ],
+            [
+              "article:nth-child(1) > small"
+            ],
+            [
+              "article:nth-child(1) > h3"
+            ],
+            [
+              "a[href$=\"core-aham\"]"
+            ],
+            [
+              "article:nth-child(2) > small"
+            ],
+            [
+              "article:nth-child(2) > h3"
+            ],
+            [
+              "article:nth-child(3) > small"
+            ],
+            [
+              "article:nth-child(3) > h3"
+            ],
+            [
+              ".lp-text-link[href$=\"nevo\"]"
+            ],
+            [
+              ".lp-dash-sidebar > b"
+            ],
+            [
+              ".lp-dash-sidebar > button:nth-child(2)"
+            ],
+            [
+              ".lp-dash-sidebar > button:nth-child(3)"
+            ],
+            [
+              ".lp-dash-sidebar > button:nth-child(4)"
+            ],
+            [
+              ".lp-dash-body > .lp-code-bar > span:nth-child(1)"
+            ],
+            [
+              ".lp-code-bar > span:nth-child(2)"
+            ],
+            [
+              ".lp-dash-body > h3"
+            ],
+            [
+              ".lp-metric-grid > div:nth-child(1) > small"
+            ],
+            [
+              ".lp-metric-grid > div:nth-child(1) > b"
+            ],
+            [
+              "div:nth-child(2) > small"
+            ],
+            [
+              "div:nth-child(2) > b"
+            ],
+            [
+              "div:nth-child(3) > small"
+            ],
+            [
+              "div:nth-child(3) > b"
+            ],
+            [
+              ".lp-dash-row:nth-child(5) > span:nth-child(1)"
+            ],
+            [
+              ".lp-dash-row:nth-child(5) > .lp-status"
+            ],
+            [
+              ".lp-dash-row:nth-child(6) > span:nth-child(1)"
+            ],
+            [
+              ".lp-dash-row:nth-child(6) > span:nth-child(2)"
+            ],
+            [
+              "#section-3 > .lp-section-heading > .lp-eyebrow"
+            ],
+            [
+              "#section-3 > .lp-section-heading > h2"
+            ],
+            [
+              "a[href$=\"samwat\"] > h3"
+            ],
+            [
+              "a[href$=\"applications\"] > h3"
+            ],
+            [
+              "a[href$=\"maataa\"] > h3"
+            ],
+            [
+              "a[href$=\"samwat-research\"] > h3"
+            ],
+            [
+              "a[href$=\"production\"] > h3"
+            ],
+            [
+              "a[href$=\"apps\"] > h3"
+            ],
+            [
+              "#section-5 > .lp-section-heading > .lp-eyebrow"
+            ],
+            [
+              "#section-5 > .lp-section-heading > h2"
+            ],
+            [
+              "#_R_6eqlubsnnb_-tab-1"
+            ],
+            [
+              "#_R_6eqlubsnnb_-tab-2"
+            ],
+            [
+              "#_R_6eqlubsnnb_-panel > .lp-code-bar > span"
+            ],
+            [
+              ".lp-code-bar > button"
+            ],
+            [
+              "code"
+            ],
+            [
+              "#section-7 > .lp-section-heading > .lp-eyebrow"
+            ],
+            [
+              "#section-7 > .lp-section-heading > h2"
+            ],
+            [
+              "button:nth-child(1) > small"
+            ],
+            [
+              "button:nth-child(1) > b"
+            ],
+            [
+              "button:nth-child(2) > small"
+            ],
+            [
+              "button:nth-child(2) > b"
+            ],
+            [
+              "button:nth-child(3) > small"
+            ],
+            [
+              "button:nth-child(3) > b"
+            ],
+            [
+              "button:nth-child(4) > small"
+            ],
+            [
+              "button:nth-child(4) > b"
+            ],
+            [
+              "button:nth-child(5) > small"
+            ],
+            [
+              "button:nth-child(5) > b"
+            ],
+            [
+              ".lp-timeline-detail > h3"
+            ],
+            [
+              ".lp-timeline-detail > .lp-status"
+            ],
+            [
+              ".lp-app-handoff > a[href$=\"themes\"]"
+            ],
+            [
+              ".lp-app-handoff > a[href$=\"branding\"]"
+            ],
+            [
+              "#reference > details > summary"
+            ],
+            [
+              "div:nth-child(1) > .lp-wordmark[href$=\"allb\"]"
+            ],
+            [
+              ".lp-footer > div:nth-child(1) > p"
+            ],
+            [
+              ".lp-footer > div:nth-child(1) > small"
+            ],
+            [
+              ".lp-footer > div:nth-child(2) > h3"
+            ],
+            [
+              "a[href$=\"hardware\"]"
+            ],
+            [
+              ".lp-footer > div:nth-child(2) > a[href$=\"maataa\"]"
+            ],
+            [
+              ".lp-footer > div:nth-child(2) > a[href$=\"applications\"]"
+            ],
+            [
+              "div:nth-child(3) > h3"
+            ],
+            [
+              "div:nth-child(3) > a[href$=\"samwat\"]"
+            ],
+            [
+              "div:nth-child(3) > a[href$=\"nevo\"]"
+            ],
+            [
+              "a[href$=\"tlps\"]"
+            ],
+            [
+              "div:nth-child(4) > h3"
+            ],
+            [
+              "a[href$=\"developer-tools\"]"
+            ],
+            [
+              "a[href$=\"roadmap\"]"
+            ],
+            [
+              ".lp-footer > div:nth-child(4) > a[href$=\"#reference\"]"
+            ],
+            [
+              "div:nth-child(5) > h3"
+            ],
+            [
+              "div:nth-child(5) > a[href$=\"allb\"]"
+            ],
+            [
+              "div:nth-child(5) > a[href$=\"#questions\"]"
+            ],
+            [
+              "div:nth-child(5) > a[href=\"/\"]"
+            ],
+            [
+              "label"
+            ],
+            [
+              "input"
+            ],
+            [
+              "form > p[role=\"status\"]"
+            ],
+            [
+              ".lp-sequence > a[href$=\"allb\"]"
+            ],
+            [
+              ".lp-sequence > span"
+            ],
+            [
+              "a[href$=\"siddham\"]"
+            ],
+            [
+              ".app-footer"
+            ],
+            [
+              "a[href$=\"readiness\"]"
+            ]
+          ]
+        }
+      ],
+      "contrastQualification": "manual_unverified_axe_uses_gradient_css_not_forced_paint"
+    },
+    {
+      "profile": "desktop-forced-colors",
+      "route": "/allb/siddham",
+      "status": "structural_pass_contrast_unverified",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "systemColors": {
+        "forcedColors": true,
+        "bodyForeground": "rgb(0, 0, 0)",
+        "bodyBackground": "rgb(255, 255, 255)",
+        "bodyRatio": 21,
+        "navigationLinkRatio": 13.994023083921398
+      },
+      "rawAxeContrastFindings": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              ".app-brand > span"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href=\"/\"]"
+            ],
+            [
+              "a[aria-current=\"page\"]"
+            ],
+            [
+              "a[href$=\"workspace\"]"
+            ],
+            [
+              "a[href=\"/ui\"]"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href$=\"themes\"]"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href$=\"branding\"]"
+            ],
+            [
+              "a[href$=\"kanban\"]"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href$=\"nevo\"]"
+            ],
+            [
+              "a[href$=\"workflow\"]"
+            ],
+            [
+              "a[href$=\"security\"]"
+            ],
+            [
+              "a[href$=\"assets\"]"
+            ],
+            [
+              "a[href$=\"operations\"]"
+            ],
+            [
+              ".lp-archive-bar > a[href$=\"allb\"]"
+            ],
+            [
+              ".lp-archive-bar > span"
+            ],
+            [
+              ".lp-archive-bar > a[href=\"/\"]"
+            ],
+            [
+              "a[aria-label=\"ALLB ecosystem\"]"
+            ],
+            [
+              "#landing-navigation > a[href$=\"allb\"]"
+            ],
+            [
+              "a[href$=\"product-directory\"]"
+            ],
+            [
+              "#landing-navigation > a[href$=\"#explore\"]"
+            ],
+            [
+              "#landing-navigation > a[href$=\"#questions\"]"
+            ],
+            [
+              "aside"
+            ],
+            [
+              "#section-1 > .lp-section-heading > .lp-eyebrow"
+            ],
+            [
+              "#section-1 > .lp-section-heading > h2"
+            ],
+            [
+              "div:nth-child(1) > b"
+            ],
+            [
+              "div:nth-child(2) > b"
+            ],
+            [
+              "div:nth-child(3) > b"
+            ],
+            [
+              "div:nth-child(4) > b"
+            ],
+            [
+              "div:nth-child(5) > span:nth-child(1)"
+            ],
+            [
+              "div:nth-child(5) > b"
+            ],
+            [
+              "#section-3 > .lp-section-heading > .lp-eyebrow"
+            ],
+            [
+              "#section-3 > .lp-section-heading > h2"
+            ],
+            [
+              "#section-3 > .lp-editorial-cards > article:nth-child(1) > h3"
+            ],
+            [
+              ".lp-text-link[href$=\"nevo\"]"
+            ],
+            [
+              "#section-3 > .lp-editorial-cards > article:nth-child(2) > h3"
+            ],
+            [
+              ".lp-text-link[href$=\"siddham\"]"
+            ],
+            [
+              "#section-3 > .lp-editorial-cards > article:nth-child(3) > h3"
+            ],
+            [
+              ".lp-text-link[href$=\"samwat\"]"
+            ],
+            [
+              "#questions > .lp-section-heading > .lp-eyebrow"
+            ],
+            [
+              "#questions > .lp-section-heading > h2"
+            ],
+            [
+              ".lp-faq-grid > details:nth-child(1) > summary"
+            ],
+            [
+              "details:nth-child(2) > summary"
+            ],
+            [
+              "details:nth-child(3) > summary"
+            ],
+            [
+              "details:nth-child(4) > summary"
+            ],
+            [
+              ".lp-app-handoff > a[href$=\"themes\"]"
+            ],
+            [
+              ".lp-app-handoff > a[href$=\"branding\"]"
+            ],
+            [
+              "#reference > details > summary"
+            ],
+            [
+              "div:nth-child(1) > .lp-wordmark[href$=\"allb\"]"
+            ],
+            [
+              ".lp-footer > div:nth-child(1) > p"
+            ],
+            [
+              "div:nth-child(1) > small"
+            ],
+            [
+              ".lp-footer > div:nth-child(2) > h3"
+            ],
+            [
+              "a[href$=\"hardware\"]"
+            ],
+            [
+              "a[href$=\"maataa\"]"
+            ],
+            [
+              "a[href$=\"applications\"]"
+            ],
+            [
+              "div:nth-child(3) > h3"
+            ],
+            [
+              "div:nth-child(3) > a[href$=\"samwat\"]"
+            ],
+            [
+              "div:nth-child(3) > a[href$=\"nevo\"]"
+            ],
+            [
+              "a[href$=\"tlps\"]"
+            ],
+            [
+              "div:nth-child(4) > h3"
+            ],
+            [
+              "a[href$=\"developer-tools\"]"
+            ],
+            [
+              "a[href$=\"roadmap\"]"
+            ],
+            [
+              ".lp-footer > div:nth-child(4) > a[href$=\"#reference\"]"
+            ],
+            [
+              "div:nth-child(5) > h3"
+            ],
+            [
+              "div:nth-child(5) > a[href$=\"allb\"]"
+            ],
+            [
+              "div:nth-child(5) > a[href$=\"#questions\"]"
+            ],
+            [
+              "div:nth-child(5) > a[href=\"/\"]"
+            ],
+            [
+              "label"
+            ],
+            [
+              "input"
+            ],
+            [
+              "p[role=\"status\"]"
+            ],
+            [
+              ".lp-sequence > a[href$=\"allb\"]"
+            ],
+            [
+              ".lp-sequence > span"
+            ],
+            [
+              "a[href$=\"kharoshti\"]"
+            ],
+            [
+              ".app-footer"
+            ],
+            [
+              "a[href$=\"readiness\"]"
+            ]
+          ]
+        }
+      ],
+      "contrastQualification": "manual_unverified_axe_uses_gradient_css_not_forced_paint"
+    },
+    {
+      "profile": "desktop-forced-colors",
+      "route": "/allb/maataa-ui",
+      "status": "structural_pass_contrast_unverified",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "systemColors": {
+        "forcedColors": true,
+        "bodyForeground": "rgb(0, 0, 0)",
+        "bodyBackground": "rgb(255, 255, 255)",
+        "bodyRatio": 21,
+        "navigationLinkRatio": 13.994023083921398
+      },
+      "rawAxeContrastFindings": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              ".app-brand > span"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href=\"/\"]"
+            ],
+            [
+              "a[aria-current=\"page\"]"
+            ],
+            [
+              "a[href$=\"workspace\"]"
+            ],
+            [
+              "a[href=\"/ui\"]"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href$=\"themes\"]"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href$=\"branding\"]"
+            ],
+            [
+              "a[href$=\"kanban\"]"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href$=\"nevo\"]"
+            ],
+            [
+              "a[href$=\"workflow\"]"
+            ],
+            [
+              "a[href$=\"security\"]"
+            ],
+            [
+              "a[href$=\"assets\"]"
+            ],
+            [
+              "a[href$=\"operations\"]"
+            ],
+            [
+              ".lp-archive-bar > a[href$=\"allb\"]"
+            ],
+            [
+              ".lp-archive-bar > span"
+            ],
+            [
+              ".lp-archive-bar > a[href=\"/\"]"
+            ],
+            [
+              "a[aria-label=\"ALLB ecosystem\"]"
+            ],
+            [
+              "#landing-navigation > a[href$=\"allb\"]"
+            ],
+            [
+              "a[href$=\"product-directory\"]"
+            ],
+            [
+              "#landing-navigation > a[href$=\"#explore\"]"
+            ],
+            [
+              "#landing-navigation > a[href$=\"#questions\"]"
+            ],
+            [
+              "aside"
+            ],
+            [
+              "#section-1 > .lp-section-heading > .lp-eyebrow"
+            ],
+            [
+              "#section-1 > .lp-section-heading > h2"
+            ],
+            [
+              ".lp-token-grid > div:nth-child(1) > h3"
+            ],
+            [
+              ".lp-token-grid > div:nth-child(2) > h3"
+            ],
+            [
+              ".lp-token-grid > div:nth-child(3) > h3"
+            ],
+            [
+              ".lp-token-grid > div:nth-child(4) > h3"
+            ],
+            [
+              "#section-3 > .lp-section-heading > .lp-eyebrow"
+            ],
+            [
+              "#section-3 > .lp-section-heading > h2"
+            ],
+            [
+              ".lp-editorial-cards > article:nth-child(1) > small"
+            ],
+            [
+              ".lp-editorial-cards > article:nth-child(1) > h3"
+            ],
+            [
+              ".lp-editorial-cards > article:nth-child(2) > small"
+            ],
+            [
+              ".lp-editorial-cards > article:nth-child(2) > h3"
+            ],
+            [
+              "article:nth-child(3) > small"
+            ],
+            [
+              "article:nth-child(3) > h3"
+            ],
+            [
+              "article:nth-child(4) > small"
+            ],
+            [
+              "article:nth-child(4) > h3"
+            ],
+            [
+              ".theme-dark > small"
+            ],
+            [
+              ".theme-dark > h3"
+            ],
+            [
+              ".theme-dark > p"
+            ],
+            [
+              "#section-5 > .lp-section-heading > .lp-eyebrow"
+            ],
+            [
+              "#section-5 > .lp-section-heading > h2"
+            ],
+            [
+              "#_R_3cqlubsnnb_-tab-1"
+            ],
+            [
+              "#_R_3cqlubsnnb_-tab-2"
+            ],
+            [
+              ".lp-code-bar > span"
+            ],
+            [
+              ".lp-code-bar > button"
+            ],
+            [
+              "code"
+            ],
+            [
+              ".lp-app-handoff > a[href$=\"themes\"]"
+            ],
+            [
+              ".lp-app-handoff > a[href$=\"branding\"]"
+            ],
+            [
+              "#reference > details > summary"
+            ],
+            [
+              "div:nth-child(1) > .lp-wordmark[href$=\"allb\"]"
+            ],
+            [
+              ".lp-footer > div:nth-child(1) > p"
+            ],
+            [
+              "div:nth-child(1) > small"
+            ],
+            [
+              ".lp-footer > div:nth-child(2) > h3"
+            ],
+            [
+              "a[href$=\"hardware\"]"
+            ],
+            [
+              "div:nth-child(2) > a[href$=\"maataa\"]"
+            ],
+            [
+              "a[href$=\"applications\"]"
+            ],
+            [
+              ".lp-footer > div:nth-child(3) > h3"
+            ],
+            [
+              "a[href$=\"samwat\"]"
+            ],
+            [
+              "div:nth-child(3) > a[href$=\"nevo\"]"
+            ],
+            [
+              "a[href$=\"tlps\"]"
+            ],
+            [
+              ".lp-footer > div:nth-child(4) > h3"
+            ],
+            [
+              "a[href$=\"developer-tools\"]"
+            ],
+            [
+              "a[href$=\"roadmap\"]"
+            ],
+            [
+              ".lp-footer > div:nth-child(4) > a[href$=\"#reference\"]"
+            ],
+            [
+              "div:nth-child(5) > h3"
+            ],
+            [
+              "div:nth-child(5) > a[href$=\"allb\"]"
+            ],
+            [
+              "div:nth-child(5) > a[href$=\"#questions\"]"
+            ],
+            [
+              "div:nth-child(5) > a[href=\"/\"]"
+            ],
+            [
+              "label"
+            ],
+            [
+              "input"
+            ],
+            [
+              "form > p[role=\"status\"]"
+            ],
+            [
+              "a[href$=\"brahmi\"]"
+            ],
+            [
+              ".lp-sequence > span"
+            ],
+            [
+              ".lp-sequence > a[href$=\"maataa\"]"
+            ],
+            [
+              ".app-footer"
+            ],
+            [
+              "a[href$=\"readiness\"]"
+            ]
+          ]
+        }
+      ],
+      "contrastQualification": "manual_unverified_axe_uses_gradient_css_not_forced_paint"
+    },
+    {
+      "profile": "desktop-forced-colors",
+      "route": "/allb/developer-tools",
+      "status": "structural_pass_contrast_unverified",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "systemColors": {
+        "forcedColors": true,
+        "bodyForeground": "rgb(0, 0, 0)",
+        "bodyBackground": "rgb(255, 255, 255)",
+        "bodyRatio": 21,
+        "navigationLinkRatio": 13.994023083921398
+      },
+      "rawAxeContrastFindings": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              ".app-brand > span"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href=\"/\"]"
+            ],
+            [
+              "a[aria-current=\"page\"]"
+            ],
+            [
+              "a[href$=\"workspace\"]"
+            ],
+            [
+              "a[href=\"/ui\"]"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href$=\"themes\"]"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href$=\"branding\"]"
+            ],
+            [
+              "a[href$=\"kanban\"]"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href$=\"nevo\"]"
+            ],
+            [
+              "a[href$=\"workflow\"]"
+            ],
+            [
+              "a[href$=\"security\"]"
+            ],
+            [
+              "a[href$=\"assets\"]"
+            ],
+            [
+              "a[href$=\"operations\"]"
+            ],
+            [
+              ".lp-archive-bar > a[href$=\"allb\"]"
+            ],
+            [
+              ".lp-archive-bar > span"
+            ],
+            [
+              ".lp-archive-bar > a[href=\"/\"]"
+            ],
+            [
+              "a[aria-label=\"ALLB ecosystem\"]"
+            ],
+            [
+              "#landing-navigation > a[href$=\"allb\"]"
+            ],
+            [
+              "a[href$=\"product-directory\"]"
+            ],
+            [
+              "#landing-navigation > a[href$=\"#explore\"]"
+            ],
+            [
+              "#landing-navigation > a[href$=\"#questions\"]"
+            ],
+            [
+              "aside"
+            ],
+            [
+              "#section-1 > .lp-section-heading > .lp-eyebrow"
+            ],
+            [
+              "#section-1 > .lp-section-heading > h2"
+            ],
+            [
+              "#_R_34qlubsnnb_-tab-1"
+            ],
+            [
+              "#_R_34qlubsnnb_-tab-2"
+            ],
+            [
+              "#_R_34qlubsnnb_-tab-3"
+            ],
+            [
+              ".lp-code-bar > span"
+            ],
+            [
+              ".lp-code-bar > button"
+            ],
+            [
+              "code"
+            ],
+            [
+              "#section-3 > .lp-section-heading > .lp-eyebrow"
+            ],
+            [
+              "#section-3 > .lp-section-heading > h2"
+            ],
+            [
+              "button:nth-child(1) > small"
+            ],
+            [
+              "button:nth-child(1) > b"
+            ],
+            [
+              "button:nth-child(2) > small"
+            ],
+            [
+              "button:nth-child(2) > b"
+            ],
+            [
+              "button:nth-child(3) > small"
+            ],
+            [
+              "button:nth-child(3) > b"
+            ],
+            [
+              "button:nth-child(4) > small"
+            ],
+            [
+              "button:nth-child(4) > b"
+            ],
+            [
+              ".lp-timeline-detail > h3"
+            ],
+            [
+              ".lp-status"
+            ],
+            [
+              ".lp-app-handoff > a[href$=\"themes\"]"
+            ],
+            [
+              ".lp-app-handoff > a[href$=\"branding\"]"
+            ],
+            [
+              "#reference > details > summary"
+            ],
+            [
+              "div:nth-child(1) > .lp-wordmark[href$=\"allb\"]"
+            ],
+            [
+              ".lp-footer > div:nth-child(1) > p"
+            ],
+            [
+              "div:nth-child(1) > small"
+            ],
+            [
+              ".lp-footer > div:nth-child(2) > h3"
+            ],
+            [
+              "a[href$=\"hardware\"]"
+            ],
+            [
+              "a[href$=\"maataa\"]"
+            ],
+            [
+              "a[href$=\"applications\"]"
+            ],
+            [
+              "div:nth-child(3) > h3"
+            ],
+            [
+              "a[href$=\"samwat\"]"
+            ],
+            [
+              "div:nth-child(3) > a[href$=\"nevo\"]"
+            ],
+            [
+              "a[href$=\"tlps\"]"
+            ],
+            [
+              "div:nth-child(4) > h3"
+            ],
+            [
+              ".lp-footer > div:nth-child(4) > a[href$=\"developer-tools\"]"
+            ],
+            [
+              "a[href$=\"roadmap\"]"
+            ],
+            [
+              ".lp-footer > div:nth-child(4) > a[href$=\"#reference\"]"
+            ],
+            [
+              "div:nth-child(5) > h3"
+            ],
+            [
+              "div:nth-child(5) > a[href$=\"allb\"]"
+            ],
+            [
+              "div:nth-child(5) > a[href$=\"#questions\"]"
+            ],
+            [
+              "div:nth-child(5) > a[href=\"/\"]"
+            ],
+            [
+              "label"
+            ],
+            [
+              "input"
+            ],
+            [
+              "form > p[role=\"status\"]"
+            ],
+            [
+              "a[href$=\"maataa-desktop\"]"
+            ],
+            [
+              ".lp-sequence > span"
+            ],
+            [
+              "a[href$=\"data-services\"]"
+            ],
+            [
+              ".app-footer"
+            ],
+            [
+              "a[href$=\"readiness\"]"
+            ]
+          ]
+        }
+      ],
+      "contrastQualification": "manual_unverified_axe_uses_gradient_css_not_forced_paint"
+    },
+    {
+      "profile": "desktop-forced-colors",
+      "route": "/allb/apps",
+      "status": "structural_pass_contrast_unverified",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "systemColors": {
+        "forcedColors": true,
+        "bodyForeground": "rgb(0, 0, 0)",
+        "bodyBackground": "rgb(255, 255, 255)",
+        "bodyRatio": 21,
+        "navigationLinkRatio": 13.994023083921398
+      },
+      "rawAxeContrastFindings": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              ".app-brand > span"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href=\"/\"]"
+            ],
+            [
+              "a[aria-current=\"page\"]"
+            ],
+            [
+              "a[href$=\"workspace\"]"
+            ],
+            [
+              "a[href=\"/ui\"]"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href$=\"themes\"]"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href$=\"branding\"]"
+            ],
+            [
+              "a[href$=\"kanban\"]"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href$=\"nevo\"]"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href$=\"workflow\"]"
+            ],
+            [
+              "a[href$=\"security\"]"
+            ],
+            [
+              "a[href$=\"assets\"]"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href$=\"operations\"]"
+            ],
+            [
+              ".lp-archive-bar > a[href$=\"allb\"]"
+            ],
+            [
+              ".lp-archive-bar > span"
+            ],
+            [
+              ".lp-archive-bar > a[href=\"/\"]"
+            ],
+            [
+              "a[aria-label=\"ALLB ecosystem\"]"
+            ],
+            [
+              "#landing-navigation > a[href$=\"allb\"]"
+            ],
+            [
+              "#landing-navigation > a[href$=\"product-directory\"]"
+            ],
+            [
+              "#landing-navigation > a[href$=\"#explore\"]"
+            ],
+            [
+              "#landing-navigation > a[href$=\"#questions\"]"
+            ],
+            [
+              "aside"
+            ],
+            [
+              "input[type=\"search\"]"
+            ],
+            [
+              "select"
+            ],
+            [
+              "#section-1 > .lp-section-heading > .lp-eyebrow"
+            ],
+            [
+              "#section-1 > .lp-section-heading > h2"
+            ],
+            [
+              "article:nth-child(1) > small"
+            ],
+            [
+              "article:nth-child(1) > h3"
+            ],
+            [
+              "article:nth-child(2) > small"
+            ],
+            [
+              "article:nth-child(2) > h3"
+            ],
+            [
+              "article:nth-child(3) > small"
+            ],
+            [
+              "article:nth-child(3) > h3"
+            ],
+            [
+              "article:nth-child(4) > small"
+            ],
+            [
+              "article:nth-child(4) > h3"
+            ],
+            [
+              "article:nth-child(5) > small"
+            ],
+            [
+              "article:nth-child(5) > h3"
+            ],
+            [
+              "#section-3 > .lp-section-heading > .lp-eyebrow"
+            ],
+            [
+              "#section-3 > .lp-section-heading > h2"
+            ],
+            [
+              "button:nth-child(1) > small"
+            ],
+            [
+              "button:nth-child(1) > b"
+            ],
+            [
+              "button:nth-child(2) > small"
+            ],
+            [
+              "button:nth-child(2) > b"
+            ],
+            [
+              "button:nth-child(3) > small"
+            ],
+            [
+              "button:nth-child(3) > b"
+            ],
+            [
+              ".lp-timeline-detail > h3"
+            ],
+            [
+              ".lp-status"
+            ],
+            [
+              ".lp-app-handoff > a[href$=\"themes\"]"
+            ],
+            [
+              ".lp-app-handoff > a[href$=\"branding\"]"
+            ],
+            [
+              "#reference > details > summary"
+            ],
+            [
+              "div:nth-child(1) > .lp-wordmark[href$=\"allb\"]"
+            ],
+            [
+              ".lp-footer > div:nth-child(1) > p"
+            ],
+            [
+              "div:nth-child(1) > small"
+            ],
+            [
+              ".lp-footer > div:nth-child(2) > h3"
+            ],
+            [
+              "div:nth-child(2) > a[href$=\"hardware\"]"
+            ],
+            [
+              "div:nth-child(2) > a[href$=\"maataa\"]"
+            ],
+            [
+              "div:nth-child(2) > a[href$=\"applications\"]"
+            ],
+            [
+              "div:nth-child(3) > h3"
+            ],
+            [
+              "div:nth-child(3) > a[href$=\"samwat\"]"
+            ],
+            [
+              "div:nth-child(3) > a[href$=\"nevo\"]"
+            ],
+            [
+              "div:nth-child(3) > a[href$=\"tlps\"]"
+            ],
+            [
+              "div:nth-child(4) > h3"
+            ],
+            [
+              ".lp-footer > div:nth-child(4) > a[href$=\"developer-tools\"]"
+            ],
+            [
+              ".lp-footer > div:nth-child(4) > a[href$=\"roadmap\"]"
+            ],
+            [
+              ".lp-footer > div:nth-child(4) > a[href$=\"#reference\"]"
+            ],
+            [
+              "div:nth-child(5) > h3"
+            ],
+            [
+              "div:nth-child(5) > a[href$=\"allb\"]"
+            ],
+            [
+              "div:nth-child(5) > a[href$=\"#questions\"]"
+            ],
+            [
+              "div:nth-child(5) > a[href=\"/\"]"
+            ],
+            [
+              "form > label"
+            ],
+            [
+              "input[type=\"email\"]"
+            ],
+            [
+              "p[role=\"status\"]"
+            ],
+            [
+              ".lp-sequence > a[href$=\"panchanga\"]"
+            ],
+            [
+              ".lp-sequence > span"
+            ],
+            [
+              ".lp-sequence > a[href$=\"sankranti\"]"
+            ],
+            [
+              ".app-footer"
+            ],
+            [
+              "a[href$=\"readiness\"]"
+            ]
+          ]
+        }
+      ],
+      "contrastQualification": "manual_unverified_axe_uses_gradient_css_not_forced_paint"
+    },
+    {
+      "profile": "desktop-forced-colors",
+      "route": "/allb/nevo",
+      "status": "structural_pass_contrast_unverified",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "systemColors": {
+        "forcedColors": true,
+        "bodyForeground": "rgb(0, 0, 0)",
+        "bodyBackground": "rgb(255, 255, 255)",
+        "bodyRatio": 21,
+        "navigationLinkRatio": 13.994023083921398
+      },
+      "rawAxeContrastFindings": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              ".app-brand > span"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href=\"/\"]"
+            ],
+            [
+              "a[aria-current=\"page\"]"
+            ],
+            [
+              "a[href$=\"workspace\"]"
+            ],
+            [
+              "a[href=\"/ui\"]"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href$=\"themes\"]"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href$=\"branding\"]"
+            ],
+            [
+              "a[href$=\"kanban\"]"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href$=\"nevo\"]"
+            ],
+            [
+              "a[href$=\"workflow\"]"
+            ],
+            [
+              "a[href$=\"security\"]"
+            ],
+            [
+              "a[href$=\"assets\"]"
+            ],
+            [
+              "a[href$=\"operations\"]"
+            ],
+            [
+              ".lp-archive-bar > a[href$=\"allb\"]"
+            ],
+            [
+              ".lp-archive-bar > span"
+            ],
+            [
+              ".lp-archive-bar > a[href=\"/\"]"
+            ],
+            [
+              "a[aria-label=\"ALLB ecosystem\"]"
+            ],
+            [
+              "#landing-navigation > a[href$=\"allb\"]"
+            ],
+            [
+              "a[href$=\"product-directory\"]"
+            ],
+            [
+              "#landing-navigation > a[href$=\"#explore\"]"
+            ],
+            [
+              "#landing-navigation > a[href$=\"#questions\"]"
+            ],
+            [
+              ".lp-hero-copy > .lp-eyebrow"
+            ],
+            [
+              "h1"
+            ],
+            [
+              ".lp-hero-copy > p:nth-child(3)"
+            ],
+            [
+              ".lp-outline"
+            ],
+            [
+              ".lp-hero-foot"
+            ],
+            [
+              "aside"
+            ],
+            [
+              "#section-1 > .lp-section-heading > .lp-eyebrow"
+            ],
+            [
+              "#section-1 > .lp-section-heading > h2"
+            ],
+            [
+              "label:nth-child(2)"
+            ],
+            [
+              "select"
+            ],
+            [
+              "label:nth-child(3)"
+            ],
+            [
+              "input[type=\"number\"]"
+            ],
+            [
+              "label:nth-child(4)"
+            ],
+            [
+              "input[name=\"location\"]"
+            ],
+            [
+              "blockquote > p"
+            ],
+            [
+              "blockquote > small"
+            ],
+            [
+              ".lp-app-handoff > a[href$=\"themes\"]"
+            ],
+            [
+              ".lp-app-handoff > a[href$=\"branding\"]"
+            ],
+            [
+              "#reference > details > summary"
+            ],
+            [
+              "div:nth-child(1) > .lp-wordmark[href$=\"allb\"]"
+            ],
+            [
+              ".lp-footer > div:nth-child(1) > p"
+            ],
+            [
+              "div:nth-child(1) > small"
+            ],
+            [
+              ".lp-footer > div:nth-child(2) > h3"
+            ],
+            [
+              "div:nth-child(2) > a[href$=\"hardware\"]"
+            ],
+            [
+              "a[href$=\"maataa\"]"
+            ],
+            [
+              "a[href$=\"applications\"]"
+            ],
+            [
+              "div:nth-child(3) > h3"
+            ],
+            [
+              "a[href$=\"samwat\"]"
+            ],
+            [
+              "div:nth-child(3) > a[href$=\"nevo\"]"
+            ],
+            [
+              "div:nth-child(3) > a[href$=\"tlps\"]"
+            ],
+            [
+              "div:nth-child(4) > h3"
+            ],
+            [
+              "a[href$=\"developer-tools\"]"
+            ],
+            [
+              "a[href$=\"roadmap\"]"
+            ],
+            [
+              ".lp-footer > div:nth-child(4) > a[href$=\"#reference\"]"
+            ],
+            [
+              "div:nth-child(5) > h3"
+            ],
+            [
+              "div:nth-child(5) > a[href$=\"allb\"]"
+            ],
+            [
+              "div:nth-child(5) > a[href$=\"#questions\"]"
+            ],
+            [
+              "div:nth-child(5) > a[href=\"/\"]"
+            ],
+            [
+              ".lp-newsletter > label"
+            ],
+            [
+              "input[type=\"email\"]"
+            ],
+            [
+              "p[role=\"status\"]"
+            ],
+            [
+              ".lp-sequence > a[href$=\"tlps\"]"
+            ],
+            [
+              ".lp-sequence > span"
+            ],
+            [
+              ".lp-sequence > a[href$=\"hardware\"]"
+            ],
+            [
+              ".app-footer"
+            ],
+            [
+              "a[href$=\"readiness\"]"
+            ]
+          ]
+        }
+      ],
+      "contrastQualification": "manual_unverified_axe_uses_gradient_css_not_forced_paint",
+      "screenshotSha256": "0f8b7fe9f239ed5bd09d300dc54c32780d99bd36b068131fc428bebbe966a8c7"
+    },
+    {
+      "profile": "desktop-forced-colors",
+      "route": "/allb/observatory",
+      "status": "structural_pass_contrast_unverified",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "systemColors": {
+        "forcedColors": true,
+        "bodyForeground": "rgb(0, 0, 0)",
+        "bodyBackground": "rgb(255, 255, 255)",
+        "bodyRatio": 21,
+        "navigationLinkRatio": 13.994023083921398
+      },
+      "rawAxeContrastFindings": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              ".app-brand > span"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href=\"/\"]"
+            ],
+            [
+              "a[aria-current=\"page\"]"
+            ],
+            [
+              "a[href$=\"workspace\"]"
+            ],
+            [
+              "a[href=\"/ui\"]"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href$=\"themes\"]"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href$=\"branding\"]"
+            ],
+            [
+              "a[href$=\"kanban\"]"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href$=\"nevo\"]"
+            ],
+            [
+              "a[href$=\"workflow\"]"
+            ],
+            [
+              "a[href$=\"security\"]"
+            ],
+            [
+              "a[href$=\"assets\"]"
+            ],
+            [
+              "a[href$=\"operations\"]"
+            ],
+            [
+              ".lp-archive-bar > a[href$=\"allb\"]"
+            ],
+            [
+              ".lp-archive-bar > span"
+            ],
+            [
+              ".lp-archive-bar > a[href=\"/\"]"
+            ],
+            [
+              "a[aria-label=\"ALLB ecosystem\"]"
+            ],
+            [
+              "#landing-navigation > a[href$=\"allb\"]"
+            ],
+            [
+              "a[href$=\"product-directory\"]"
+            ],
+            [
+              "#landing-navigation > a[href$=\"#explore\"]"
+            ],
+            [
+              "#landing-navigation > a[href$=\"#questions\"]"
+            ],
+            [
+              "aside"
+            ],
+            [
+              "label:nth-child(2)"
+            ],
+            [
+              "input[name=\"location\"]"
+            ],
+            [
+              ".lp-form > label:nth-child(3)"
+            ],
+            [
+              "input[type=\"date\"]"
+            ],
+            [
+              "label:nth-child(4)"
+            ],
+            [
+              "select"
+            ],
+            [
+              "#section-1 > .lp-section-heading > .lp-eyebrow"
+            ],
+            [
+              "#section-1 > .lp-section-heading > h2"
+            ],
+            [
+              ".lp-chips > button:nth-child(2)"
+            ],
+            [
+              ".lp-chips > button:nth-child(3)"
+            ],
+            [
+              "button:nth-child(4)"
+            ],
+            [
+              ".lp-sky-demo > label"
+            ],
+            [
+              "output"
+            ],
+            [
+              "#section-3 > .lp-section-heading > .lp-eyebrow"
+            ],
+            [
+              "#section-3 > .lp-section-heading > h2"
+            ],
+            [
+              "div:nth-child(1) > b"
+            ],
+            [
+              "div:nth-child(2) > b"
+            ],
+            [
+              "div:nth-child(3) > b"
+            ],
+            [
+              "div:nth-child(4) > span:nth-child(1)"
+            ],
+            [
+              "div:nth-child(4) > b"
+            ],
+            [
+              ".lp-app-handoff > a[href$=\"themes\"]"
+            ],
+            [
+              ".lp-app-handoff > a[href$=\"branding\"]"
+            ],
+            [
+              "#reference > details > summary"
+            ],
+            [
+              "div:nth-child(1) > .lp-wordmark[href$=\"allb\"]"
+            ],
+            [
+              ".lp-footer > div:nth-child(1) > p"
+            ],
+            [
+              "div:nth-child(1) > small"
+            ],
+            [
+              ".lp-footer > div:nth-child(2) > h3"
+            ],
+            [
+              "a[href$=\"hardware\"]"
+            ],
+            [
+              "a[href$=\"maataa\"]"
+            ],
+            [
+              "a[href$=\"applications\"]"
+            ],
+            [
+              "div:nth-child(3) > h3"
+            ],
+            [
+              "div:nth-child(3) > a[href$=\"samwat\"]"
+            ],
+            [
+              "div:nth-child(3) > a[href$=\"nevo\"]"
+            ],
+            [
+              "a[href$=\"tlps\"]"
+            ],
+            [
+              "div:nth-child(4) > h3"
+            ],
+            [
+              "a[href$=\"developer-tools\"]"
+            ],
+            [
+              "a[href$=\"roadmap\"]"
+            ],
+            [
+              ".lp-footer > div:nth-child(4) > a[href$=\"#reference\"]"
+            ],
+            [
+              "div:nth-child(5) > h3"
+            ],
+            [
+              "div:nth-child(5) > a[href$=\"allb\"]"
+            ],
+            [
+              "div:nth-child(5) > a[href$=\"#questions\"]"
+            ],
+            [
+              "div:nth-child(5) > a[href=\"/\"]"
+            ],
+            [
+              ".lp-newsletter > label"
+            ],
+            [
+              "input[type=\"email\"]"
+            ],
+            [
+              "p[role=\"status\"]"
+            ],
+            [
+              ".lp-sequence > a[href$=\"samwat\"]"
+            ],
+            [
+              ".lp-sequence > span"
+            ],
+            [
+              "a[href$=\"hemant-clock\"]"
+            ],
+            [
+              ".app-footer"
+            ],
+            [
+              "a[href$=\"readiness\"]"
+            ]
+          ]
+        }
+      ],
+      "contrastQualification": "manual_unverified_axe_uses_gradient_css_not_forced_paint"
+    },
+    {
+      "profile": "desktop-forced-colors",
+      "route": "/allb/games",
+      "status": "structural_pass_contrast_unverified",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "systemColors": {
+        "forcedColors": true,
+        "bodyForeground": "rgb(0, 0, 0)",
+        "bodyBackground": "rgb(255, 255, 255)",
+        "bodyRatio": 21,
+        "navigationLinkRatio": 13.994023083921398
+      },
+      "rawAxeContrastFindings": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              ".app-brand > span"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href=\"/\"]"
+            ],
+            [
+              "a[aria-current=\"page\"]"
+            ],
+            [
+              "a[href$=\"workspace\"]"
+            ],
+            [
+              "a[href=\"/ui\"]"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href$=\"themes\"]"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href$=\"branding\"]"
+            ],
+            [
+              "a[href$=\"kanban\"]"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href$=\"nevo\"]"
+            ],
+            [
+              "a[href$=\"workflow\"]"
+            ],
+            [
+              "a[href$=\"security\"]"
+            ],
+            [
+              "a[href$=\"assets\"]"
+            ],
+            [
+              "a[href$=\"operations\"]"
+            ],
+            [
+              ".lp-archive-bar > a[href$=\"allb\"]"
+            ],
+            [
+              ".lp-archive-bar > span"
+            ],
+            [
+              ".lp-archive-bar > a[href=\"/\"]"
+            ],
+            [
+              "a[aria-label=\"ALLB ecosystem\"]"
+            ],
+            [
+              "#landing-navigation > a[href$=\"allb\"]"
+            ],
+            [
+              "a[href$=\"product-directory\"]"
+            ],
+            [
+              "#landing-navigation > a[href$=\"#explore\"]"
+            ],
+            [
+              "#landing-navigation > a[href$=\"#questions\"]"
+            ],
+            [
+              "aside"
+            ],
+            [
+              "#section-1 > .lp-section-heading > .lp-eyebrow"
+            ],
+            [
+              "#section-1 > .lp-section-heading > h2"
+            ],
+            [
+              "input[type=\"search\"]"
+            ],
+            [
+              "select"
+            ],
+            [
+              "#section-4 > .lp-section-heading > .lp-eyebrow"
+            ],
+            [
+              "#section-4 > .lp-section-heading > h2"
+            ],
+            [
+              ".lp-app-handoff > a[href$=\"themes\"]"
+            ],
+            [
+              ".lp-app-handoff > a[href$=\"branding\"]"
+            ],
+            [
+              "#reference > details > summary"
+            ],
+            [
+              "div:nth-child(1) > .lp-wordmark[href$=\"allb\"]"
+            ],
+            [
+              ".lp-footer > div:nth-child(1) > p"
+            ],
+            [
+              "div:nth-child(1) > small"
+            ],
+            [
+              ".lp-footer > div:nth-child(2) > h3"
+            ],
+            [
+              "a[href$=\"hardware\"]"
+            ],
+            [
+              "a[href$=\"maataa\"]"
+            ],
+            [
+              ".lp-footer > div:nth-child(2) > a[href$=\"applications\"]"
+            ],
+            [
+              "div:nth-child(3) > h3"
+            ],
+            [
+              "a[href$=\"samwat\"]"
+            ],
+            [
+              "div:nth-child(3) > a[href$=\"nevo\"]"
+            ],
+            [
+              "a[href$=\"tlps\"]"
+            ],
+            [
+              "div:nth-child(4) > h3"
+            ],
+            [
+              "a[href$=\"developer-tools\"]"
+            ],
+            [
+              "a[href$=\"roadmap\"]"
+            ],
+            [
+              ".lp-footer > div:nth-child(4) > a[href$=\"#reference\"]"
+            ],
+            [
+              "div:nth-child(5) > h3"
+            ],
+            [
+              "div:nth-child(5) > a[href$=\"allb\"]"
+            ],
+            [
+              "div:nth-child(5) > a[href$=\"#questions\"]"
+            ],
+            [
+              "div:nth-child(5) > a[href=\"/\"]"
+            ],
+            [
+              "form > label"
+            ],
+            [
+              "input[type=\"email\"]"
+            ],
+            [
+              "p[role=\"status\"]"
+            ],
+            [
+              "a[href$=\"hemant-clock\"]"
+            ],
+            [
+              ".lp-sequence > span"
+            ],
+            [
+              "a[href$=\"panchanga\"]"
+            ],
+            [
+              ".app-footer"
+            ],
+            [
+              "a[href$=\"readiness\"]"
+            ]
+          ]
+        }
+      ],
+      "contrastQualification": "manual_unverified_axe_uses_gradient_css_not_forced_paint"
+    },
+    {
+      "profile": "desktop-forced-colors",
+      "route": "/studio/themes",
+      "status": "structural_pass_contrast_unverified",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "systemColors": {
+        "forcedColors": true,
+        "bodyForeground": "rgb(0, 0, 0)",
+        "bodyBackground": "rgb(255, 255, 255)",
+        "bodyRatio": 21,
+        "navigationLinkRatio": 13.994023083921398
+      },
+      "rawAxeContrastFindings": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "span"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href=\"/\"]"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href$=\"allb\"]"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href$=\"workspace\"]"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href=\"/ui\"]"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href$=\"themes\"]"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href$=\"branding\"]"
+            ],
+            [
+              "a[href$=\"kanban\"]"
+            ],
+            [
+              "a[href$=\"nevo\"]"
+            ],
+            [
+              "a[href$=\"workflow\"]"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href$=\"security\"]"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href$=\"assets\"]"
+            ],
+            [
+              "a[href$=\"operations\"]"
+            ],
+            [
+              "details[open=\"\"]:nth-child(1) > summary"
+            ],
+            [
+              "details[open=\"\"]:nth-child(1) > a[href=\"/\"]"
+            ],
+            [
+              "a[href$=\"overview\"]"
+            ],
+            [
+              "a[href$=\"getting-started\"]"
+            ],
+            [
+              "a[href$=\"installation\"]"
+            ],
+            [
+              "a[href$=\"quick-start\"]"
+            ],
+            [
+              "details:nth-child(2) > summary"
+            ],
+            [
+              "details[open=\"\"]:nth-child(3) > summary"
+            ],
+            [
+              "a[href$=\"components\"]"
+            ],
+            [
+              "details:nth-child(4) > summary"
+            ],
+            [
+              "details:nth-child(5) > summary"
+            ],
+            [
+              "details[open=\"\"]:nth-child(6) > summary"
+            ],
+            [
+              "a[href$=\"spatial\"]"
+            ],
+            [
+              "a[href$=\"map\"]"
+            ],
+            [
+              "a[href$=\"layers\"]"
+            ],
+            [
+              "a[href$=\"coordinates\"]"
+            ],
+            [
+              "a[href$=\"geometry\"]"
+            ],
+            [
+              "a[href$=\"measurement\"]"
+            ],
+            [
+              "a[href$=\"raster-terrain\"]"
+            ],
+            [
+              "a[href$=\"query\"]"
+            ],
+            [
+              "details[open=\"\"]:nth-child(7) > summary"
+            ],
+            [
+              "a[href=\"/3d\"]"
+            ],
+            [
+              "a[href$=\"viewport\"]"
+            ],
+            [
+              "a[href$=\"scene-tree\"]"
+            ],
+            [
+              "a[href$=\"transforms\"]"
+            ],
+            [
+              "details[open=\"\"]:nth-child(7) > a[href$=\"assets\"]"
+            ],
+            [
+              "a[href$=\"materials\"]"
+            ],
+            [
+              "a[href$=\"lighting\"]"
+            ],
+            [
+              "a[href$=\"cameras\"]"
+            ],
+            [
+              "a[href$=\"animation\"]"
+            ],
+            [
+              "a[href$=\"annotations\"]"
+            ],
+            [
+              "details:nth-child(8) > summary"
+            ],
+            [
+              "details:nth-child(9) > summary"
+            ],
+            [
+              "details:nth-child(10) > summary"
+            ],
+            [
+              "details:nth-child(11) > summary"
+            ],
+            [
+              "details:nth-child(12) > summary"
+            ],
+            [
+              "details[open=\"\"]:nth-child(13) > summary"
+            ],
+            [
+              "a[href$=\"studio\"]"
+            ],
+            [
+              "a[href$=\"workspaces\"]"
+            ],
+            [
+              "details[open=\"\"]:nth-child(13) > a[aria-current=\"page\"][href$=\"themes\"]"
+            ],
+            [
+              "a[href$=\"tokens\"]"
+            ],
+            [
+              "details[open=\"\"]:nth-child(13) > a[href$=\"assets\"]"
+            ],
+            [
+              "a[href$=\"scenes\"]"
+            ],
+            [
+              "a[href$=\"settings\"]"
+            ],
+            [
+              "a[href$=\"members\"]"
+            ],
+            [
+              "a[href$=\"permissions\"]"
+            ],
+            [
+              "details[open=\"\"]:nth-child(13) > a[href$=\"security\"]"
+            ],
+            [
+              "a[href$=\"sessions\"]"
+            ],
+            [
+              "a[href$=\"audit\"]"
+            ],
+            [
+              "details[open=\"\"]:nth-child(13) > a[href$=\"branding\"]"
+            ],
+            [
+              "details:nth-child(14) > summary"
+            ],
+            [
+              "details[open=\"\"]:nth-child(15) > summary"
+            ],
+            [
+              "details[open=\"\"]:nth-child(15) > a[href=\"/ui\"]"
+            ],
+            [
+              "details[open=\"\"]:nth-child(15) > a[href$=\"allb\"]"
+            ],
+            [
+              "details[open=\"\"]:nth-child(15) > a[href$=\"workspace\"]"
+            ],
+            [
+              "main > .eyebrow"
+            ],
+            [
+              "h1"
+            ],
+            [
+              ".lead"
+            ],
+            [
+              "nav[aria-label=\"Design studios\"] > a[aria-current=\"page\"][href$=\"themes\"]"
+            ],
+            [
+              "nav[aria-label=\"Design studios\"] > a[href$=\"branding\"]"
+            ],
+            [
+              "main > .notice"
+            ],
+            [
+              "main > fieldset > legend"
+            ],
+            [
+              "fieldset > .controls > label"
+            ],
+            [
+              "select[aria-label=\"Scope\"]"
+            ],
+            [
+              "section:nth-child(1) > h2"
+            ],
+            [
+              "section:nth-child(1) > p"
+            ],
+            [
+              "section:nth-child(1) > fieldset > legend"
+            ],
+            [
+              "section:nth-child(1) > fieldset > label:nth-child(2)"
+            ],
+            [
+              "select[aria-label=\"Preset\"]"
+            ],
+            [
+              "section:nth-child(1) > fieldset > label:nth-child(3)"
+            ],
+            [
+              "label:nth-child(3) > select"
+            ],
+            [
+              ".studio-colors > label:nth-child(1)"
+            ],
+            [
+              "label:nth-child(1) > code"
+            ],
+            [
+              ".studio-colors > label:nth-child(2)"
+            ],
+            [
+              "label:nth-child(2) > code"
+            ],
+            [
+              ".studio-colors > label:nth-child(3)"
+            ],
+            [
+              "label:nth-child(3) > code"
+            ],
+            [
+              ".studio-colors > label:nth-child(4)"
+            ],
+            [
+              "label:nth-child(4) > code"
+            ],
+            [
+              ".studio-colors > label:nth-child(5)"
+            ],
+            [
+              "label:nth-child(5) > code"
+            ],
+            [
+              ".studio-colors > label:nth-child(6)"
+            ],
+            [
+              "label:nth-child(6) > code"
+            ],
+            [
+              "section:nth-child(1) > fieldset > label:nth-child(5)"
+            ],
+            [
+              "section:nth-child(1) > fieldset > label:nth-child(6)"
+            ],
+            [
+              "label:nth-child(6) > select"
+            ],
+            [
+              "label:nth-child(7)"
+            ],
+            [
+              "label:nth-child(7) > select"
+            ],
+            [
+              "section:nth-child(1) > fieldset > button"
+            ],
+            [
+              "section:nth-child(2) > h2"
+            ],
+            [
+              "section:nth-child(2) > label"
+            ],
+            [
+              "section:nth-child(2) > label > select"
+            ],
+            [
+              "article > .eyebrow"
+            ],
+            [
+              "h3"
+            ],
+            [
+              ".card > p"
+            ],
+            [
+              ".card > a[href=\"/\"]"
+            ],
+            [
+              "section:nth-child(2) > p:nth-child(4)"
+            ],
+            [
+              "section:nth-child(2) > .notice"
+            ],
+            [
+              "section:nth-child(2) > details > summary"
+            ],
+            [
+              "button:nth-child(1)"
+            ],
+            [
+              "button:nth-child(2)"
+            ],
+            [
+              ".controls:nth-child(8) > button:nth-child(3)"
+            ],
+            [
+              ".controls:nth-child(8) > label"
+            ],
+            [
+              "input[type=\"file\"]"
+            ],
+            [
+              "main > section > h2"
+            ],
+            [
+              "main > section > p:nth-child(2)"
+            ],
+            [
+              "main > section > fieldset > legend"
+            ],
+            [
+              "main > section > fieldset > label:nth-child(2)"
+            ],
+            [
+              "label:nth-child(2) > input[value=\"\"]"
+            ],
+            [
+              "main > section > fieldset > label:nth-child(3)"
+            ],
+            [
+              "label:nth-child(3) > input[value=\"\"]"
+            ],
+            [
+              "button:nth-child(4)"
+            ],
+            [
+              "main > section > fieldset > label:nth-child(5)"
+            ],
+            [
+              "label:nth-child(5) > input[value=\"\"]"
+            ],
+            [
+              "main > section > fieldset > label:nth-child(6)"
+            ],
+            [
+              "label:nth-child(6) > input[type=\"number\"][value=\"0\"][min=\"0\"]"
+            ],
+            [
+              "button:nth-child(7)"
+            ],
+            [
+              "label:nth-child(9)"
+            ],
+            [
+              "label:nth-child(9) > input[value=\"\"]"
+            ],
+            [
+              "label:nth-child(11)"
+            ],
+            [
+              "label:nth-child(14)"
+            ],
+            [
+              "input[value=\"/allb/nevo\"]"
+            ],
+            [
+              "label:nth-child(15)"
+            ],
+            [
+              "label:nth-child(15) > input[type=\"number\"][value=\"0\"][min=\"0\"]"
+            ],
+            [
+              "p[aria-live=\"polite\"]"
+            ],
+            [
+              "footer"
+            ],
+            [
+              "footer > a[href$=\"readiness\"]"
+            ]
+          ]
+        }
+      ],
+      "contrastQualification": "manual_unverified_axe_uses_gradient_css_not_forced_paint"
+    },
+    {
+      "profile": "desktop-forced-colors",
+      "route": "/integration/workflow",
+      "status": "structural_pass_contrast_unverified",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "systemColors": {
+        "forcedColors": true,
+        "bodyForeground": "rgb(0, 0, 0)",
+        "bodyBackground": "rgb(255, 255, 255)",
+        "bodyRatio": 21,
+        "navigationLinkRatio": 13.994023083921398
+      },
+      "rawAxeContrastFindings": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "span"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href=\"/\"]"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href$=\"allb\"]"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href$=\"workspace\"]"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href=\"/ui\"]"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href$=\"themes\"]"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href$=\"branding\"]"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href$=\"kanban\"]"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href$=\"nevo\"]"
+            ],
+            [
+              "a[href$=\"workflow\"]"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href$=\"security\"]"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href$=\"assets\"]"
+            ],
+            [
+              "a[href$=\"operations\"]"
+            ],
+            [
+              "details[open=\"\"]:nth-child(1) > summary"
+            ],
+            [
+              "details[open=\"\"]:nth-child(1) > a[href=\"/\"]"
+            ],
+            [
+              "a[href$=\"overview\"]"
+            ],
+            [
+              "a[href$=\"getting-started\"]"
+            ],
+            [
+              "a[href$=\"installation\"]"
+            ],
+            [
+              "a[href$=\"quick-start\"]"
+            ],
+            [
+              "details:nth-child(2) > summary"
+            ],
+            [
+              "details[open=\"\"]:nth-child(3) > summary"
+            ],
+            [
+              "a[href$=\"components\"]"
+            ],
+            [
+              "details:nth-child(4) > summary"
+            ],
+            [
+              "details:nth-child(5) > summary"
+            ],
+            [
+              "details[open=\"\"]:nth-child(6) > summary"
+            ],
+            [
+              "a[href$=\"spatial\"]"
+            ],
+            [
+              "a[href$=\"map\"]"
+            ],
+            [
+              "a[href$=\"layers\"]"
+            ],
+            [
+              "a[href$=\"coordinates\"]"
+            ],
+            [
+              "a[href$=\"geometry\"]"
+            ],
+            [
+              "a[href$=\"measurement\"]"
+            ],
+            [
+              "a[href$=\"raster-terrain\"]"
+            ],
+            [
+              "a[href$=\"query\"]"
+            ],
+            [
+              "details[open=\"\"]:nth-child(7) > summary"
+            ],
+            [
+              "a[href=\"/3d\"]"
+            ],
+            [
+              "a[href$=\"viewport\"]"
+            ],
+            [
+              "a[href$=\"scene-tree\"]"
+            ],
+            [
+              "a[href$=\"transforms\"]"
+            ],
+            [
+              "details[open=\"\"]:nth-child(7) > a[href$=\"assets\"]"
+            ],
+            [
+              "a[href$=\"materials\"]"
+            ],
+            [
+              "a[href$=\"lighting\"]"
+            ],
+            [
+              "a[href$=\"cameras\"]"
+            ],
+            [
+              "a[href$=\"animation\"]"
+            ],
+            [
+              "a[href$=\"annotations\"]"
+            ],
+            [
+              "details:nth-child(8) > summary"
+            ],
+            [
+              "details:nth-child(9) > summary"
+            ],
+            [
+              "details:nth-child(10) > summary"
+            ],
+            [
+              "details:nth-child(11) > summary"
+            ],
+            [
+              "details:nth-child(12) > summary"
+            ],
+            [
+              "details[open=\"\"]:nth-child(13) > summary"
+            ],
+            [
+              "a[href$=\"studio\"]"
+            ],
+            [
+              "a[href$=\"workspaces\"]"
+            ],
+            [
+              "details[open=\"\"]:nth-child(13) > a[href$=\"themes\"]"
+            ],
+            [
+              "a[href$=\"tokens\"]"
+            ],
+            [
+              "details[open=\"\"]:nth-child(13) > a[href$=\"assets\"]"
+            ],
+            [
+              "a[href$=\"scenes\"]"
+            ],
+            [
+              "a[href$=\"settings\"]"
+            ],
+            [
+              "a[href$=\"members\"]"
+            ],
+            [
+              "a[href$=\"permissions\"]"
+            ],
+            [
+              "details[open=\"\"]:nth-child(13) > a[href$=\"security\"]"
+            ],
+            [
+              "a[href$=\"sessions\"]"
+            ],
+            [
+              "a[href$=\"audit\"]"
+            ],
+            [
+              "details[open=\"\"]:nth-child(13) > a[href$=\"branding\"]"
+            ],
+            [
+              "details:nth-child(14) > summary"
+            ],
+            [
+              "details[open=\"\"]:nth-child(15) > summary"
+            ],
+            [
+              "details[open=\"\"]:nth-child(15) > a[href=\"/ui\"]"
+            ],
+            [
+              "details[open=\"\"]:nth-child(15) > a[href$=\"allb\"]"
+            ],
+            [
+              "details[open=\"\"]:nth-child(15) > a[href$=\"workspace\"]"
+            ],
+            [
+              "footer"
+            ],
+            [
+              "footer > a[href$=\"readiness\"]"
+            ]
+          ]
+        }
+      ],
+      "contrastQualification": "manual_unverified_axe_uses_gradient_css_not_forced_paint",
+      "screenshotSha256": "9186504f6a39ea7c6457a715e5867e76206df8e71e6dd598609f79f9dc8dcabd"
+    },
+    {
+      "profile": "desktop-forced-colors",
+      "route": "/integration/security",
+      "status": "structural_pass_contrast_unverified",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "systemColors": {
+        "forcedColors": true,
+        "bodyForeground": "rgb(0, 0, 0)",
+        "bodyBackground": "rgb(255, 255, 255)",
+        "bodyRatio": 21,
+        "navigationLinkRatio": 13.994023083921398
+      },
+      "rawAxeContrastFindings": [
+        {
+          "id": "color-contrast",
+          "nodes": [
+            [
+              "span"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href=\"/\"]"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href$=\"allb\"]"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href$=\"workspace\"]"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href=\"/ui\"]"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href$=\"themes\"]"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href$=\"branding\"]"
+            ],
+            [
+              "a[href$=\"kanban\"]"
+            ],
+            [
+              "a[href$=\"nevo\"]"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href$=\"workflow\"]"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href$=\"security\"]"
+            ],
+            [
+              "nav[aria-label=\"Application\"] > a[href$=\"assets\"]"
+            ],
+            [
+              "a[href$=\"operations\"]"
+            ],
+            [
+              "details[open=\"\"]:nth-child(1) > summary"
+            ],
+            [
+              "details[open=\"\"]:nth-child(1) > a[href=\"/\"]"
+            ],
+            [
+              "a[href$=\"overview\"]"
+            ],
+            [
+              "a[href$=\"getting-started\"]"
+            ],
+            [
+              "a[href$=\"installation\"]"
+            ],
+            [
+              "a[href$=\"quick-start\"]"
+            ],
+            [
+              "details:nth-child(2) > summary"
+            ],
+            [
+              "details[open=\"\"]:nth-child(3) > summary"
+            ],
+            [
+              "a[href$=\"components\"]"
+            ],
+            [
+              "details:nth-child(4) > summary"
+            ],
+            [
+              "details:nth-child(5) > summary"
+            ],
+            [
+              "details[open=\"\"]:nth-child(6) > summary"
+            ],
+            [
+              "a[href$=\"spatial\"]"
+            ],
+            [
+              "a[href$=\"map\"]"
+            ],
+            [
+              "a[href$=\"layers\"]"
+            ],
+            [
+              "a[href$=\"coordinates\"]"
+            ],
+            [
+              "a[href$=\"geometry\"]"
+            ],
+            [
+              "a[href$=\"measurement\"]"
+            ],
+            [
+              "a[href$=\"raster-terrain\"]"
+            ],
+            [
+              "a[href$=\"query\"]"
+            ],
+            [
+              "details[open=\"\"]:nth-child(7) > summary"
+            ],
+            [
+              "a[href=\"/3d\"]"
+            ],
+            [
+              "a[href$=\"viewport\"]"
+            ],
+            [
+              "a[href$=\"scene-tree\"]"
+            ],
+            [
+              "a[href$=\"transforms\"]"
+            ],
+            [
+              "details[open=\"\"]:nth-child(7) > a[href$=\"assets\"]"
+            ],
+            [
+              "a[href$=\"materials\"]"
+            ],
+            [
+              "a[href$=\"lighting\"]"
+            ],
+            [
+              "a[href$=\"cameras\"]"
+            ],
+            [
+              "a[href$=\"animation\"]"
+            ],
+            [
+              "a[href$=\"annotations\"]"
+            ],
+            [
+              "details:nth-child(8) > summary"
+            ],
+            [
+              "details:nth-child(9) > summary"
+            ],
+            [
+              "details:nth-child(10) > summary"
+            ],
+            [
+              "details:nth-child(11) > summary"
+            ],
+            [
+              "details:nth-child(12) > summary"
+            ],
+            [
+              "details[open=\"\"]:nth-child(13) > summary"
+            ],
+            [
+              "a[href$=\"studio\"]"
+            ],
+            [
+              "a[href$=\"workspaces\"]"
+            ],
+            [
+              "details[open=\"\"]:nth-child(13) > a[href$=\"themes\"]"
+            ],
+            [
+              "a[href$=\"tokens\"]"
+            ],
+            [
+              "details[open=\"\"]:nth-child(13) > a[href$=\"assets\"]"
+            ],
+            [
+              "a[href$=\"scenes\"]"
+            ],
+            [
+              "a[href$=\"settings\"]"
+            ],
+            [
+              "a[href$=\"members\"]"
+            ],
+            [
+              "a[href$=\"permissions\"]"
+            ],
+            [
+              "details[open=\"\"]:nth-child(13) > a[href$=\"security\"]"
+            ],
+            [
+              "a[href$=\"sessions\"]"
+            ],
+            [
+              "a[href$=\"audit\"]"
+            ],
+            [
+              "details[open=\"\"]:nth-child(13) > a[href$=\"branding\"]"
+            ],
+            [
+              "details:nth-child(14) > summary"
+            ],
+            [
+              "details[open=\"\"]:nth-child(15) > summary"
+            ],
+            [
+              "details[open=\"\"]:nth-child(15) > a[href=\"/ui\"]"
+            ],
+            [
+              "details[open=\"\"]:nth-child(15) > a[href$=\"allb\"]"
+            ],
+            [
+              "details[open=\"\"]:nth-child(15) > a[href$=\"workspace\"]"
+            ],
+            [
+              "section:nth-child(2) > button:nth-child(3)"
+            ],
+            [
+              "section:nth-child(2) > button:nth-child(4)"
+            ],
+            [
+              "section:nth-child(3) > button"
+            ],
+            [
+              "form:nth-child(2) > button[type=\"submit\"]"
+            ],
+            [
+              "section:nth-child(4) > form:nth-child(3) > button[type=\"submit\"]"
+            ],
+            [
+              "section:nth-child(5) > form:nth-child(3) > button[type=\"submit\"]"
+            ],
+            [
+              "section:nth-child(5) > form:nth-child(4) > button[type=\"submit\"]"
+            ],
+            [
+              "section:nth-child(6) > form:nth-child(3) > button[type=\"submit\"]"
+            ],
+            [
+              "section:nth-child(6) > form:nth-child(4) > button[type=\"submit\"]"
+            ],
+            [
+              "footer"
+            ],
+            [
+              "footer > a[href$=\"readiness\"]"
+            ]
+          ]
+        }
+      ],
+      "contrastQualification": "manual_unverified_axe_uses_gradient_css_not_forced_paint"
+    }
+  ],
+  "evidenceMode": "headless_chromium_emulated_viewports_touch_reduced_motion_forced_colors",
+  "physicalDevices": "untested",
+  "manualAssistiveTechnology": "untested",
+  "visualBaselines": "candidate_captures_not_approved"
+}

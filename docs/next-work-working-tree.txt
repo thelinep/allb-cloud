@@ -1,0 +1,65 @@
+ M .gitignore
+ M apps/maataa-ui-route-source/app/api/enterprise/kanban/route.ts
+ M apps/maataa-ui-route-source/components/app-shell.tsx
+ M apps/maataa-ui-route-source/components/enterprise-kanban.tsx
+ M apps/maataa-ui-route-source/next.config.ts
+ D apps/maataa-ui-route-source/package-lock.json
+ M apps/maataa-ui-route-source/package.json
+ M apps/maataa-ui-route-source/route-manifest.json
+ M docs/enterprise-execution.json
+ M package.json
+?? apps/maataa-ui-route-source/AGENTS.md
+?? apps/maataa-ui-route-source/CLAUDE.md
+?? apps/maataa-ui-route-source/app/api/integration/
+?? apps/maataa-ui-route-source/app/integration/
+?? apps/maataa-ui-route-source/components/nevo-ui-integration.css
+?? apps/maataa-ui-route-source/components/nevo-ui-integration.tsx
+?? apps/maataa-ui-route-source/components/nevo-workflow.css
+?? apps/maataa-ui-route-source/components/nevo-workflow.tsx
+?? apps/maataa-ui-route-source/lib/enterprise-execution-snapshot.json
+?? apps/maataa-ui-route-source/open-next.config.ts
+?? apps/maataa-ui-route-source/scripts/clean-next-build.mjs
+?? apps/maataa-ui-route-source/server/
+?? apps/maataa-ui-route-source/wrangler.integration.jsonc
+?? artifacts/
+?? docs/auth-http-integration.md
+?? docs/backup-restore-validation.md
+?? docs/enterprise-next-work-release-evidence.md
+?? docs/nevo-cloudflare-integration.md
+?? docs/nevo-commercial-policy.md
+?? docs/nevo-dependency-resolution.md
+?? docs/nevo-identity-integration.md
+?? docs/next-work-working-tree.txt
+?? docs/platform-archive-validation.md
+?? integration/
+?? package-lock.json
+?? packages/auth-core/http.mjs
+?? packages/enterprise-db/migrations/003_event_records.sql
+?? packages/enterprise-db/migrations/005_auth_http.sql
+?? packages/maataa-ui-nevo/
+?? packages/nevo-commercial-adapter/
+?? packages/nevo-identity-adapter/
+?? packages/nevo-records/
+?? packages/nevo-scene-adapter/
+?? packages/platform-audit-evidence/
+?? packages/platform-auth-core/
+?? packages/platform-mfa/
+?? packages/platform-notifications/
+?? packages/platform-payments/
+?? packages/platform-ui-forms/
+?? scripts/create-source-backup.py
+?? scripts/nevo-cloudflare-check.mjs
+?? scripts/nevo-cloudflare-runtime.mjs
+?? scripts/sync-enterprise-snapshot.mjs
+?? scripts/verify-source-backup.py
+?? tests/auth-http-browser.mjs
+?? tests/auth-http.test.mjs
+?? tests/helpers/
+?? tests/nevo-commercial-adapter.test.mjs
+?? tests/nevo-commercial-persistence.test.mjs
+?? tests/nevo-identity-adapter.test.mjs
+?? tests/nevo-identity-browser.mjs
+?? tests/nevo-records.test.mjs
+?? tests/nevo-scene-adapter.test.mjs
+?? tests/nevo-ui-browser.mjs
+?? tests/nevo-workflow-browser.mjs

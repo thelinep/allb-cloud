@@ -1,0 +1,24 @@
+{
+  "checks": [
+    {
+      "authLifecycle": 17
+    },
+    "Protected upload validates actual PNG and derivatives",
+    "Authenticated exact-revision download integrity",
+    "Decoded WebP derivative served",
+    "Cross-tenant upload/download denied",
+    "Unsupported active image quarantined",
+    "Durable queue idempotent enqueue",
+    "Local preview delivery has explicit provenance",
+    "Actual response security headers",
+    {
+      "apiAuthority": {
+        "checks": 20,
+        "eventId": "e494f21e-8ecd-4fe6-93be-93a863cfd3a6"
+      }
+    }
+  ],
+  "mode": "actual-next-local-validation",
+  "mailDelivery": "simulated-encrypted-outbox-worker",
+  "externalProviders": false
+}

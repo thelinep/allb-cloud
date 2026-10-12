@@ -1,0 +1,6 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> test:authorization
+> node apps/maataa-ui-route-source/tests/authorization.test.mjs
+
+PASS 30 tenant authorization checks against disposable PostgreSQL (PGlite)

@@ -1,0 +1,9 @@
+{
+  "checks": 24,
+  "versionId": "914d1fed-60f1-46ee-99c2-c6ae562871cb",
+  "draftId": "997c0b14-bdc0-4a55-8852-55af446835ae",
+  "generation": 3,
+  "extraChecks": 11,
+  "mode": "actual_next_api_disposable_local_database",
+  "remote": false
+}

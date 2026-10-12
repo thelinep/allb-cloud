@@ -1,0 +1,3637 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-10T20:47:20.123Z",
+  "scope": "root npm workspace lockfile, not unrelated archived nested locks",
+  "packages": [
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@asamuzakjp/css-color",
+      "name": "@asamuzakjp/css-color",
+      "version": "3.2.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@ast-grep/napi",
+      "name": "@ast-grep/napi",
+      "version": "0.40.5",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@ast-grep/napi-linux-x64-gnu",
+      "name": "@ast-grep/napi-linux-x64-gnu",
+      "version": "0.40.5",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@aws-crypto/sha1-browser",
+      "name": "@aws-crypto/sha1-browser",
+      "version": "5.2.0",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@aws-crypto/sha1-browser/node_modules/@smithy/util-utf8",
+      "name": "@smithy/util-utf8",
+      "version": "2.3.0",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@aws-crypto/sha256-browser",
+      "name": "@aws-crypto/sha256-browser",
+      "version": "5.2.0",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@aws-crypto/sha256-browser/node_modules/@smithy/util-utf8",
+      "name": "@smithy/util-utf8",
+      "version": "2.3.0",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@aws-crypto/sha256-js",
+      "name": "@aws-crypto/sha256-js",
+      "version": "5.2.0",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@aws-crypto/supports-web-crypto",
+      "name": "@aws-crypto/supports-web-crypto",
+      "version": "5.2.0",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@aws-crypto/util",
+      "name": "@aws-crypto/util",
+      "version": "5.2.0",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@aws-crypto/util/node_modules/@smithy/util-utf8",
+      "name": "@smithy/util-utf8",
+      "version": "2.3.0",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@aws-sdk/checksums",
+      "name": "@aws-sdk/checksums",
+      "version": "3.1001.2",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@aws-sdk/client-cloudfront",
+      "name": "@aws-sdk/client-cloudfront",
+      "version": "3.984.0",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@aws-sdk/client-dynamodb",
+      "name": "@aws-sdk/client-dynamodb",
+      "version": "3.984.0",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@aws-sdk/client-lambda",
+      "name": "@aws-sdk/client-lambda",
+      "version": "3.984.0",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@aws-sdk/client-s3",
+      "name": "@aws-sdk/client-s3",
+      "version": "3.984.0",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@aws-sdk/client-sqs",
+      "name": "@aws-sdk/client-sqs",
+      "version": "3.984.0",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@aws-sdk/core",
+      "name": "@aws-sdk/core",
+      "version": "3.978.2",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@aws-sdk/credential-provider-env",
+      "name": "@aws-sdk/credential-provider-env",
+      "version": "3.972.73",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@aws-sdk/credential-provider-http",
+      "name": "@aws-sdk/credential-provider-http",
+      "version": "3.972.75",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@aws-sdk/credential-provider-ini",
+      "name": "@aws-sdk/credential-provider-ini",
+      "version": "3.973.18",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@aws-sdk/credential-provider-login",
+      "name": "@aws-sdk/credential-provider-login",
+      "version": "3.972.80",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@aws-sdk/credential-provider-node",
+      "name": "@aws-sdk/credential-provider-node",
+      "version": "3.972.85",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@aws-sdk/credential-provider-process",
+      "name": "@aws-sdk/credential-provider-process",
+      "version": "3.972.73",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@aws-sdk/credential-provider-sso",
+      "name": "@aws-sdk/credential-provider-sso",
+      "version": "3.973.17",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@aws-sdk/credential-provider-web-identity",
+      "name": "@aws-sdk/credential-provider-web-identity",
+      "version": "3.972.79",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@aws-sdk/dynamodb-codec",
+      "name": "@aws-sdk/dynamodb-codec",
+      "version": "3.973.47",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@aws-sdk/endpoint-cache",
+      "name": "@aws-sdk/endpoint-cache",
+      "version": "3.972.11",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@aws-sdk/middleware-bucket-endpoint",
+      "name": "@aws-sdk/middleware-bucket-endpoint",
+      "version": "3.972.51",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@aws-sdk/middleware-endpoint-discovery",
+      "name": "@aws-sdk/middleware-endpoint-discovery",
+      "version": "3.972.32",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@aws-sdk/middleware-expect-continue",
+      "name": "@aws-sdk/middleware-expect-continue",
+      "version": "3.972.47",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@aws-sdk/middleware-flexible-checksums",
+      "name": "@aws-sdk/middleware-flexible-checksums",
+      "version": "3.974.57",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@aws-sdk/middleware-host-header",
+      "name": "@aws-sdk/middleware-host-header",
+      "version": "3.972.48",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@aws-sdk/middleware-location-constraint",
+      "name": "@aws-sdk/middleware-location-constraint",
+      "version": "3.972.44",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@aws-sdk/middleware-logger",
+      "name": "@aws-sdk/middleware-logger",
+      "version": "3.972.47",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@aws-sdk/middleware-recursion-detection",
+      "name": "@aws-sdk/middleware-recursion-detection",
+      "version": "3.972.49",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@aws-sdk/middleware-sdk-s3",
+      "name": "@aws-sdk/middleware-sdk-s3",
+      "version": "3.972.78",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@aws-sdk/middleware-sdk-s3/node_modules/@aws-sdk/signature-v4-multi-region",
+      "name": "@aws-sdk/signature-v4-multi-region",
+      "version": "3.996.48",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@aws-sdk/middleware-sdk-sqs",
+      "name": "@aws-sdk/middleware-sdk-sqs",
+      "version": "3.972.44",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@aws-sdk/middleware-ssec",
+      "name": "@aws-sdk/middleware-ssec",
+      "version": "3.972.44",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@aws-sdk/middleware-user-agent",
+      "name": "@aws-sdk/middleware-user-agent",
+      "version": "3.972.77",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@aws-sdk/nested-clients",
+      "name": "@aws-sdk/nested-clients",
+      "version": "3.997.47",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@aws-sdk/nested-clients/node_modules/@aws-sdk/signature-v4-multi-region",
+      "name": "@aws-sdk/signature-v4-multi-region",
+      "version": "3.996.48",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@aws-sdk/region-config-resolver",
+      "name": "@aws-sdk/region-config-resolver",
+      "version": "3.972.51",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@aws-sdk/signature-v4-multi-region",
+      "name": "@aws-sdk/signature-v4-multi-region",
+      "version": "3.984.0",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@aws-sdk/token-providers",
+      "name": "@aws-sdk/token-providers",
+      "version": "3.1149.0",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@aws-sdk/types",
+      "name": "@aws-sdk/types",
+      "version": "3.974.6",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@aws-sdk/util-endpoints",
+      "name": "@aws-sdk/util-endpoints",
+      "version": "3.984.0",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@aws-sdk/util-locate-window",
+      "name": "@aws-sdk/util-locate-window",
+      "version": "3.965.10",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@aws-sdk/util-user-agent-browser",
+      "name": "@aws-sdk/util-user-agent-browser",
+      "version": "3.972.48",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@aws-sdk/util-user-agent-node",
+      "name": "@aws-sdk/util-user-agent-node",
+      "version": "3.973.63",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@aws-sdk/xml-builder",
+      "name": "@aws-sdk/xml-builder",
+      "version": "3.972.41",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@aws/lambda-invoke-store",
+      "name": "@aws/lambda-invoke-store",
+      "version": "0.3.0",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@cloudflare/kv-asset-handler",
+      "name": "@cloudflare/kv-asset-handler",
+      "version": "0.5.0",
+      "license": "MIT OR Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@cloudflare/unenv-preset",
+      "name": "@cloudflare/unenv-preset",
+      "version": "2.16.2",
+      "license": "MIT OR Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@cloudflare/workerd-linux-64",
+      "name": "@cloudflare/workerd-linux-64",
+      "version": "1.20261006.1",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@cspotcode/source-map-support",
+      "name": "@cspotcode/source-map-support",
+      "version": "0.8.1",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@cspotcode/source-map-support/node_modules/@jridgewell/trace-mapping",
+      "name": "@jridgewell/trace-mapping",
+      "version": "0.3.9",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@csstools/color-helpers",
+      "name": "@csstools/color-helpers",
+      "version": "5.1.0",
+      "license": "MIT-0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@csstools/css-calc",
+      "name": "@csstools/css-calc",
+      "version": "2.1.4",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@csstools/css-color-parser",
+      "name": "@csstools/css-color-parser",
+      "version": "3.1.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@csstools/css-parser-algorithms",
+      "name": "@csstools/css-parser-algorithms",
+      "version": "3.0.5",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@csstools/css-tokenizer",
+      "name": "@csstools/css-tokenizer",
+      "version": "3.0.4",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@dotenvx/dotenvx",
+      "name": "@dotenvx/dotenvx",
+      "version": "1.31.0",
+      "license": "BSD-3-Clause",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@ecies/ciphers",
+      "name": "@ecies/ciphers",
+      "version": "0.2.6",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@electric-sql/pglite",
+      "name": "@electric-sql/pglite",
+      "version": "0.5.8",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@esbuild/linux-x64",
+      "name": "@esbuild/linux-x64",
+      "version": "0.25.4",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@img/colour",
+      "name": "@img/colour",
+      "version": "1.1.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@img/sharp-libvips-linux-x64",
+      "name": "@img/sharp-libvips-linux-x64",
+      "version": "1.3.4",
+      "license": "LGPL-3.0-or-later",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@img/sharp-libvips-linuxmusl-x64",
+      "name": "@img/sharp-libvips-linuxmusl-x64",
+      "version": "1.3.4",
+      "license": "LGPL-3.0-or-later",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@img/sharp-linux-x64",
+      "name": "@img/sharp-linux-x64",
+      "version": "0.35.5",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@img/sharp-linuxmusl-x64",
+      "name": "@img/sharp-linuxmusl-x64",
+      "version": "0.35.5",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@isaacs/cliui",
+      "name": "@isaacs/cliui",
+      "version": "9.0.0",
+      "license": "BlueOak-1.0.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@jridgewell/gen-mapping",
+      "name": "@jridgewell/gen-mapping",
+      "version": "0.3.13",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@jridgewell/resolve-uri",
+      "name": "@jridgewell/resolve-uri",
+      "version": "3.1.2",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@jridgewell/source-map",
+      "name": "@jridgewell/source-map",
+      "version": "0.3.11",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@jridgewell/sourcemap-codec",
+      "name": "@jridgewell/sourcemap-codec",
+      "version": "1.6.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@jridgewell/trace-mapping",
+      "name": "@jridgewell/trace-mapping",
+      "version": "0.3.31",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@next/env",
+      "name": "@next/env",
+      "version": "16.3.8",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@next/swc-linux-x64-gnu",
+      "name": "@next/swc-linux-x64-gnu",
+      "version": "16.3.8",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@noble/ciphers",
+      "name": "@noble/ciphers",
+      "version": "1.3.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@noble/curves",
+      "name": "@noble/curves",
+      "version": "1.9.7",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@noble/hashes",
+      "name": "@noble/hashes",
+      "version": "1.8.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@node-minify/core",
+      "name": "@node-minify/core",
+      "version": "8.0.6",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@node-minify/core/node_modules/balanced-match",
+      "name": "balanced-match",
+      "version": "1.0.2",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@node-minify/core/node_modules/brace-expansion",
+      "name": "brace-expansion",
+      "version": "2.1.7",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@node-minify/core/node_modules/glob",
+      "name": "glob",
+      "version": "9.3.5",
+      "license": "ISC",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@node-minify/core/node_modules/minimatch",
+      "name": "minimatch",
+      "version": "8.0.7",
+      "license": "ISC",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@node-minify/core/node_modules/minipass",
+      "name": "minipass",
+      "version": "4.2.8",
+      "license": "ISC",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@node-minify/core/node_modules/path-scurry",
+      "name": "path-scurry",
+      "version": "1.11.1",
+      "license": "BlueOak-1.0.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@node-minify/core/node_modules/path-scurry/node_modules/minipass",
+      "name": "minipass",
+      "version": "7.1.3",
+      "license": "BlueOak-1.0.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@node-minify/terser",
+      "name": "@node-minify/terser",
+      "version": "8.0.6",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@node-minify/utils",
+      "name": "@node-minify/utils",
+      "version": "8.0.6",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@opennextjs/aws",
+      "name": "@opennextjs/aws",
+      "version": "4.1.8",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@opennextjs/cloudflare",
+      "name": "@opennextjs/cloudflare",
+      "version": "1.20.9",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@playwright/test",
+      "name": "@playwright/test",
+      "version": "1.62.1",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@poppinss/colors",
+      "name": "@poppinss/colors",
+      "version": "4.1.6",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@poppinss/dumper",
+      "name": "@poppinss/dumper",
+      "version": "0.6.5",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@poppinss/exception",
+      "name": "@poppinss/exception",
+      "version": "1.2.3",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@sindresorhus/is",
+      "name": "@sindresorhus/is",
+      "version": "7.2.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@smithy/config-resolver",
+      "name": "@smithy/config-resolver",
+      "version": "4.7.2",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@smithy/core",
+      "name": "@smithy/core",
+      "version": "3.35.2",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@smithy/credential-provider-imds",
+      "name": "@smithy/credential-provider-imds",
+      "version": "4.5.2",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@smithy/eventstream-serde-browser",
+      "name": "@smithy/eventstream-serde-browser",
+      "version": "4.5.2",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@smithy/eventstream-serde-config-resolver",
+      "name": "@smithy/eventstream-serde-config-resolver",
+      "version": "4.6.2",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@smithy/eventstream-serde-node",
+      "name": "@smithy/eventstream-serde-node",
+      "version": "4.5.2",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@smithy/fetch-http-handler",
+      "name": "@smithy/fetch-http-handler",
+      "version": "5.8.0",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@smithy/hash-blob-browser",
+      "name": "@smithy/hash-blob-browser",
+      "version": "4.5.2",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@smithy/hash-node",
+      "name": "@smithy/hash-node",
+      "version": "4.5.2",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@smithy/hash-stream-node",
+      "name": "@smithy/hash-stream-node",
+      "version": "4.5.2",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@smithy/invalid-dependency",
+      "name": "@smithy/invalid-dependency",
+      "version": "4.5.2",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@smithy/is-array-buffer",
+      "name": "@smithy/is-array-buffer",
+      "version": "2.2.0",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@smithy/md5-js",
+      "name": "@smithy/md5-js",
+      "version": "4.5.2",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@smithy/middleware-content-length",
+      "name": "@smithy/middleware-content-length",
+      "version": "4.5.2",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@smithy/middleware-endpoint",
+      "name": "@smithy/middleware-endpoint",
+      "version": "4.7.2",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@smithy/middleware-retry",
+      "name": "@smithy/middleware-retry",
+      "version": "4.8.2",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@smithy/middleware-serde",
+      "name": "@smithy/middleware-serde",
+      "version": "4.5.2",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@smithy/middleware-stack",
+      "name": "@smithy/middleware-stack",
+      "version": "4.5.2",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@smithy/node-config-provider",
+      "name": "@smithy/node-config-provider",
+      "version": "4.6.2",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@smithy/node-http-handler",
+      "name": "@smithy/node-http-handler",
+      "version": "4.12.1",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@smithy/protocol-http",
+      "name": "@smithy/protocol-http",
+      "version": "5.6.2",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@smithy/signature-v4",
+      "name": "@smithy/signature-v4",
+      "version": "5.7.4",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@smithy/smithy-client",
+      "name": "@smithy/smithy-client",
+      "version": "4.15.2",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@smithy/types",
+      "name": "@smithy/types",
+      "version": "4.19.0",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@smithy/url-parser",
+      "name": "@smithy/url-parser",
+      "version": "4.5.2",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@smithy/util-base64",
+      "name": "@smithy/util-base64",
+      "version": "4.6.2",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@smithy/util-body-length-browser",
+      "name": "@smithy/util-body-length-browser",
+      "version": "4.5.2",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@smithy/util-body-length-node",
+      "name": "@smithy/util-body-length-node",
+      "version": "4.5.2",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@smithy/util-buffer-from",
+      "name": "@smithy/util-buffer-from",
+      "version": "2.2.0",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@smithy/util-defaults-mode-browser",
+      "name": "@smithy/util-defaults-mode-browser",
+      "version": "4.6.2",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@smithy/util-defaults-mode-node",
+      "name": "@smithy/util-defaults-mode-node",
+      "version": "4.5.2",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@smithy/util-endpoints",
+      "name": "@smithy/util-endpoints",
+      "version": "3.7.2",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@smithy/util-middleware",
+      "name": "@smithy/util-middleware",
+      "version": "4.5.2",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@smithy/util-retry",
+      "name": "@smithy/util-retry",
+      "version": "4.6.2",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@smithy/util-stream",
+      "name": "@smithy/util-stream",
+      "version": "4.8.2",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@smithy/util-utf8",
+      "name": "@smithy/util-utf8",
+      "version": "4.5.2",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@smithy/util-waiter",
+      "name": "@smithy/util-waiter",
+      "version": "4.6.2",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@speed-highlight/core",
+      "name": "@speed-highlight/core",
+      "version": "1.2.24",
+      "license": "CC0-1.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@swc/helpers",
+      "name": "@swc/helpers",
+      "version": "0.5.23",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@tsconfig/node18",
+      "name": "@tsconfig/node18",
+      "version": "1.0.3",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@types/node",
+      "name": "@types/node",
+      "version": "22.19.19",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@types/node-fetch",
+      "name": "@types/node-fetch",
+      "version": "2.6.13",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@types/react",
+      "name": "@types/react",
+      "version": "19.2.14",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/@types/react-dom",
+      "name": "@types/react-dom",
+      "version": "19.2.3",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/abort-controller",
+      "name": "abort-controller",
+      "version": "3.0.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/accepts",
+      "name": "accepts",
+      "version": "2.0.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/acorn",
+      "name": "acorn",
+      "version": "8.19.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/agent-base",
+      "name": "agent-base",
+      "version": "7.1.4",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/agentkeepalive",
+      "name": "agentkeepalive",
+      "version": "4.6.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/ansi-colors",
+      "name": "ansi-colors",
+      "version": "4.1.3",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/ansi-regex",
+      "name": "ansi-regex",
+      "version": "5.0.1",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/ansi-styles",
+      "name": "ansi-styles",
+      "version": "6.2.3",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/array-timsort",
+      "name": "array-timsort",
+      "version": "1.0.3",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/asynckit",
+      "name": "asynckit",
+      "version": "0.4.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/aws4fetch",
+      "name": "aws4fetch",
+      "version": "1.0.20",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/axe-core",
+      "name": "axe-core",
+      "version": "4.10.3",
+      "license": "MPL-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/balanced-match",
+      "name": "balanced-match",
+      "version": "4.0.4",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/baseline-browser-mapping",
+      "name": "baseline-browser-mapping",
+      "version": "2.11.28",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/blake3-wasm",
+      "name": "blake3-wasm",
+      "version": "2.1.5",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/body-parser",
+      "name": "body-parser",
+      "version": "2.3.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/body-parser/node_modules/iconv-lite",
+      "name": "iconv-lite",
+      "version": "0.7.3",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/bowser",
+      "name": "bowser",
+      "version": "2.14.1",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/brace-expansion",
+      "name": "brace-expansion",
+      "version": "5.0.12",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/buffer-from",
+      "name": "buffer-from",
+      "version": "1.1.2",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/bytes",
+      "name": "bytes",
+      "version": "3.1.2",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/call-bind-apply-helpers",
+      "name": "call-bind-apply-helpers",
+      "version": "1.0.2",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/call-bound",
+      "name": "call-bound",
+      "version": "1.0.4",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/caniuse-lite",
+      "name": "caniuse-lite",
+      "version": "1.0.30001815",
+      "license": "CC-BY-4.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/chalk",
+      "name": "chalk",
+      "version": "5.6.2",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/ci-info",
+      "name": "ci-info",
+      "version": "4.4.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/client-only",
+      "name": "client-only",
+      "version": "0.0.1",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/cliui",
+      "name": "cliui",
+      "version": "9.0.1",
+      "license": "ISC",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/cliui/node_modules/ansi-regex",
+      "name": "ansi-regex",
+      "version": "6.4.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/cliui/node_modules/string-width",
+      "name": "string-width",
+      "version": "7.2.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/cliui/node_modules/strip-ansi",
+      "name": "strip-ansi",
+      "version": "7.2.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/cloudflare",
+      "name": "cloudflare",
+      "version": "4.5.0",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/cloudflare/node_modules/@types/node",
+      "name": "@types/node",
+      "version": "18.19.130",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/cloudflare/node_modules/undici-types",
+      "name": "undici-types",
+      "version": "5.26.5",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/combined-stream",
+      "name": "combined-stream",
+      "version": "1.0.8",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/commander",
+      "name": "commander",
+      "version": "11.1.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/comment-json",
+      "name": "comment-json",
+      "version": "4.6.2",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/content-disposition",
+      "name": "content-disposition",
+      "version": "2.0.1",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/content-type",
+      "name": "content-type",
+      "version": "2.1.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/cookie",
+      "name": "cookie",
+      "version": "1.1.1",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/cookie-signature",
+      "name": "cookie-signature",
+      "version": "1.2.2",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/cross-spawn",
+      "name": "cross-spawn",
+      "version": "7.0.6",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/cross-spawn/node_modules/isexe",
+      "name": "isexe",
+      "version": "2.0.0",
+      "license": "ISC",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/cross-spawn/node_modules/which",
+      "name": "which",
+      "version": "2.0.2",
+      "license": "ISC",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/cssstyle",
+      "name": "cssstyle",
+      "version": "4.6.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/data-urls",
+      "name": "data-urls",
+      "version": "5.0.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/debug",
+      "name": "debug",
+      "version": "4.4.3",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/decimal.js",
+      "name": "decimal.js",
+      "version": "10.6.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/delayed-stream",
+      "name": "delayed-stream",
+      "version": "1.0.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/depd",
+      "name": "depd",
+      "version": "2.0.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/detect-libc",
+      "name": "detect-libc",
+      "version": "2.1.2",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/dotenv",
+      "name": "dotenv",
+      "version": "16.6.1",
+      "license": "BSD-2-Clause",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/dunder-proto",
+      "name": "dunder-proto",
+      "version": "1.0.1",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/duplexer",
+      "name": "duplexer",
+      "version": "0.1.2",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/eciesjs",
+      "name": "eciesjs",
+      "version": "0.4.18",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/ee-first",
+      "name": "ee-first",
+      "version": "1.1.1",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/emoji-regex",
+      "name": "emoji-regex",
+      "version": "10.6.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/encodeurl",
+      "name": "encodeurl",
+      "version": "2.0.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/enquirer",
+      "name": "enquirer",
+      "version": "2.4.1",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/entities",
+      "name": "entities",
+      "version": "6.0.1",
+      "license": "BSD-2-Clause",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/error-stack-parser-es",
+      "name": "error-stack-parser-es",
+      "version": "1.0.5",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/es-define-property",
+      "name": "es-define-property",
+      "version": "1.0.1",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/es-errors",
+      "name": "es-errors",
+      "version": "1.3.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/es-object-atoms",
+      "name": "es-object-atoms",
+      "version": "1.1.2",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/es-set-tostringtag",
+      "name": "es-set-tostringtag",
+      "version": "2.1.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/esbuild",
+      "name": "esbuild",
+      "version": "0.25.4",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/escalade",
+      "name": "escalade",
+      "version": "3.2.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/escape-html",
+      "name": "escape-html",
+      "version": "1.0.3",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/esprima",
+      "name": "esprima",
+      "version": "4.0.1",
+      "license": "BSD-2-Clause",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/etag",
+      "name": "etag",
+      "version": "1.8.1",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/event-target-shim",
+      "name": "event-target-shim",
+      "version": "5.0.1",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/execa",
+      "name": "execa",
+      "version": "5.1.1",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/express",
+      "name": "express",
+      "version": "5.3.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/express/node_modules/cookie",
+      "name": "cookie",
+      "version": "0.7.2",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/fdir",
+      "name": "fdir",
+      "version": "6.5.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/finalhandler",
+      "name": "finalhandler",
+      "version": "2.1.1",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/foreground-child",
+      "name": "foreground-child",
+      "version": "3.3.1",
+      "license": "ISC",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/foreground-child/node_modules/signal-exit",
+      "name": "signal-exit",
+      "version": "4.1.0",
+      "license": "ISC",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/form-data",
+      "name": "form-data",
+      "version": "4.0.6",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/form-data-encoder",
+      "name": "form-data-encoder",
+      "version": "1.7.2",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/form-data/node_modules/mime-db",
+      "name": "mime-db",
+      "version": "1.52.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/form-data/node_modules/mime-types",
+      "name": "mime-types",
+      "version": "2.1.35",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/formdata-node",
+      "name": "formdata-node",
+      "version": "4.4.1",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/forwarded",
+      "name": "forwarded",
+      "version": "0.2.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/fresh",
+      "name": "fresh",
+      "version": "2.0.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/fs.realpath",
+      "name": "fs.realpath",
+      "version": "1.0.0",
+      "license": "ISC",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/function-bind",
+      "name": "function-bind",
+      "version": "1.1.2",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/get-caller-file",
+      "name": "get-caller-file",
+      "version": "2.0.5",
+      "license": "ISC",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/get-east-asian-width",
+      "name": "get-east-asian-width",
+      "version": "1.7.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/get-intrinsic",
+      "name": "get-intrinsic",
+      "version": "1.3.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/get-proto",
+      "name": "get-proto",
+      "version": "1.0.1",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/get-stream",
+      "name": "get-stream",
+      "version": "6.0.1",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/glob",
+      "name": "glob",
+      "version": "12.0.0",
+      "license": "BlueOak-1.0.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/gopd",
+      "name": "gopd",
+      "version": "1.2.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/gzip-size",
+      "name": "gzip-size",
+      "version": "6.0.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/has-symbols",
+      "name": "has-symbols",
+      "version": "1.1.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/has-tostringtag",
+      "name": "has-tostringtag",
+      "version": "1.0.2",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/hasown",
+      "name": "hasown",
+      "version": "2.0.4",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/html-encoding-sniffer",
+      "name": "html-encoding-sniffer",
+      "version": "4.0.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/http-errors",
+      "name": "http-errors",
+      "version": "2.0.1",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/http-proxy-agent",
+      "name": "http-proxy-agent",
+      "version": "7.0.2",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/https-proxy-agent",
+      "name": "https-proxy-agent",
+      "version": "7.0.6",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/human-signals",
+      "name": "human-signals",
+      "version": "2.1.0",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/humanize-ms",
+      "name": "humanize-ms",
+      "version": "1.2.1",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/iconv-lite",
+      "name": "iconv-lite",
+      "version": "0.6.3",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/ignore",
+      "name": "ignore",
+      "version": "5.3.2",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/inherits",
+      "name": "inherits",
+      "version": "2.0.4",
+      "license": "ISC",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/ipaddr.js",
+      "name": "ipaddr.js",
+      "version": "1.9.1",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/is-potential-custom-element-name",
+      "name": "is-potential-custom-element-name",
+      "version": "1.0.1",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/is-promise",
+      "name": "is-promise",
+      "version": "4.0.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/is-stream",
+      "name": "is-stream",
+      "version": "2.0.1",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/isexe",
+      "name": "isexe",
+      "version": "3.1.5",
+      "license": "BlueOak-1.0.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/jackspeak",
+      "name": "jackspeak",
+      "version": "4.2.3",
+      "license": "BlueOak-1.0.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/jsdom",
+      "name": "jsdom",
+      "version": "26.1.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/kleur",
+      "name": "kleur",
+      "version": "4.1.5",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/lru-cache",
+      "name": "lru-cache",
+      "version": "10.4.3",
+      "license": "ISC",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/math-intrinsics",
+      "name": "math-intrinsics",
+      "version": "1.1.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/media-typer",
+      "name": "media-typer",
+      "version": "1.1.1",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/merge-descriptors",
+      "name": "merge-descriptors",
+      "version": "2.0.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/merge-stream",
+      "name": "merge-stream",
+      "version": "2.0.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/mime-db",
+      "name": "mime-db",
+      "version": "1.54.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/mime-types",
+      "name": "mime-types",
+      "version": "3.0.2",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/mimic-fn",
+      "name": "mimic-fn",
+      "version": "2.1.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/miniflare",
+      "name": "miniflare",
+      "version": "5.20261006.1-alpha",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/miniflare/node_modules/ws",
+      "name": "ws",
+      "version": "8.21.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/minimatch",
+      "name": "minimatch",
+      "version": "10.2.6",
+      "license": "BlueOak-1.0.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/minipass",
+      "name": "minipass",
+      "version": "7.1.3",
+      "license": "BlueOak-1.0.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/mkdirp",
+      "name": "mkdirp",
+      "version": "1.0.4",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/mnemonist",
+      "name": "mnemonist",
+      "version": "0.38.3",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/ms",
+      "name": "ms",
+      "version": "2.1.3",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/nanoid",
+      "name": "nanoid",
+      "version": "3.3.20",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/negotiator",
+      "name": "negotiator",
+      "version": "1.1.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/next",
+      "name": "next",
+      "version": "16.3.8",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/node-domexception",
+      "name": "node-domexception",
+      "version": "1.0.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/node-fetch",
+      "name": "node-fetch",
+      "version": "2.7.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/node-fetch/node_modules/tr46",
+      "name": "tr46",
+      "version": "0.0.3",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/node-fetch/node_modules/webidl-conversions",
+      "name": "webidl-conversions",
+      "version": "3.0.1",
+      "license": "BSD-2-Clause",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/node-fetch/node_modules/whatwg-url",
+      "name": "whatwg-url",
+      "version": "5.0.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/npm-run-path",
+      "name": "npm-run-path",
+      "version": "4.0.1",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/nwsapi",
+      "name": "nwsapi",
+      "version": "2.2.28",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/object-inspect",
+      "name": "object-inspect",
+      "version": "1.13.4",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/object-treeify",
+      "name": "object-treeify",
+      "version": "1.1.33",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/obliterator",
+      "name": "obliterator",
+      "version": "1.6.1",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/on-finished",
+      "name": "on-finished",
+      "version": "2.4.1",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/once",
+      "name": "once",
+      "version": "1.4.0",
+      "license": "ISC",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/onetime",
+      "name": "onetime",
+      "version": "5.1.2",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/package-json-from-dist",
+      "name": "package-json-from-dist",
+      "version": "1.0.1",
+      "license": "BlueOak-1.0.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/parse5",
+      "name": "parse5",
+      "version": "7.3.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/parseurl",
+      "name": "parseurl",
+      "version": "1.3.3",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/path-key",
+      "name": "path-key",
+      "version": "3.1.1",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/path-scurry",
+      "name": "path-scurry",
+      "version": "2.0.2",
+      "license": "BlueOak-1.0.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/path-scurry/node_modules/lru-cache",
+      "name": "lru-cache",
+      "version": "11.5.3",
+      "license": "BlueOak-1.0.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/path-to-regexp",
+      "name": "path-to-regexp",
+      "version": "6.3.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/pathe",
+      "name": "pathe",
+      "version": "2.0.3",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/picocolors",
+      "name": "picocolors",
+      "version": "1.1.1",
+      "license": "ISC",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/picomatch",
+      "name": "picomatch",
+      "version": "4.0.7",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/playwright",
+      "name": "playwright",
+      "version": "1.62.1",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/playwright-core",
+      "name": "playwright-core",
+      "version": "1.62.1",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/postcss",
+      "name": "postcss",
+      "version": "8.5.23",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/proxy-addr",
+      "name": "proxy-addr",
+      "version": "2.0.8",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/punycode",
+      "name": "punycode",
+      "version": "2.3.1",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/qs",
+      "name": "qs",
+      "version": "6.16.0",
+      "license": "BSD-3-Clause",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/range-parser",
+      "name": "range-parser",
+      "version": "1.3.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/raw-body",
+      "name": "raw-body",
+      "version": "3.0.2",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/raw-body/node_modules/iconv-lite",
+      "name": "iconv-lite",
+      "version": "0.7.3",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/react",
+      "name": "react",
+      "version": "19.2.6",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/react-dom",
+      "name": "react-dom",
+      "version": "19.2.6",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/router",
+      "name": "router",
+      "version": "2.2.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/router/node_modules/path-to-regexp",
+      "name": "path-to-regexp",
+      "version": "8.4.2",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/rrweb-cssom",
+      "name": "rrweb-cssom",
+      "version": "0.8.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/safer-buffer",
+      "name": "safer-buffer",
+      "version": "2.1.2",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/saxes",
+      "name": "saxes",
+      "version": "6.0.0",
+      "license": "ISC",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/scheduler",
+      "name": "scheduler",
+      "version": "0.27.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/semver",
+      "name": "semver",
+      "version": "7.8.5",
+      "license": "ISC",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/send",
+      "name": "send",
+      "version": "1.2.1",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/serve-static",
+      "name": "serve-static",
+      "version": "2.2.1",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/setprototypeof",
+      "name": "setprototypeof",
+      "version": "1.2.0",
+      "license": "ISC",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/sharp",
+      "name": "sharp",
+      "version": "0.35.5",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/shebang-command",
+      "name": "shebang-command",
+      "version": "2.0.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/shebang-regex",
+      "name": "shebang-regex",
+      "version": "3.0.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/side-channel",
+      "name": "side-channel",
+      "version": "1.1.1",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/side-channel-list",
+      "name": "side-channel-list",
+      "version": "1.0.1",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/side-channel-map",
+      "name": "side-channel-map",
+      "version": "1.0.1",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/side-channel-weakmap",
+      "name": "side-channel-weakmap",
+      "version": "1.0.2",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/signal-exit",
+      "name": "signal-exit",
+      "version": "3.0.7",
+      "license": "ISC",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/source-map",
+      "name": "source-map",
+      "version": "0.6.1",
+      "license": "BSD-3-Clause",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/source-map-js",
+      "name": "source-map-js",
+      "version": "1.2.2",
+      "license": "BSD-3-Clause",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/source-map-support",
+      "name": "source-map-support",
+      "version": "0.5.21",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/statuses",
+      "name": "statuses",
+      "version": "2.0.2",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/string-width",
+      "name": "string-width",
+      "version": "8.3.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/string-width/node_modules/ansi-regex",
+      "name": "ansi-regex",
+      "version": "6.4.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/string-width/node_modules/strip-ansi",
+      "name": "strip-ansi",
+      "version": "7.2.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/strip-ansi",
+      "name": "strip-ansi",
+      "version": "6.0.1",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/strip-final-newline",
+      "name": "strip-final-newline",
+      "version": "2.0.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/styled-jsx",
+      "name": "styled-jsx",
+      "version": "5.1.6",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/supports-color",
+      "name": "supports-color",
+      "version": "10.2.2",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/symbol-tree",
+      "name": "symbol-tree",
+      "version": "3.2.4",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/terser",
+      "name": "terser",
+      "version": "5.16.9",
+      "license": "BSD-2-Clause",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/terser/node_modules/commander",
+      "name": "commander",
+      "version": "2.20.3",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/tldts",
+      "name": "tldts",
+      "version": "6.1.86",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/tldts-core",
+      "name": "tldts-core",
+      "version": "6.1.86",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/toidentifier",
+      "name": "toidentifier",
+      "version": "1.0.1",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/tough-cookie",
+      "name": "tough-cookie",
+      "version": "5.1.2",
+      "license": "BSD-3-Clause",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/tr46",
+      "name": "tr46",
+      "version": "5.1.1",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/ts-tqdm",
+      "name": "ts-tqdm",
+      "version": "0.8.6",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/type-is",
+      "name": "type-is",
+      "version": "2.1.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/undici",
+      "name": "undici",
+      "version": "7.29.1",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/unenv",
+      "name": "unenv",
+      "version": "2.0.0-rc.24",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/unpipe",
+      "name": "unpipe",
+      "version": "1.0.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/urlpattern-polyfill",
+      "name": "urlpattern-polyfill",
+      "version": "10.1.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/vary",
+      "name": "vary",
+      "version": "1.1.2",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/w3c-xmlserializer",
+      "name": "w3c-xmlserializer",
+      "version": "5.0.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/web-streams-polyfill",
+      "name": "web-streams-polyfill",
+      "version": "4.0.0-beta.3",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/webidl-conversions",
+      "name": "webidl-conversions",
+      "version": "7.0.0",
+      "license": "BSD-2-Clause",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/whatwg-encoding",
+      "name": "whatwg-encoding",
+      "version": "3.1.1",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/whatwg-mimetype",
+      "name": "whatwg-mimetype",
+      "version": "4.0.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/whatwg-url",
+      "name": "whatwg-url",
+      "version": "14.2.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/which",
+      "name": "which",
+      "version": "4.0.0",
+      "license": "ISC",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/workerd",
+      "name": "workerd",
+      "version": "1.20261006.1",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/wrangler",
+      "name": "wrangler",
+      "version": "4.149.0",
+      "license": "MIT OR Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/wrangler/node_modules/@esbuild/linux-x64",
+      "name": "@esbuild/linux-x64",
+      "version": "0.28.2",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/wrangler/node_modules/esbuild",
+      "name": "esbuild",
+      "version": "0.28.2",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/wrap-ansi",
+      "name": "wrap-ansi",
+      "version": "9.0.2",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/wrap-ansi/node_modules/ansi-regex",
+      "name": "ansi-regex",
+      "version": "6.4.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/wrap-ansi/node_modules/string-width",
+      "name": "string-width",
+      "version": "7.2.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/wrap-ansi/node_modules/strip-ansi",
+      "name": "strip-ansi",
+      "version": "7.2.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/wrappy",
+      "name": "wrappy",
+      "version": "1.0.2",
+      "license": "ISC",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/ws",
+      "name": "ws",
+      "version": "8.22.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/xml-name-validator",
+      "name": "xml-name-validator",
+      "version": "5.0.0",
+      "license": "Apache-2.0",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/xmlchars",
+      "name": "xmlchars",
+      "version": "2.2.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/y18n",
+      "name": "y18n",
+      "version": "5.0.8",
+      "license": "ISC",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/yaml",
+      "name": "yaml",
+      "version": "2.9.1",
+      "license": "ISC",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/yargs",
+      "name": "yargs",
+      "version": "18.2.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/yargs-parser",
+      "name": "yargs-parser",
+      "version": "22.0.0",
+      "license": "ISC",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/youch",
+      "name": "youch",
+      "version": "4.1.0-beta.10",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "apps/maataa-ui-route-source/node_modules/youch-core",
+      "name": "youch-core",
+      "version": "0.3.3",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    },
+    {
+      "path": "node_modules/@hexagon/base64",
+      "name": "@hexagon/base64",
+      "version": "1.1.28",
+      "license": "MIT",
+      "integrityPresent": true,
+      "resolvedProtocol": "https"
+    },
+    {
+      "path": "node_modules/@levischuck/tiny-cbor",
+      "name": "@levischuck/tiny-cbor",
+      "version": "0.2.11",
+      "license": "MIT",
+      "integrityPresent": true,
+      "resolvedProtocol": "https"
+    },
+    {
+      "path": "node_modules/@peculiar/asn1-android",
+      "name": "@peculiar/asn1-android",
+      "version": "2.10.0",
+      "license": "MIT",
+      "integrityPresent": true,
+      "resolvedProtocol": "https"
+    },
+    {
+      "path": "node_modules/@peculiar/asn1-asym-key",
+      "name": "@peculiar/asn1-asym-key",
+      "version": "2.10.0",
+      "license": "MIT",
+      "integrityPresent": true,
+      "resolvedProtocol": "https"
+    },
+    {
+      "path": "node_modules/@peculiar/asn1-cms",
+      "name": "@peculiar/asn1-cms",
+      "version": "2.10.0",
+      "license": "MIT",
+      "integrityPresent": true,
+      "resolvedProtocol": "https"
+    },
+    {
+      "path": "node_modules/@peculiar/asn1-csr",
+      "name": "@peculiar/asn1-csr",
+      "version": "2.10.0",
+      "license": "MIT",
+      "integrityPresent": true,
+      "resolvedProtocol": "https"
+    },
+    {
+      "path": "node_modules/@peculiar/asn1-ecc",
+      "name": "@peculiar/asn1-ecc",
+      "version": "2.10.0",
+      "license": "MIT",
+      "integrityPresent": true,
+      "resolvedProtocol": "https"
+    },
+    {
+      "path": "node_modules/@peculiar/asn1-pfx",
+      "name": "@peculiar/asn1-pfx",
+      "version": "2.10.0",
+      "license": "MIT",
+      "integrityPresent": true,
+      "resolvedProtocol": "https"
+    },
+    {
+      "path": "node_modules/@peculiar/asn1-pkcs8",
+      "name": "@peculiar/asn1-pkcs8",
+      "version": "2.10.0",
+      "license": "MIT",
+      "integrityPresent": true,
+      "resolvedProtocol": "https"
+    },
+    {
+      "path": "node_modules/@peculiar/asn1-pkcs9",
+      "name": "@peculiar/asn1-pkcs9",
+      "version": "2.10.0",
+      "license": "MIT",
+      "integrityPresent": true,
+      "resolvedProtocol": "https"
+    },
+    {
+      "path": "node_modules/@peculiar/asn1-rsa",
+      "name": "@peculiar/asn1-rsa",
+      "version": "2.10.0",
+      "license": "MIT",
+      "integrityPresent": true,
+      "resolvedProtocol": "https"
+    },
+    {
+      "path": "node_modules/@peculiar/asn1-schema",
+      "name": "@peculiar/asn1-schema",
+      "version": "2.10.0",
+      "license": "MIT",
+      "integrityPresent": true,
+      "resolvedProtocol": "https"
+    },
+    {
+      "path": "node_modules/@peculiar/asn1-x509",
+      "name": "@peculiar/asn1-x509",
+      "version": "2.10.0",
+      "license": "MIT",
+      "integrityPresent": true,
+      "resolvedProtocol": "https"
+    },
+    {
+      "path": "node_modules/@peculiar/asn1-x509-attr",
+      "name": "@peculiar/asn1-x509-attr",
+      "version": "2.10.0",
+      "license": "MIT",
+      "integrityPresent": true,
+      "resolvedProtocol": "https"
+    },
+    {
+      "path": "node_modules/@peculiar/asn1-x509-post-quantum",
+      "name": "@peculiar/asn1-x509-post-quantum",
+      "version": "2.10.0",
+      "license": "MIT",
+      "integrityPresent": true,
+      "resolvedProtocol": "https"
+    },
+    {
+      "path": "node_modules/@peculiar/utils",
+      "name": "@peculiar/utils",
+      "version": "2.0.3",
+      "license": "MIT",
+      "integrityPresent": true,
+      "resolvedProtocol": "https"
+    },
+    {
+      "path": "node_modules/@peculiar/x509",
+      "name": "@peculiar/x509",
+      "version": "2.1.0",
+      "license": "MIT",
+      "integrityPresent": true,
+      "resolvedProtocol": "https"
+    },
+    {
+      "path": "node_modules/@simplewebauthn/server",
+      "name": "@simplewebauthn/server",
+      "version": "14.0.3",
+      "license": "MIT",
+      "integrityPresent": true,
+      "resolvedProtocol": "https"
+    },
+    {
+      "path": "node_modules/@types/bcrypt",
+      "name": "@types/bcrypt",
+      "version": "5.0.2",
+      "license": "MIT",
+      "integrityPresent": true,
+      "resolvedProtocol": "https"
+    },
+    {
+      "path": "node_modules/@types/node",
+      "name": "@types/node",
+      "version": "20.19.43",
+      "license": "MIT",
+      "integrityPresent": true,
+      "resolvedProtocol": "https"
+    },
+    {
+      "path": "node_modules/@types/nodemailer",
+      "name": "@types/nodemailer",
+      "version": "8.0.2",
+      "license": "MIT",
+      "integrityPresent": true,
+      "resolvedProtocol": "https"
+    },
+    {
+      "path": "node_modules/@types/pg",
+      "name": "@types/pg",
+      "version": "8.23.1",
+      "license": "MIT",
+      "integrityPresent": true,
+      "resolvedProtocol": "https"
+    },
+    {
+      "path": "node_modules/@types/react",
+      "name": "@types/react",
+      "version": "19.3.0",
+      "license": "MIT",
+      "integrityPresent": true,
+      "resolvedProtocol": "https"
+    },
+    {
+      "path": "node_modules/@types/react-dom",
+      "name": "@types/react-dom",
+      "version": "19.3.0",
+      "license": "MIT",
+      "integrityPresent": true,
+      "resolvedProtocol": "https"
+    },
+    {
+      "path": "node_modules/asn1js",
+      "name": "asn1js",
+      "version": "3.0.10",
+      "license": "BSD-3-Clause",
+      "integrityPresent": true,
+      "resolvedProtocol": "https"
+    },
+    {
+      "path": "node_modules/bcrypt",
+      "name": "bcrypt",
+      "version": "6.0.0",
+      "license": "MIT",
+      "integrityPresent": true,
+      "resolvedProtocol": "https"
+    },
+    {
+      "path": "node_modules/csstype",
+      "name": "csstype",
+      "version": "3.2.3",
+      "license": "MIT",
+      "integrityPresent": true,
+      "resolvedProtocol": "https"
+    },
+    {
+      "path": "node_modules/node-addon-api",
+      "name": "node-addon-api",
+      "version": "8.9.2",
+      "license": "MIT",
+      "integrityPresent": true,
+      "resolvedProtocol": "https"
+    },
+    {
+      "path": "node_modules/node-gyp-build",
+      "name": "node-gyp-build",
+      "version": "4.8.4",
+      "license": "MIT",
+      "integrityPresent": true,
+      "resolvedProtocol": "https"
+    },
+    {
+      "path": "node_modules/nodemailer",
+      "name": "nodemailer",
+      "version": "9.1.1",
+      "license": "MIT-0",
+      "integrityPresent": true,
+      "resolvedProtocol": "https"
+    },
+    {
+      "path": "node_modules/pg",
+      "name": "pg",
+      "version": "8.23.1",
+      "license": "MIT",
+      "integrityPresent": true,
+      "resolvedProtocol": "https"
+    },
+    {
+      "path": "node_modules/pg-cloudflare",
+      "name": "pg-cloudflare",
+      "version": "1.4.1",
+      "license": "MIT",
+      "integrityPresent": true,
+      "resolvedProtocol": "https"
+    },
+    {
+      "path": "node_modules/pg-connection-string",
+      "name": "pg-connection-string",
+      "version": "2.14.1",
+      "license": "MIT",
+      "integrityPresent": true,
+      "resolvedProtocol": "https"
+    },
+    {
+      "path": "node_modules/pg-int8",
+      "name": "pg-int8",
+      "version": "1.0.1",
+      "license": "ISC",
+      "integrityPresent": true,
+      "resolvedProtocol": "https"
+    },
+    {
+      "path": "node_modules/pg-pool",
+      "name": "pg-pool",
+      "version": "3.14.0",
+      "license": "MIT",
+      "integrityPresent": true,
+      "resolvedProtocol": "https"
+    },
+    {
+      "path": "node_modules/pg-protocol",
+      "name": "pg-protocol",
+      "version": "1.16.1",
+      "license": "MIT",
+      "integrityPresent": true,
+      "resolvedProtocol": "https"
+    },
+    {
+      "path": "node_modules/pg-types",
+      "name": "pg-types",
+      "version": "2.2.0",
+      "license": "MIT",
+      "integrityPresent": true,
+      "resolvedProtocol": "https"
+    },
+    {
+      "path": "node_modules/pgpass",
+      "name": "pgpass",
+      "version": "1.0.5",
+      "license": "MIT",
+      "integrityPresent": true,
+      "resolvedProtocol": "https"
+    },
+    {
+      "path": "node_modules/postgres-array",
+      "name": "postgres-array",
+      "version": "2.0.0",
+      "license": "MIT",
+      "integrityPresent": true,
+      "resolvedProtocol": "https"
+    },
+    {
+      "path": "node_modules/postgres-bytea",
+      "name": "postgres-bytea",
+      "version": "1.0.1",
+      "license": "MIT",
+      "integrityPresent": true,
+      "resolvedProtocol": "https"
+    },
+    {
+      "path": "node_modules/postgres-date",
+      "name": "postgres-date",
+      "version": "1.0.7",
+      "license": "MIT",
+      "integrityPresent": true,
+      "resolvedProtocol": "https"
+    },
+    {
+      "path": "node_modules/postgres-interval",
+      "name": "postgres-interval",
+      "version": "1.2.0",
+      "license": "MIT",
+      "integrityPresent": true,
+      "resolvedProtocol": "https"
+    },
+    {
+      "path": "node_modules/pvtsutils",
+      "name": "pvtsutils",
+      "version": "1.3.6",
+      "license": "MIT",
+      "integrityPresent": true,
+      "resolvedProtocol": "https"
+    },
+    {
+      "path": "node_modules/pvutils",
+      "name": "pvutils",
+      "version": "1.2.0",
+      "license": "MIT",
+      "integrityPresent": true,
+      "resolvedProtocol": "https"
+    },
+    {
+      "path": "node_modules/react",
+      "name": "react",
+      "version": "19.3.0",
+      "license": "MIT",
+      "integrityPresent": true,
+      "resolvedProtocol": "https"
+    },
+    {
+      "path": "node_modules/react-dom",
+      "name": "react-dom",
+      "version": "19.3.0",
+      "license": "MIT",
+      "integrityPresent": true,
+      "resolvedProtocol": "https"
+    },
+    {
+      "path": "node_modules/reflect-metadata",
+      "name": "reflect-metadata",
+      "version": "0.2.2",
+      "license": "Apache-2.0",
+      "integrityPresent": true,
+      "resolvedProtocol": "https"
+    },
+    {
+      "path": "node_modules/scheduler",
+      "name": "scheduler",
+      "version": "0.28.0",
+      "license": "MIT",
+      "integrityPresent": true,
+      "resolvedProtocol": "https"
+    },
+    {
+      "path": "node_modules/split2",
+      "name": "split2",
+      "version": "4.2.0",
+      "license": "ISC",
+      "integrityPresent": true,
+      "resolvedProtocol": "https"
+    },
+    {
+      "path": "node_modules/tslib",
+      "name": "tslib",
+      "version": "2.8.1",
+      "license": "0BSD",
+      "integrityPresent": true,
+      "resolvedProtocol": "https"
+    },
+    {
+      "path": "node_modules/tsyringe",
+      "name": "tsyringe",
+      "version": "4.10.0",
+      "license": "MIT",
+      "integrityPresent": true,
+      "resolvedProtocol": "https"
+    },
+    {
+      "path": "node_modules/tsyringe/node_modules/tslib",
+      "name": "tslib",
+      "version": "1.14.1",
+      "license": "0BSD",
+      "integrityPresent": true,
+      "resolvedProtocol": "https"
+    },
+    {
+      "path": "node_modules/typescript",
+      "name": "typescript",
+      "version": "5.9.3",
+      "license": "Apache-2.0",
+      "integrityPresent": true,
+      "resolvedProtocol": "https"
+    },
+    {
+      "path": "node_modules/undici-types",
+      "name": "undici-types",
+      "version": "6.21.0",
+      "license": "MIT",
+      "integrityPresent": true,
+      "resolvedProtocol": "https"
+    },
+    {
+      "path": "node_modules/xtend",
+      "name": "xtend",
+      "version": "4.0.2",
+      "license": "MIT",
+      "integrityPresent": true,
+      "resolvedProtocol": "https"
+    },
+    {
+      "path": "packages/maataa-ui-nevo/node_modules/react-icons",
+      "name": "react-icons",
+      "version": "5.7.0",
+      "license": "MIT",
+      "integrityPresent": false,
+      "resolvedProtocol": null
+    }
+  ],
+  "licenseSummary": {
+    "0BSD": 2,
+    "Apache-2.0": 104,
+    "BSD-2-Clause": 6,
+    "BSD-3-Clause": 6,
+    "BlueOak-1.0.0": 11,
+    "CC-BY-4.0": 1,
+    "CC0-1.0": 1,
+    "ISC": 25,
+    "LGPL-3.0-or-later": 2,
+    "MIT": 272,
+    "MIT OR Apache-2.0": 3,
+    "MIT-0": 2,
+    "MPL-2.0": 1
+  },
+  "audit": {
+    "exitCode": 1,
+    "signal": null,
+    "metadata": {
+      "vulnerabilities": {
+        "info": 0,
+        "low": 0,
+        "moderate": 0,
+        "high": 1,
+        "critical": 0,
+        "total": 1
+      },
+      "dependencies": {
+        "prod": 398,
+        "dev": 46,
+        "optional": 9,
+        "peer": 0,
+        "peerOptional": 0,
+        "total": 452
+      }
+    },
+    "vulnerabilities": {
+      "nodemailer": {
+        "name": "nodemailer",
+        "severity": "high",
+        "isDirect": true,
+        "via": [
+          {
+            "source": 1239931,
+            "name": "nodemailer",
+            "dependency": "nodemailer",
+            "title": "Nodemailer: Process-global DNS cache reuses TLS `servername` across transports, enabling cross-tenant SMTP credential disclosure",
+            "url": "https://github.com/advisories/GHSA-6vj9-mwq6-2f5v",
+            "severity": "moderate",
+            "cwe": [
+              "CWE-295"
+            ],
+            "cvss": {
+              "score": 5.9,
+              "vectorString": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:L/A:N"
+            },
+            "range": ">=5.0.0 <10.0.2"
+          },
+          {
+            "source": 1240033,
+            "name": "nodemailer",
+            "dependency": "nodemailer",
+            "title": "Nodemailer: Nested structured recipient arrays bypass the parser depth limit and cause stack exhaustion DoS",
+            "url": "https://github.com/advisories/GHSA-8vvx-rff5-p5rq",
+            "severity": "moderate",
+            "cwe": [
+              "CWE-674"
+            ],
+            "cvss": {
+              "score": 5.9,
+              "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H"
+            },
+            "range": "<10.0.2"
+          },
+          {
+            "source": 1240113,
+            "name": "nodemailer",
+            "dependency": "nodemailer",
+            "title": "Nodemailer: Quoted local-part can produce malformed envelope recipient through RFC 5322 comment parsing",
+            "url": "https://github.com/advisories/GHSA-g57g-f23g-4646",
+            "severity": "moderate",
+            "cwe": [
+              "CWE-20",
+              "CWE-436"
+            ],
+            "cvss": {
+              "score": 5.3,
+              "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N"
+            },
+            "range": ">=9.1.0 <10.0.9"
+          },
+          {
+            "source": 1240114,
+            "name": "nodemailer",
+            "dependency": "nodemailer",
+            "title": "Nodemailer: Quadratic backtracking in the addressparser free-text fallback allows remote denial of service",
+            "url": "https://github.com/advisories/GHSA-v53p-9fqp-m79j",
+            "severity": "high",
+            "cwe": [
+              "CWE-407",
+              "CWE-1333"
+            ],
+            "cvss": {
+              "score": 7.5,
+              "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+            },
+            "range": "<=10.0.5"
+          },
+          {
+            "source": 1241277,
+            "name": "nodemailer",
+            "dependency": "nodemailer",
+            "title": "Nodemailer addressparser: O(n^2) on comment-joined addresses enables a remote DoS (reachable via mailparser)",
+            "url": "https://github.com/advisories/GHSA-prgh-xp8r-p3m5",
+            "severity": "high",
+            "cwe": [
+              "CWE-400",
+              "CWE-407"
+            ],
+            "cvss": {
+              "score": 7.5,
+              "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+            },
+            "range": ">=9.1.0 <=10.0.4"
+          }
+        ],
+        "effects": [],
+        "range": "<=10.0.8",
+        "nodes": [
+          "node_modules/nodemailer"
+        ],
+        "fixAvailable": true
+      }
+    },
+    "error": null
+  },
+  "reviewLimitations": [
+    "License fields are declared metadata, not a legal approval.",
+    "No upstream source/content review or package-install sandbox analysis is claimed.",
+    "Npm audit is advisory-database coverage at execution time, not absence of all vulnerabilities.",
+    "Original imported platform package source manifests remain covered by byte-exact archive provenance."
+  ]
+}

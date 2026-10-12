@@ -1,0 +1,11 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> test:routes
+> npm --prefix apps/maataa-ui-route-source run validate:routes
+
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> maataa-ui-route-source@0.1.0 validate:routes
+> node scripts/validate-routes.mjs
+
+PASS: 82 concrete page modules; 263 supported fixture/catalogue URLs

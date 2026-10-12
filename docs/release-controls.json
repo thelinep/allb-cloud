@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "status": "requires_operator_and_business_approval",
+  "externalConfigurationPerformed": false,
+  "secrets": {"source": "approved environment secret store", "separateEnvironments": true, "valuesIncluded": false},
+  "backupProposal": {"dailyFull": true, "postgresWalPitr": true, "dailyRetentionDays": 30, "monthlyRetentionMonths": 12, "restoreExercise": "monthly and before destructive migrations", "rpoMinutes": 15, "rtoMinutes": 60, "approved": false, "configured": false},
+  "incidentOwners": {"primary": null, "secondary": null, "database": null, "identity": null, "providers": null},
+  "alerts": {"crossTenantExposure": "stop release and incident review", "auditIntegrityMismatch": "stop release", "failedRestore": "stop release", "latencyAndErrorThresholds": null, "destinations": [], "configured": false},
+  "financialPolicy": {"handoff": "settled_payment local evidence only", "advanceVsFullSettlement": null, "taxAuthority": null, "providerReconciliation": "unverified"},
+  "rollout": {"enabled": false, "productionEnvironment": null, "approvedCommit": null, "rolloutFractions": [], "rollbackThresholds": null},
+  "unsupportedClaims": ["No real provider settlement", "No physical device or manual AT certification", "No deployment, approved baseline, performance SLO or named operational owner"]
+}

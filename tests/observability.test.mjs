@@ -1,0 +1,10 @@
+import assert from 'node:assert/strict';
+import {record,snapshot,observe,traceContext} from '../packages/observability/local.mjs';
+const logs=[],start=snapshot();
+record({channel:'unexpected/customer/name',status:503,durationMilliseconds:21,token:'must-not-appear',password:'secret'},line=>logs.push(line));
+assert.equal(JSON.parse(logs[0]).channel,'other');assert.equal(logs[0].includes('secret'),false);assert.equal(logs[0].includes('customer'),false);
+const parent='00-0123456789abcdef0123456789abcdef-0123456789abcdef-01';assert.equal(traceContext(new Request('https://local.invalid',{headers:{traceparent:parent}})).traceId,parent.split('-')[1]);
+assert.notEqual(traceContext(new Request('https://local.invalid',{headers:{traceparent:'00-'+ '0'.repeat(32)+'-'+'0'.repeat(16)+'-01'}})).traceId,'0'.repeat(32));
+const r=await observe('design-api',async()=>new Response('',{status:409}),{write:line=>logs.push(line)});assert.match(r.headers.get('x-trace-id'),/^[a-f0-9]{32}$/);assert.equal(JSON.parse(logs[1]).status,409);
+await assert.rejects(observe('database-local',async()=>{throw Error('sensitive connection string');},{write:line=>logs.push(line)}));assert.equal(logs[2].includes('sensitive'),false);
+const end=snapshot();assert.equal(end.requests-start.requests,3);assert.equal(end.errors-start.errors,2);assert.equal(end.latencyBuckets.counts.reduce((a,b)=>a+b,0),end.requests);assert.equal(end.mode,'process-local');console.log('PASS 11 observability redaction, trace, metrics and failure checks');

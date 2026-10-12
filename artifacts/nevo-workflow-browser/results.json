@@ -1,0 +1,42 @@
+{
+  "checks": [
+    "Production HTML references 13 available assets",
+    "Actual auth browser: 34 checks",
+    "Required sign-in validation",
+    "Real enrolled ADMIN TOTP via UI",
+    "Durable inquiry saved",
+    "Scene revision saved",
+    "Keyboard tab navigation",
+    "Scene bound quote created",
+    "Internal approval binds exact quote",
+    "ADMIN cannot impersonate client decision",
+    "Distinct CLIENT approval via API",
+    "Handoff rejects missing settlement/booking",
+    "Local booking evidence recorded",
+    "Manual payment evidence explicitly labelled",
+    "Immutable settled evidence handoff frozen",
+    "Process restart preserves exact frozen digest and session",
+    "Frozen record rejects later scene edits",
+    "Cross-tenant actual events API denies access"
+  ],
+  "results": [
+    {
+      "label": "signed-out",
+      "width": 1440,
+      "violations": []
+    },
+    {
+      "label": "frozen-handoff",
+      "width": 1440,
+      "violations": []
+    },
+    {
+      "label": "mobile-saved-record",
+      "width": 390,
+      "violations": []
+    }
+  ],
+  "pageErrors": [],
+  "evidenceMode": "disposable_disk_pglite_actual_next_api",
+  "providerVerified": false
+}

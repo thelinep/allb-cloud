@@ -1,0 +1,6 @@
+▲ Next.js 16.3.8
+- Local:         http://127.0.0.1:3187
+- Network:       http://127.0.0.1:3187
+✓ Ready in 105ms
+✓ Running next.config.ts took 27ms
+{"pages":8,"interactions":12,"pageErrors":[],"output":"/workspace/scratch/80aa72c897e9/allb-cloud/artifacts/nevo-ui-browser"}

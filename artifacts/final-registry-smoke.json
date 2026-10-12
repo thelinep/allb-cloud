@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "counts": {
+    "complete": 98,
+    "blocked": 33
+  },
+  "mode": "fresh-production-build-api-and-chromium-page",
+  "source": "compiled-snapshot"
+}

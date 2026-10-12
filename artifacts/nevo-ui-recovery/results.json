@@ -1,0 +1,13 @@
+{
+  "checks": [
+    "1440: real404 home recovery",
+    "1440: visible busy, duplicate disabled,409 input preserved,latest revision recovery,no automatic mutation retry",
+    "1440: keyboard Home/End workflow tabs",
+    "1440: overflow and axe pass",
+    "390: real404 home recovery",
+    "390: visible busy, duplicate disabled,409 input preserved,latest revision recovery,no automatic mutation retry",
+    "390: keyboard Home/End workflow tabs",
+    "390: overflow and axe pass"
+  ],
+  "evidenceMode": "production_next_browser_with_explicit_UI_failure_injection_not_backend_authorization"
+}

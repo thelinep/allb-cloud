@@ -1,0 +1,2 @@
+PASS 23 NEVO identity bridge checks against disposable PostgreSQL
+PASS 11 imported auth/MFA compatibility assertions (WebAuthn ceremony untested)

@@ -1,0 +1,1307 @@
+{
+  "registry": {
+    "schemaVersion": 1,
+    "program": "ALLB/MAATAA enterprise foundation",
+    "baselineCommit": "674dcc89389e65e1ff881e7e0cc12059aff6fa37",
+    "phaseNames": [
+      "Scope & architecture",
+      "UI verification",
+      "Database & environments",
+      "Authentication",
+      "Tenant isolation & authorization",
+      "Backend contracts",
+      "Enterprise design publishing",
+      "Asset management",
+      "First brand application",
+      "Operations & integrations",
+      "Hardening & recovery",
+      "Staging certification",
+      "Controlled production release",
+      "Brand expansion"
+    ],
+    "statusRules": {
+      "complete": "Task-specific evidence exists. Completion does not imply enterprise release certification.",
+      "pending": "Not completed or not verified.",
+      "blocked": "Dependency, environment or user decision prevents completion.",
+      "in_progress": "Work is running; no completion claim."
+    },
+    "tasks": [
+      {
+        "id": "E01.01",
+        "phase": 1,
+        "title": "Inventory current routes, renderers, assets, local state and disconnected services",
+        "status": "complete",
+        "dependsOn": null,
+        "evidence": "docs/enterprise-architecture.md; docs/enterprise-task-registry.json"
+      },
+      {
+        "id": "E01.02",
+        "phase": 1,
+        "title": "Define MAATAA UI, identity, configuration, assets and business-service boundaries",
+        "status": "complete",
+        "dependsOn": "E01.01",
+        "evidence": "docs/enterprise-architecture.md; docs/enterprise-task-registry.json"
+      },
+      {
+        "id": "E01.03",
+        "phase": 1,
+        "title": "Record trust boundaries and browser/server sources of truth",
+        "status": "complete",
+        "dependsOn": "E01.02",
+        "evidence": "docs/enterprise-architecture.md; docs/enterprise-task-registry.json"
+      },
+      {
+        "id": "E01.04",
+        "phase": 1,
+        "title": "Define first enterprise vertical slice: tenant-scoped design publishing",
+        "status": "complete",
+        "dependsOn": "E01.03",
+        "evidence": "docs/enterprise-architecture.md; docs/enterprise-task-registry.json"
+      },
+      {
+        "id": "E01.05",
+        "phase": 1,
+        "title": "Record runtime/database/auth assumptions and unresolved user decisions",
+        "status": "complete",
+        "dependsOn": "E01.04",
+        "evidence": "docs/enterprise-architecture.md; docs/enterprise-task-registry.json"
+      },
+      {
+        "id": "E01.06",
+        "phase": 1,
+        "title": "Create atomic task registry, status rules and evidence requirements",
+        "status": "complete",
+        "dependsOn": "E01.05",
+        "evidence": "docs/enterprise-architecture.md; docs/enterprise-task-registry.json"
+      },
+      {
+        "id": "E01.07",
+        "phase": 1,
+        "title": "Define release criteria and rollout scope",
+        "status": "complete",
+        "dependsOn": "E01.06",
+        "evidence": "docs/enterprise-architecture.md; docs/enterprise-task-registry.json"
+      },
+      {
+        "id": "E02.01",
+        "phase": 2,
+        "title": "Install and verify a real headless browser runtime",
+        "status": "complete",
+        "dependsOn": "E01.07",
+        "evidence": "docs/enterprise-verification.json; tests/browser/enterprise-ui.spec.ts"
+      },
+      {
+        "id": "E02.02",
+        "phase": 2,
+        "title": "Create reproducible desktop and mobile browser test configuration",
+        "status": "complete",
+        "dependsOn": "E02.01",
+        "evidence": "docs/enterprise-verification.json; tests/browser/enterprise-ui.spec.ts"
+      },
+      {
+        "id": "E02.03",
+        "phase": 2,
+        "title": "Verify gallery search and category filters",
+        "status": "complete",
+        "dependsOn": "E02.02",
+        "evidence": "docs/enterprise-verification.json; tests/browser/enterprise-ui.spec.ts"
+      },
+      {
+        "id": "E02.04",
+        "phase": 2,
+        "title": "Verify all landing-to-workspace and shared-tool handoffs",
+        "status": "complete",
+        "dependsOn": "E02.03",
+        "evidence": "docs/enterprise-verification.json; tests/browser/enterprise-ui.spec.ts"
+      },
+      {
+        "id": "E02.05",
+        "phase": 2,
+        "title": "Verify draft editing, explicit apply and persistence after reload",
+        "status": "complete",
+        "dependsOn": "E02.04",
+        "evidence": "docs/enterprise-verification.json; tests/browser/enterprise-ui.spec.ts"
+      },
+      {
+        "id": "E02.06",
+        "phase": 2,
+        "title": "Verify global/brand/family/exact-route appearance and identity",
+        "status": "complete",
+        "dependsOn": "E02.05",
+        "evidence": "docs/enterprise-verification.json; tests/browser/enterprise-ui.spec.ts"
+      },
+      {
+        "id": "E02.07",
+        "phase": 2,
+        "title": "Verify Studio JSON validation, import/export and reset behavior",
+        "status": "complete",
+        "dependsOn": "E02.06",
+        "evidence": "docs/enterprise-verification.json; tests/browser/enterprise-ui.spec.ts"
+      },
+      {
+        "id": "E02.08",
+        "phase": 2,
+        "title": "Verify keyboard focus, navigation, forms and menus",
+        "status": "complete",
+        "dependsOn": "E02.07",
+        "evidence": "docs/ui-workflow-recovery-evidence.md; 548 unique desktop/mobile browser cases: initial544PASS + affected4/4PASS after locator/readiness corrections; 264routes x2 and20 interactions; representative gallery/NEVO/Studio visual review. Manual AT/physical devices not covered."
+      },
+      {
+        "id": "E02.09",
+        "phase": 2,
+        "title": "Run automated accessibility checks on all rendered routes",
+        "status": "complete",
+        "dependsOn": "E02.08",
+        "evidence": "docs/enterprise-verification.json; tests/browser/enterprise-ui.spec.ts"
+      },
+      {
+        "id": "E02.10",
+        "phase": 2,
+        "title": "Inspect desktop/mobile layouts for overflow and visual regressions",
+        "status": "complete",
+        "dependsOn": "E02.09",
+        "evidence": "docs/ui-workflow-recovery-evidence.md; 548 unique desktop/mobile browser cases: initial544PASS + affected4/4PASS after locator/readiness corrections; 264routes x2 and20 interactions; representative gallery/NEVO/Studio visual review. Manual AT/physical devices not covered."
+      },
+      {
+        "id": "E02.11",
+        "phase": 2,
+        "title": "Add loading, error and not-found boundaries and recovery actions",
+        "status": "complete",
+        "dependsOn": "E02.10",
+        "evidence": "artifacts/next-boundary-browser/results.json; actual loading, segment/root failure and retry"
+      },
+      {
+        "id": "E02.12",
+        "phase": 2,
+        "title": "Fix findings and rerun affected checks",
+        "status": "complete",
+        "dependsOn": [
+          "E02.03",
+          "E02.05",
+          "E02.06",
+          "E02.07",
+          "E02.09"
+        ],
+        "evidence": "docs/enterprise-verification.json; tests/browser/enterprise-ui.spec.ts"
+      },
+      {
+        "id": "E02.13",
+        "phase": 2,
+        "title": "Record browser, viewport, version, evidence and unverified manual checks",
+        "status": "complete",
+        "dependsOn": "E02.12",
+        "evidence": "docs/enterprise-verification.json; tests/browser/enterprise-ui.spec.ts"
+      },
+      {
+        "id": "E03.01",
+        "phase": 3,
+        "title": "Confirm PostgreSQL target and secure connection configuration",
+        "status": "complete",
+        "dependsOn": "E01.05",
+        "evidence": "docs/enterprise-verification.json; packages/enterprise-db; docs/enterprise-database-environments.md"
+      },
+      {
+        "id": "E03.02",
+        "phase": 3,
+        "title": "Define organization/user/workspace/membership keys and tenant constraints",
+        "status": "complete",
+        "dependsOn": "E03.01",
+        "evidence": "docs/enterprise-verification.json; packages/enterprise-db; docs/enterprise-database-environments.md"
+      },
+      {
+        "id": "E03.03",
+        "phase": 3,
+        "title": "Define configuration draft/version/publication/approval records",
+        "status": "complete",
+        "dependsOn": "E03.02",
+        "evidence": "docs/enterprise-verification.json; packages/enterprise-db; docs/enterprise-database-environments.md"
+      },
+      {
+        "id": "E03.04",
+        "phase": 3,
+        "title": "Define asset/revision references and audit/outbox records",
+        "status": "complete",
+        "dependsOn": "E03.03",
+        "evidence": "docs/enterprise-verification.json; packages/enterprise-db; docs/enterprise-database-environments.md"
+      },
+      {
+        "id": "E03.05",
+        "phase": 3,
+        "title": "Create baseline migrations and development fixtures without production credentials",
+        "status": "complete",
+        "dependsOn": "E03.04",
+        "evidence": "docs/enterprise-verification.json; packages/enterprise-db; docs/enterprise-database-environments.md"
+      },
+      {
+        "id": "E03.06",
+        "phase": 3,
+        "title": "Apply migrations to a disposable database",
+        "status": "complete",
+        "dependsOn": "E03.05",
+        "evidence": "docs/enterprise-verification.json; packages/enterprise-db; docs/enterprise-database-environments.md"
+      },
+      {
+        "id": "E03.07",
+        "phase": 3,
+        "title": "Test tenant uniqueness, foreign keys and transaction constraints",
+        "status": "complete",
+        "dependsOn": "E03.06",
+        "evidence": "docs/enterprise-verification.json; packages/enterprise-db; docs/enterprise-database-environments.md"
+      },
+      {
+        "id": "E03.08",
+        "phase": 3,
+        "title": "Establish separate development/staging/production environment templates",
+        "status": "complete",
+        "dependsOn": "E03.07",
+        "evidence": "docs/enterprise-verification.json; packages/enterprise-db; docs/enterprise-database-environments.md; config/environments/*.example.json; current adapter build blocked by native sharp dependency introduced by local asset route; environment templates remain complete, Worker compatibility is not certified."
+      },
+      {
+        "id": "E03.09",
+        "phase": 3,
+        "title": "Document expand-contract migrations and database recovery procedure",
+        "status": "complete",
+        "dependsOn": "E03.08",
+        "evidence": "docs/enterprise-verification.json; packages/enterprise-db; docs/enterprise-database-environments.md"
+      },
+      {
+        "id": "E04.01",
+        "phase": 4,
+        "title": "Confirm own identity/account policy, invitation-only signup and privileged MFA",
+        "status": "complete",
+        "dependsOn": "E01.05",
+        "evidence": "docs/enterprise-verification.json; docs/maataa-auth-comparison.md; packages/auth-core; tests/auth-core.test.mjs"
+      },
+      {
+        "id": "E04.02",
+        "phase": 4,
+        "title": "Implement and test server credential verification and account identity mapping",
+        "status": "complete",
+        "dependsOn": "E04.01",
+        "evidence": "docs/enterprise-verification.json; docs/maataa-auth-comparison.md; packages/auth-core; tests/auth-core.test.mjs"
+      },
+      {
+        "id": "E04.03",
+        "phase": 4,
+        "title": "Enforce secure session cookies, expiry and rotation",
+        "status": "complete",
+        "dependsOn": "E04.02",
+        "evidence": "docs/auth-lifecycle-evidence.md; artifacts/backlog-browser/results.json: 14 actual Next lifecycle browser checks; tests/auth-lifecycle.test.mjs: 36 local assertions; encrypted delivery worker simulation only"
+      },
+      {
+        "id": "E04.04",
+        "phase": 4,
+        "title": "Validate sign-in/out and callback error handling",
+        "status": "complete",
+        "dependsOn": "E04.03",
+        "evidence": "artifacts/backlog-browser/results.json; 17 lifecycle checks including callback errors"
+      },
+      {
+        "id": "E04.05",
+        "phase": 4,
+        "title": "Implement session revocation and device/session listing",
+        "status": "complete",
+        "dependsOn": "E04.04",
+        "evidence": "docs/auth-lifecycle-evidence.md; artifacts/backlog-browser/results.json: 14 actual Next lifecycle browser checks; tests/auth-lifecycle.test.mjs: 36 local assertions; encrypted delivery worker simulation only"
+      },
+      {
+        "id": "E04.06",
+        "phase": 4,
+        "title": "Implement and test MFA enrollment/challenge/recovery",
+        "status": "complete",
+        "dependsOn": "E04.05",
+        "evidence": "docs/auth-lifecycle-evidence.md; artifacts/backlog-browser/results.json: 14 actual Next lifecycle browser checks; tests/auth-lifecycle.test.mjs: 36 local assertions; encrypted delivery worker simulation only"
+      },
+      {
+        "id": "E04.07",
+        "phase": 4,
+        "title": "Implement invitation acceptance with expiry and single use",
+        "status": "complete",
+        "dependsOn": "E04.06",
+        "evidence": "docs/auth-lifecycle-evidence.md; artifacts/backlog-browser/results.json: 14 actual Next lifecycle browser checks; tests/auth-lifecycle.test.mjs: 36 local assertions; encrypted delivery worker simulation only"
+      },
+      {
+        "id": "E04.08",
+        "phase": 4,
+        "title": "Implement account recovery and anti-enumeration responses",
+        "status": "complete",
+        "dependsOn": "E04.07",
+        "evidence": "docs/auth-lifecycle-evidence.md; artifacts/backlog-browser/results.json: 14 actual Next lifecycle browser checks; tests/auth-lifecycle.test.mjs: 36 local assertions; encrypted delivery worker simulation only"
+      },
+      {
+        "id": "E04.09",
+        "phase": 4,
+        "title": "Remove demo authentication from production authority paths",
+        "status": "complete",
+        "dependsOn": "E04.08",
+        "evidence": "docs/auth-production-authority-review.md; production uses current server session authority"
+      },
+      {
+        "id": "E04.10",
+        "phase": 4,
+        "title": "Test replay, expired session and disabled-account rejection",
+        "status": "complete",
+        "dependsOn": "E04.09",
+        "evidence": "docs/auth-lifecycle-evidence.md; artifacts/backlog-browser/results.json: 14 actual Next lifecycle browser checks; tests/auth-lifecycle.test.mjs: 36 local assertions; encrypted delivery worker simulation only"
+      },
+      {
+        "id": "E05.01",
+        "phase": 5,
+        "title": "Build authenticated server identity and tenant-context resolver",
+        "status": "complete",
+        "dependsOn": "E04.10",
+        "evidence": "docs/api-authority-contract-evidence.md; tests/api-authority.test.mjs: 30 checks; artifacts/backlog-browser/results.json: 16 actual Next API checks; adopted integration API scope, not staging certification"
+      },
+      {
+        "id": "E05.02",
+        "phase": 5,
+        "title": "Validate organization/workspace membership for every operation",
+        "status": "complete",
+        "dependsOn": "E05.01",
+        "evidence": "docs/api-authority-contract-evidence.md; tests/api-authority.test.mjs: 30 checks; artifacts/backlog-browser/results.json: 16 actual Next API checks; adopted integration API scope, not staging certification"
+      },
+      {
+        "id": "E05.03",
+        "phase": 5,
+        "title": "Define viewer/editor/reviewer/publisher/admin permission matrix",
+        "status": "complete",
+        "dependsOn": "E05.02",
+        "evidence": "docs/api-authority-contract-evidence.md; tests/api-authority.test.mjs: 30 checks; artifacts/backlog-browser/results.json: 16 actual Next API checks; adopted integration API scope, not staging certification"
+      },
+      {
+        "id": "E05.04",
+        "phase": 5,
+        "title": "Apply deny-by-default checks on read and mutation APIs",
+        "status": "complete",
+        "dependsOn": "E05.03",
+        "evidence": "docs/api-authority-contract-evidence.md; tests/api-authority.test.mjs: 30 checks; artifacts/backlog-browser/results.json: 16 actual Next API checks; adopted integration API scope, not staging certification"
+      },
+      {
+        "id": "E05.05",
+        "phase": 5,
+        "title": "Prevent client-controlled tenant/role escalation",
+        "status": "complete",
+        "dependsOn": "E05.04",
+        "evidence": "docs/api-authority-contract-evidence.md; tests/api-authority.test.mjs: 30 checks; artifacts/backlog-browser/results.json: 16 actual Next API checks; adopted integration API scope, not staging certification"
+      },
+      {
+        "id": "E05.06",
+        "phase": 5,
+        "title": "Test cross-tenant reads, writes and identifier guessing",
+        "status": "complete",
+        "dependsOn": "E05.05",
+        "evidence": "docs/api-authority-contract-evidence.md; tests/api-authority.test.mjs: 30 checks; artifacts/backlog-browser/results.json: 16 actual Next API checks; adopted integration API scope, not staging certification"
+      },
+      {
+        "id": "E05.07",
+        "phase": 5,
+        "title": "Define service identities and scoped background-job authority",
+        "status": "complete",
+        "dependsOn": "E05.06",
+        "evidence": "docs/api-authority-contract-evidence.md; tests/api-authority.test.mjs: 30 checks; artifacts/backlog-browser/results.json: 16 actual Next API checks; adopted integration API scope, not staging certification"
+      },
+      {
+        "id": "E05.08",
+        "phase": 5,
+        "title": "Audit role changes and membership revocation",
+        "status": "complete",
+        "dependsOn": "E05.07",
+        "evidence": "docs/api-authority-contract-evidence.md; tests/api-authority.test.mjs: 30 checks; artifacts/backlog-browser/results.json: 16 actual Next API checks; adopted integration API scope, not staging certification"
+      },
+      {
+        "id": "E05.09",
+        "phase": 5,
+        "title": "Verify revocation affects active sessions and cached authority",
+        "status": "complete",
+        "dependsOn": "E05.08",
+        "evidence": "docs/api-authority-contract-evidence.md; tests/api-authority.test.mjs: 30 checks; artifacts/backlog-browser/results.json: 16 actual Next API checks; adopted integration API scope, not staging certification"
+      },
+      {
+        "id": "E06.01",
+        "phase": 6,
+        "title": "Define versioned API schemas and server-side input validation",
+        "status": "complete",
+        "dependsOn": "E05.09",
+        "evidence": "docs/api-authority-contract-evidence.md; artifacts/api-contract-browser/report.json; artifacts/design-publishing-browser/results.json; local integration API scope"
+      },
+      {
+        "id": "E06.02",
+        "phase": 6,
+        "title": "Implement consistent error envelopes and request correlation IDs",
+        "status": "complete",
+        "dependsOn": "E06.01",
+        "evidence": "docs/api-authority-contract-evidence.md; artifacts/api-contract-browser/report.json; artifacts/design-publishing-browser/results.json; local integration API scope"
+      },
+      {
+        "id": "E06.03",
+        "phase": 6,
+        "title": "Implement bounded pagination and filtering",
+        "status": "complete",
+        "dependsOn": "E06.02",
+        "evidence": "docs/api-authority-contract-evidence.md; artifacts/api-contract-browser/report.json; artifacts/design-publishing-browser/results.json; local integration API scope"
+      },
+      {
+        "id": "E06.04",
+        "phase": 6,
+        "title": "Implement revision/ETag-based conflict detection",
+        "status": "complete",
+        "dependsOn": "E06.03",
+        "evidence": "docs/api-authority-contract-evidence.md; artifacts/api-contract-browser/report.json; artifacts/design-publishing-browser/results.json; local integration API scope"
+      },
+      {
+        "id": "E06.05",
+        "phase": 6,
+        "title": "Implement idempotency for retryable mutations",
+        "status": "complete",
+        "dependsOn": "E06.04",
+        "evidence": "docs/api-authority-contract-evidence.md; artifacts/api-contract-browser/report.json; artifacts/design-publishing-browser/results.json; local integration API scope"
+      },
+      {
+        "id": "E06.06",
+        "phase": 6,
+        "title": "Implement transaction boundaries and outbox event emission",
+        "status": "complete",
+        "dependsOn": "E06.05",
+        "evidence": "docs/api-authority-contract-evidence.md; artifacts/api-contract-browser/report.json; artifacts/design-publishing-browser/results.json; local integration API scope"
+      },
+      {
+        "id": "E06.07",
+        "phase": 6,
+        "title": "Apply CSRF/origin controls to cookie-authenticated mutations",
+        "status": "complete",
+        "dependsOn": "E06.06",
+        "evidence": "docs/api-authority-contract-evidence.md; artifacts/api-contract-browser/report.json; artifacts/design-publishing-browser/results.json; local integration API scope"
+      },
+      {
+        "id": "E06.08",
+        "phase": 6,
+        "title": "Apply appropriate rate limits and request-size limits",
+        "status": "complete",
+        "dependsOn": "E06.07",
+        "evidence": "docs/api-authority-contract-evidence.md; artifacts/api-contract-browser/report.json; artifacts/design-publishing-browser/results.json; local integration API scope"
+      },
+      {
+        "id": "E06.09",
+        "phase": 6,
+        "title": "Create authenticated contract/integration tests",
+        "status": "complete",
+        "dependsOn": "E06.08",
+        "evidence": "docs/api-authority-contract-evidence.md; artifacts/api-contract-browser/report.json; artifacts/design-publishing-browser/results.json; local integration API scope"
+      },
+      {
+        "id": "E07.01",
+        "phase": 7,
+        "title": "Create workspace-scoped design draft API and persistence",
+        "status": "complete",
+        "dependsOn": "E06.09",
+        "evidence": "docs/design-publishing-local-evidence.md; artifacts/design-publishing-browser/results.json: 16 workflow + 4 scope/layout checks; 29 service assertions; local disposable database and exact-route public config binding"
+      },
+      {
+        "id": "E07.02",
+        "phase": 7,
+        "title": "Connect both Studio editors to server-backed drafts",
+        "status": "complete",
+        "dependsOn": "E07.01",
+        "evidence": "docs/design-publishing-local-evidence.md; artifacts/design-publishing-browser/results.json: 16 workflow + 4 scope/layout checks; 29 service assertions; local disposable database and exact-route public config binding"
+      },
+      {
+        "id": "E07.03",
+        "phase": 7,
+        "title": "Generate immutable configuration versions",
+        "status": "complete",
+        "dependsOn": "E07.02",
+        "evidence": "docs/design-publishing-local-evidence.md; artifacts/design-publishing-browser/results.json: 16 workflow + 4 scope/layout checks; 29 service assertions; local disposable database and exact-route public config binding"
+      },
+      {
+        "id": "E07.04",
+        "phase": 7,
+        "title": "Render preview from a specific version without public mutation",
+        "status": "complete",
+        "dependsOn": "E07.03",
+        "evidence": "docs/design-publishing-local-evidence.md; artifacts/design-publishing-browser/results.json: 16 workflow + 4 scope/layout checks; 29 service assertions; local disposable database and exact-route public config binding"
+      },
+      {
+        "id": "E07.05",
+        "phase": 7,
+        "title": "Submit a draft for review with evidence and revision checks",
+        "status": "complete",
+        "dependsOn": "E07.04",
+        "evidence": "docs/design-publishing-local-evidence.md; artifacts/design-publishing-browser/results.json: 16 workflow + 4 scope/layout checks; 29 service assertions; local disposable database and exact-route public config binding"
+      },
+      {
+        "id": "E07.06",
+        "phase": 7,
+        "title": "Record reviewer decisions and change requests",
+        "status": "complete",
+        "dependsOn": "E07.05",
+        "evidence": "docs/design-publishing-local-evidence.md; artifacts/design-publishing-browser/results.json: 16 workflow + 4 scope/layout checks; 29 service assertions; local disposable database and exact-route public config binding"
+      },
+      {
+        "id": "E07.07",
+        "phase": 7,
+        "title": "Require configured approval policy before publication",
+        "status": "complete",
+        "dependsOn": "E07.06",
+        "evidence": "docs/design-publishing-local-evidence.md; artifacts/design-publishing-browser/results.json: 16 workflow + 4 scope/layout checks; 29 service assertions; local disposable database and exact-route public config binding"
+      },
+      {
+        "id": "E07.08",
+        "phase": 7,
+        "title": "Atomically publish an approved version per route/brand scope",
+        "status": "complete",
+        "dependsOn": "E07.07",
+        "evidence": "docs/design-publishing-local-evidence.md; artifacts/design-publishing-browser/results.json: 16 workflow + 4 scope/layout checks; 29 service assertions; local disposable database and exact-route public config binding"
+      },
+      {
+        "id": "E07.09",
+        "phase": 7,
+        "title": "Load published configuration in public renderers with scoped caching",
+        "status": "complete",
+        "dependsOn": "E07.08",
+        "evidence": "docs/design-publishing-local-evidence.md; artifacts/design-publishing-browser/results.json: 16 workflow + 4 scope/layout checks; 29 service assertions; local disposable database and exact-route public config binding"
+      },
+      {
+        "id": "E07.10",
+        "phase": 7,
+        "title": "Reject stale or unauthorized approval/publication attempts",
+        "status": "complete",
+        "dependsOn": "E07.09",
+        "evidence": "docs/design-publishing-local-evidence.md; artifacts/design-publishing-browser/results.json: 16 workflow + 4 scope/layout checks; 29 service assertions; local disposable database and exact-route public config binding"
+      },
+      {
+        "id": "E07.11",
+        "phase": 7,
+        "title": "Implement rollback to a prior immutable approved version",
+        "status": "complete",
+        "dependsOn": "E07.10",
+        "evidence": "docs/design-publishing-local-evidence.md; artifacts/design-publishing-browser/results.json: 16 workflow + 4 scope/layout checks; 29 service assertions; local disposable database and exact-route public config binding"
+      },
+      {
+        "id": "E07.12",
+        "phase": 7,
+        "title": "Record complete audit trail for edit/review/publish/rollback",
+        "status": "complete",
+        "dependsOn": "E07.11",
+        "evidence": "docs/design-publishing-local-evidence.md; artifacts/design-publishing-browser/results.json: 16 workflow + 4 scope/layout checks; 29 service assertions; local disposable database and exact-route public config binding"
+      },
+      {
+        "id": "E07.13",
+        "phase": 7,
+        "title": "Run one multi-user tenant-scoped end-to-end publishing workflow",
+        "status": "complete",
+        "dependsOn": "E07.12",
+        "evidence": "docs/design-publishing-local-evidence.md; artifacts/design-publishing-browser/results.json: 16 workflow + 4 scope/layout checks; 29 service assertions; local disposable database and exact-route public config binding"
+      },
+      {
+        "id": "E08.01",
+        "phase": 8,
+        "title": "Confirm object-storage target and retention policy",
+        "status": "blocked",
+        "dependsOn": "E07.13",
+        "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+        "blocker": "Object-storage target and retention policy require owner approval; local filesystem adapter exists."
+      },
+      {
+        "id": "E08.02",
+        "phase": 8,
+        "title": "Authorize workspace-scoped uploads and enforce size/type limits",
+        "status": "complete",
+        "dependsOn": "E08.01",
+        "evidence": "packages/asset-storage/README.md; tests/asset-operations.test.mjs: 23 checks; artifacts/backlog-browser/results.json: actual authorized upload, decoded derivative, byte integrity, quarantine and cross-tenant rejection; local filesystem only"
+      },
+      {
+        "id": "E08.03",
+        "phase": 8,
+        "title": "Verify actual file signatures and quarantine unsupported content",
+        "status": "complete",
+        "dependsOn": "E08.02",
+        "evidence": "packages/asset-storage/README.md; tests/asset-operations.test.mjs: 23 checks; artifacts/backlog-browser/results.json: actual authorized upload, decoded derivative, byte integrity, quarantine and cross-tenant rejection; local filesystem only"
+      },
+      {
+        "id": "E08.04",
+        "phase": 8,
+        "title": "Generate optimized image derivatives and validate outputs",
+        "status": "complete",
+        "dependsOn": "E08.03",
+        "evidence": "packages/asset-storage/README.md; tests/asset-operations.test.mjs: 23 checks; artifacts/backlog-browser/results.json: actual authorized upload, decoded derivative, byte integrity, quarantine and cross-tenant rejection; local filesystem only"
+      },
+      {
+        "id": "E08.05",
+        "phase": 8,
+        "title": "Track immutable asset revisions and storage checksums",
+        "status": "complete",
+        "dependsOn": "E08.04",
+        "evidence": "packages/asset-storage/README.md; tests/asset-operations.test.mjs: 23 checks; artifacts/backlog-browser/results.json: actual authorized upload, decoded derivative, byte integrity, quarantine and cross-tenant rejection; local filesystem only"
+      },
+      {
+        "id": "E08.06",
+        "phase": 8,
+        "title": "Attach exact asset revisions to configuration versions",
+        "status": "complete",
+        "dependsOn": "E08.05",
+        "evidence": "packages/asset-storage/README.md; tests/asset-operations.test.mjs: 23 checks; artifacts/backlog-browser/results.json: actual authorized upload, decoded derivative, byte integrity, quarantine and cross-tenant rejection; local filesystem only"
+      },
+      {
+        "id": "E08.07",
+        "phase": 8,
+        "title": "Scope download/view access and signed URL lifetime",
+        "status": "blocked",
+        "dependsOn": "E08.06",
+        "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+        "blocker": "Scoped authenticated downloads implemented; production signed-URL TTL and object-store adapter unverified."
+      },
+      {
+        "id": "E08.08",
+        "phase": 8,
+        "title": "Implement orphan cleanup, retention and deletion rules",
+        "status": "blocked",
+        "dependsOn": "E08.07",
+        "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+        "blocker": "Conservative orphan/retention dry run implemented; destructive deletion awaits approved policy."
+      },
+      {
+        "id": "E08.09",
+        "phase": 8,
+        "title": "Test invalid uploads and cross-tenant access rejection",
+        "status": "complete",
+        "dependsOn": "E08.08",
+        "evidence": "packages/asset-storage/README.md; tests/asset-operations.test.mjs: 23 checks; artifacts/backlog-browser/results.json: actual authorized upload, decoded derivative, byte integrity, quarantine and cross-tenant rejection; local filesystem only"
+      },
+      {
+        "id": "E09.01",
+        "phase": 9,
+        "title": "Select first brand and its primary commercial/business goal",
+        "status": "complete",
+        "dependsOn": "E08.09",
+        "evidence": "User confirmed NEVO inquiry → venue/layout → quotation → approval → team handoff; docs/enterprise-architecture.md"
+      },
+      {
+        "id": "E09.02",
+        "phase": 9,
+        "title": "Define roles, entity lifecycle and measurable acceptance criteria",
+        "status": "complete",
+        "dependsOn": "E09.01",
+        "evidence": "docs/nevo-commercial-policy.md; artifacts/nevo-workflow-browser/results.json: persisted lifecycle and role-specific decision/frozen output checks. Local pilot criteria defined; actual business stakeholder acceptance remains E09.10."
+      },
+      {
+        "id": "E09.03",
+        "phase": 9,
+        "title": "Model its core records in the shared tenant-aware database",
+        "status": "complete",
+        "dependsOn": "E09.02",
+        "evidence": "docs/nevo-commercial-policy.md; artifacts/nevo-workflow-browser/results.json: 18 workflow checks and 3 accessibility/layout snapshots; real persisted local inquiry/scene/quote/client decision/frozen handoff; settlement is local evidence"
+      },
+      {
+        "id": "E09.04",
+        "phase": 9,
+        "title": "Implement core read/create/edit APIs",
+        "status": "complete",
+        "dependsOn": "E09.03",
+        "evidence": "docs/nevo-commercial-policy.md; artifacts/nevo-workflow-browser/results.json: 18 workflow checks and 3 accessibility/layout snapshots; real persisted local inquiry/scene/quote/client decision/frozen handoff; settlement is local evidence"
+      },
+      {
+        "id": "E09.05",
+        "phase": 9,
+        "title": "Connect forms, validation and save/conflict/error states",
+        "status": "complete",
+        "dependsOn": "E09.04",
+        "evidence": "docs/nevo-commercial-policy.md; artifacts/nevo-workflow-browser/results.json: 18 workflow checks and 3 accessibility/layout snapshots; real persisted local inquiry/scene/quote/client decision/frozen handoff; settlement is local evidence"
+      },
+      {
+        "id": "E09.06",
+        "phase": 9,
+        "title": "Implement decisions, approvals and required outputs",
+        "status": "complete",
+        "dependsOn": "E09.05",
+        "evidence": "docs/nevo-commercial-policy.md; artifacts/nevo-workflow-browser/results.json: persisted lifecycle and role-specific decision/frozen output checks. Local pilot criteria defined; actual business stakeholder acceptance remains E09.10."
+      },
+      {
+        "id": "E09.07",
+        "phase": 9,
+        "title": "Integrate only required commercial/external services",
+        "status": "blocked",
+        "dependsOn": "E09.06",
+        "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+        "blocker": "Real commercial provider selection, credentials and external configuration unavailable/not authorized."
+      },
+      {
+        "id": "E09.08",
+        "phase": 9,
+        "title": "Test the complete business workflow with real persisted records",
+        "status": "complete",
+        "dependsOn": "E09.07",
+        "evidence": "docs/nevo-commercial-policy.md; artifacts/nevo-workflow-browser/results.json: 18 workflow checks and 3 accessibility/layout snapshots; real persisted local inquiry/scene/quote/client decision/frozen handoff; settlement is local evidence"
+      },
+      {
+        "id": "E09.09",
+        "phase": 9,
+        "title": "Validate tenant isolation and audit evidence for the brand",
+        "status": "complete",
+        "dependsOn": "E09.08",
+        "evidence": "docs/nevo-commercial-policy.md; artifacts/nevo-workflow-browser/results.json: 18 workflow checks and 3 accessibility/layout snapshots; real persisted local inquiry/scene/quote/client decision/frozen handoff; settlement is local evidence"
+      },
+      {
+        "id": "E09.10",
+        "phase": 9,
+        "title": "Conduct user acceptance against agreed criteria",
+        "status": "blocked",
+        "dependsOn": "E09.09",
+        "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+        "blocker": "Real pilot participant and agreed business acceptance approval absent."
+      },
+      {
+        "id": "E10.01",
+        "phase": 10,
+        "title": "Define required job types and delivery guarantees",
+        "status": "complete",
+        "dependsOn": "E09.10",
+        "evidence": "packages/local-operations/service.mjs; tests/asset-operations.test.mjs; local jobs and delivery guarantees"
+      },
+      {
+        "id": "E10.02",
+        "phase": 10,
+        "title": "Create durable queue and retry/backoff policy",
+        "status": "complete",
+        "dependsOn": "E10.01",
+        "evidence": "packages/local-operations/service.mjs; tests/asset-operations.test.mjs: durable local retries/idempotency/DLQ; artifacts/backlog-browser/results.json: protected enqueue/tick with local-preview provenance; external provider delivery not covered"
+      },
+      {
+        "id": "E10.03",
+        "phase": 10,
+        "title": "Implement idempotent workers and dead-letter handling",
+        "status": "complete",
+        "dependsOn": "E10.02",
+        "evidence": "packages/local-operations/service.mjs; tests/asset-operations.test.mjs: durable local retries/idempotency/DLQ; artifacts/backlog-browser/results.json: protected enqueue/tick with local-preview provenance; external provider delivery not covered"
+      },
+      {
+        "id": "E10.04",
+        "phase": 10,
+        "title": "Implement notifications with consent and delivery status",
+        "status": "blocked",
+        "dependsOn": "E10.03",
+        "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+        "blocker": "Explicit local consent and delivery preview implemented; actual provider notification delivery unverified."
+      },
+      {
+        "id": "E10.05",
+        "phase": 10,
+        "title": "Authenticate inbound webhooks and prevent replay",
+        "status": "blocked",
+        "dependsOn": "E10.04",
+        "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+        "blocker": "Signed local webhook fixture/replay protection verified; selected provider signature protocol unconfigured."
+      },
+      {
+        "id": "E10.06",
+        "phase": 10,
+        "title": "Handle external-service timeouts and reconciliation",
+        "status": "blocked",
+        "dependsOn": "E10.05",
+        "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+        "blocker": "Local retries/backoff/dead-letter implemented; external timeout and reconciliation adapter unverified."
+      },
+      {
+        "id": "E10.07",
+        "phase": 10,
+        "title": "Implement operational job/retry dashboards",
+        "status": "complete",
+        "dependsOn": "E10.06",
+        "evidence": "apps/maataa-ui-route-source/components/local-operations-panel.tsx; artifacts/assets-operations-browser/results.json; local operational dashboard"
+      },
+      {
+        "id": "E10.08",
+        "phase": 10,
+        "title": "Test duplicate, delayed and failed deliveries",
+        "status": "complete",
+        "dependsOn": "E10.07",
+        "evidence": "packages/local-operations/service.mjs; tests/asset-operations.test.mjs: durable local retries/idempotency/DLQ; artifacts/backlog-browser/results.json: protected enqueue/tick with local-preview provenance; external provider delivery not covered"
+      },
+      {
+        "id": "E11.01",
+        "phase": 11,
+        "title": "Define secrets, key rotation and environment access controls",
+        "status": "complete",
+        "dependsOn": "E10.08",
+        "evidence": "docs/enterprise-hardening-runbooks.md; tests/auth-environment.test.mjs; policy defined, production provisioning separately blocked"
+      },
+      {
+        "id": "E11.02",
+        "phase": 11,
+        "title": "Add structured logs, metrics and traces",
+        "status": "complete",
+        "dependsOn": "E11.01",
+        "evidence": "packages/observability/local.mjs; tests/observability.test.mjs; artifacts/design-publishing-browser/results.json; process-local telemetry only"
+      },
+      {
+        "id": "E11.03",
+        "phase": 11,
+        "title": "Set actionable alerts and incident ownership",
+        "status": "blocked",
+        "dependsOn": "E11.02",
+        "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+        "blocker": "Alert destinations, thresholds and accountable incident owners not assigned."
+      },
+      {
+        "id": "E11.04",
+        "phase": 11,
+        "title": "Review dependency supply chain and vulnerabilities",
+        "status": "blocked",
+        "dependsOn": "E11.03",
+        "evidence": "artifacts/hardening/dependency-review.json: npm audit reports one high nodemailer advisory. Root overrides did not upgrade linked workspace resolution; ineffective override removed. Original platform source manifests preserved. Requires reviewed source/dependency upgrade before release."
+      },
+      {
+        "id": "E11.05",
+        "phase": 11,
+        "title": "Review security headers, upload handling and abuse controls",
+        "status": "complete",
+        "dependsOn": "E11.04",
+        "evidence": "tests/asset-operations.test.mjs; artifacts/backlog-browser/results.json; header, upload, scope and abuse review"
+      },
+      {
+        "id": "E11.06",
+        "phase": 11,
+        "title": "Define backup schedule and retention",
+        "status": "blocked",
+        "dependsOn": "E11.05",
+        "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+        "blocker": "Backup schedule/retention proposal documented; production storage and approval absent."
+      },
+      {
+        "id": "E11.07",
+        "phase": 11,
+        "title": "Run database/asset restore drills and measure recovery",
+        "status": "complete",
+        "dependsOn": "E11.06",
+        "evidence": "artifacts/hardening/local-restore.json; measured local database and uploaded asset cold restore"
+      },
+      {
+        "id": "E11.08",
+        "phase": 11,
+        "title": "Verify audit integrity and retention policies",
+        "status": "blocked",
+        "dependsOn": "E11.07",
+        "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+        "blocker": "Anchored audit integrity/local retention guards tested; approved production retention policy absent."
+      },
+      {
+        "id": "E11.09",
+        "phase": 11,
+        "title": "Write incident, rollback and emergency-access runbooks",
+        "status": "complete",
+        "dependsOn": "E11.08",
+        "evidence": "docs/enterprise-hardening-runbooks.md: written incident, rollback and emergency-access procedures; named operators and actual exercise remain release gates."
+      },
+      {
+        "id": "E12.01",
+        "phase": 12,
+        "title": "Prepare production-like staging data without sensitive production copies",
+        "status": "blocked",
+        "dependsOn": "E11.09",
+        "evidence": "docs/cloudflare-deployment-plan.md; staging runtime/database and authorized environment absent; scripts/cloudflare-preflight.mjs exits 2"
+      },
+      {
+        "id": "E12.02",
+        "phase": 12,
+        "title": "Run complete authenticated multi-tenant regression/E2E suite",
+        "status": "blocked",
+        "dependsOn": "E12.01",
+        "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+        "blocker": "Local multi-tenant E2E verified; complete production-like staging suite blocked by E12.01."
+      },
+      {
+        "id": "E12.03",
+        "phase": 12,
+        "title": "Run supported browser/device compatibility matrix",
+        "status": "blocked",
+        "dependsOn": "E12.02",
+        "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+        "blocker": "48 Chromium emulation cases verified; Firefox/WebKit and physical supported devices unavailable."
+      },
+      {
+        "id": "E12.04",
+        "phase": 12,
+        "title": "Run accessibility automation and manual assistive-technology checks",
+        "status": "blocked",
+        "dependsOn": "E12.03",
+        "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+        "blocker": "Automated axe/keyboard/reduced-motion/forced-color checks verified; manual assistive-technology qualification absent."
+      },
+      {
+        "id": "E12.05",
+        "phase": 12,
+        "title": "Review and approve visual regression baselines",
+        "status": "blocked",
+        "dependsOn": "E12.04",
+        "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+        "blocker": "Candidate screenshots exist; human visual baseline approval absent."
+      },
+      {
+        "id": "E12.06",
+        "phase": 12,
+        "title": "Run security and authorization abuse tests",
+        "status": "blocked",
+        "dependsOn": "E12.05",
+        "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+        "blocker": "Local authority/CSRF/quota/upload abuse tests verified; production-like staging security qualification unavailable."
+      },
+      {
+        "id": "E12.07",
+        "phase": 12,
+        "title": "Run agreed performance/load/soak tests",
+        "status": "blocked",
+        "dependsOn": "E12.06",
+        "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+        "blocker": "80 authenticated reads/concurrency8 measured; agreed SLO, load and soak criteria absent."
+      },
+      {
+        "id": "E12.08",
+        "phase": 12,
+        "title": "Inject failures and test recovery/reconciliation",
+        "status": "blocked",
+        "dependsOn": "E12.07",
+        "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+        "blocker": "Local crash/retry, rollback and durable queue failures tested; provider reconciliation and Worker runtime unverified."
+      },
+      {
+        "id": "E12.09",
+        "phase": 12,
+        "title": "Verify backup restore and migration rollout/rollback",
+        "status": "blocked",
+        "dependsOn": "E12.08",
+        "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+        "blocker": "Local cold restore verified; production PostgreSQL migration rollout/rollback and PITR unavailable."
+      },
+      {
+        "id": "E12.10",
+        "phase": 12,
+        "title": "Compile evidence manifest and unresolved release blockers",
+        "status": "complete",
+        "dependsOn": "E12.09",
+        "evidence": "docs/enterprise-continuation-20261010.md; artifacts/backlog-browser/results.json; artifacts/design-publishing-browser/results.json; explicit unresolved release gates"
+      },
+      {
+        "id": "E12.11",
+        "phase": 12,
+        "title": "Approve release candidate only after all mandatory gates pass",
+        "status": "blocked",
+        "dependsOn": "E12.10",
+        "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+        "blocker": "Mandatory gates remain unresolved; release assessment deliberately fails closed."
+      },
+      {
+        "id": "E13.01",
+        "phase": 13,
+        "title": "Confirm domain, hosting, production accounts and rollout authorization",
+        "status": "blocked",
+        "dependsOn": "E12.11",
+        "evidence": "docs/cloudflare-deployment-plan.md; staging runtime/database and authorized environment absent; scripts/cloudflare-preflight.mjs exits 2"
+      },
+      {
+        "id": "E13.02",
+        "phase": 13,
+        "title": "Provision production secrets and restricted service identities",
+        "status": "blocked",
+        "dependsOn": "E13.01",
+        "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+        "blocker": "Production accounts, approved rollout and external actions prohibited by current user instructions; depends on E13.01 and release certification."
+      },
+      {
+        "id": "E13.03",
+        "phase": 13,
+        "title": "Apply verified migrations with backups and monitoring",
+        "status": "blocked",
+        "dependsOn": "E13.02",
+        "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+        "blocker": "Production accounts, approved rollout and external actions prohibited by current user instructions; depends on E13.01 and release certification."
+      },
+      {
+        "id": "E13.04",
+        "phase": 13,
+        "title": "Deploy immutable version and perform smoke checks",
+        "status": "blocked",
+        "dependsOn": "E13.03",
+        "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+        "blocker": "Production accounts, approved rollout and external actions prohibited by current user instructions; depends on E13.01 and release certification."
+      },
+      {
+        "id": "E13.05",
+        "phase": 13,
+        "title": "Enable gradual rollout and watch operational indicators",
+        "status": "blocked",
+        "dependsOn": "E13.04",
+        "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+        "blocker": "Production accounts, approved rollout and external actions prohibited by current user instructions; depends on E13.01 and release certification."
+      },
+      {
+        "id": "E13.06",
+        "phase": 13,
+        "title": "Execute rollback if defined thresholds are breached",
+        "status": "blocked",
+        "dependsOn": "E13.05",
+        "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+        "blocker": "Production accounts, approved rollout and external actions prohibited by current user instructions; depends on E13.01 and release certification."
+      },
+      {
+        "id": "E13.07",
+        "phase": 13,
+        "title": "Record released versions and support ownership",
+        "status": "blocked",
+        "dependsOn": "E13.06",
+        "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+        "blocker": "Production accounts, approved rollout and external actions prohibited by current user instructions; depends on E13.01 and release certification."
+      },
+      {
+        "id": "E13.08",
+        "phase": 13,
+        "title": "Close release gate with verified evidence",
+        "status": "blocked",
+        "dependsOn": "E13.07",
+        "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+        "blocker": "Production accounts, approved rollout and external actions prohibited by current user instructions; depends on E13.01 and release certification."
+      },
+      {
+        "id": "E14.01",
+        "phase": 14,
+        "title": "Prioritize remaining brands by business value and dependencies",
+        "status": "complete",
+        "dependsOn": "E13.08",
+        "evidence": "docs/brand-expansion-manifest.json; proposed priority/dependency plan, business approval outstanding"
+      },
+      {
+        "id": "E14.02",
+        "phase": 14,
+        "title": "Reuse verified components/contracts without duplicating authority",
+        "status": "complete",
+        "dependsOn": "E14.01",
+        "evidence": "packages/release-evidence/brand-compatibility.mjs; tests/brand-compatibility.test.mjs; shared-contract reuse, no new brand workflows claimed"
+      },
+      {
+        "id": "E14.03",
+        "phase": 14,
+        "title": "Implement each brand's actual workflow and data model",
+        "status": "blocked",
+        "dependsOn": "E14.02",
+        "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+        "blocker": "36 visual landings exist; actual brand workflow specifications and pilot approval missing."
+      },
+      {
+        "id": "E14.04",
+        "phase": 14,
+        "title": "Run brand-specific acceptance, isolation and operational tests",
+        "status": "blocked",
+        "dependsOn": "E14.03",
+        "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+        "blocker": "Requires implemented/approved brand-specific business workflows under E14.03."
+      },
+      {
+        "id": "E14.05",
+        "phase": 14,
+        "title": "Publish only after that brand's own release gates pass",
+        "status": "blocked",
+        "dependsOn": "E14.04",
+        "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+        "blocker": "Each brand release requires its gates and explicit publishing authorization."
+      },
+      {
+        "id": "E14.06",
+        "phase": 14,
+        "title": "Maintain shared component/version compatibility and deprecation policy",
+        "status": "complete",
+        "dependsOn": "E14.05",
+        "evidence": "docs/enterprise-hardening-runbooks.md; tests/brand-compatibility.test.mjs; compatibility/deprecation policy"
+      }
+    ],
+    "decisions": {
+      "identity": "Own MAATAA Auth; no external SaaS; current repository",
+      "signup": "Invitation only",
+      "mfa": "Admin and publisher required",
+      "developmentDatabase": "Disposable PostgreSQL first",
+      "firstBrand": "NEVO",
+      "businessWorkflow": [
+        "inquiry",
+        "venue/layout draft",
+        "quote",
+        "approval",
+        "team handoff"
+      ]
+    },
+    "localVerificationScope": "Completed implementation tasks describe tested local Node/PGlite integration. Production PostgreSQL, Workers, remote storage/provider delivery, manual accessibility and real pilot remain separate release gates."
+  },
+  "execution": {
+    "updatedAt": "2026-10-11T01:21:25.551889+00:00",
+    "assignments": {
+      "E01.01": "Coordinator / backlog",
+      "E01.02": "Coordinator / backlog",
+      "E01.03": "Coordinator / backlog",
+      "E01.04": "Coordinator / backlog",
+      "E01.05": "Coordinator / backlog",
+      "E01.06": "Coordinator / backlog",
+      "E01.07": "Coordinator / backlog",
+      "E02.01": "UI verification",
+      "E02.02": "UI verification",
+      "E02.03": "UI verification",
+      "E02.04": "UI verification",
+      "E02.05": "UI verification",
+      "E02.06": "UI verification",
+      "E02.07": "UI verification",
+      "E02.08": "UI verification",
+      "E02.09": "UI verification",
+      "E02.10": "UI verification",
+      "E02.11": "UI verification",
+      "E02.12": "UI verification",
+      "E02.13": "UI verification",
+      "E03.01": "Cloudflare readiness",
+      "E03.02": "Cloudflare readiness",
+      "E03.03": "Cloudflare readiness",
+      "E03.04": "Cloudflare readiness",
+      "E03.05": "Cloudflare readiness",
+      "E03.06": "Cloudflare readiness",
+      "E03.07": "Cloudflare readiness",
+      "E03.08": "Cloudflare readiness",
+      "E03.09": "Cloudflare readiness",
+      "E04.01": "MAATAA Auth",
+      "E04.02": "MAATAA Auth",
+      "E04.03": "MAATAA Auth",
+      "E04.04": "MAATAA Auth",
+      "E04.05": "MAATAA Auth",
+      "E04.06": "MAATAA Auth",
+      "E04.07": "MAATAA Auth",
+      "E04.08": "MAATAA Auth",
+      "E04.09": "MAATAA Auth",
+      "E04.10": "MAATAA Auth",
+      "E05.01": "Authorization",
+      "E05.02": "Authorization",
+      "E05.03": "Authorization",
+      "E05.04": "Authorization",
+      "E05.05": "Authorization",
+      "E05.06": "Authorization",
+      "E05.07": "Authorization",
+      "E05.08": "Authorization",
+      "E05.09": "Authorization",
+      "E06.01": "Backend contracts",
+      "E06.02": "Backend contracts",
+      "E06.03": "Backend contracts",
+      "E06.04": "Backend contracts",
+      "E06.05": "Backend contracts",
+      "E06.06": "Backend contracts",
+      "E06.07": "Backend contracts",
+      "E06.08": "Backend contracts",
+      "E06.09": "Backend contracts",
+      "E07.01": "Design publishing",
+      "E07.02": "Design publishing",
+      "E07.03": "Design publishing",
+      "E07.04": "Design publishing",
+      "E07.05": "Design publishing",
+      "E07.06": "Design publishing",
+      "E07.07": "Design publishing",
+      "E07.08": "Design publishing",
+      "E07.09": "Design publishing",
+      "E07.10": "Design publishing",
+      "E07.11": "Design publishing",
+      "E07.12": "Design publishing",
+      "E07.13": "Design publishing",
+      "E08.01": "Coordinator / backlog",
+      "E08.02": "Coordinator / backlog",
+      "E08.03": "Coordinator / backlog",
+      "E08.04": "Coordinator / backlog",
+      "E08.05": "Coordinator / backlog",
+      "E08.06": "Coordinator / backlog",
+      "E08.07": "Coordinator / backlog",
+      "E08.08": "Coordinator / backlog",
+      "E08.09": "Coordinator / backlog",
+      "E09.01": "NEVO workflow",
+      "E09.02": "NEVO workflow",
+      "E09.03": "NEVO workflow",
+      "E09.04": "NEVO workflow",
+      "E09.05": "NEVO workflow",
+      "E09.06": "NEVO workflow",
+      "E09.07": "NEVO workflow",
+      "E09.08": "NEVO workflow",
+      "E09.09": "NEVO workflow",
+      "E09.10": "NEVO workflow",
+      "E10.01": "Coordinator / backlog",
+      "E10.02": "Coordinator / backlog",
+      "E10.03": "Coordinator / backlog",
+      "E10.04": "Coordinator / backlog",
+      "E10.05": "Coordinator / backlog",
+      "E10.06": "Coordinator / backlog",
+      "E10.07": "Coordinator / backlog",
+      "E10.08": "Coordinator / backlog",
+      "E11.01": "Coordinator / backlog",
+      "E11.02": "Coordinator / backlog",
+      "E11.03": "Coordinator / backlog",
+      "E11.04": "Coordinator / backlog",
+      "E11.05": "Coordinator / backlog",
+      "E11.06": "Coordinator / backlog",
+      "E11.07": "Coordinator / backlog",
+      "E11.08": "Coordinator / backlog",
+      "E11.09": "Coordinator / backlog",
+      "E12.01": "Cloudflare readiness",
+      "E12.02": "Cloudflare readiness",
+      "E12.03": "Cloudflare readiness",
+      "E12.04": "Cloudflare readiness",
+      "E12.05": "Cloudflare readiness",
+      "E12.06": "Cloudflare readiness",
+      "E12.07": "Cloudflare readiness",
+      "E12.08": "Cloudflare readiness",
+      "E12.09": "Cloudflare readiness",
+      "E12.10": "Cloudflare readiness",
+      "E12.11": "Cloudflare readiness",
+      "E13.01": "Cloudflare readiness",
+      "E13.02": "Cloudflare readiness",
+      "E13.03": "Cloudflare readiness",
+      "E13.04": "Cloudflare readiness",
+      "E13.05": "Cloudflare readiness",
+      "E13.06": "Cloudflare readiness",
+      "E13.07": "Cloudflare readiness",
+      "E13.08": "Cloudflare readiness",
+      "E14.01": "Coordinator / backlog",
+      "E14.02": "Coordinator / backlog",
+      "E14.03": "Coordinator / backlog",
+      "E14.04": "Coordinator / backlog",
+      "E14.05": "Coordinator / backlog",
+      "E14.06": "Coordinator / backlog"
+    },
+    "agents": [
+      {
+        "name": "Runtime integration",
+        "scope": "OpenNext packaging and local Worker checks",
+        "status": "bundle passed; workerd environment blocked"
+      },
+      {
+        "name": "Identity integration",
+        "scope": "Real login, encrypted TOTP, server-derived tenancy and revocation",
+        "status": "implemented; actual Next auth browser checks passed"
+      },
+      {
+        "name": "Durable records",
+        "scope": "Event/scene versions, audit and atomic persistence",
+        "status": "25 disk-backed assertions passed"
+      },
+      {
+        "name": "Commerce integration",
+        "scope": "Quotes, separate client decisions and local-evidence handoff",
+        "status": "19 persistence assertions passed; external provider unverified"
+      },
+      {
+        "name": "Workflow UI",
+        "scope": "Responsive authenticated end-to-end workflow",
+        "status": "implemented; final visual/accessibility verification recorded in release evidence"
+      },
+      {
+        "name": "Release coordinator",
+        "scope": "Evidence reconciliation, backup and release gates",
+        "status": "local evidence report; production certification remains open"
+      }
+    ],
+    "notes": [
+      "Recorded assignments are a saved observation, not a live agent-session feed.",
+      "Disk-backed PGlite supports one local Node process only; production PostgreSQL and migration rollout remain untested.",
+      "Payment is authenticated local evidence, not provider-verified settlement; tax/full-payment policy remains open.",
+      "Wrangler runtime blocked by uv_interface_addresses; staging and production pilot remain untested.",
+      "No commit, push, deployment or DNS/service configuration performed.",
+      "Task states reconciled to current local browser evidence; no broad production certification inferred.",
+      "2026-10-11: all original pending tasks assessed; local scope completed where evidenced; remaining tasks explicitly blocked by missing production/approval/provider qualification."
+    ]
+  }
+}

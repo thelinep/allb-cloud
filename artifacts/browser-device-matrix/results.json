@@ -1,0 +1,615 @@
+{
+  "browser": "153.0.8010.0",
+  "engines": [
+    {
+      "engine": "chromium",
+      "installed": true,
+      "executable": "/workspace/scratch/80aa72c897e9/ui-browser-runtime/chromium",
+      "status": "available"
+    },
+    {
+      "engine": "firefox",
+      "installed": false,
+      "executable": "/root/.cache/ms-playwright/firefox-1538/firefox/firefox",
+      "status": "untested_engine_not_installed"
+    },
+    {
+      "engine": "webkit",
+      "installed": false,
+      "executable": "/root/.cache/ms-playwright/webkit-2336/pw_run.sh",
+      "status": "untested_engine_not_installed"
+    }
+  ],
+  "profiles": [
+    {
+      "name": "tablet-portrait",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "hasTouch": true,
+      "isMobile": true
+    },
+    {
+      "name": "tablet-landscape",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "hasTouch": true,
+      "isMobile": true
+    },
+    {
+      "name": "phone-reduced-motion",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "hasTouch": true,
+      "isMobile": true,
+      "reducedMotion": "reduce"
+    },
+    {
+      "name": "desktop-forced-colors",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "forcedColors": "active"
+    }
+  ],
+  "results": [
+    {
+      "profile": "tablet-portrait",
+      "route": "/allb",
+      "status": "pass",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      }
+    },
+    {
+      "profile": "tablet-portrait",
+      "route": "/allb/allb",
+      "status": "pass",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      }
+    },
+    {
+      "profile": "tablet-portrait",
+      "route": "/allb/siddham",
+      "status": "pass",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      }
+    },
+    {
+      "profile": "tablet-portrait",
+      "route": "/allb/maataa-ui",
+      "status": "pass",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      }
+    },
+    {
+      "profile": "tablet-portrait",
+      "route": "/allb/developer-tools",
+      "status": "pass",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      }
+    },
+    {
+      "profile": "tablet-portrait",
+      "route": "/allb/apps",
+      "status": "pass",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      }
+    },
+    {
+      "profile": "tablet-portrait",
+      "route": "/allb/nevo",
+      "status": "pass",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "screenshotSha256": "0157a336adc1cf872480fc11c84629e9b0972a0e42130e331ee17d329e167884"
+    },
+    {
+      "profile": "tablet-portrait",
+      "route": "/allb/observatory",
+      "status": "pass",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      }
+    },
+    {
+      "profile": "tablet-portrait",
+      "route": "/allb/games",
+      "status": "pass",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      }
+    },
+    {
+      "profile": "tablet-portrait",
+      "route": "/studio/themes",
+      "status": "pass",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      }
+    },
+    {
+      "profile": "tablet-portrait",
+      "route": "/integration/workflow",
+      "status": "pass",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "screenshotSha256": "9f2deae5b2d753615f9c1e9a7a4ca1f9bc8a4071efbe146a5243ff608d51c463"
+    },
+    {
+      "profile": "tablet-portrait",
+      "route": "/integration/security",
+      "status": "pass",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      }
+    },
+    {
+      "profile": "tablet-landscape",
+      "route": "/allb",
+      "status": "pass",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      }
+    },
+    {
+      "profile": "tablet-landscape",
+      "route": "/allb/allb",
+      "status": "pass",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      }
+    },
+    {
+      "profile": "tablet-landscape",
+      "route": "/allb/siddham",
+      "status": "pass",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      }
+    },
+    {
+      "profile": "tablet-landscape",
+      "route": "/allb/maataa-ui",
+      "status": "pass",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      }
+    },
+    {
+      "profile": "tablet-landscape",
+      "route": "/allb/developer-tools",
+      "status": "pass",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      }
+    },
+    {
+      "profile": "tablet-landscape",
+      "route": "/allb/apps",
+      "status": "pass",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      }
+    },
+    {
+      "profile": "tablet-landscape",
+      "route": "/allb/nevo",
+      "status": "pass",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "screenshotSha256": "87ffc5b18d94bd268c0d1c2ae91d56189e310f9c9d7bd38e69cdf4aa68ae884a"
+    },
+    {
+      "profile": "tablet-landscape",
+      "route": "/allb/observatory",
+      "status": "pass",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      }
+    },
+    {
+      "profile": "tablet-landscape",
+      "route": "/allb/games",
+      "status": "pass",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      }
+    },
+    {
+      "profile": "tablet-landscape",
+      "route": "/studio/themes",
+      "status": "pass",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      }
+    },
+    {
+      "profile": "tablet-landscape",
+      "route": "/integration/workflow",
+      "status": "pass",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "screenshotSha256": "d6b4ee21e1bc72004a2d1257ec99ee4be10748f0bf2b2f593d33161e6cb43233"
+    },
+    {
+      "profile": "tablet-landscape",
+      "route": "/integration/security",
+      "status": "pass",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      }
+    },
+    {
+      "profile": "phone-reduced-motion",
+      "route": "/allb",
+      "status": "pass",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "profile": "phone-reduced-motion",
+      "route": "/allb/allb",
+      "status": "pass",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "profile": "phone-reduced-motion",
+      "route": "/allb/siddham",
+      "status": "pass",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "profile": "phone-reduced-motion",
+      "route": "/allb/maataa-ui",
+      "status": "pass",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "profile": "phone-reduced-motion",
+      "route": "/allb/developer-tools",
+      "status": "pass",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "profile": "phone-reduced-motion",
+      "route": "/allb/apps",
+      "status": "pass",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "profile": "phone-reduced-motion",
+      "route": "/allb/nevo",
+      "status": "pass",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "screenshotSha256": "9ce1b64c078a5b78a63c75b256b7d815a432433d2828a4f6b8a43ab8eb822c15"
+    },
+    {
+      "profile": "phone-reduced-motion",
+      "route": "/allb/observatory",
+      "status": "pass",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "profile": "phone-reduced-motion",
+      "route": "/allb/games",
+      "status": "pass",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "profile": "phone-reduced-motion",
+      "route": "/studio/themes",
+      "status": "pass",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "profile": "phone-reduced-motion",
+      "route": "/integration/workflow",
+      "status": "pass",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "screenshotSha256": "432d41eb8092f5cafed2ac7b31670d61a62ea35a317574bab535c037090a9d23"
+    },
+    {
+      "profile": "phone-reduced-motion",
+      "route": "/integration/security",
+      "status": "pass",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "profile": "desktop-forced-colors",
+      "route": "/allb",
+      "status": "pass",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "systemColors": {
+        "forcedColors": true,
+        "bodyForeground": "rgb(0, 0, 0)",
+        "bodyBackground": "rgb(255, 255, 255)",
+        "bodyRatio": 21,
+        "navigationLinkRatio": 13.994023083921398
+      },
+      "rawAxeContrastFindings": [],
+      "contrastQualification": "axe_and_system_color_assertions_pass"
+    },
+    {
+      "profile": "desktop-forced-colors",
+      "route": "/allb/allb",
+      "status": "pass",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "systemColors": {
+        "forcedColors": true,
+        "bodyForeground": "rgb(0, 0, 0)",
+        "bodyBackground": "rgb(255, 255, 255)",
+        "bodyRatio": 21,
+        "navigationLinkRatio": 13.994023083921398
+      },
+      "rawAxeContrastFindings": [],
+      "contrastQualification": "axe_and_system_color_assertions_pass"
+    },
+    {
+      "profile": "desktop-forced-colors",
+      "route": "/allb/siddham",
+      "status": "pass",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "systemColors": {
+        "forcedColors": true,
+        "bodyForeground": "rgb(0, 0, 0)",
+        "bodyBackground": "rgb(255, 255, 255)",
+        "bodyRatio": 21,
+        "navigationLinkRatio": 13.994023083921398
+      },
+      "rawAxeContrastFindings": [],
+      "contrastQualification": "axe_and_system_color_assertions_pass"
+    },
+    {
+      "profile": "desktop-forced-colors",
+      "route": "/allb/maataa-ui",
+      "status": "pass",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "systemColors": {
+        "forcedColors": true,
+        "bodyForeground": "rgb(0, 0, 0)",
+        "bodyBackground": "rgb(255, 255, 255)",
+        "bodyRatio": 21,
+        "navigationLinkRatio": 13.994023083921398
+      },
+      "rawAxeContrastFindings": [],
+      "contrastQualification": "axe_and_system_color_assertions_pass"
+    },
+    {
+      "profile": "desktop-forced-colors",
+      "route": "/allb/developer-tools",
+      "status": "pass",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "systemColors": {
+        "forcedColors": true,
+        "bodyForeground": "rgb(0, 0, 0)",
+        "bodyBackground": "rgb(255, 255, 255)",
+        "bodyRatio": 21,
+        "navigationLinkRatio": 13.994023083921398
+      },
+      "rawAxeContrastFindings": [],
+      "contrastQualification": "axe_and_system_color_assertions_pass"
+    },
+    {
+      "profile": "desktop-forced-colors",
+      "route": "/allb/apps",
+      "status": "pass",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "systemColors": {
+        "forcedColors": true,
+        "bodyForeground": "rgb(0, 0, 0)",
+        "bodyBackground": "rgb(255, 255, 255)",
+        "bodyRatio": 21,
+        "navigationLinkRatio": 13.994023083921398
+      },
+      "rawAxeContrastFindings": [],
+      "contrastQualification": "axe_and_system_color_assertions_pass"
+    },
+    {
+      "profile": "desktop-forced-colors",
+      "route": "/allb/nevo",
+      "status": "pass",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "systemColors": {
+        "forcedColors": true,
+        "bodyForeground": "rgb(0, 0, 0)",
+        "bodyBackground": "rgb(255, 255, 255)",
+        "bodyRatio": 21,
+        "navigationLinkRatio": 13.994023083921398
+      },
+      "rawAxeContrastFindings": [],
+      "contrastQualification": "axe_and_system_color_assertions_pass",
+      "screenshotSha256": "0c6575e47d20d0ac41a56bc9b6d24b4b724072135f157ba3ab11409ee34ed966"
+    },
+    {
+      "profile": "desktop-forced-colors",
+      "route": "/allb/observatory",
+      "status": "pass",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "systemColors": {
+        "forcedColors": true,
+        "bodyForeground": "rgb(0, 0, 0)",
+        "bodyBackground": "rgb(255, 255, 255)",
+        "bodyRatio": 21,
+        "navigationLinkRatio": 13.994023083921398
+      },
+      "rawAxeContrastFindings": [],
+      "contrastQualification": "axe_and_system_color_assertions_pass"
+    },
+    {
+      "profile": "desktop-forced-colors",
+      "route": "/allb/games",
+      "status": "pass",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "systemColors": {
+        "forcedColors": true,
+        "bodyForeground": "rgb(0, 0, 0)",
+        "bodyBackground": "rgb(255, 255, 255)",
+        "bodyRatio": 21,
+        "navigationLinkRatio": 13.994023083921398
+      },
+      "rawAxeContrastFindings": [],
+      "contrastQualification": "axe_and_system_color_assertions_pass"
+    },
+    {
+      "profile": "desktop-forced-colors",
+      "route": "/studio/themes",
+      "status": "pass",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "systemColors": {
+        "forcedColors": true,
+        "bodyForeground": "rgb(0, 0, 0)",
+        "bodyBackground": "rgb(255, 255, 255)",
+        "bodyRatio": 21,
+        "navigationLinkRatio": 13.994023083921398
+      },
+      "rawAxeContrastFindings": [],
+      "contrastQualification": "axe_and_system_color_assertions_pass"
+    },
+    {
+      "profile": "desktop-forced-colors",
+      "route": "/integration/workflow",
+      "status": "pass",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "systemColors": {
+        "forcedColors": true,
+        "bodyForeground": "rgb(0, 0, 0)",
+        "bodyBackground": "rgb(255, 255, 255)",
+        "bodyRatio": 21,
+        "navigationLinkRatio": 13.994023083921398
+      },
+      "rawAxeContrastFindings": [],
+      "contrastQualification": "axe_and_system_color_assertions_pass",
+      "screenshotSha256": "23d89fd4c3744343d515e3617a5b74429b357f9f49d7a6633015e77bf6ed059e"
+    },
+    {
+      "profile": "desktop-forced-colors",
+      "route": "/integration/security",
+      "status": "pass",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "systemColors": {
+        "forcedColors": true,
+        "bodyForeground": "rgb(0, 0, 0)",
+        "bodyBackground": "rgb(255, 255, 255)",
+        "bodyRatio": 21,
+        "navigationLinkRatio": 13.994023083921398
+      },
+      "rawAxeContrastFindings": [],
+      "contrastQualification": "axe_and_system_color_assertions_pass"
+    }
+  ],
+  "evidenceMode": "headless_chromium_emulated_viewports_touch_reduced_motion_forced_colors",
+  "physicalDevices": "untested",
+  "manualAssistiveTechnology": "untested",
+  "visualBaselines": "candidate_captures_not_approved"
+}

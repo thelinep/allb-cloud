@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-11",
+  "mode": "local-evidence-only",
+  "productionApproved": false,
+  "evidence": [
+    {
+      "path": "artifacts/backlog-browser/results.json",
+      "sha256": "8b375c4f4ffda11d2b075d3f5fd0e9fcc6208d99ea38b6001f0b8e69823e38bc"
+    },
+    {
+      "path": "artifacts/design-publishing-browser/results.json",
+      "sha256": "4643783bfd60a1eb6a4b57ab9589bc12d41723725caa91026a00e7a970b6b3b2"
+    },
+    {
+      "path": "artifacts/nevo-workflow-browser/results.json",
+      "sha256": "cae5316a6740345d861452a1f2712ecfe65d86806c035bec89813c821b64acac"
+    },
+    {
+      "path": "artifacts/browser-device-matrix/results.json",
+      "sha256": "f7ac7c63810827ceb355c9a9db2cdac0d2f73b7687c5cb3d9d92f38ecc7fc56f"
+    },
+    {
+      "path": "artifacts/next-boundary-browser/results.json",
+      "sha256": "d1737f49cf68b64f6a84df975c7aab37321d63c4634191ad143ede6dc19b6a5c"
+    },
+    {
+      "path": "artifacts/assets-operations-browser/results.json",
+      "sha256": "2c5c4e983905c9217344fb26a7955d030c960d71802e62b7ce00f4d5988b0379"
+    },
+    {
+      "path": "artifacts/hardening/local-restore.json",
+      "sha256": "456cca7972e34331ffa470004458f18f400a67a8151b27ae09cda00bfd285b71"
+    },
+    {
+      "path": "artifacts/hardening/local-load-baseline.json",
+      "sha256": "adb99b2130e4e54b63dd5856cec5a9ce416ca4f5f5a4a984ed67bff8c69c3947"
+    },
+    {
+      "path": "artifacts/api-contract-browser/report.json",
+      "sha256": "6c5dcb06f9170f97b63bb7fa996699b90a3e6c63eac93fab3b0dfee16464af70"
+    },
+    {
+      "path": "artifacts/final-browser-matrix.json",
+      "sha256": "8225071af2ea88e39f0d4bce7c018cc27468abf7e098934f87ade0b57c492ac8"
+    },
+    {
+      "path": "artifacts/final-registry-smoke.json",
+      "sha256": "d80e6ddc361eaecd5705ea579416f1df04a094d6bb360e2ca8b5161fa80a0fae"
+    }
+  ],
+  "gates": "docs/release-controls.json",
+  "workerRuntime": "blocked before HTTP: uv_interface_addresses system error",
+  "providerDeliveryVerified": false,
+  "registrySummary": {
+    "complete": 98,
+    "blocked": 33,
+    "pending": 0,
+    "in_progress": 0
+  },
+  "changedThisPendingBatch": {
+    "completed": 21,
+    "newBlocked": 30,
+    "previousBlocked": 3
+  },
+  "browserCases": 552,
+  "finalBuild": "pass",
+  "typeScript": "pass",
+  "diffCheck": "pass"
+}

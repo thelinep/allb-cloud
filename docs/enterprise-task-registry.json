@@ -141,9 +141,9 @@
       "id": "E02.08",
       "phase": 2,
       "title": "Verify keyboard focus, navigation, forms and menus",
-      "status": "in_progress",
+      "status": "complete",
       "dependsOn": "E02.07",
-      "evidence": "docs/enterprise-verification.json \u2014 partial implementation/coverage; remaining checks explicitly unverified"
+      "evidence": "docs/ui-workflow-recovery-evidence.md; 548 unique desktop/mobile browser cases: initial544PASS + affected4/4PASS after locator/readiness corrections; 264routes x2 and20 interactions; representative gallery/NEVO/Studio visual review. Manual AT/physical devices not covered."
     },
     {
       "id": "E02.09",
@@ -157,17 +157,17 @@
       "id": "E02.10",
       "phase": 2,
       "title": "Inspect desktop/mobile layouts for overflow and visual regressions",
-      "status": "in_progress",
+      "status": "complete",
       "dependsOn": "E02.09",
-      "evidence": "docs/enterprise-verification.json \u2014 partial implementation/coverage; remaining checks explicitly unverified"
+      "evidence": "docs/ui-workflow-recovery-evidence.md; 548 unique desktop/mobile browser cases: initial544PASS + affected4/4PASS after locator/readiness corrections; 264routes x2 and20 interactions; representative gallery/NEVO/Studio visual review. Manual AT/physical devices not covered."
     },
     {
       "id": "E02.11",
       "phase": 2,
       "title": "Add loading, error and not-found boundaries and recovery actions",
-      "status": "in_progress",
+      "status": "complete",
       "dependsOn": "E02.10",
-      "evidence": "docs/enterprise-verification.json \u2014 partial implementation/coverage; remaining checks explicitly unverified"
+      "evidence": "artifacts/next-boundary-browser/results.json; actual loading, segment/root failure and retry"
     },
     {
       "id": "E02.12",
@@ -253,7 +253,7 @@
       "title": "Establish separate development/staging/production environment templates",
       "status": "complete",
       "dependsOn": "E03.07",
-      "evidence": "docs/enterprise-verification.json; packages/enterprise-db; docs/enterprise-database-environments.md; config/environments/*.example.json"
+      "evidence": "docs/enterprise-verification.json; packages/enterprise-db; docs/enterprise-database-environments.md; config/environments/*.example.json; current adapter build blocked by native sharp dependency introduced by local asset route; environment templates remain complete, Worker compatibility is not certified."
     },
     {
       "id": "E03.09",
@@ -283,385 +283,388 @@
       "id": "E04.03",
       "phase": 4,
       "title": "Enforce secure session cookies, expiry and rotation",
-      "status": "in_progress",
+      "status": "complete",
       "dependsOn": "E04.02",
-      "evidence": "packages/auth-core/README.md; tests/auth-core.test.mjs \u2014 primitives tested; HTTP, delivery and audit pending"
+      "evidence": "docs/auth-lifecycle-evidence.md; artifacts/backlog-browser/results.json: 14 actual Next lifecycle browser checks; tests/auth-lifecycle.test.mjs: 36 local assertions; encrypted delivery worker simulation only"
     },
     {
       "id": "E04.04",
       "phase": 4,
       "title": "Validate sign-in/out and callback error handling",
-      "status": "pending",
+      "status": "complete",
       "dependsOn": "E04.03",
-      "evidence": null
+      "evidence": "artifacts/backlog-browser/results.json; 17 lifecycle checks including callback errors"
     },
     {
       "id": "E04.05",
       "phase": 4,
       "title": "Implement session revocation and device/session listing",
-      "status": "in_progress",
+      "status": "complete",
       "dependsOn": "E04.04",
-      "evidence": "packages/auth-core/README.md; tests/auth-core.test.mjs \u2014 primitives tested; HTTP, delivery and audit pending"
+      "evidence": "docs/auth-lifecycle-evidence.md; artifacts/backlog-browser/results.json: 14 actual Next lifecycle browser checks; tests/auth-lifecycle.test.mjs: 36 local assertions; encrypted delivery worker simulation only"
     },
     {
       "id": "E04.06",
       "phase": 4,
       "title": "Implement and test MFA enrollment/challenge/recovery",
-      "status": "pending",
+      "status": "complete",
       "dependsOn": "E04.05",
-      "evidence": null
+      "evidence": "docs/auth-lifecycle-evidence.md; artifacts/backlog-browser/results.json: 14 actual Next lifecycle browser checks; tests/auth-lifecycle.test.mjs: 36 local assertions; encrypted delivery worker simulation only"
     },
     {
       "id": "E04.07",
       "phase": 4,
       "title": "Implement invitation acceptance with expiry and single use",
-      "status": "pending",
+      "status": "complete",
       "dependsOn": "E04.06",
-      "evidence": null
+      "evidence": "docs/auth-lifecycle-evidence.md; artifacts/backlog-browser/results.json: 14 actual Next lifecycle browser checks; tests/auth-lifecycle.test.mjs: 36 local assertions; encrypted delivery worker simulation only"
     },
     {
       "id": "E04.08",
       "phase": 4,
       "title": "Implement account recovery and anti-enumeration responses",
-      "status": "in_progress",
+      "status": "complete",
       "dependsOn": "E04.07",
-      "evidence": "packages/auth-core/README.md; tests/auth-core.test.mjs \u2014 primitives tested; HTTP, delivery and audit pending"
+      "evidence": "docs/auth-lifecycle-evidence.md; artifacts/backlog-browser/results.json: 14 actual Next lifecycle browser checks; tests/auth-lifecycle.test.mjs: 36 local assertions; encrypted delivery worker simulation only"
     },
     {
       "id": "E04.09",
       "phase": 4,
       "title": "Remove demo authentication from production authority paths",
-      "status": "pending",
+      "status": "complete",
       "dependsOn": "E04.08",
-      "evidence": null
+      "evidence": "docs/auth-production-authority-review.md; production uses current server session authority"
     },
     {
       "id": "E04.10",
       "phase": 4,
       "title": "Test replay, expired session and disabled-account rejection",
-      "status": "in_progress",
+      "status": "complete",
       "dependsOn": "E04.09",
-      "evidence": "packages/auth-core/README.md; tests/auth-core.test.mjs \u2014 primitives tested; HTTP, delivery and audit pending"
+      "evidence": "docs/auth-lifecycle-evidence.md; artifacts/backlog-browser/results.json: 14 actual Next lifecycle browser checks; tests/auth-lifecycle.test.mjs: 36 local assertions; encrypted delivery worker simulation only"
     },
     {
       "id": "E05.01",
       "phase": 5,
       "title": "Build authenticated server identity and tenant-context resolver",
-      "status": "in_progress",
+      "status": "complete",
       "dependsOn": "E04.10",
-      "evidence": "packages/authorization/README.md; tests/authorization.test.mjs \u2014 30 development DB checks; API adoption pending"
+      "evidence": "docs/api-authority-contract-evidence.md; tests/api-authority.test.mjs: 30 checks; artifacts/backlog-browser/results.json: 16 actual Next API checks; adopted integration API scope, not staging certification"
     },
     {
       "id": "E05.02",
       "phase": 5,
       "title": "Validate organization/workspace membership for every operation",
-      "status": "in_progress",
+      "status": "complete",
       "dependsOn": "E05.01",
-      "evidence": "packages/authorization/README.md; tests/authorization.test.mjs \u2014 30 development DB checks; API adoption pending"
+      "evidence": "docs/api-authority-contract-evidence.md; tests/api-authority.test.mjs: 30 checks; artifacts/backlog-browser/results.json: 16 actual Next API checks; adopted integration API scope, not staging certification"
     },
     {
       "id": "E05.03",
       "phase": 5,
       "title": "Define viewer/editor/reviewer/publisher/admin permission matrix",
-      "status": "in_progress",
+      "status": "complete",
       "dependsOn": "E05.02",
-      "evidence": "packages/authorization/README.md; tests/authorization.test.mjs \u2014 30 development DB checks; API adoption pending"
+      "evidence": "docs/api-authority-contract-evidence.md; tests/api-authority.test.mjs: 30 checks; artifacts/backlog-browser/results.json: 16 actual Next API checks; adopted integration API scope, not staging certification"
     },
     {
       "id": "E05.04",
       "phase": 5,
       "title": "Apply deny-by-default checks on read and mutation APIs",
-      "status": "pending",
+      "status": "complete",
       "dependsOn": "E05.03",
-      "evidence": null
+      "evidence": "docs/api-authority-contract-evidence.md; tests/api-authority.test.mjs: 30 checks; artifacts/backlog-browser/results.json: 16 actual Next API checks; adopted integration API scope, not staging certification"
     },
     {
       "id": "E05.05",
       "phase": 5,
       "title": "Prevent client-controlled tenant/role escalation",
-      "status": "in_progress",
+      "status": "complete",
       "dependsOn": "E05.04",
-      "evidence": "packages/authorization/README.md; tests/authorization.test.mjs \u2014 30 development DB checks; API adoption pending"
+      "evidence": "docs/api-authority-contract-evidence.md; tests/api-authority.test.mjs: 30 checks; artifacts/backlog-browser/results.json: 16 actual Next API checks; adopted integration API scope, not staging certification"
     },
     {
       "id": "E05.06",
       "phase": 5,
       "title": "Test cross-tenant reads, writes and identifier guessing",
-      "status": "in_progress",
+      "status": "complete",
       "dependsOn": "E05.05",
-      "evidence": "packages/authorization/README.md; tests/authorization.test.mjs \u2014 30 development DB checks; API adoption pending"
+      "evidence": "docs/api-authority-contract-evidence.md; tests/api-authority.test.mjs: 30 checks; artifacts/backlog-browser/results.json: 16 actual Next API checks; adopted integration API scope, not staging certification"
     },
     {
       "id": "E05.07",
       "phase": 5,
       "title": "Define service identities and scoped background-job authority",
-      "status": "pending",
+      "status": "complete",
       "dependsOn": "E05.06",
-      "evidence": null
+      "evidence": "docs/api-authority-contract-evidence.md; tests/api-authority.test.mjs: 30 checks; artifacts/backlog-browser/results.json: 16 actual Next API checks; adopted integration API scope, not staging certification"
     },
     {
       "id": "E05.08",
       "phase": 5,
       "title": "Audit role changes and membership revocation",
-      "status": "pending",
+      "status": "complete",
       "dependsOn": "E05.07",
-      "evidence": null
+      "evidence": "docs/api-authority-contract-evidence.md; tests/api-authority.test.mjs: 30 checks; artifacts/backlog-browser/results.json: 16 actual Next API checks; adopted integration API scope, not staging certification"
     },
     {
       "id": "E05.09",
       "phase": 5,
       "title": "Verify revocation affects active sessions and cached authority",
-      "status": "in_progress",
+      "status": "complete",
       "dependsOn": "E05.08",
-      "evidence": "packages/authorization/README.md; tests/authorization.test.mjs \u2014 30 development DB checks; API adoption pending"
+      "evidence": "docs/api-authority-contract-evidence.md; tests/api-authority.test.mjs: 30 checks; artifacts/backlog-browser/results.json: 16 actual Next API checks; adopted integration API scope, not staging certification"
     },
     {
       "id": "E06.01",
       "phase": 6,
       "title": "Define versioned API schemas and server-side input validation",
-      "status": "pending",
+      "status": "complete",
       "dependsOn": "E05.09",
-      "evidence": null
+      "evidence": "docs/api-authority-contract-evidence.md; artifacts/api-contract-browser/report.json; artifacts/design-publishing-browser/results.json; local integration API scope"
     },
     {
       "id": "E06.02",
       "phase": 6,
       "title": "Implement consistent error envelopes and request correlation IDs",
-      "status": "pending",
+      "status": "complete",
       "dependsOn": "E06.01",
-      "evidence": null
+      "evidence": "docs/api-authority-contract-evidence.md; artifacts/api-contract-browser/report.json; artifacts/design-publishing-browser/results.json; local integration API scope"
     },
     {
       "id": "E06.03",
       "phase": 6,
       "title": "Implement bounded pagination and filtering",
-      "status": "pending",
+      "status": "complete",
       "dependsOn": "E06.02",
-      "evidence": null
+      "evidence": "docs/api-authority-contract-evidence.md; artifacts/api-contract-browser/report.json; artifacts/design-publishing-browser/results.json; local integration API scope"
     },
     {
       "id": "E06.04",
       "phase": 6,
       "title": "Implement revision/ETag-based conflict detection",
-      "status": "pending",
+      "status": "complete",
       "dependsOn": "E06.03",
-      "evidence": null
+      "evidence": "docs/api-authority-contract-evidence.md; artifacts/api-contract-browser/report.json; artifacts/design-publishing-browser/results.json; local integration API scope"
     },
     {
       "id": "E06.05",
       "phase": 6,
       "title": "Implement idempotency for retryable mutations",
-      "status": "pending",
+      "status": "complete",
       "dependsOn": "E06.04",
-      "evidence": null
+      "evidence": "docs/api-authority-contract-evidence.md; artifacts/api-contract-browser/report.json; artifacts/design-publishing-browser/results.json; local integration API scope"
     },
     {
       "id": "E06.06",
       "phase": 6,
       "title": "Implement transaction boundaries and outbox event emission",
-      "status": "pending",
+      "status": "complete",
       "dependsOn": "E06.05",
-      "evidence": null
+      "evidence": "docs/api-authority-contract-evidence.md; artifacts/api-contract-browser/report.json; artifacts/design-publishing-browser/results.json; local integration API scope"
     },
     {
       "id": "E06.07",
       "phase": 6,
       "title": "Apply CSRF/origin controls to cookie-authenticated mutations",
-      "status": "pending",
+      "status": "complete",
       "dependsOn": "E06.06",
-      "evidence": null
+      "evidence": "docs/api-authority-contract-evidence.md; artifacts/api-contract-browser/report.json; artifacts/design-publishing-browser/results.json; local integration API scope"
     },
     {
       "id": "E06.08",
       "phase": 6,
       "title": "Apply appropriate rate limits and request-size limits",
-      "status": "pending",
+      "status": "complete",
       "dependsOn": "E06.07",
-      "evidence": null
+      "evidence": "docs/api-authority-contract-evidence.md; artifacts/api-contract-browser/report.json; artifacts/design-publishing-browser/results.json; local integration API scope"
     },
     {
       "id": "E06.09",
       "phase": 6,
       "title": "Create authenticated contract/integration tests",
-      "status": "pending",
+      "status": "complete",
       "dependsOn": "E06.08",
-      "evidence": null
+      "evidence": "docs/api-authority-contract-evidence.md; artifacts/api-contract-browser/report.json; artifacts/design-publishing-browser/results.json; local integration API scope"
     },
     {
       "id": "E07.01",
       "phase": 7,
       "title": "Create workspace-scoped design draft API and persistence",
-      "status": "in_progress",
+      "status": "complete",
       "dependsOn": "E06.09",
-      "evidence": "packages/design-publishing/README.md; tests/design-publishing.test.mjs \u2014 SQL service foundation; Studio/API/public rendering pending"
+      "evidence": "docs/design-publishing-local-evidence.md; artifacts/design-publishing-browser/results.json: 16 workflow + 4 scope/layout checks; 29 service assertions; local disposable database and exact-route public config binding"
     },
     {
       "id": "E07.02",
       "phase": 7,
       "title": "Connect both Studio editors to server-backed drafts",
-      "status": "pending",
+      "status": "complete",
       "dependsOn": "E07.01",
-      "evidence": null
+      "evidence": "docs/design-publishing-local-evidence.md; artifacts/design-publishing-browser/results.json: 16 workflow + 4 scope/layout checks; 29 service assertions; local disposable database and exact-route public config binding"
     },
     {
       "id": "E07.03",
       "phase": 7,
       "title": "Generate immutable configuration versions",
-      "status": "in_progress",
+      "status": "complete",
       "dependsOn": "E07.02",
-      "evidence": "packages/design-publishing/README.md; tests/design-publishing.test.mjs \u2014 SQL service foundation; Studio/API/public rendering pending"
+      "evidence": "docs/design-publishing-local-evidence.md; artifacts/design-publishing-browser/results.json: 16 workflow + 4 scope/layout checks; 29 service assertions; local disposable database and exact-route public config binding"
     },
     {
       "id": "E07.04",
       "phase": 7,
       "title": "Render preview from a specific version without public mutation",
-      "status": "in_progress",
+      "status": "complete",
       "dependsOn": "E07.03",
-      "evidence": "packages/design-publishing/README.md; tests/design-publishing.test.mjs \u2014 SQL service foundation; Studio/API/public rendering pending"
+      "evidence": "docs/design-publishing-local-evidence.md; artifacts/design-publishing-browser/results.json: 16 workflow + 4 scope/layout checks; 29 service assertions; local disposable database and exact-route public config binding"
     },
     {
       "id": "E07.05",
       "phase": 7,
       "title": "Submit a draft for review with evidence and revision checks",
-      "status": "in_progress",
+      "status": "complete",
       "dependsOn": "E07.04",
-      "evidence": "packages/design-publishing/README.md; tests/design-publishing.test.mjs \u2014 SQL service foundation; Studio/API/public rendering pending"
+      "evidence": "docs/design-publishing-local-evidence.md; artifacts/design-publishing-browser/results.json: 16 workflow + 4 scope/layout checks; 29 service assertions; local disposable database and exact-route public config binding"
     },
     {
       "id": "E07.06",
       "phase": 7,
       "title": "Record reviewer decisions and change requests",
-      "status": "in_progress",
+      "status": "complete",
       "dependsOn": "E07.05",
-      "evidence": "packages/design-publishing/README.md; tests/design-publishing.test.mjs \u2014 SQL service foundation; Studio/API/public rendering pending"
+      "evidence": "docs/design-publishing-local-evidence.md; artifacts/design-publishing-browser/results.json: 16 workflow + 4 scope/layout checks; 29 service assertions; local disposable database and exact-route public config binding"
     },
     {
       "id": "E07.07",
       "phase": 7,
       "title": "Require configured approval policy before publication",
-      "status": "in_progress",
+      "status": "complete",
       "dependsOn": "E07.06",
-      "evidence": "packages/design-publishing/README.md; tests/design-publishing.test.mjs \u2014 SQL service foundation; Studio/API/public rendering pending"
+      "evidence": "docs/design-publishing-local-evidence.md; artifacts/design-publishing-browser/results.json: 16 workflow + 4 scope/layout checks; 29 service assertions; local disposable database and exact-route public config binding"
     },
     {
       "id": "E07.08",
       "phase": 7,
       "title": "Atomically publish an approved version per route/brand scope",
-      "status": "in_progress",
+      "status": "complete",
       "dependsOn": "E07.07",
-      "evidence": "packages/design-publishing/README.md; tests/design-publishing.test.mjs \u2014 SQL service foundation; Studio/API/public rendering pending"
+      "evidence": "docs/design-publishing-local-evidence.md; artifacts/design-publishing-browser/results.json: 16 workflow + 4 scope/layout checks; 29 service assertions; local disposable database and exact-route public config binding"
     },
     {
       "id": "E07.09",
       "phase": 7,
       "title": "Load published configuration in public renderers with scoped caching",
-      "status": "pending",
+      "status": "complete",
       "dependsOn": "E07.08",
-      "evidence": null
+      "evidence": "docs/design-publishing-local-evidence.md; artifacts/design-publishing-browser/results.json: 16 workflow + 4 scope/layout checks; 29 service assertions; local disposable database and exact-route public config binding"
     },
     {
       "id": "E07.10",
       "phase": 7,
       "title": "Reject stale or unauthorized approval/publication attempts",
-      "status": "in_progress",
+      "status": "complete",
       "dependsOn": "E07.09",
-      "evidence": "packages/design-publishing/README.md; tests/design-publishing.test.mjs \u2014 SQL service foundation; Studio/API/public rendering pending"
+      "evidence": "docs/design-publishing-local-evidence.md; artifacts/design-publishing-browser/results.json: 16 workflow + 4 scope/layout checks; 29 service assertions; local disposable database and exact-route public config binding"
     },
     {
       "id": "E07.11",
       "phase": 7,
       "title": "Implement rollback to a prior immutable approved version",
-      "status": "in_progress",
+      "status": "complete",
       "dependsOn": "E07.10",
-      "evidence": "packages/design-publishing/README.md; tests/design-publishing.test.mjs \u2014 SQL service foundation; Studio/API/public rendering pending"
+      "evidence": "docs/design-publishing-local-evidence.md; artifacts/design-publishing-browser/results.json: 16 workflow + 4 scope/layout checks; 29 service assertions; local disposable database and exact-route public config binding"
     },
     {
       "id": "E07.12",
       "phase": 7,
       "title": "Record complete audit trail for edit/review/publish/rollback",
-      "status": "in_progress",
+      "status": "complete",
       "dependsOn": "E07.11",
-      "evidence": "packages/design-publishing/README.md; tests/design-publishing.test.mjs \u2014 SQL service foundation; Studio/API/public rendering pending"
+      "evidence": "docs/design-publishing-local-evidence.md; artifacts/design-publishing-browser/results.json: 16 workflow + 4 scope/layout checks; 29 service assertions; local disposable database and exact-route public config binding"
     },
     {
       "id": "E07.13",
       "phase": 7,
       "title": "Run one multi-user tenant-scoped end-to-end publishing workflow",
-      "status": "pending",
+      "status": "complete",
       "dependsOn": "E07.12",
-      "evidence": null
+      "evidence": "docs/design-publishing-local-evidence.md; artifacts/design-publishing-browser/results.json: 16 workflow + 4 scope/layout checks; 29 service assertions; local disposable database and exact-route public config binding"
     },
     {
       "id": "E08.01",
       "phase": 8,
       "title": "Confirm object-storage target and retention policy",
-      "status": "pending",
+      "status": "blocked",
       "dependsOn": "E07.13",
-      "evidence": null
+      "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+      "blocker": "Object-storage target and retention policy require owner approval; local filesystem adapter exists."
     },
     {
       "id": "E08.02",
       "phase": 8,
       "title": "Authorize workspace-scoped uploads and enforce size/type limits",
-      "status": "pending",
+      "status": "complete",
       "dependsOn": "E08.01",
-      "evidence": null
+      "evidence": "packages/asset-storage/README.md; tests/asset-operations.test.mjs: 23 checks; artifacts/backlog-browser/results.json: actual authorized upload, decoded derivative, byte integrity, quarantine and cross-tenant rejection; local filesystem only"
     },
     {
       "id": "E08.03",
       "phase": 8,
       "title": "Verify actual file signatures and quarantine unsupported content",
-      "status": "pending",
+      "status": "complete",
       "dependsOn": "E08.02",
-      "evidence": null
+      "evidence": "packages/asset-storage/README.md; tests/asset-operations.test.mjs: 23 checks; artifacts/backlog-browser/results.json: actual authorized upload, decoded derivative, byte integrity, quarantine and cross-tenant rejection; local filesystem only"
     },
     {
       "id": "E08.04",
       "phase": 8,
       "title": "Generate optimized image derivatives and validate outputs",
-      "status": "pending",
+      "status": "complete",
       "dependsOn": "E08.03",
-      "evidence": null
+      "evidence": "packages/asset-storage/README.md; tests/asset-operations.test.mjs: 23 checks; artifacts/backlog-browser/results.json: actual authorized upload, decoded derivative, byte integrity, quarantine and cross-tenant rejection; local filesystem only"
     },
     {
       "id": "E08.05",
       "phase": 8,
       "title": "Track immutable asset revisions and storage checksums",
-      "status": "pending",
+      "status": "complete",
       "dependsOn": "E08.04",
-      "evidence": null
+      "evidence": "packages/asset-storage/README.md; tests/asset-operations.test.mjs: 23 checks; artifacts/backlog-browser/results.json: actual authorized upload, decoded derivative, byte integrity, quarantine and cross-tenant rejection; local filesystem only"
     },
     {
       "id": "E08.06",
       "phase": 8,
       "title": "Attach exact asset revisions to configuration versions",
-      "status": "pending",
+      "status": "complete",
       "dependsOn": "E08.05",
-      "evidence": null
+      "evidence": "packages/asset-storage/README.md; tests/asset-operations.test.mjs: 23 checks; artifacts/backlog-browser/results.json: actual authorized upload, decoded derivative, byte integrity, quarantine and cross-tenant rejection; local filesystem only"
     },
     {
       "id": "E08.07",
       "phase": 8,
       "title": "Scope download/view access and signed URL lifetime",
-      "status": "pending",
+      "status": "blocked",
       "dependsOn": "E08.06",
-      "evidence": null
+      "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+      "blocker": "Scoped authenticated downloads implemented; production signed-URL TTL and object-store adapter unverified."
     },
     {
       "id": "E08.08",
       "phase": 8,
       "title": "Implement orphan cleanup, retention and deletion rules",
-      "status": "pending",
+      "status": "blocked",
       "dependsOn": "E08.07",
-      "evidence": null
+      "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+      "blocker": "Conservative orphan/retention dry run implemented; destructive deletion awaits approved policy."
     },
     {
       "id": "E08.09",
       "phase": 8,
       "title": "Test invalid uploads and cross-tenant access rejection",
-      "status": "pending",
+      "status": "complete",
       "dependsOn": "E08.08",
-      "evidence": null
+      "evidence": "packages/asset-storage/README.md; tests/asset-operations.test.mjs: 23 checks; artifacts/backlog-browser/results.json: actual authorized upload, decoded derivative, byte integrity, quarantine and cross-tenant rejection; local filesystem only"
     },
     {
       "id": "E09.01",
@@ -675,209 +678,217 @@
       "id": "E09.02",
       "phase": 9,
       "title": "Define roles, entity lifecycle and measurable acceptance criteria",
-      "status": "in_progress",
+      "status": "complete",
       "dependsOn": "E09.01",
-      "evidence": "packages/nevo-workflow/README.md; tests/nevo-workflow.test.mjs \u2014 pure domain only; persisted workflow and business policy confirmation pending"
+      "evidence": "docs/nevo-commercial-policy.md; artifacts/nevo-workflow-browser/results.json: persisted lifecycle and role-specific decision/frozen output checks. Local pilot criteria defined; actual business stakeholder acceptance remains E09.10."
     },
     {
       "id": "E09.03",
       "phase": 9,
       "title": "Model its core records in the shared tenant-aware database",
-      "status": "pending",
+      "status": "complete",
       "dependsOn": "E09.02",
-      "evidence": null
+      "evidence": "docs/nevo-commercial-policy.md; artifacts/nevo-workflow-browser/results.json: 18 workflow checks and 3 accessibility/layout snapshots; real persisted local inquiry/scene/quote/client decision/frozen handoff; settlement is local evidence"
     },
     {
       "id": "E09.04",
       "phase": 9,
       "title": "Implement core read/create/edit APIs",
-      "status": "pending",
+      "status": "complete",
       "dependsOn": "E09.03",
-      "evidence": null
+      "evidence": "docs/nevo-commercial-policy.md; artifacts/nevo-workflow-browser/results.json: 18 workflow checks and 3 accessibility/layout snapshots; real persisted local inquiry/scene/quote/client decision/frozen handoff; settlement is local evidence"
     },
     {
       "id": "E09.05",
       "phase": 9,
       "title": "Connect forms, validation and save/conflict/error states",
-      "status": "pending",
+      "status": "complete",
       "dependsOn": "E09.04",
-      "evidence": null
+      "evidence": "docs/nevo-commercial-policy.md; artifacts/nevo-workflow-browser/results.json: 18 workflow checks and 3 accessibility/layout snapshots; real persisted local inquiry/scene/quote/client decision/frozen handoff; settlement is local evidence"
     },
     {
       "id": "E09.06",
       "phase": 9,
       "title": "Implement decisions, approvals and required outputs",
-      "status": "in_progress",
+      "status": "complete",
       "dependsOn": "E09.05",
-      "evidence": "packages/nevo-workflow/README.md; tests/nevo-workflow.test.mjs \u2014 pure domain only; persisted workflow and business policy confirmation pending"
+      "evidence": "docs/nevo-commercial-policy.md; artifacts/nevo-workflow-browser/results.json: persisted lifecycle and role-specific decision/frozen output checks. Local pilot criteria defined; actual business stakeholder acceptance remains E09.10."
     },
     {
       "id": "E09.07",
       "phase": 9,
       "title": "Integrate only required commercial/external services",
-      "status": "pending",
+      "status": "blocked",
       "dependsOn": "E09.06",
-      "evidence": null
+      "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+      "blocker": "Real commercial provider selection, credentials and external configuration unavailable/not authorized."
     },
     {
       "id": "E09.08",
       "phase": 9,
       "title": "Test the complete business workflow with real persisted records",
-      "status": "pending",
+      "status": "complete",
       "dependsOn": "E09.07",
-      "evidence": null
+      "evidence": "docs/nevo-commercial-policy.md; artifacts/nevo-workflow-browser/results.json: 18 workflow checks and 3 accessibility/layout snapshots; real persisted local inquiry/scene/quote/client decision/frozen handoff; settlement is local evidence"
     },
     {
       "id": "E09.09",
       "phase": 9,
       "title": "Validate tenant isolation and audit evidence for the brand",
-      "status": "pending",
+      "status": "complete",
       "dependsOn": "E09.08",
-      "evidence": null
+      "evidence": "docs/nevo-commercial-policy.md; artifacts/nevo-workflow-browser/results.json: 18 workflow checks and 3 accessibility/layout snapshots; real persisted local inquiry/scene/quote/client decision/frozen handoff; settlement is local evidence"
     },
     {
       "id": "E09.10",
       "phase": 9,
       "title": "Conduct user acceptance against agreed criteria",
-      "status": "pending",
+      "status": "blocked",
       "dependsOn": "E09.09",
-      "evidence": null
+      "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+      "blocker": "Real pilot participant and agreed business acceptance approval absent."
     },
     {
       "id": "E10.01",
       "phase": 10,
       "title": "Define required job types and delivery guarantees",
-      "status": "pending",
+      "status": "complete",
       "dependsOn": "E09.10",
-      "evidence": null
+      "evidence": "packages/local-operations/service.mjs; tests/asset-operations.test.mjs; local jobs and delivery guarantees"
     },
     {
       "id": "E10.02",
       "phase": 10,
       "title": "Create durable queue and retry/backoff policy",
-      "status": "pending",
+      "status": "complete",
       "dependsOn": "E10.01",
-      "evidence": null
+      "evidence": "packages/local-operations/service.mjs; tests/asset-operations.test.mjs: durable local retries/idempotency/DLQ; artifacts/backlog-browser/results.json: protected enqueue/tick with local-preview provenance; external provider delivery not covered"
     },
     {
       "id": "E10.03",
       "phase": 10,
       "title": "Implement idempotent workers and dead-letter handling",
-      "status": "pending",
+      "status": "complete",
       "dependsOn": "E10.02",
-      "evidence": null
+      "evidence": "packages/local-operations/service.mjs; tests/asset-operations.test.mjs: durable local retries/idempotency/DLQ; artifacts/backlog-browser/results.json: protected enqueue/tick with local-preview provenance; external provider delivery not covered"
     },
     {
       "id": "E10.04",
       "phase": 10,
       "title": "Implement notifications with consent and delivery status",
-      "status": "pending",
+      "status": "blocked",
       "dependsOn": "E10.03",
-      "evidence": null
+      "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+      "blocker": "Explicit local consent and delivery preview implemented; actual provider notification delivery unverified."
     },
     {
       "id": "E10.05",
       "phase": 10,
       "title": "Authenticate inbound webhooks and prevent replay",
-      "status": "pending",
+      "status": "blocked",
       "dependsOn": "E10.04",
-      "evidence": null
+      "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+      "blocker": "Signed local webhook fixture/replay protection verified; selected provider signature protocol unconfigured."
     },
     {
       "id": "E10.06",
       "phase": 10,
       "title": "Handle external-service timeouts and reconciliation",
-      "status": "pending",
+      "status": "blocked",
       "dependsOn": "E10.05",
-      "evidence": null
+      "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+      "blocker": "Local retries/backoff/dead-letter implemented; external timeout and reconciliation adapter unverified."
     },
     {
       "id": "E10.07",
       "phase": 10,
       "title": "Implement operational job/retry dashboards",
-      "status": "pending",
+      "status": "complete",
       "dependsOn": "E10.06",
-      "evidence": null
+      "evidence": "apps/maataa-ui-route-source/components/local-operations-panel.tsx; artifacts/assets-operations-browser/results.json; local operational dashboard"
     },
     {
       "id": "E10.08",
       "phase": 10,
       "title": "Test duplicate, delayed and failed deliveries",
-      "status": "pending",
+      "status": "complete",
       "dependsOn": "E10.07",
-      "evidence": null
+      "evidence": "packages/local-operations/service.mjs; tests/asset-operations.test.mjs: durable local retries/idempotency/DLQ; artifacts/backlog-browser/results.json: protected enqueue/tick with local-preview provenance; external provider delivery not covered"
     },
     {
       "id": "E11.01",
       "phase": 11,
       "title": "Define secrets, key rotation and environment access controls",
-      "status": "pending",
+      "status": "complete",
       "dependsOn": "E10.08",
-      "evidence": null
+      "evidence": "docs/enterprise-hardening-runbooks.md; tests/auth-environment.test.mjs; policy defined, production provisioning separately blocked"
     },
     {
       "id": "E11.02",
       "phase": 11,
       "title": "Add structured logs, metrics and traces",
-      "status": "pending",
+      "status": "complete",
       "dependsOn": "E11.01",
-      "evidence": null
+      "evidence": "packages/observability/local.mjs; tests/observability.test.mjs; artifacts/design-publishing-browser/results.json; process-local telemetry only"
     },
     {
       "id": "E11.03",
       "phase": 11,
       "title": "Set actionable alerts and incident ownership",
-      "status": "pending",
+      "status": "blocked",
       "dependsOn": "E11.02",
-      "evidence": null
+      "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+      "blocker": "Alert destinations, thresholds and accountable incident owners not assigned."
     },
     {
       "id": "E11.04",
       "phase": 11,
       "title": "Review dependency supply chain and vulnerabilities",
-      "status": "pending",
+      "status": "blocked",
       "dependsOn": "E11.03",
-      "evidence": null
+      "evidence": "artifacts/hardening/dependency-review.json: npm audit reports one high nodemailer advisory. Root overrides did not upgrade linked workspace resolution; ineffective override removed. Original platform source manifests preserved. Requires reviewed source/dependency upgrade before release."
     },
     {
       "id": "E11.05",
       "phase": 11,
       "title": "Review security headers, upload handling and abuse controls",
-      "status": "pending",
+      "status": "complete",
       "dependsOn": "E11.04",
-      "evidence": null
+      "evidence": "tests/asset-operations.test.mjs; artifacts/backlog-browser/results.json; header, upload, scope and abuse review"
     },
     {
       "id": "E11.06",
       "phase": 11,
       "title": "Define backup schedule and retention",
-      "status": "pending",
+      "status": "blocked",
       "dependsOn": "E11.05",
-      "evidence": null
+      "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+      "blocker": "Backup schedule/retention proposal documented; production storage and approval absent."
     },
     {
       "id": "E11.07",
       "phase": 11,
       "title": "Run database/asset restore drills and measure recovery",
-      "status": "pending",
+      "status": "complete",
       "dependsOn": "E11.06",
-      "evidence": null
+      "evidence": "artifacts/hardening/local-restore.json; measured local database and uploaded asset cold restore"
     },
     {
       "id": "E11.08",
       "phase": 11,
       "title": "Verify audit integrity and retention policies",
-      "status": "pending",
+      "status": "blocked",
       "dependsOn": "E11.07",
-      "evidence": null
+      "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+      "blocker": "Anchored audit integrity/local retention guards tested; approved production retention policy absent."
     },
     {
       "id": "E11.09",
       "phase": 11,
       "title": "Write incident, rollback and emergency-access runbooks",
-      "status": "pending",
+      "status": "complete",
       "dependsOn": "E11.08",
-      "evidence": null
+      "evidence": "docs/enterprise-hardening-runbooks.md: written incident, rollback and emergency-access procedures; named operators and actual exercise remain release gates."
     },
     {
       "id": "E12.01",
@@ -891,81 +902,90 @@
       "id": "E12.02",
       "phase": 12,
       "title": "Run complete authenticated multi-tenant regression/E2E suite",
-      "status": "pending",
+      "status": "blocked",
       "dependsOn": "E12.01",
-      "evidence": null
+      "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+      "blocker": "Local multi-tenant E2E verified; complete production-like staging suite blocked by E12.01."
     },
     {
       "id": "E12.03",
       "phase": 12,
       "title": "Run supported browser/device compatibility matrix",
-      "status": "pending",
+      "status": "blocked",
       "dependsOn": "E12.02",
-      "evidence": null
+      "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+      "blocker": "48 Chromium emulation cases verified; Firefox/WebKit and physical supported devices unavailable."
     },
     {
       "id": "E12.04",
       "phase": 12,
       "title": "Run accessibility automation and manual assistive-technology checks",
-      "status": "pending",
+      "status": "blocked",
       "dependsOn": "E12.03",
-      "evidence": null
+      "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+      "blocker": "Automated axe/keyboard/reduced-motion/forced-color checks verified; manual assistive-technology qualification absent."
     },
     {
       "id": "E12.05",
       "phase": 12,
       "title": "Review and approve visual regression baselines",
-      "status": "pending",
+      "status": "blocked",
       "dependsOn": "E12.04",
-      "evidence": null
+      "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+      "blocker": "Candidate screenshots exist; human visual baseline approval absent."
     },
     {
       "id": "E12.06",
       "phase": 12,
       "title": "Run security and authorization abuse tests",
-      "status": "pending",
+      "status": "blocked",
       "dependsOn": "E12.05",
-      "evidence": null
+      "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+      "blocker": "Local authority/CSRF/quota/upload abuse tests verified; production-like staging security qualification unavailable."
     },
     {
       "id": "E12.07",
       "phase": 12,
       "title": "Run agreed performance/load/soak tests",
-      "status": "pending",
+      "status": "blocked",
       "dependsOn": "E12.06",
-      "evidence": null
+      "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+      "blocker": "80 authenticated reads/concurrency8 measured; agreed SLO, load and soak criteria absent."
     },
     {
       "id": "E12.08",
       "phase": 12,
       "title": "Inject failures and test recovery/reconciliation",
-      "status": "pending",
+      "status": "blocked",
       "dependsOn": "E12.07",
-      "evidence": null
+      "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+      "blocker": "Local crash/retry, rollback and durable queue failures tested; provider reconciliation and Worker runtime unverified."
     },
     {
       "id": "E12.09",
       "phase": 12,
       "title": "Verify backup restore and migration rollout/rollback",
-      "status": "pending",
+      "status": "blocked",
       "dependsOn": "E12.08",
-      "evidence": null
+      "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+      "blocker": "Local cold restore verified; production PostgreSQL migration rollout/rollback and PITR unavailable."
     },
     {
       "id": "E12.10",
       "phase": 12,
       "title": "Compile evidence manifest and unresolved release blockers",
-      "status": "pending",
+      "status": "complete",
       "dependsOn": "E12.09",
-      "evidence": null
+      "evidence": "docs/enterprise-continuation-20261010.md; artifacts/backlog-browser/results.json; artifacts/design-publishing-browser/results.json; explicit unresolved release gates"
     },
     {
       "id": "E12.11",
       "phase": 12,
       "title": "Approve release candidate only after all mandatory gates pass",
-      "status": "pending",
+      "status": "blocked",
       "dependsOn": "E12.10",
-      "evidence": null
+      "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+      "blocker": "Mandatory gates remain unresolved; release assessment deliberately fails closed."
     },
     {
       "id": "E13.01",
@@ -979,105 +999,115 @@
       "id": "E13.02",
       "phase": 13,
       "title": "Provision production secrets and restricted service identities",
-      "status": "pending",
+      "status": "blocked",
       "dependsOn": "E13.01",
-      "evidence": null
+      "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+      "blocker": "Production accounts, approved rollout and external actions prohibited by current user instructions; depends on E13.01 and release certification."
     },
     {
       "id": "E13.03",
       "phase": 13,
       "title": "Apply verified migrations with backups and monitoring",
-      "status": "pending",
+      "status": "blocked",
       "dependsOn": "E13.02",
-      "evidence": null
+      "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+      "blocker": "Production accounts, approved rollout and external actions prohibited by current user instructions; depends on E13.01 and release certification."
     },
     {
       "id": "E13.04",
       "phase": 13,
       "title": "Deploy immutable version and perform smoke checks",
-      "status": "pending",
+      "status": "blocked",
       "dependsOn": "E13.03",
-      "evidence": null
+      "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+      "blocker": "Production accounts, approved rollout and external actions prohibited by current user instructions; depends on E13.01 and release certification."
     },
     {
       "id": "E13.05",
       "phase": 13,
       "title": "Enable gradual rollout and watch operational indicators",
-      "status": "pending",
+      "status": "blocked",
       "dependsOn": "E13.04",
-      "evidence": null
+      "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+      "blocker": "Production accounts, approved rollout and external actions prohibited by current user instructions; depends on E13.01 and release certification."
     },
     {
       "id": "E13.06",
       "phase": 13,
       "title": "Execute rollback if defined thresholds are breached",
-      "status": "pending",
+      "status": "blocked",
       "dependsOn": "E13.05",
-      "evidence": null
+      "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+      "blocker": "Production accounts, approved rollout and external actions prohibited by current user instructions; depends on E13.01 and release certification."
     },
     {
       "id": "E13.07",
       "phase": 13,
       "title": "Record released versions and support ownership",
-      "status": "pending",
+      "status": "blocked",
       "dependsOn": "E13.06",
-      "evidence": null
+      "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+      "blocker": "Production accounts, approved rollout and external actions prohibited by current user instructions; depends on E13.01 and release certification."
     },
     {
       "id": "E13.08",
       "phase": 13,
       "title": "Close release gate with verified evidence",
-      "status": "pending",
+      "status": "blocked",
       "dependsOn": "E13.07",
-      "evidence": null
+      "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+      "blocker": "Production accounts, approved rollout and external actions prohibited by current user instructions; depends on E13.01 and release certification."
     },
     {
       "id": "E14.01",
       "phase": 14,
       "title": "Prioritize remaining brands by business value and dependencies",
-      "status": "pending",
+      "status": "complete",
       "dependsOn": "E13.08",
-      "evidence": null
+      "evidence": "docs/brand-expansion-manifest.json; proposed priority/dependency plan, business approval outstanding"
     },
     {
       "id": "E14.02",
       "phase": 14,
       "title": "Reuse verified components/contracts without duplicating authority",
-      "status": "pending",
+      "status": "complete",
       "dependsOn": "E14.01",
-      "evidence": null
+      "evidence": "packages/release-evidence/brand-compatibility.mjs; tests/brand-compatibility.test.mjs; shared-contract reuse, no new brand workflows claimed"
     },
     {
       "id": "E14.03",
       "phase": 14,
       "title": "Implement each brand's actual workflow and data model",
-      "status": "pending",
+      "status": "blocked",
       "dependsOn": "E14.02",
-      "evidence": null
+      "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+      "blocker": "36 visual landings exist; actual brand workflow specifications and pilot approval missing."
     },
     {
       "id": "E14.04",
       "phase": 14,
       "title": "Run brand-specific acceptance, isolation and operational tests",
-      "status": "pending",
+      "status": "blocked",
       "dependsOn": "E14.03",
-      "evidence": null
+      "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+      "blocker": "Requires implemented/approved brand-specific business workflows under E14.03."
     },
     {
       "id": "E14.05",
       "phase": 14,
       "title": "Publish only after that brand's own release gates pass",
-      "status": "pending",
+      "status": "blocked",
       "dependsOn": "E14.04",
-      "evidence": null
+      "evidence": "docs/enterprise-pending-completion-20261011.md; docs/release-controls.json",
+      "blocker": "Each brand release requires its gates and explicit publishing authorization."
     },
     {
       "id": "E14.06",
       "phase": 14,
       "title": "Maintain shared component/version compatibility and deprecation policy",
-      "status": "pending",
+      "status": "complete",
       "dependsOn": "E14.05",
-      "evidence": null
+      "evidence": "docs/enterprise-hardening-runbooks.md; tests/brand-compatibility.test.mjs; compatibility/deprecation policy"
     }
   ],
   "decisions": {
@@ -1093,5 +1123,6 @@
       "approval",
       "team handoff"
     ]
-  }
+  },
+  "localVerificationScope": "Completed implementation tasks describe tested local Node/PGlite integration. Production PostgreSQL, Workers, remote storage/provider delivery, manual accessibility and real pilot remain separate release gates."
 }

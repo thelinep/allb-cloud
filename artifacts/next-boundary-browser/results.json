@@ -1,0 +1,21 @@
+{
+  "checks": [
+    "Isolated production Next fixture built",
+    "Real Next streaming loading boundary announced and resolved",
+    "Real segment exception dispatched to copied error boundary and reset recovered without secret disclosure",
+    "Real root layout exception dispatched to copied global-error and full-page retry recovered without providers",
+    "Error boundary home recovery navigation works"
+  ],
+  "sourceHashes": {
+    "error.tsx": "d33dc8039d72448696cf2e03f06743c6092cb718aa9bb0938281fa445cf0d4bf",
+    "global-error.tsx": "41b0f30fedbe03ecc714c6749dd22f5a6c4e6246bd1fa909b484ad863808174c",
+    "loading.tsx": "b9428ab0c76307c6bfe45ee37152eba9e2b559b6f7c1fd7f3016a4da3a310cda"
+  },
+  "evidenceMode": "isolated_production_next_fixture_with_exact_boundary_copies_no_fault_routes_shipped",
+  "runtimeVersions": {
+    "next": "16.3.8",
+    "typescript": "5.9.3"
+  },
+  "autoInstallDisabled": true,
+  "bundler": "webpack isolated fixture; host uses Turbopack"
+}

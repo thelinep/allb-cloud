@@ -1,0 +1,10 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> typecheck
+> npm --prefix apps/maataa-ui-route-source run typecheck
+
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> maataa-ui-route-source@0.1.0 typecheck
+> tsc --noEmit
+

@@ -1,0 +1,26 @@
+{"passed":32,"backend":"PGlite PostgreSQL + authenticated loopback HTTP contract fixture","productionApiAdoption":false}
+✔ tests/api-authority.test.mjs (6255.773746ms)
+PASS 8 actual commercial repository idempotency/outbox assertions
+✔ tests/api-commercial-contract.test.mjs (7491.429435ms)
+PASS 29 strict API schema/version/error assertions
+✔ tests/api-schema.test.mjs (232.358561ms)
+PASS 9 auth environment fail-closed checks
+✔ tests/auth-environment.test.mjs (197.918021ms)
+PASS 10 real auth HTTP service checks
+✔ tests/auth-http.test.mjs (9639.915949ms)
+PASS 36 auth lifecycle checks (encrypted enrollment/outbox, single-use recovery, rotation, revocation, invitation authority)
+✔ tests/auth-lifecycle.test.mjs (12324.540569ms)
+✔ all artwork concepts have distinct dependency entries and closed release gates (5.709379ms)
+✔ unknown majors, missing gates and duplicated auth authority cannot publish (0.47034ms)
+PASS 25 durable event/scene assertions; disk-backed PGlite reopen, scoped auth, version conflict and atomic rollback
+✔ tests/nevo-records.test.mjs (8076.737151ms)
+✔ anchored export detects content, linkage, order and truncation changes (4.535242ms)
+✔ retention defaults protect evidence and holds; expired disposable files only become review candidates (0.352576ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 12364.822855

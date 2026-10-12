@@ -1,0 +1,23 @@
+{
+  "uniqueCases": 548,
+  "routes": 264,
+  "landingRoutes": 36,
+  "viewports": [
+    "desktop1440",
+    "Pixel7mobile"
+  ],
+  "initialPassed": 544,
+  "initialFailures": 4,
+  "affectedRerunPassed": 4,
+  "visualRerunPassed": 2,
+  "recoveryChecksPassed": 8,
+  "unverified": [
+    "Actual Next root/segment exception boundary dispatch and retry",
+    "physical devices",
+    "manual screen-reader qualification"
+  ],
+  "evidenceNotes": [
+    "Initial four failures were two ambiguous Studio status locators and two networkidle navigation timeouts; precise locators and load/fonts readiness were used in affected rerun.",
+    "Recovery fixture intercepts API responses explicitly; not backend authorization evidence."
+  ]
+}

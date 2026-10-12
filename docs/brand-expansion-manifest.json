@@ -1,0 +1,627 @@
+{
+  "schemaVersion": 1,
+  "status": "proposed_prioritization_not_business_approval",
+  "scope": "36 landing concepts; concepts do not imply 36 independent released products",
+  "authority": "shared-maataa",
+  "compatibilityPolicy": {
+    "major": "exact supported major; fail closed for unknown versions",
+    "minor": "additive only with acceptance and isolation regression",
+    "deprecation": "announce replacement and consumer inventory before removal; no silent auth/data downgrade",
+    "migration": "expand-contract; preserve tenant and immutable approval evidence"
+  },
+  "items": [
+    {
+      "number": 1,
+      "slug": "allb",
+      "title": "ALLB ecosystem",
+      "family": "Ecosystem",
+      "priority": 4,
+      "priorityRationale": "requires own domain specifications after foundation certification",
+      "authority": "shared-maataa",
+      "requiredContracts": {
+        "identity": 1,
+        "tenancy": 1,
+        "design": 1
+      },
+      "domainAcceptance": "catalogue navigation and evidence-backed product status",
+      "workflowStatus": "not_certified_by_landing",
+      "releaseGates": []
+    },
+    {
+      "number": 2,
+      "slug": "siddham",
+      "title": "Siddham Semiconductor",
+      "family": "Hardware",
+      "priority": 4,
+      "priorityRationale": "requires own domain specifications after foundation certification",
+      "authority": "shared-maataa",
+      "requiredContracts": {
+        "identity": 1,
+        "tenancy": 1,
+        "assets": 1
+      },
+      "domainAcceptance": "hardware specifications, device provisioning and supported hardware tests",
+      "workflowStatus": "not_certified_by_landing",
+      "releaseGates": []
+    },
+    {
+      "number": 3,
+      "slug": "kharoshti",
+      "title": "Kharoshti Edge",
+      "family": "Hardware",
+      "priority": 4,
+      "priorityRationale": "requires own domain specifications after foundation certification",
+      "authority": "shared-maataa",
+      "requiredContracts": {
+        "identity": 1,
+        "tenancy": 1,
+        "assets": 1
+      },
+      "domainAcceptance": "hardware specifications, device provisioning and supported hardware tests",
+      "workflowStatus": "not_certified_by_landing",
+      "releaseGates": []
+    },
+    {
+      "number": 4,
+      "slug": "brahmi",
+      "title": "Brahmi Communications",
+      "family": "Hardware",
+      "priority": 4,
+      "priorityRationale": "requires own domain specifications after foundation certification",
+      "authority": "shared-maataa",
+      "requiredContracts": {
+        "identity": 1,
+        "tenancy": 1,
+        "assets": 1
+      },
+      "domainAcceptance": "hardware specifications, device provisioning and supported hardware tests",
+      "workflowStatus": "not_certified_by_landing",
+      "releaseGates": []
+    },
+    {
+      "number": 5,
+      "slug": "maataa-ui",
+      "title": "MAATAA UI",
+      "family": "Platform",
+      "priority": 1,
+      "priorityRationale": "foundation or current monetization pilot",
+      "authority": "shared-maataa",
+      "requiredContracts": {
+        "identity": 1,
+        "tenancy": 1,
+        "design": 1
+      },
+      "domainAcceptance": "service-specific persistence, authority and lifecycle contracts",
+      "workflowStatus": "not_certified_by_landing",
+      "releaseGates": []
+    },
+    {
+      "number": 6,
+      "slug": "maataa",
+      "title": "MAATAA Platform",
+      "family": "Platform",
+      "priority": 1,
+      "priorityRationale": "foundation or current monetization pilot",
+      "authority": "shared-maataa",
+      "requiredContracts": {
+        "identity": 1,
+        "tenancy": 1,
+        "design": 1
+      },
+      "domainAcceptance": "service-specific persistence, authority and lifecycle contracts",
+      "workflowStatus": "not_certified_by_landing",
+      "releaseGates": []
+    },
+    {
+      "number": 7,
+      "slug": "maataa-auth",
+      "title": "MAATAA Auth",
+      "family": "Platform",
+      "priority": 1,
+      "priorityRationale": "foundation or current monetization pilot",
+      "authority": "shared-maataa",
+      "requiredContracts": {
+        "identity": 1,
+        "tenancy": 1,
+        "design": 1
+      },
+      "domainAcceptance": "service-specific persistence, authority and lifecycle contracts",
+      "workflowStatus": "not_certified_by_landing",
+      "releaseGates": []
+    },
+    {
+      "number": 8,
+      "slug": "maataa-os",
+      "title": "MAATAA OS",
+      "family": "Platform",
+      "priority": 4,
+      "priorityRationale": "requires own domain specifications after foundation certification",
+      "authority": "shared-maataa",
+      "requiredContracts": {
+        "identity": 1,
+        "tenancy": 1,
+        "design": 1
+      },
+      "domainAcceptance": "service-specific persistence, authority and lifecycle contracts",
+      "workflowStatus": "not_certified_by_landing",
+      "releaseGates": []
+    },
+    {
+      "number": 9,
+      "slug": "core-aham",
+      "title": "Core and AHAM",
+      "family": "Platform",
+      "priority": 4,
+      "priorityRationale": "requires own domain specifications after foundation certification",
+      "authority": "shared-maataa",
+      "requiredContracts": {
+        "identity": 1,
+        "tenancy": 1,
+        "design": 1
+      },
+      "domainAcceptance": "service-specific persistence, authority and lifecycle contracts",
+      "workflowStatus": "not_certified_by_landing",
+      "releaseGates": []
+    },
+    {
+      "number": 10,
+      "slug": "maataa-desktop",
+      "title": "MAATAA Desktop",
+      "family": "Platform",
+      "priority": 4,
+      "priorityRationale": "requires own domain specifications after foundation certification",
+      "authority": "shared-maataa",
+      "requiredContracts": {
+        "identity": 1,
+        "tenancy": 1,
+        "design": 1
+      },
+      "domainAcceptance": "service-specific persistence, authority and lifecycle contracts",
+      "workflowStatus": "not_certified_by_landing",
+      "releaseGates": []
+    },
+    {
+      "number": 11,
+      "slug": "developer-tools",
+      "title": "Developer Tools",
+      "family": "Developers",
+      "priority": 4,
+      "priorityRationale": "requires own domain specifications after foundation certification",
+      "authority": "shared-maataa",
+      "requiredContracts": {
+        "identity": 1,
+        "tenancy": 1
+      },
+      "domainAcceptance": "API scopes, SDK versioning and reproducible examples",
+      "workflowStatus": "not_certified_by_landing",
+      "releaseGates": []
+    },
+    {
+      "number": 12,
+      "slug": "data-services",
+      "title": "Data Services",
+      "family": "Platform",
+      "priority": 4,
+      "priorityRationale": "requires own domain specifications after foundation certification",
+      "authority": "shared-maataa",
+      "requiredContracts": {
+        "identity": 1,
+        "tenancy": 1,
+        "design": 1
+      },
+      "domainAcceptance": "service-specific persistence, authority and lifecycle contracts",
+      "workflowStatus": "not_certified_by_landing",
+      "releaseGates": []
+    },
+    {
+      "number": 13,
+      "slug": "operations",
+      "title": "Operations",
+      "family": "Platform",
+      "priority": 4,
+      "priorityRationale": "requires own domain specifications after foundation certification",
+      "authority": "shared-maataa",
+      "requiredContracts": {
+        "identity": 1,
+        "tenancy": 1,
+        "design": 1
+      },
+      "domainAcceptance": "service-specific persistence, authority and lifecycle contracts",
+      "workflowStatus": "not_certified_by_landing",
+      "releaseGates": []
+    },
+    {
+      "number": 14,
+      "slug": "maataa-db-studio",
+      "title": "MAATAA DB Studio",
+      "family": "Platform",
+      "priority": 4,
+      "priorityRationale": "requires own domain specifications after foundation certification",
+      "authority": "shared-maataa",
+      "requiredContracts": {
+        "identity": 1,
+        "tenancy": 1,
+        "design": 1
+      },
+      "domainAcceptance": "service-specific persistence, authority and lifecycle contracts",
+      "workflowStatus": "not_certified_by_landing",
+      "releaseGates": []
+    },
+    {
+      "number": 15,
+      "slug": "governance",
+      "title": "Governance",
+      "family": "Platform",
+      "priority": 4,
+      "priorityRationale": "requires own domain specifications after foundation certification",
+      "authority": "shared-maataa",
+      "requiredContracts": {
+        "identity": 1,
+        "tenancy": 1,
+        "design": 1
+      },
+      "domainAcceptance": "service-specific persistence, authority and lifecycle contracts",
+      "workflowStatus": "not_certified_by_landing",
+      "releaseGates": []
+    },
+    {
+      "number": 16,
+      "slug": "commerce",
+      "title": "Commerce",
+      "family": "Applications",
+      "priority": 3,
+      "priorityRationale": "depends on verified settlement and financial policy",
+      "authority": "shared-maataa",
+      "requiredContracts": {
+        "identity": 1,
+        "tenancy": 1,
+        "assets": 1
+      },
+      "domainAcceptance": "application-specific records and lifecycle",
+      "workflowStatus": "not_certified_by_landing",
+      "releaseGates": []
+    },
+    {
+      "number": 17,
+      "slug": "tlps",
+      "title": "TLPS",
+      "family": "Production",
+      "priority": 2,
+      "priorityRationale": "reuse event/production contracts",
+      "authority": "shared-maataa",
+      "requiredContracts": {
+        "identity": 1,
+        "tenancy": 1,
+        "event": 1,
+        "commercial": 1,
+        "assets": 1
+      },
+      "domainAcceptance": "production scene, quote, client decision and provider-confirmed handoff",
+      "workflowStatus": "not_certified_by_landing",
+      "releaseGates": []
+    },
+    {
+      "number": 18,
+      "slug": "nevo",
+      "title": "NEVO",
+      "family": "Production",
+      "priority": 1,
+      "priorityRationale": "foundation or current monetization pilot",
+      "authority": "shared-maataa",
+      "requiredContracts": {
+        "identity": 1,
+        "tenancy": 1,
+        "event": 1,
+        "commercial": 1,
+        "assets": 1
+      },
+      "domainAcceptance": "production scene, quote, client decision and provider-confirmed handoff",
+      "workflowStatus": "not_certified_by_landing",
+      "releaseGates": []
+    },
+    {
+      "number": 19,
+      "slug": "hardware",
+      "title": "Hardware Overview",
+      "family": "Hardware",
+      "priority": 4,
+      "priorityRationale": "requires own domain specifications after foundation certification",
+      "authority": "shared-maataa",
+      "requiredContracts": {
+        "identity": 1,
+        "tenancy": 1,
+        "assets": 1
+      },
+      "domainAcceptance": "hardware specifications, device provisioning and supported hardware tests",
+      "workflowStatus": "not_certified_by_landing",
+      "releaseGates": []
+    },
+    {
+      "number": 20,
+      "slug": "shree",
+      "title": "SHREE",
+      "family": "Applications",
+      "priority": 3,
+      "priorityRationale": "depends on verified settlement and financial policy",
+      "authority": "shared-maataa",
+      "requiredContracts": {
+        "identity": 1,
+        "tenancy": 1,
+        "assets": 1
+      },
+      "domainAcceptance": "application-specific records and lifecycle",
+      "workflowStatus": "not_certified_by_landing",
+      "releaseGates": []
+    },
+    {
+      "number": 21,
+      "slug": "applications",
+      "title": "Applications Overview",
+      "family": "Applications",
+      "priority": 4,
+      "priorityRationale": "requires own domain specifications after foundation certification",
+      "authority": "shared-maataa",
+      "requiredContracts": {
+        "identity": 1,
+        "tenancy": 1,
+        "assets": 1
+      },
+      "domainAcceptance": "application-specific records and lifecycle",
+      "workflowStatus": "not_certified_by_landing",
+      "releaseGates": []
+    },
+    {
+      "number": 22,
+      "slug": "samwat",
+      "title": "SAMWAT",
+      "family": "Science",
+      "priority": 4,
+      "priorityRationale": "requires own domain specifications after foundation certification",
+      "authority": "shared-maataa",
+      "requiredContracts": {
+        "identity": 1,
+        "tenancy": 1
+      },
+      "domainAcceptance": "sourced time scales, methods, conventions and uncertainty; no invented live astronomy",
+      "workflowStatus": "not_certified_by_landing",
+      "releaseGates": []
+    },
+    {
+      "number": 23,
+      "slug": "observatory",
+      "title": "SAMWAT Observatory",
+      "family": "Science",
+      "priority": 4,
+      "priorityRationale": "requires own domain specifications after foundation certification",
+      "authority": "shared-maataa",
+      "requiredContracts": {
+        "identity": 1,
+        "tenancy": 1
+      },
+      "domainAcceptance": "sourced time scales, methods, conventions and uncertainty; no invented live astronomy",
+      "workflowStatus": "not_certified_by_landing",
+      "releaseGates": []
+    },
+    {
+      "number": 24,
+      "slug": "hemant-clock",
+      "title": "Hemant Clock",
+      "family": "Science",
+      "priority": 4,
+      "priorityRationale": "requires own domain specifications after foundation certification",
+      "authority": "shared-maataa",
+      "requiredContracts": {
+        "identity": 1,
+        "tenancy": 1
+      },
+      "domainAcceptance": "sourced time scales, methods, conventions and uncertainty; no invented live astronomy",
+      "workflowStatus": "not_certified_by_landing",
+      "releaseGates": []
+    },
+    {
+      "number": 25,
+      "slug": "games",
+      "title": "Games",
+      "family": "Play",
+      "priority": 4,
+      "priorityRationale": "requires own domain specifications after foundation certification",
+      "authority": "shared-maataa",
+      "requiredContracts": {
+        "identity": 1,
+        "tenancy": 1,
+        "assets": 1
+      },
+      "domainAcceptance": "game rules, deterministic simulation and validated score authority",
+      "workflowStatus": "not_certified_by_landing",
+      "releaseGates": []
+    },
+    {
+      "number": 26,
+      "slug": "panchanga",
+      "title": "Panchanga",
+      "family": "Science",
+      "priority": 4,
+      "priorityRationale": "requires own domain specifications after foundation certification",
+      "authority": "shared-maataa",
+      "requiredContracts": {
+        "identity": 1,
+        "tenancy": 1
+      },
+      "domainAcceptance": "sourced time scales, methods, conventions and uncertainty; no invented live astronomy",
+      "workflowStatus": "not_certified_by_landing",
+      "releaseGates": []
+    },
+    {
+      "number": 27,
+      "slug": "apps",
+      "title": "Apps",
+      "family": "Applications",
+      "priority": 4,
+      "priorityRationale": "requires own domain specifications after foundation certification",
+      "authority": "shared-maataa",
+      "requiredContracts": {
+        "identity": 1,
+        "tenancy": 1,
+        "assets": 1
+      },
+      "domainAcceptance": "application-specific records and lifecycle",
+      "workflowStatus": "not_certified_by_landing",
+      "releaseGates": []
+    },
+    {
+      "number": 28,
+      "slug": "sankranti",
+      "title": "Sankranti",
+      "family": "Science",
+      "priority": 4,
+      "priorityRationale": "requires own domain specifications after foundation certification",
+      "authority": "shared-maataa",
+      "requiredContracts": {
+        "identity": 1,
+        "tenancy": 1
+      },
+      "domainAcceptance": "sourced time scales, methods, conventions and uncertainty; no invented live astronomy",
+      "workflowStatus": "not_certified_by_landing",
+      "releaseGates": []
+    },
+    {
+      "number": 29,
+      "slug": "product-directory",
+      "title": "Product Directory",
+      "family": "Ecosystem",
+      "priority": 4,
+      "priorityRationale": "requires own domain specifications after foundation certification",
+      "authority": "shared-maataa",
+      "requiredContracts": {
+        "identity": 1,
+        "tenancy": 1,
+        "design": 1
+      },
+      "domainAcceptance": "catalogue navigation and evidence-backed product status",
+      "workflowStatus": "not_certified_by_landing",
+      "releaseGates": []
+    },
+    {
+      "number": 30,
+      "slug": "simulation-timeline",
+      "title": "Simulation Timeline",
+      "family": "Science",
+      "priority": 4,
+      "priorityRationale": "requires own domain specifications after foundation certification",
+      "authority": "shared-maataa",
+      "requiredContracts": {
+        "identity": 1,
+        "tenancy": 1
+      },
+      "domainAcceptance": "sourced time scales, methods, conventions and uncertainty; no invented live astronomy",
+      "workflowStatus": "not_certified_by_landing",
+      "releaseGates": []
+    },
+    {
+      "number": 31,
+      "slug": "production",
+      "title": "Production Overview",
+      "family": "Production",
+      "priority": 2,
+      "priorityRationale": "reuse event/production contracts",
+      "authority": "shared-maataa",
+      "requiredContracts": {
+        "identity": 1,
+        "tenancy": 1,
+        "event": 1,
+        "commercial": 1,
+        "assets": 1
+      },
+      "domainAcceptance": "production scene, quote, client decision and provider-confirmed handoff",
+      "workflowStatus": "not_certified_by_landing",
+      "releaseGates": []
+    },
+    {
+      "number": 32,
+      "slug": "developer-ecosystem",
+      "title": "Developer Ecosystem",
+      "family": "Developers",
+      "priority": 4,
+      "priorityRationale": "requires own domain specifications after foundation certification",
+      "authority": "shared-maataa",
+      "requiredContracts": {
+        "identity": 1,
+        "tenancy": 1
+      },
+      "domainAcceptance": "API scopes, SDK versioning and reproducible examples",
+      "workflowStatus": "not_certified_by_landing",
+      "releaseGates": []
+    },
+    {
+      "number": 33,
+      "slug": "nevo-workflow",
+      "title": "NEVO Workflow Demo",
+      "family": "Production",
+      "priority": 1,
+      "priorityRationale": "foundation or current monetization pilot",
+      "authority": "shared-maataa",
+      "requiredContracts": {
+        "identity": 1,
+        "tenancy": 1,
+        "event": 1,
+        "commercial": 1,
+        "assets": 1
+      },
+      "domainAcceptance": "production scene, quote, client decision and provider-confirmed handoff",
+      "workflowStatus": "not_certified_by_landing",
+      "releaseGates": []
+    },
+    {
+      "number": 34,
+      "slug": "roadmap",
+      "title": "Roadmap",
+      "family": "Ecosystem",
+      "priority": 4,
+      "priorityRationale": "requires own domain specifications after foundation certification",
+      "authority": "shared-maataa",
+      "requiredContracts": {
+        "identity": 1,
+        "tenancy": 1,
+        "design": 1
+      },
+      "domainAcceptance": "catalogue navigation and evidence-backed product status",
+      "workflowStatus": "not_certified_by_landing",
+      "releaseGates": []
+    },
+    {
+      "number": 35,
+      "slug": "tlps-workflow",
+      "title": "TLPS Workflow Demo",
+      "family": "Production",
+      "priority": 2,
+      "priorityRationale": "reuse event/production contracts",
+      "authority": "shared-maataa",
+      "requiredContracts": {
+        "identity": 1,
+        "tenancy": 1,
+        "event": 1,
+        "commercial": 1,
+        "assets": 1
+      },
+      "domainAcceptance": "production scene, quote, client decision and provider-confirmed handoff",
+      "workflowStatus": "not_certified_by_landing",
+      "releaseGates": []
+    },
+    {
+      "number": 36,
+      "slug": "samwat-research",
+      "title": "SAMWAT Research",
+      "family": "Science",
+      "priority": 4,
+      "priorityRationale": "requires own domain specifications after foundation certification",
+      "authority": "shared-maataa",
+      "requiredContracts": {
+        "identity": 1,
+        "tenancy": 1
+      },
+      "domainAcceptance": "sourced time scales, methods, conventions and uncertainty; no invented live astronomy",
+      "workflowStatus": "not_certified_by_landing",
+      "releaseGates": []
+    }
+  ]
+}
