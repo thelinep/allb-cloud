@@ -1,0 +1,13 @@
+# Durable local asset validation
+
+`createAssetStorage(db,{directory})` requires an explicit absolute directory and an authorized session on every operation. The Next route `/api/integration/assets` requires `ALLB_LOCAL_ASSET_DIR`; Worker runtime is rejected rather than silently falling back. This is local validation storage, not R2 or production delivery.
+
+PNG/JPEG/WebP signature validation precedes Sharp full decoding with pixel/byte/page limits. SVG, arbitrary files, animations and decode failures produce rejected quarantined revisions and cannot download or bind. Byte-identical original SHA-256 and generated WebP preview/thumbnail hashes are checked on each authorized download. Access never accepts client storage paths; UUID object keys are server-generated. Uploads append scoped revisions under a row lock and require expected revision. Explicit reference bindings preserve exact validated revision; cross-tenant references fail closed. No automatic retention/delete is offered: quarantine and reference lifecycle requires explicit operator policy. Original bytes are served as attachment with nosniff, never inline executable content.
+
+Migrations 001/002/007/009 required. No automatic provisioning. Single-process PGlite is test/local mode; PostgreSQL concurrency and remote lifecycle are not certified. Filesystem and DB cannot share an atomic commit: upload failures inside transaction remove created files; DB commit failure after callback can leave unreferenced files. Do not delete objects by age without a verified inventory and reference scan.
+
+Protected HTTP supports same-origin `POST {action:'upload',organizationId,workspaceId,assetId,expectedRevision,base64}` up to 512KB, and authorized GET exact revision/optional preview or thumbnail. General JSON reader may impose a lower body limit; use smaller local fixtures. No public signed URLs, cloud upload signature or remote CDN configured.
+
+Inventory is authorized and SQL paginated. Admin-only retention dry-run aggregates orphan file counts/bytes using all stored object keys so another tenant's originals/derivatives are never misclassified as disposable. It returns no paths and performs no deletion. Minimum age is24hours; referenced or revision-recorded files remain ineligible. No operator approval of a production retention policy is assumed.
+
+Native processor boundary: ordinary Node builds use processor-node.mjs with actual Sharp decode. `ALLB_BUILD_TARGET=worker` maps this import to processor-worker.mjs which rejects processing explicitly. The Cloudflare checker requires a fresh target build and forbids reusing a Node artifact with --skip-next-build. Worker asset storage remains unsupported503; do not interpret bundle compilation as remote upload support.
